@@ -1,0 +1,21 @@
+site_name: Adaptive Gaming Resource (Demo)
+site_url: https://GameCheckpointResources.github.io/adaptive-gaming-demo
+
+nav:
+  - Start Here: index.md
+  - Self Assessment: assessment.md
+  - Equipment:
+      - Overview: equipment.md
+  - Gamer Profiles: profiles.md
+  - Resources: resources.md
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - with-pdf
+  - include-markdown
+
+extra_css:
+  - styles/extra.css

@@ -1,0 +1,29 @@
+.print-button {
+  background-color: #2b6cb0;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.print-button:hover {
+  opacity: 0.9;
+}
+
+/* Hide buttons when printing */
+@media print {
+  .print-button {
+    display: none;
+  }
+}
+
+.video { display: block; }
+.qr { display: none; }
+
+@media print {
+  .video { display: none; }
+  .qr { display: block; }
+}
