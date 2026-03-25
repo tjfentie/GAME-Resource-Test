@@ -1,0 +1,33 @@
+name: Deploy MKDocs site
+
+on:
+  push:
+    branches:
+      - main  # Or whichever branch you want to trigger deployment
+  pull_request:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install MKDocs and plugins
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material
+          pip install mkdocs-with-pdf
+          pip install mkdocs-include-markdown-plugin
+
+      - name: Build & deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
