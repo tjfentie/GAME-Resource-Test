@@ -8,7 +8,7 @@ Gaming supports social connection, skill development, and mental health.
 ## Watch Overview
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=K66lpzpTknA&t=2s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
