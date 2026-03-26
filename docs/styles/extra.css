@@ -1,3 +1,4 @@
+/* --- Screen Styles --- */
 .print-button {
   background-color: #2b6cb0;
   color: white;
@@ -7,23 +8,45 @@
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: opacity 0.2s; /* Smoother hover effect */
 }
 
 .print-button:hover {
   opacity: 0.9;
 }
 
-/* Hide buttons when printing */
-@media print {
-  .print-button {
-    display: none;
-  }
-}
-
+/* Default visibility */
 .video { display: block; }
 .qr { display: none; }
 
+/* --- Print Styles --- */
 @media print {
-  .video { display: none; }
-  .qr { display: block; }
+  /* 1. Hide the UI elements that don't belong on paper */
+  .print-button, 
+  .md-header, 
+  .md-sidebar, 
+  .md-footer, 
+  .md-nav__link {
+    display: none !important;
+  }
+
+  /* 2. Swap Video for QR */
+  .video { display: none !important; }
+  .qr { 
+    display: block !important; 
+    text-align: center; /* Centers the QR code on the page */
+    margin: 20px 0;
+  }
+
+  /* 3. Ensure the QR code image is a readable size */
+  .qr img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  /* 4. Optional: Force white background to save ink */
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
 }

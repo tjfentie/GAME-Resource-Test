@@ -12,7 +12,7 @@ Gaming supports social connection, skill development, and mental health.
 </div>
 
 <div class="qr">
-![QR Code](/docs/images/qr-GAME-vid.png)
+  <img src="./images/qr-GAME-vid.png" alt="QR Code for game vid">
 </div>
 
 ## Pathway
