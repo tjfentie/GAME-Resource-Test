@@ -40,8 +40,10 @@
 
   /* 3. Ensure the QR code image is a readable size */
   .qr img {
-    max-width: 150px;
-    height: auto;
+    width: 1in !important;   /* Force exactly 1 inch width */
+    height: 1in !important;  /* Force exactly 1 inch height */
+    display: block;
+    object-fit: contain;     /* Ensures the QR doesn't stretch/distort */
   }
 
   /* 4. Optional: Force white background to save ink */
