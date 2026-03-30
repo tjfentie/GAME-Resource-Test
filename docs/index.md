@@ -20,3 +20,9 @@ Gaming supports social connection, skill development, and mental health.
 2. Explore equipment
 3. Review real setups
 4. Connect with community
+
+Check out the [GAME Checkpoints](https://www.makersmakingchange.com/game-checkpoint-program).
+
+<div class="qr-link">
+  <img src="./images/GAME-Checkpoint-Web.png" alt="QR Code">
+</div>
