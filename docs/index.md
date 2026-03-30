@@ -25,4 +25,5 @@ Check out the [GAME Checkpoints](https://www.makersmakingchange.com/game-checkpo
 
 <div class="qr-link">
   <img src="./images/GAME-Checkpoint-Web.png" alt="QR Code">
+<p><strong>Link:</strong> GAME Checkpoints Page</p>
 </div>
