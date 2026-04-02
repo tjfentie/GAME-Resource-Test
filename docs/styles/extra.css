@@ -113,3 +113,11 @@
     page-break-after: avoid;
   }
 }
+
+.md-footer {
+  display: block !important;
+}
+
+.md-footer__inner {
+  display: flex !important;
+}
