@@ -15,6 +15,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none; /* In case you use <a> tags for buttons */
 }
 
 .print-button:hover {
@@ -36,22 +37,45 @@
    ============================================================= */
 
 @media print {
-  /* 1. Hide navigation, sidebars, header, and the print button itself */
+  /* 1. Custom Print Header and Footer */
+  /* This creates a professional look on every printed page */
+  body::before {
+    content: "GAME Resource Guide - makersmakingchange.com";
+    display: block;
+    text-align: center;
+    font-size: 10pt;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  body::after {
+    content: "© 2026 Makers Making Change | Accessible Gaming Resource";
+    display: block;
+    text-align: center;
+    font-size: 9pt;
+    color: #777;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* 2. Hide navigation, sidebars, header, and all navigation buttons */
   .print-button, 
   .md-header, 
   .md-sidebar, 
   .md-footer, 
   .md-nav,
-  .md-top {
+  .md-top,
+  nav.md-footer { /* Specifically hides the Material theme pagination */
     display: none !important;
   }
 
-  /* 2. Expand the content to fill the full page width */
+  /* 3. Expand the content to fill the full page width */
   .md-content {
     margin-left: 0 !important;
   }
 
-  /* 3. Swap Video for QR Code */
+  /* 4. Swap Video for QR Code */
   .video { 
     display: none !important; 
   }
@@ -61,17 +85,16 @@
     margin: 15px 0;
   }
 
-  /* 4. Force QR codes to be exactly 1 inch by 1 inch */
+  /* 5. Force QR codes to be exactly 1 inch by 1 inch */
   .qr img, .qr-link img {
     width: 1in !important;
     height: 1in !important;
     display: block;
     object-fit: contain;
-    border: 1px solid #eee; /* Optional: adds a light border for visibility */
+    border: 1px solid #eee;
   }
 
-  /* 5. Show the actual URL next to standard text links 
-        so people can see where they lead without scanning. */
+  /* 6. Show the actual URL next to standard text links */
   a[href^="http"]:after {
     content: " (" attr(href) ")";
     font-size: 0.9em;
@@ -79,7 +102,7 @@
     word-break: break-all;
   }
 
-  /* 6. Clean up typography for paper */
+  /* 7. Clean up typography for paper */
   body {
     background-color: white !important;
     color: black !important;

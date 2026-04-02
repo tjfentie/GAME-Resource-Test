@@ -25,6 +25,8 @@ nav:
 
 theme:
   name: material
+  features:
+    - navigation.footer # this addes previous and next buttons at the bottom
 
 plugins:
   - search
