@@ -121,3 +121,30 @@
 .md-footer__inner {
   display: flex !important;
 }
+
+:root {
+  /* --- Light Mode Brand Colors --- */
+  --md-primary-fg-color:        #091b34; /* Main Header Background */
+  --md-primary-fg-color--light: #2060b9; /* Hover states */
+  --md-primary-fg-color--dark:  #091b34; /* Darker accents */
+  
+  --md-accent-fg-color:         #ef373e; /* Links, Buttons, and Toggles */
+  --md-accent-fg-color--transparent: rgba(239, 55, 62, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  /* --- Dark Mode Brand Colors --- */
+  /* You can keep these the same as Light Mode or make them slightly 
+     softer/brighter for better contrast on dark backgrounds. */
+  --md-primary-fg-color:        #091b34; 
+  --md-accent-fg-color:         #091b34; 
+}
+
+/* Fix for the header text/icons to ensure they stay white against the red */
+.md-header {
+  color: #ffffff;
+}
+
+.md-header__button {
+  color: #ffffff !important;
+}

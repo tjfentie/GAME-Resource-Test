@@ -3,6 +3,7 @@ site_url: https://tjfentie.github.io/GAME-Resource-Test/
 
 nav:
   - Start Here: index.md
+  - Latest Updates: updates.md
   - Adaptive Gaming Equipment:
       - Overview: equipment.md
       - Alternative Access: alt-access.md
