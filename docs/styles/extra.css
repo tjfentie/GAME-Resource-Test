@@ -122,40 +122,34 @@
   display: flex !important;
 }
 
-:root {
-  /* --- Light Mode Brand Colors --- */
-  /* #091b34 (Navy) on white has a 14:1 ratio (Excellent) */
-  --md-primary-fg-color:        #091b34; 
-  --md-primary-fg-color--light: #2060b9; 
-  --md-primary-fg-color--dark:  #051021; 
-  
-  /* #ef373e (Red) on white has a 4.56:1 ratio (Passes AA) */
-  --md-accent-fg-color:         #ef373e; 
-  --md-accent-fg-color--transparent: rgba(239, 55, 62, 0.1);
-}
+/* =============================================================
+   Color pallet of the website
+   ============================================================= */
 
+/* --- DARK MODE SIDEBAR CONTRAST FIX --- */
 [data-md-color-scheme="slate"] {
-  /* --- Dark Mode Brand Colors --- */
-  /* On the dark Slate background, we need to brighten the Navy 
-     so it doesn't disappear into the black. */
-  --md-primary-fg-color:        #091b34; 
-
-  /* CRITICAL CHANGE: Dark Navy on Dark Gray fails contrast.
-     In Dark Mode, we switch the accent to your Red (#ef373e) 
-     or a slightly lighter version (#ff5e64) to ensure links are visible. */
-  --md-accent-fg-color:         #ff5e64; 
+    /* 1. Make the active link text significantly brighter */
+    --md-nav-link-color--active: #ffffff;
+    
+    /* 2. Change the background of the hovered item so it 'pops' */
+    --md-nav-link-color--hover: #ff5e64; 
 }
 
-/* Ensure header icons (search, menu, mode toggle) are white for contrast */
-.md-header__button {
-  color: #ffffff !important;
+[data-md-color-scheme="slate"] .md-nav__link--active {
+    background-color: rgba(239, 55, 62, 0.15); /* Light red tint background */
+    border-left: 4px solid #ef373e;           /* Solid red indicator bar */
+    font-weight: 700;                          /* Bold text for active page */
+    color: #ffffff !important;
 }
 
-/* Fix for the header text/icons to ensure they stay white against the red */
-.md-header {
-  color: #ffffff;
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight on hover */
+    color: #ff5e64 !important;
 }
 
-.md-header__button {
-  color: #ffffff !important;
+/* --- LIGHT MODE SIDEBAR CONTRAST FIX --- */
+/* (Optional: for consistency in light mode) */
+.md-nav__link--active {
+    border-left: 4px solid #ef373e;
+    padding-left: 0.6rem; /* Adjust padding to keep text aligned */
 }
