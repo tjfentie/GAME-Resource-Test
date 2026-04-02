@@ -25,6 +25,10 @@ nav:
   - Download/print: print.md
 
 theme:
+  name: material
+  font:
+    text: Open Sans
+    Code: Roboto Mono
   Logo: images
   icon:
     admonition:
@@ -40,7 +44,6 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  name: material
   features:
     - navigation.footer # this addes previous and next buttons at the bottom
     - navigation.instant  # Optional: makes page loads feel faster
