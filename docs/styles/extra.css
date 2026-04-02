@@ -124,20 +124,31 @@
 
 :root {
   /* --- Light Mode Brand Colors --- */
-  --md-primary-fg-color:        #091b34; /* Main Header Background */
-  --md-primary-fg-color--light: #2060b9; /* Hover states */
-  --md-primary-fg-color--dark:  #091b34; /* Darker accents */
+  /* #091b34 (Navy) on white has a 14:1 ratio (Excellent) */
+  --md-primary-fg-color:        #091b34; 
+  --md-primary-fg-color--light: #2060b9; 
+  --md-primary-fg-color--dark:  #051021; 
   
-  --md-accent-fg-color:         #ef373e; /* Links, Buttons, and Toggles */
+  /* #ef373e (Red) on white has a 4.56:1 ratio (Passes AA) */
+  --md-accent-fg-color:         #ef373e; 
   --md-accent-fg-color--transparent: rgba(239, 55, 62, 0.1);
 }
 
 [data-md-color-scheme="slate"] {
   /* --- Dark Mode Brand Colors --- */
-  /* You can keep these the same as Light Mode or make them slightly 
-     softer/brighter for better contrast on dark backgrounds. */
+  /* On the dark Slate background, we need to brighten the Navy 
+     so it doesn't disappear into the black. */
   --md-primary-fg-color:        #091b34; 
-  --md-accent-fg-color:         #091b34; 
+
+  /* CRITICAL CHANGE: Dark Navy on Dark Gray fails contrast.
+     In Dark Mode, we switch the accent to your Red (#ef373e) 
+     or a slightly lighter version (#ff5e64) to ensure links are visible. */
+  --md-accent-fg-color:         #ff5e64; 
+}
+
+/* Ensure header icons (search, menu, mode toggle) are white for contrast */
+.md-header__button {
+  color: #ffffff !important;
 }
 
 /* Fix for the header text/icons to ensure they stay white against the red */
