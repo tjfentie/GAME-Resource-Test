@@ -25,10 +25,24 @@ nav:
   - Download/print: print.md
 
 theme:
+  Logo: images
   name: material
   features:
     - navigation.footer # this addes previous and next buttons at the bottom
     - navigation.instant  # Optional: makes page loads feel faster
+  palette:
+    - scheme: default
+      primary: custom # This tells MkDocs we are overriding via CSS
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 plugins:
   - search
