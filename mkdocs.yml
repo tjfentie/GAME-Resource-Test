@@ -23,6 +23,7 @@ nav:
       - Marketing/Posters: marketing.md
   - Get Support: support.md
   - Download/print: print.md
+  - Visit Makers Making Change: MMC.md
 
 theme:
   name: material

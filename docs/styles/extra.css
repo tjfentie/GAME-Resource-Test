@@ -215,3 +215,23 @@ strong, b {
 [data-md-color-scheme="slate"] strong {
   color: #ff5e64; /* Brighter red for bold text in dark mode */
 }
+
+/* =============================================================
+  For admonition
+   ============================================================= */
+
+/* Fix for Admonitions: Prevents theme headers from breaking the box layout */
+.md-typeset .admonition-title, 
+.md-typeset summary {
+    border-left: none !important; /* Removes the thick H2 red bar from inside boxes */
+    padding-left: 2.5rem !important; /* Leaves room for the icon */
+    font-weight: 700 !important;
+    margin-top: 0 !important;
+}
+
+/* Ensure the box content has proper padding */
+.md-typeset .admonition-content,
+.md-typeset details div {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+}
