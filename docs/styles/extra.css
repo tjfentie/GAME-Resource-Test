@@ -190,3 +190,28 @@ strong, b {
     font-size: 11pt;
   }
 }
+
+/* =============================================================
+   OVERRIDE: Forced Logo Size & Sharpness
+   ============================================================= */
+
+html body .floating-logo {
+  bottom: 30px !important;
+  right: 30px !important;
+  padding: 15px !important;
+  background: #ffffff !important;
+  border: 1px solid #eee !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18) !important;
+}
+
+html body .floating-logo img {
+  /* This is the big one - forcing it to 550px */
+  width: 550px !important; 
+  max-width: 85vw !important; 
+  height: auto !important;
+  
+  /* Sharpness Fixes */
+  image-rendering: -webkit-optimize-contrast !important; 
+  image-rendering: crisp-edges !important;
+  display: block !important;
+}
