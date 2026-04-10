@@ -1,5 +1,5 @@
 /* =============================================================
-   1. GLOBAL TYPOGRAPHY (Open Sans)
+   1. GLOBAL TYPOGRAPHY & BRANDING
    ============================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
@@ -13,6 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
+/* Base Headings */
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
   color: #091b34; 
@@ -34,37 +35,69 @@ h2 {
 }
 
 /* =============================================================
-   2. SCREEN STYLES (Website UI Only)
+   2. DARK MODE (SLATE) RESTORATION
    ============================================================= */
 
-/* Global Hiding of Print-Only Elements */
-.qr, .qr-link, .qr-caption { 
-  display: none !important; 
+/* These ensure headers and text pop against the dark grey background */
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #ffffff;
+  --md-default-fg-color: #ffffff;
 }
 
-/* Standard Red Print Button */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3,
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] strong {
+  color: #ff5e64; /* Brighter red for bold text in dark mode */
+}
+
+/* =============================================================
+   3. SCREEN STYLES (Website UI)
+   ============================================================= */
+
+.qr, .qr-link, .qr-caption { display: none !important; }
+.video { display: block; margin-bottom: 20px; }
+
+/* Red Print Button */
 .print-button {
   background-color: #ef373e;
   color: white !important;
   padding: 10px 16px;
   font-size: 14px;
-  border: none;
   border-radius: 6px;
-  cursor: pointer;
-  margin-bottom: 20px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
-/* MMC FOOTER CTA SECTION */
+/* MMC FOOTER CARD (White Background & Rounded Corners) */
 .mmc-cta-container {
   margin-top: 60px !important;
   padding: 40px 20px !important;
-  border-top: 1px solid #eee !important;
+  background-color: #ffffff !important; /* Always white regardless of theme */
+  border: 1px solid #ddd !important;
+  border-radius: 15px !important;       /* Rounded corners */
   text-align: center !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   display: block !important;
+}
+
+/* Force container text to be Navy so it's readable on the white card */
+.mmc-cta-container p {
+  color: #091b34 !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
 }
 
 .mmc-footer-logo {
@@ -94,49 +127,25 @@ h2 {
   box-shadow: 0 0px 0px #091b34 !important;
 }
 
-/* Dark Mode Slate Fix */
-[data-md-color-scheme="slate"] .mmc-cta-container p { color: #ffffff !important; }
-[data-md-color-scheme="slate"] h1, [data-md-color-scheme="slate"] h2 { color: #ffffff; }
-
-.video { display: block; margin-bottom: 20px; }
-
 /* =============================================================
-   3. PRINT STYLES (Professional Document Look)
+   4. PRINT STYLES
    ============================================================= */
 
 @media print {
   @page { margin: 0.75in; }
 
-  /* Hide digital-only elements */
+  /* Hide digital elements */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
   .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
-  /* REVEAL QR CODES AND CAPTIONS */
-  .qr, .qr-link {
-    display: block !important;
-    margin: 15px 0 !important;
-    page-break-inside: avoid;
-  }
+  /* Show QR & Captions */
+  .qr, .qr-link { display: block !important; margin: 15px 0 !important; }
+  .qr img { width: 1.2in !important; height: 1.2in !important; }
+  .qr-caption { display: block !important; font-size: 10pt !important; font-weight: 700; margin-bottom: 20px; }
 
-  .qr img, .qr-link img {
-    width: 1.2in !important;
-    height: 1.2in !important;
-    display: block !important;
-    margin-bottom: 5px !important;
-  }
-
-  /* Style for the caption text below QR codes */
-  .qr-caption {
-    display: block !important;
-    font-size: 10pt !important;
-    color: #333 !important;
-    font-weight: 700 !important;
-    margin-bottom: 20px !important;
-  }
-
-  /* Branded Header Logo */
+  /* Logo Header */
   body::before {
     content: "";
     display: block;
@@ -149,16 +158,9 @@ h2 {
     margin-bottom: 30px;
   }
 
-  /* Append full URLs to links for physical reference */
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
-    font-size: 0.85em;
-    color: #444;
-    word-break: break-all;
-  }
+  /* URL Expansion */
+  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
 
-  /* Layout and Typography Reset */
   .md-content { margin-left: 0 !important; }
-  .md-main__inner { margin: 0 !important; padding: 0 !important; }
   body { background-color: white !important; color: black !important; font-size: 11pt; }
 }
