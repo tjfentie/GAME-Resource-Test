@@ -1,168 +1,127 @@
 /* =============================================================
-   1. GLOBAL TYPOGRAPHY (Open Sans)
+   ZONE 1: GLOBAL STYLES (Applies to EVERYTHING)
    ============================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
 }
 
-.md-typeset, .md-nav, .md-header {
-  font-family: 'Open Sans', sans-serif !important;
-}
-
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
-  color: #091b34; 
+  color: #091b34;
   font-weight: 800;
 }
 
-h1 {
-  font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; 
-  padding-bottom: 12px;
-  margin-bottom: 1.5rem;
-}
+h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
+h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
-h2 {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  border-left: 5px solid #ef373e;
-  padding-left: 15px;
-}
-
-/* Dark Mode Overrides */
-[data-md-color-scheme="slate"] h1, [data-md-color-scheme="slate"] h2 { color: #ffffff; }
-[data-md-color-scheme="slate"] strong { color: #ff5e64; }
+/* Dark Mode Logic */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2 { color: #ffffff; }
 
 /* =============================================================
-   2. SCREEN STYLES (What you see on the website)
+   ZONE 2: SCREEN ONLY (Hides QR codes, Shows Video/Button)
    ============================================================= */
+@media screen {
+  /* Hide Print-Only Elements */
+  .qr, .qr-link { 
+    display: none !important; 
+  }
 
-/* Print Button Styling */
-.print-button {
-  background-color: #ef373e;
-  color: white !important;
-  padding: 10px 16px;
-  font-size: 14px;
-  border-radius: 6px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
+  /* Show Web-Only Elements */
+  .video { display: block; margin-bottom: 20px; }
 
-/* Hide QR Codes and Print-only links on the web */
-.qr, .qr-link { 
-  display: none !important; 
-}
+  .print-button {
+    background-color: #ef373e;
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
 
-/* Video should show on web */
-.video { 
-  display: block; 
-  margin-bottom: 20px; 
-}
+  /* MMC Footer Button Area */
+  .mmc-cta-container {
+    margin-top: 60px;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
 
-/* MMC FOOTER SECTION (Web Only) */
-.mmc-cta-container {
-  margin-top: 60px;
-  padding: 40px 20px;
-  border-top: 1px solid #ddd;
-  text-align: center;
-}
+  .mmc-footer-logo {
+    width: 300px !important;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
 
-.mmc-footer-logo {
-  width: 300px !important;
-  height: auto !important;
-  margin-bottom: 15px;
-  display: inline-block;
-  image-rendering: -webkit-optimize-contrast;
-}
+  .mmc-footer-button {
+    background-color: #ffffff !important;
+    color: #091b34 !important;
+    padding: 14px 30px !important;
+    font-weight: 800;
+    border: 3px solid #091b34 !important;
+    border-radius: 8px;
+    text-decoration: none !important;
+    display: inline-block;
+    box-shadow: 0 4px 0px #091b34;
+    transition: all 0.2s ease;
+  }
 
-.mmc-footer-button {
-  background-color: #ffffff !important; 
-  color: #091b34 !important;           
-  padding: 14px 30px !important;
-  font-weight: 800 !important;
-  border: 3px solid #091b34 !important; 
-  border-radius: 8px !important;
-  text-decoration: none !important;
-  display: inline-block !important;
-  box-shadow: 0 4px 0px #091b34 !important;
-  transition: all 0.2s ease;
-}
-
-.mmc-footer-button:hover {
-  background-color: #091b34 !important; 
-  color: #ffffff !important;            
-  opacity: 0.8;
-  transform: translateY(2px);
-  box-shadow: 0 0px 0px #091b34 !important;
+  .mmc-footer-button:hover {
+    background-color: #091b34 !important;
+    color: #ffffff !important;
+    transform: translateY(2px);
+    box-shadow: 0 0px 0px #091b34;
+  }
 }
 
 /* =============================================================
-   3. PRINT STYLES (What comes out of the printer)
+   ZONE 3: PRINT ONLY (Hides Video/Button, Shows QR codes)
    ============================================================= */
-
 @media print {
   @page { margin: 0.75in; }
 
-  /* Hide Web-only elements */
+  /* Hide EVERYTHING that shouldn't be on paper */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
-  .print-button, .mmc-cta-container, .video {
+  .print-button, .mmc-cta-container, .video, .mmc-footer-button {
     display: none !important;
   }
 
-  /* Show QR Codes on Paper */
+  /* Force QR Codes to show */
   .qr, .qr-link { 
     display: block !important; 
     margin: 15px 0;
   }
 
-  .qr img, .qr-link img {
-    width: 1in !important;
-    height: 1in !important;
-    display: block;
-  }
+  .qr img { width: 1in !important; height: 1in !important; }
 
-  /* Show Logo Header on Paper */
+  /* Branded Header */
   body::before {
     content: "";
     display: block;
-    height: 100px;
+    height: 80px;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
-    background-position: left top;
     background-size: contain;
-    border-bottom: 3px solid #ef373e;
-    margin-bottom: 30px;
+    border-bottom: 2px solid #ef373e;
+    margin-bottom: 20px;
   }
 
-  /* Branded Footer on Paper */
+  /* Branded Footer */
   body::after {
-    content: "Makers Making Change | Adaptive Gaming Resource | www.makersmakingchange.com";
+    content: "Makers Making Change | Adaptive Gaming Resource";
     display: block;
     text-align: center;
     font-size: 9pt;
-    color: #666;
-    margin-top: 40px;
+    margin-top: 30px;
     border-top: 1px solid #ddd;
-    padding-top: 10px;
   }
 
-  /* Append URLs to text links so they can be read on paper */
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
-    font-size: 0.85em;
-    word-break: break-all;
-  }
-
-  /* Reset layout for full page width */
+  /* Clean up layout for paper */
   .md-content { margin-left: 0 !important; }
-  .md-main__inner { margin: 0 !important; padding: 0 !important; }
-  body { background-color: white !important; color: black !important; font-size: 11pt; }
+  body { background-color: white !important; color: black !important; }
 }
