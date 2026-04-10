@@ -3,11 +3,14 @@
 {% block content %}
   {{ super() }}
   
-  <a href="https://www.makersmakingchange.com/" 
-     class="brand-logo-top" 
-     target="_blank" 
-     rel="noopener"
-     aria-label="Visit the Makers Making Change website">
-    <img src="{{ base_url }}/images/MMC_NSS_Logo.png" alt="Makers Making Change - A Neil Squire Program">
-  </a>
+  <div class="mmc-cta-container">
+    <hr>
+    <p>Want to learn more about this program or request a device?</p>
+    <a href="https://www.makersmakingchange.com/" 
+       class="mmc-footer-button" 
+       target="_blank" 
+       rel="noopener">
+        Visit Makers Making Change
+    </a>
+  </div>
 {% endblock %}

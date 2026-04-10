@@ -1,195 +1,100 @@
 /* =============================================================
-   1. GLOBAL TYPOGRAPHY (Open Sans)
+   1. GLOBAL TYPOGRAPHY & COLORS
    ============================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-}
+body { font-family: 'Open Sans', sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.md-typeset, .md-nav, .md-header { font-family: 'Open Sans', sans-serif !important; }
 
-.md-typeset, .md-nav, .md-header {
-  font-family: 'Open Sans', sans-serif !important;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Open Sans', sans-serif;
-  color: #091b34; 
-  font-weight: 800;
-  letter-spacing: -0.01em;
-}
-
-h1 {
-  font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; 
-  padding-bottom: 12px;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  border-left: 5px solid #ef373e;
-  padding-left: 15px;
-}
-
-p, li {
-  font-weight: 400;
-  color: #333;
-}
-
-strong, b {
-  font-weight: 700;
-  color: #091b34;
-}
-
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3 {
-  color: #ffffff;
-}
-
-[data-md-color-scheme="slate"] p,
-[data-md-color-scheme="slate"] li {
-  color: #e0e0e0;
-}
-
-[data-md-color-scheme="slate"] strong {
-  color: #ff5e64;
-}
+/* Headers */
+h1 { font-size: 2.2rem; border-bottom: 3px solid #ef373e; padding-bottom: 12px; margin-bottom: 1.5rem; color: #091b34; font-weight: 800; }
+h2 { font-size: 1.75rem; margin-top: 2rem; border-left: 5px solid #ef373e; padding-left: 15px; color: #091b34; font-weight: 700; }
 
 /* =============================================================
    2. SCREEN STYLES (Website UI)
    ============================================================= */
 
+/* The standard red print button you already use */
 .print-button {
   background-color: #ef373e;
   color: white;
   padding: 10px 16px;
-  font-size: 14px;
-  border: none;
   border-radius: 6px;
-  cursor: pointer;
-  margin-bottom: 20px;
-  transition: opacity 0.2s ease;
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+/* The NEW MMC Footer Button */
+.mmc-cta-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(9, 27, 52, 0.03); /* Very light Navy tint */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.mmc-footer-button {
+  background-color: #091b34; /* Navy for contrast against the Red print button */
+  color: white !important;
+  padding: 12px 24px;
+  font-weight: 700;
+  border-radius: 30px;
   text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-.print-button:hover {
-  opacity: 0.9;
-}
-
-/* NEW: Top-Left Brand Logo (Non-Floating) */
-.brand-logo-top {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  width: fit-content;
-  text-decoration: none !important;
-}
-
-.brand-logo-top img {
-  width: 400px !important; /* Balanced size for the top of the page */
-  max-width: 100%;
-  height: auto !important;
-  display: block;
-  /* Sharpness Fixes */
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-}
-
-.brand-logo-top:hover {
-  opacity: 0.8;
-}
-
-.video { display: block; margin-bottom: 20px; }
-.qr, .qr-link { display: none; }
-
-[data-md-color-scheme="slate"] .md-nav__link--active {
-    background-color: rgba(239, 55, 62, 0.15);
-    border-left: 4px solid #ef373e;
-    font-weight: 700;
-    color: #ffffff !important;
-}
-
-.md-nav__link--active {
-    border-left: 4px solid #ef373e;
-    padding-left: 0.6rem;
-}
-
-.md-typeset .admonition-title, 
-.md-typeset summary {
-    border-left: none !important;
-    padding-left: 2.5rem !important;
-    font-weight: 700 !important;
-    margin-top: 0 !important;
+.mmc-footer-button:hover {
+  background-color: #ef373e; /* Turns Brand Red on hover */
+  transform: translateY(-2px);
 }
 
 /* =============================================================
-   3. PRINT STYLES (The Clean Paper Look)
+   3. PRINT STYLES (Clean Document Layout)
    ============================================================= */
 
 @media print {
   @page { margin: 0.75in; }
 
-  /* 1. Print Header Logo */
+  /* 1. BRANDED HEADER: Logo on the left, "Resource Guide" text on the right */
   body::before {
     content: "";
     display: block;
-    height: 100px; 
+    height: 80px;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left center;
     background-size: contain;
-    border-bottom: 3px solid #ef373e;
+    border-bottom: 2px solid #ef373e;
     margin-bottom: 30px;
   }
 
-  /* 2. Print Footer */
+  /* 2. CUSTOMIZABLE FOOTER */
   body::after {
-    content: "© 2026 Makers Making Change | Accessible Gaming Resource";
+    content: "Makers Making Change | Adaptive Gaming Resource Guide | www.makersmakingchange.com";
     display: block;
     text-align: center;
     font-size: 9pt;
-    color: #777;
-    margin-top: 30px;
+    color: #666;
+    margin-top: 40px;
     border-top: 1px solid #ddd;
+    padding-top: 10px;
   }
 
-  /* 3. Hide all UI/Web elements including the new top logo */
+  /* 3. HIDE EVERYTHING DIGITAL */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
-  .print-button, .brand-logo-top, .video {
+  .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
+  /* 4. LAYOUT CLEANUP */
   .md-content { margin-left: 0 !important; }
   .md-main__inner { margin: 0 !important; padding: 0 !important; }
-
-  .qr, .qr-link { 
-    display: block !important; 
-    margin: 15px 0;
-  }
-
-  .qr img, .qr-link img {
-    width: 1in !important;
-    height: 1in !important;
-    display: block;
-    object-fit: contain;
-  }
-
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
-    font-size: 0.9em;
-    word-break: break-all;
-  }
-
-  body {
-    background-color: white !important;
-    color: black !important;
-    font-size: 11pt;
-  }
+  
+  body { background-color: white !important; color: black !important; font-size: 11pt; }
+  
+  /* Show URLs next to links for physical reference */
+  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.8em; color: #444; }
 }
