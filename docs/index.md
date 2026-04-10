@@ -12,7 +12,7 @@ Gaming supports social connection, skill development, and mental health.
 </div>
 
 <div class="qr">
-  <img src="./images/qr-GAME-vid.png" alt="QR Code for game vid">
+  <img src="./images/qr/qr-GAME-vid.png" alt="QR Code for game vid">
 </div>
 
 ## Pathway
@@ -24,6 +24,6 @@ Gaming supports social connection, skill development, and mental health.
 Check out the [GAME Checkpoints](https://www.makersmakingchange.com/game-checkpoint-program).
 
 <div class="qr-link">
-  <img src="./images/GAME-Checkpoint-Web.png" alt="QR Code">
+  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Checkpoints page">
 <p><strong>Link:</strong> GAME Checkpoints Page</p>
 </div>
