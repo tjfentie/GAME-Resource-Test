@@ -1,7 +1,71 @@
 /* =============================================================
-   SCREEN STYLES (What users see on the website)
+   1. GLOBAL TYPOGRAPHY (Open Sans)
+   ============================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Force Open Sans on Material components */
+.md-typeset, .md-nav, .md-header {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #091b34; /* Navy */
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid #ef373e; /* Brand Red */
+  padding-bottom: 12px;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  border-left: 5px solid #ef373e;
+  padding-left: 15px;
+}
+
+p, li {
+  font-weight: 400;
+  color: #333;
+}
+
+strong, b {
+  font-weight: 700;
+  color: #091b34;
+}
+
+/* --- Dark Mode (Slate) Overrides --- */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3 {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] p,
+[data-md-color-scheme="slate"] li {
+  color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] strong {
+  color: #ff5e64;
+}
+
+/* =============================================================
+   2. SCREEN STYLES (Website UI)
    ============================================================= */
 
+/* Print Button Styling */
 .print-button {
   background-color: #ef373e;
   color: white;
@@ -15,40 +79,81 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none; /* In case you use <a> tags for buttons */
+  text-decoration: none;
 }
 
 .print-button:hover {
   opacity: 0.9;
 }
 
-/* Ensure videos show on screen, but QR codes stay hidden */
-.video { 
-  display: block; 
-  margin-bottom: 20px;
+/* Floating Brand Logo (Bottom Right) */
+.floating-logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  display: block !important;
 }
 
-.qr, .qr-link { 
-  display: none; 
+.floating-logo img {
+  width: 150px !important;
+  height: auto !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Content Handling */
+.video { display: block; margin-bottom: 20px; }
+.qr, .qr-link { display: none; }
+
+/* Navigation Contrast Fixes */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+    background-color: rgba(239, 55, 62, 0.15);
+    border-left: 4px solid #ef373e;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.md-nav__link--active {
+    border-left: 4px solid #ef373e;
+    padding-left: 0.6rem;
+}
+
+/* Admonition/Note Fixes */
+.md-typeset .admonition-title, 
+.md-typeset summary {
+    border-left: none !important;
+    padding-left: 2.5rem !important;
+    font-weight: 700 !important;
+    margin-top: 0 !important;
 }
 
 /* =============================================================
-   PRINT STYLES (What comes out of the printer)
+   3. PRINT STYLES (The Clean Paper Look)
    ============================================================= */
 
 @media print {
-  /* 1. Custom Print Header and Footer */
-  /* This creates a professional look on every printed page */
+  /* Set Page Margins */
+  @page { margin: 0.75in; }
+
+  /* 1. Header Logo - Top Left of every page */
   body::before {
-    content: "GAME Resource Guide - makersmakingchange.com";
+    content: "";
     display: block;
-    text-align: center;
-    font-size: 10pt;
-    color: #555;
-    border-bottom: 1px solid #ddd;
+    height: 80px;
+    background-image: url('../images/GAME-Checkpoint-Web.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    border-bottom: 2px solid #ef373e;
     margin-bottom: 20px;
   }
 
+  /* 2. Footer Copyright */
   body::after {
     content: "© 2026 Makers Making Change | Accessible Gaming Resource";
     display: block;
@@ -59,231 +164,40 @@
     border-top: 1px solid #ddd;
   }
 
-  /* 2. Hide navigation, sidebars, header, and all navigation buttons */
-  .print-button, 
-  .md-header, 
-  .md-sidebar, 
-  .md-footer, 
-  .md-nav,
-  .md-top,
-  nav.md-footer { /* Specifically hides the Material theme pagination */
+  /* 3. Hide all UI/Web elements */
+  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
+  .print-button, .floating-logo, .video {
     display: none !important;
   }
 
-  /* 3. Expand the content to fill the full page width */
-  .md-content {
-    margin-left: 0 !important;
-  }
+  /* 4. Full Width Layout */
+  .md-content { margin-left: 0 !important; }
+  .md-main__inner { margin: 0 !important; padding: 0 !important; }
 
-  /* 4. Swap Video for QR Code */
-  .video { 
-    display: none !important; 
-  }
-
+  /* 5. Show QR Codes for Print only */
   .qr, .qr-link { 
     display: block !important; 
     margin: 15px 0;
   }
 
-  /* 5. Force QR codes to be exactly 1 inch by 1 inch */
   .qr img, .qr-link img {
     width: 1in !important;
     height: 1in !important;
     display: block;
     object-fit: contain;
-    border: 1px solid #eee;
   }
 
-  /* 6. Show the actual URL next to standard text links */
+  /* 6. Print friendly links */
   a[href^="http"]:after {
     content: " (" attr(href) ")";
     font-size: 0.9em;
-    color: #333;
     word-break: break-all;
   }
 
-  /* 7. Clean up typography for paper */
+  /* 7. General Print Typography */
   body {
     background-color: white !important;
     color: black !important;
-    font-size: 12pt;
-  }
-
-  h1, h2, h3 {
-    page-break-after: avoid;
-  }
-}
-
-.md-footer {
-  display: block !important;
-}
-
-.md-footer__inner {
-  display: flex !important;
-}
-
-/* =============================================================
-   Color pallet of the website
-   ============================================================= */
-
-/* --- DARK MODE SIDEBAR CONTRAST FIX --- */
-[data-md-color-scheme="slate"] {
-    /* 1. Make the active link text significantly brighter */
-    --md-nav-link-color--active: #ffffff;
-    
-    /* 2. Change the background of the hovered item so it 'pops' */
-    --md-nav-link-color--hover: #ff5e64; 
-}
-
-[data-md-color-scheme="slate"] .md-nav__link--active {
-    background-color: rgba(239, 55, 62, 0.15); /* Light red tint background */
-    border-left: 4px solid #ef373e;           /* Solid red indicator bar */
-    font-weight: 700;                          /* Bold text for active page */
-    color: #ffffff !important;
-}
-
-[data-md-color-scheme="slate"] .md-nav__link:hover {
-    background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight on hover */
-    color: #ff5e64 !important;
-}
-
-/* --- LIGHT MODE SIDEBAR CONTRAST FIX --- */
-/* (Optional: for consistency in light mode) */
-.md-nav__link--active {
-    border-left: 4px solid #ef373e;
-    padding-left: 0.6rem; /* Adjust padding to keep text aligned */
-}
-
-/* =============================================================
-   Typography
-   ============================================================= */
-
-   /* --- Global Typography (Open Sans) --- */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.7; /* Slightly increased for better readability */
-  -webkit-font-smoothing: antialiased;
-}
-
-/* --- Header Styling --- */
-h1, h2, h3, h4 {
-  font-family: 'Open Sans', sans-serif;
-  color: #091b34; /* Your Navy Brand Color */
-  font-weight: 800; /* Extra bold for Open Sans headers */
-  letter-spacing: -0.01em; /* Tightens up large headers for a modern look */
-}
-
-h1 {
-  font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; /* Brand Red underline */
-  padding-bottom: 12px;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  border-left: 5px solid #ef373e; /* Adds a red accent bar to the left of H2s */
-  padding-left: 15px;
-}
-
-/* --- Body Text & Emphasis --- */
-p, li {
-  font-weight: 400; /* Standard weight */
-  color: #333;      /* Dark grey for better contrast than pure black */
-}
-
-strong, b {
-  font-weight: 700; /* Bold weight */
-  color: #091b34;   /* Navy for emphasis */
-}
-
-/* --- Dark Mode (Slate) Overrides --- */
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3 {
-  color: #ffffff;
-}
-
-[data-md-color-scheme="slate"] p,
-[data-md-color-scheme="slate"] li {
-  color: #e0e0e0; /* Off-white for reduced eye strain in dark mode */
-}
-
-[data-md-color-scheme="slate"] strong {
-  color: #ff5e64; /* Brighter red for bold text in dark mode */
-}
-
-/* =============================================================
-  For admonition
-   ============================================================= */
-
-/* Fix for Admonitions: Prevents theme headers from breaking the box layout */
-.md-typeset .admonition-title, 
-.md-typeset summary {
-    border-left: none !important; /* Removes the thick H2 red bar from inside boxes */
-    padding-left: 2.5rem !important; /* Leaves room for the icon */
-    font-weight: 700 !important;
-    margin-top: 0 !important;
-}
-
-/* Ensure the box content has proper padding */
-.md-typeset .admonition-content,
-.md-typeset details div {
-    padding: 10px 15px;
-    font-size: 0.9rem;
-}
-
-/* =============================================================
-logo on web view
-   ============================================================= */
-
-/* Sticky Brand Logo for Web */
-.floating-logo {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 100;
-  background: white;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-}
-
-.floating-logo:hover {
-  transform: scale(1.05);
-}
-
-.floating-logo img {
-  width: 120px; /* Adjust size as needed */
-  display: block;
-}
-
-/* Hide the floating logo when printing */
-@media print {
-  .floating-logo {
-    display: none !important;
-  }
-}
-
-/* =============================================================
-logo on printed pages
-   ============================================================= */
-
-@media print {
-  /* 1. Add Logo to Top Left of Print Header */
-  body::before {
-    content: "";
-    display: block;
-    height: 60px; /* Space for the logo */
-    background-image: url('../images/GAME-Checkpoint-Web.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: contain;
-    border-bottom: 2px solid #ef373e;
-    margin-bottom: 20px;
+    font-size: 11pt;
   }
 }
