@@ -15,14 +15,13 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
-  color: #091b34; /* Navy */
+  color: #091b34; 
   font-weight: 800;
-  letter-spacing: -0.01em;
 }
 
 h1 {
   font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; /* Brand Red */
+  border-bottom: 3px solid #ef373e; 
   padding-bottom: 12px;
   margin-bottom: 1.5rem;
 }
@@ -32,32 +31,6 @@ h2 {
   margin-top: 2rem;
   border-left: 5px solid #ef373e;
   padding-left: 15px;
-}
-
-p, li {
-  font-weight: 400;
-  color: #333;
-}
-
-strong, b {
-  font-weight: 700;
-  color: #091b34;
-}
-
-/* --- Dark Mode (Slate) Content Overrides --- */
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3 {
-  color: #ffffff;
-}
-
-[data-md-color-scheme="slate"] p,
-[data-md-color-scheme="slate"] li {
-  color: #e0e0e0;
-}
-
-[data-md-color-scheme="slate"] strong {
-  color: #ff5e64;
 }
 
 /* =============================================================
@@ -74,98 +47,79 @@ strong, b {
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 20px;
-  transition: opacity 0.2s ease;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   text-decoration: none;
 }
 
-.print-button:hover {
-  opacity: 0.9;
-}
-
 /* MMC FOOTER CTA SECTION */
 .mmc-cta-container {
-  margin-top: 60px;
-  padding: 40px 20px;
-  border-top: 1px solid #ddd;
-  text-align: center;
-  display: block; /* Ensures visibility on web */
+  margin-top: 60px !important;
+  padding: 40px 20px !important;
+  border-top: 1px solid #eee !important;
+  text-align: center !important;
+  display: block !important;
 }
 
-/* THE BUTTON: Defined border, white background, and hover transparency */
-.mmc-footer-button {
+/* The Logo inside the CTA */
+.mmc-footer-logo {
+  width: 300px !important;
+  height: auto !important;
+  margin-bottom: 15px !important;
+  display: inline-block !important;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.mmc-cta-container p {
+  margin-bottom: 20px !important;
+  font-weight: 600 !important;
+}
+
+/* The Button Styling */
+html body .mmc-footer-button {
   background-color: #ffffff !important; 
   color: #091b34 !important;           
-  padding: 12px 30px !important;
+  padding: 15px 35px !important;
   font-weight: 800 !important;
-  font-size: 1rem !important;
-  border: 2px solid #091b34 !important; /* Defined Navy Border */
-  border-radius: 8px !important;
+  border: 3px solid #091b34 !important; 
+  border-radius: 10px !important;
   text-decoration: none !important;
   display: inline-block !important;
+  box-shadow: 0 4px 0px #091b34 !important;
   transition: all 0.2s ease !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  cursor: pointer;
 }
 
-.mmc-footer-button:hover {
-  background-color: #091b34 !important; /* Inverts to Navy */
-  color: #ffffff !important;            /* Text to white */
-  opacity: 0.85;                        /* Transparency feedback */
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+html body .mmc-footer-button:hover {
+  background-color: #091b34 !important; 
+  color: #ffffff !important;            
+  opacity: 0.8 !important;              
+  transform: translateY(2px) !important;
+  box-shadow: 0 0px 0px #091b34 !important;
 }
 
-/* Slate Mode Text Fix */
+/* Dark Mode Slate Fix */
 [data-md-color-scheme="slate"] .mmc-cta-container p {
-  color: #ffffff;
-}
-
-/* Navigation Contrast Fixes */
-[data-md-color-scheme="slate"] .md-nav__link--active {
-    background-color: rgba(239, 55, 62, 0.15);
-    border-left: 4px solid #ef373e;
-    font-weight: 700;
-    color: #ffffff !important;
-}
-
-.md-nav__link--active {
-    border-left: 4px solid #ef373e;
-    padding-left: 0.6rem;
+  color: #ffffff !important;
 }
 
 /* Content Handling */
 .video { display: block; margin-bottom: 20px; }
 .qr, .qr-link { display: none; }
 
-/* Admonition/Note Fixes */
-.md-typeset .admonition-title, 
-.md-typeset summary {
-    border-left: none !important;
-    padding-left: 2.5rem !important;
-    font-weight: 700 !important;
-    margin-top: 0 !important;
-}
-
 /* =============================================================
    3. PRINT STYLES (Professional Document Look)
    ============================================================= */
 
 @media print {
-  @page { margin: 0.75in; }
-
-  /* Hide the CTA container specifically for print */
-  .mmc-cta-container, .mmc-footer-button {
+  /* HIDE THE BUTTON, LOGO, AND CONTAINER FROM PRINTER */
+  .mmc-cta-container, .mmc-footer-button, .mmc-footer-logo, .print-button {
     display: none !important;
     visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
   }
 
-  /* 1. Header Logo - Top Left */
+  /* Header Logo - Uses same file for print header */
   body::before {
     content: "";
     display: block;
@@ -178,7 +132,7 @@ strong, b {
     margin-bottom: 30px;
   }
 
-  /* 2. Print Footer */
+  /* Print Footer */
   body::after {
     content: "Makers Making Change | Adaptive Gaming Resource | www.makersmakingchange.com";
     display: block;
@@ -190,40 +144,6 @@ strong, b {
     padding-top: 10px;
   }
 
-  /* 3. Hide all Digital/UI elements */
-  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
-  .print-button, .video {
-    display: none !important;
-  }
-
-  /* 4. Full Width Layout */
   .md-content { margin-left: 0 !important; }
-  .md-main__inner { margin: 0 !important; padding: 0 !important; }
-
-  /* 5. Show QR Codes for Print */
-  .qr, .qr-link { 
-    display: block !important; 
-    margin: 15px 0;
-  }
-
-  .qr img, .qr-link img {
-    width: 1in !important;
-    height: 1in !important;
-    display: block;
-    object-fit: contain;
-  }
-
-  /* 6. Append URLs to Links */
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
-    font-size: 0.85em;
-    color: #444;
-    word-break: break-all;
-  }
-
-  body {
-    background-color: white !important;
-    color: black !important;
-    font-size: 11pt;
-  }
+  body { background-color: white !important; color: black !important; font-size: 11pt; }
 }
