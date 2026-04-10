@@ -9,21 +9,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Force Open Sans on Material components */
 .md-typeset, .md-nav, .md-header {
   font-family: 'Open Sans', sans-serif !important;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
-  color: #091b34; /* Navy */
+  color: #091b34; 
   font-weight: 800;
   letter-spacing: -0.01em;
 }
 
 h1 {
   font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; /* Brand Red */
+  border-bottom: 3px solid #ef373e; 
   padding-bottom: 12px;
   margin-bottom: 1.5rem;
 }
@@ -45,7 +44,6 @@ strong, b {
   color: #091b34;
 }
 
-/* --- Dark Mode (Slate) Overrides --- */
 [data-md-color-scheme="slate"] h1, 
 [data-md-color-scheme="slate"] h2, 
 [data-md-color-scheme="slate"] h3 {
@@ -65,7 +63,6 @@ strong, b {
    2. SCREEN STYLES (Website UI)
    ============================================================= */
 
-/* Print Button Styling */
 .print-button {
   background-color: #ef373e;
   color: white;
@@ -86,31 +83,32 @@ strong, b {
   opacity: 0.9;
 }
 
-/* Floating Brand Logo (Bottom Right) */
+/* Floating Brand Logo - Enlarged and Sharpened */
 .floating-logo {
   position: fixed;
   bottom: 25px;
   right: 25px;
   z-index: 999;
   background: white;
-  padding: 12px;
-  border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
   display: block !important;
 }
 
 .floating-logo img {
-  width: 280px !important; /* Increased width for the wide logo */
+  width: 475px !important; /* ~1.7x increase */
   height: auto !important;
   display: block !important;
   opacity: 1 !important;
+  /* High-fidelity rendering fix */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
-/* Content Handling */
 .video { display: block; margin-bottom: 20px; }
 .qr, .qr-link { display: none; }
 
-/* Navigation Contrast Fixes */
 [data-md-color-scheme="slate"] .md-nav__link--active {
     background-color: rgba(239, 55, 62, 0.15);
     border-left: 4px solid #ef373e;
@@ -123,7 +121,6 @@ strong, b {
     padding-left: 0.6rem;
 }
 
-/* Admonition/Note Fixes */
 .md-typeset .admonition-title, 
 .md-typeset summary {
     border-left: none !important;
@@ -139,20 +136,18 @@ strong, b {
 @media print {
   @page { margin: 0.75in; }
 
-  /* 1. Header Logo - Top Left of every page */
   body::before {
     content: "";
     display: block;
-    height: 100px; /* Increased height for better clarity */
-    background-image: url('../images/MMC_NSS_Logo.png'); /* Updated Path */
+    height: 120px; 
+    background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: contain;
-    border-bottom: 2px solid #ef373e;
-    margin-bottom: 20px;
+    border-bottom: 3px solid #ef373e;
+    margin-bottom: 30px;
   }
 
-  /* 2. Footer Copyright */
   body::after {
     content: "© 2026 Makers Making Change | Accessible Gaming Resource";
     display: block;
@@ -163,17 +158,14 @@ strong, b {
     border-top: 1px solid #ddd;
   }
 
-  /* 3. Hide all UI/Web elements */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
   .print-button, .floating-logo, .video {
     display: none !important;
   }
 
-  /* 4. Full Width Layout */
   .md-content { margin-left: 0 !important; }
   .md-main__inner { margin: 0 !important; padding: 0 !important; }
 
-  /* 5. Show QR Codes for Print only */
   .qr, .qr-link { 
     display: block !important; 
     margin: 15px 0;
@@ -186,14 +178,12 @@ strong, b {
     object-fit: contain;
   }
 
-  /* 6. Print friendly links */
   a[href^="http"]:after {
     content: " (" attr(href) ")";
     font-size: 0.9em;
     word-break: break-all;
   }
 
-  /* 7. General Print Typography */
   body {
     background-color: white !important;
     color: black !important;
