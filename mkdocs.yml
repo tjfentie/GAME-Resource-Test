@@ -58,7 +58,7 @@ plugins:
   - include-markdown
 
 extra_css:
-  - stylesheets/extra.css
+  - styles/extra.css
 
 markdown_extensions:
   - admonition
