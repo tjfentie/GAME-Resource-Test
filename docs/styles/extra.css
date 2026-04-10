@@ -85,34 +85,37 @@ strong, b {
   opacity: 0.9;
 }
 
-/* MMC FOOTER CTA BUTTON (High-Contrast for Dark Mode) */
+/* MMC FOOTER CTA SECTION */
 .mmc-cta-container {
   margin-top: 60px;
-  padding: 30px;
+  padding: 40px 20px;
   border-top: 1px solid #ddd;
   text-align: center;
+  display: block; /* Ensures visibility on web */
 }
 
+/* THE BUTTON: Defined border, white background, and hover transparency */
 .mmc-footer-button {
-  background-color: #ffffff !important; /* Force white background */
-  color: #091b34 !important;           /* Navy text */
-  padding: 14px 28px !important;
+  background-color: #ffffff !important; 
+  color: #091b34 !important;           
+  padding: 12px 30px !important;
   font-weight: 800 !important;
   font-size: 1rem !important;
-  border: 3px solid #091b34 !important; /* Navy border */
+  border: 2px solid #091b34 !important; /* Defined Navy Border */
   border-radius: 8px !important;
   text-decoration: none !important;
   display: inline-block !important;
-  transition: all 0.2s ease-in-out !important;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
 }
 
 .mmc-footer-button:hover {
-  background-color: #ef373e !important; /* Turns Red on hover */
-  border-color: #ef373e !important;
-  color: #ffffff !important;            /* Text turns white on hover */
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background-color: #091b34 !important; /* Inverts to Navy */
+  color: #ffffff !important;            /* Text to white */
+  opacity: 0.85;                        /* Transparency feedback */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Slate Mode Text Fix */
@@ -153,6 +156,15 @@ strong, b {
 @media print {
   @page { margin: 0.75in; }
 
+  /* Hide the CTA container specifically for print */
+  .mmc-cta-container, .mmc-footer-button {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   /* 1. Header Logo - Top Left */
   body::before {
     content: "";
@@ -180,7 +192,7 @@ strong, b {
 
   /* 3. Hide all Digital/UI elements */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
-  .print-button, .mmc-cta-container, .video {
+  .print-button, .video {
     display: none !important;
   }
 
