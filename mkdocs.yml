@@ -27,6 +27,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Open Sans
     Code: Roboto Mono

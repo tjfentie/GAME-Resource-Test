@@ -235,3 +235,55 @@ strong, b {
     padding: 10px 15px;
     font-size: 0.9rem;
 }
+
+/* =============================================================
+logo on web view
+   ============================================================= */
+
+/* Sticky Brand Logo for Web */
+.floating-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.floating-logo:hover {
+  transform: scale(1.05);
+}
+
+.floating-logo img {
+  width: 120px; /* Adjust size as needed */
+  display: block;
+}
+
+/* Hide the floating logo when printing */
+@media print {
+  .floating-logo {
+    display: none !important;
+  }
+}
+
+/* =============================================================
+logo on printed pages
+   ============================================================= */
+
+@media print {
+  /* 1. Add Logo to Top Left of Print Header */
+  body::before {
+    content: "";
+    display: block;
+    height: 60px; /* Space for the logo */
+    background-image: url('../images/GAME-Checkpoint-Web.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    border-bottom: 2px solid #ef373e;
+    margin-bottom: 20px;
+  }
+}
