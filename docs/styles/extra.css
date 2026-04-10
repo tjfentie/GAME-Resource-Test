@@ -89,18 +89,18 @@ strong, b {
 /* Floating Brand Logo (Bottom Right) */
 .floating-logo {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 25px;
+  right: 25px;
   z-index: 999;
   background: white;
-  padding: 10px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   display: block !important;
 }
 
 .floating-logo img {
-  width: 150px !important;
+  width: 280px !important; /* Increased width for the wide logo */
   height: auto !important;
   display: block !important;
   opacity: 1 !important;
@@ -137,15 +137,14 @@ strong, b {
    ============================================================= */
 
 @media print {
-  /* Set Page Margins */
   @page { margin: 0.75in; }
 
   /* 1. Header Logo - Top Left of every page */
   body::before {
     content: "";
     display: block;
-    height: 80px;
-    background-image: url('../images/MMC_NSS_Logo.png');
+    height: 100px; /* Increased height for better clarity */
+    background-image: url('../images/MMC_NSS_Logo.png'); /* Updated Path */
     background-repeat: no-repeat;
     background-position: left top;
     background-size: contain;
