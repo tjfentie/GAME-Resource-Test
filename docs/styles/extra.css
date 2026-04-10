@@ -83,27 +83,27 @@ strong, b {
   opacity: 0.9;
 }
 
-/* Floating Brand Logo - Enlarged and Sharpened */
-.floating-logo {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  z-index: 999;
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
-  display: block !important;
+/* NEW: Top-Left Brand Logo (Non-Floating) */
+.brand-logo-top {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: fit-content;
+  text-decoration: none !important;
 }
 
-.floating-logo img {
-  width: 475px !important; /* ~1.7x increase */
+.brand-logo-top img {
+  width: 400px !important; /* Balanced size for the top of the page */
+  max-width: 100%;
   height: auto !important;
-  display: block !important;
-  opacity: 1 !important;
-  /* High-fidelity rendering fix */
+  display: block;
+  /* Sharpness Fixes */
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
+}
+
+.brand-logo-top:hover {
+  opacity: 0.8;
 }
 
 .video { display: block; margin-bottom: 20px; }
@@ -136,10 +136,11 @@ strong, b {
 @media print {
   @page { margin: 0.75in; }
 
+  /* 1. Print Header Logo */
   body::before {
     content: "";
     display: block;
-    height: 120px; 
+    height: 100px; 
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
     background-position: left top;
@@ -148,6 +149,7 @@ strong, b {
     margin-bottom: 30px;
   }
 
+  /* 2. Print Footer */
   body::after {
     content: "© 2026 Makers Making Change | Accessible Gaming Resource";
     display: block;
@@ -158,8 +160,9 @@ strong, b {
     border-top: 1px solid #ddd;
   }
 
+  /* 3. Hide all UI/Web elements including the new top logo */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
-  .print-button, .floating-logo, .video {
+  .print-button, .brand-logo-top, .video {
     display: none !important;
   }
 
@@ -189,29 +192,4 @@ strong, b {
     color: black !important;
     font-size: 11pt;
   }
-}
-
-/* =============================================================
-   OVERRIDE: Forced Logo Size & Sharpness
-   ============================================================= */
-
-html body .floating-logo {
-  bottom: 30px !important;
-  right: 30px !important;
-  padding: 15px !important;
-  background: #ffffff !important;
-  border: 1px solid #eee !important;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.18) !important;
-}
-
-html body .floating-logo img {
-  /* This is the big one - forcing it to 550px */
-  width: 550px !important; 
-  max-width: 85vw !important; 
-  height: auto !important;
-  
-  /* Sharpness Fixes */
-  image-rendering: -webkit-optimize-contrast !important; 
-  image-rendering: crisp-edges !important;
-  display: block !important;
 }
