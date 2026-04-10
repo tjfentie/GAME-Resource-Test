@@ -1,79 +1,174 @@
 /* =============================================================
-   1. GLOBAL TYPOGRAPHY & COLORS
+   1. GLOBAL TYPOGRAPHY (Open Sans)
    ============================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-body { font-family: 'Open Sans', sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
-.md-typeset, .md-nav, .md-header { font-family: 'Open Sans', sans-serif !important; }
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
 
-/* Headers */
-h1 { font-size: 2.2rem; border-bottom: 3px solid #ef373e; padding-bottom: 12px; margin-bottom: 1.5rem; color: #091b34; font-weight: 800; }
-h2 { font-size: 1.75rem; margin-top: 2rem; border-left: 5px solid #ef373e; padding-left: 15px; color: #091b34; font-weight: 700; }
+.md-typeset, .md-nav, .md-header {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #091b34; /* Navy */
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid #ef373e; /* Brand Red */
+  padding-bottom: 12px;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  border-left: 5px solid #ef373e;
+  padding-left: 15px;
+}
+
+p, li {
+  font-weight: 400;
+  color: #333;
+}
+
+strong, b {
+  font-weight: 700;
+  color: #091b34;
+}
+
+/* --- Dark Mode (Slate) Content Overrides --- */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3 {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] p,
+[data-md-color-scheme="slate"] li {
+  color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] strong {
+  color: #ff5e64;
+}
 
 /* =============================================================
    2. SCREEN STYLES (Website UI)
    ============================================================= */
 
-/* The standard red print button you already use */
+/* Standard Red Print Button */
 .print-button {
   background-color: #ef373e;
   color: white;
   padding: 10px 16px;
+  font-size: 14px;
+  border: none;
   border-radius: 6px;
-  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: opacity 0.2s ease;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none;
 }
 
-/* The NEW MMC Footer Button */
+.print-button:hover {
+  opacity: 0.9;
+}
+
+/* MMC FOOTER CTA BUTTON (High-Contrast for Dark Mode) */
 .mmc-cta-container {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: rgba(9, 27, 52, 0.03); /* Very light Navy tint */
-  border-radius: 8px;
+  margin-top: 60px;
+  padding: 30px;
+  border-top: 1px solid #ddd;
   text-align: center;
 }
 
 .mmc-footer-button {
-  background-color: #091b34; /* Navy for contrast against the Red print button */
-  color: white !important;
-  padding: 12px 24px;
-  font-weight: 700;
-  border-radius: 30px;
-  text-decoration: none;
-  display: inline-block;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  background-color: #ffffff !important; /* Force white background */
+  color: #091b34 !important;           /* Navy text */
+  padding: 14px 28px !important;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
+  border: 3px solid #091b34 !important; /* Navy border */
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .mmc-footer-button:hover {
-  background-color: #ef373e; /* Turns Brand Red on hover */
-  transform: translateY(-2px);
+  background-color: #ef373e !important; /* Turns Red on hover */
+  border-color: #ef373e !important;
+  color: #ffffff !important;            /* Text turns white on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Slate Mode Text Fix */
+[data-md-color-scheme="slate"] .mmc-cta-container p {
+  color: #ffffff;
+}
+
+/* Navigation Contrast Fixes */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+    background-color: rgba(239, 55, 62, 0.15);
+    border-left: 4px solid #ef373e;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.md-nav__link--active {
+    border-left: 4px solid #ef373e;
+    padding-left: 0.6rem;
+}
+
+/* Content Handling */
+.video { display: block; margin-bottom: 20px; }
+.qr, .qr-link { display: none; }
+
+/* Admonition/Note Fixes */
+.md-typeset .admonition-title, 
+.md-typeset summary {
+    border-left: none !important;
+    padding-left: 2.5rem !important;
+    font-weight: 700 !important;
+    margin-top: 0 !important;
 }
 
 /* =============================================================
-   3. PRINT STYLES (Clean Document Layout)
+   3. PRINT STYLES (Professional Document Look)
    ============================================================= */
 
 @media print {
   @page { margin: 0.75in; }
 
-  /* 1. BRANDED HEADER: Logo on the left, "Resource Guide" text on the right */
+  /* 1. Header Logo - Top Left */
   body::before {
     content: "";
     display: block;
-    height: 80px;
+    height: 100px;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: contain;
-    border-bottom: 2px solid #ef373e;
+    border-bottom: 3px solid #ef373e;
     margin-bottom: 30px;
   }
 
-  /* 2. CUSTOMIZABLE FOOTER */
+  /* 2. Print Footer */
   body::after {
-    content: "Makers Making Change | Adaptive Gaming Resource Guide | www.makersmakingchange.com";
+    content: "Makers Making Change | Adaptive Gaming Resource | www.makersmakingchange.com";
     display: block;
     text-align: center;
     font-size: 9pt;
@@ -83,18 +178,40 @@ h2 { font-size: 1.75rem; margin-top: 2rem; border-left: 5px solid #ef373e; paddi
     padding-top: 10px;
   }
 
-  /* 3. HIDE EVERYTHING DIGITAL */
+  /* 3. Hide all Digital/UI elements */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
   .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
-  /* 4. LAYOUT CLEANUP */
+  /* 4. Full Width Layout */
   .md-content { margin-left: 0 !important; }
   .md-main__inner { margin: 0 !important; padding: 0 !important; }
-  
-  body { background-color: white !important; color: black !important; font-size: 11pt; }
-  
-  /* Show URLs next to links for physical reference */
-  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.8em; color: #444; }
+
+  /* 5. Show QR Codes for Print */
+  .qr, .qr-link { 
+    display: block !important; 
+    margin: 15px 0;
+  }
+
+  .qr img, .qr-link img {
+    width: 1in !important;
+    height: 1in !important;
+    display: block;
+    object-fit: contain;
+  }
+
+  /* 6. Append URLs to Links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #444;
+    word-break: break-all;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
 }
