@@ -34,13 +34,18 @@ h2 {
 }
 
 /* =============================================================
-   2. SCREEN STYLES (Website UI)
+   2. SCREEN STYLES (Website UI Only)
    ============================================================= */
+
+/* Global Hiding of Print-Only Elements */
+.qr, .qr-link, .qr-caption { 
+  display: none !important; 
+}
 
 /* Standard Red Print Button */
 .print-button {
   background-color: #ef373e;
-  color: white;
+  color: white !important;
   padding: 10px 16px;
   font-size: 14px;
   border: none;
@@ -62,23 +67,14 @@ h2 {
   display: block !important;
 }
 
-/* The Logo inside the CTA */
 .mmc-footer-logo {
   width: 300px !important;
   height: auto !important;
   margin-bottom: 15px !important;
   display: inline-block !important;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
 }
 
-.mmc-cta-container p {
-  margin-bottom: 20px !important;
-  font-weight: 600 !important;
-}
-
-/* The Button Styling */
-html body .mmc-footer-button {
+.mmc-footer-button {
   background-color: #ffffff !important; 
   color: #091b34 !important;           
   padding: 15px 35px !important;
@@ -91,35 +87,56 @@ html body .mmc-footer-button {
   transition: all 0.2s ease !important;
 }
 
-html body .mmc-footer-button:hover {
+.mmc-footer-button:hover {
   background-color: #091b34 !important; 
   color: #ffffff !important;            
-  opacity: 0.8 !important;              
   transform: translateY(2px) !important;
   box-shadow: 0 0px 0px #091b34 !important;
 }
 
 /* Dark Mode Slate Fix */
-[data-md-color-scheme="slate"] .mmc-cta-container p {
-  color: #ffffff !important;
-}
+[data-md-color-scheme="slate"] .mmc-cta-container p { color: #ffffff !important; }
+[data-md-color-scheme="slate"] h1, [data-md-color-scheme="slate"] h2 { color: #ffffff; }
 
-/* Content Handling */
 .video { display: block; margin-bottom: 20px; }
-.qr, .qr-link { display: none; }
 
 /* =============================================================
    3. PRINT STYLES (Professional Document Look)
    ============================================================= */
 
 @media print {
-  /* HIDE THE BUTTON, LOGO, AND CONTAINER FROM PRINTER */
-  .mmc-cta-container, .mmc-footer-button, .mmc-footer-logo, .print-button {
+  @page { margin: 0.75in; }
+
+  /* Hide digital-only elements */
+  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
+  .print-button, .mmc-cta-container, .video {
     display: none !important;
-    visibility: hidden !important;
   }
 
-  /* Header Logo - Uses same file for print header */
+  /* REVEAL QR CODES AND CAPTIONS */
+  .qr, .qr-link {
+    display: block !important;
+    margin: 15px 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .qr img, .qr-link img {
+    width: 1.2in !important;
+    height: 1.2in !important;
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+
+  /* Style for the caption text below QR codes */
+  .qr-caption {
+    display: block !important;
+    font-size: 10pt !important;
+    color: #333 !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Branded Header Logo */
   body::before {
     content: "";
     display: block;
@@ -132,18 +149,16 @@ html body .mmc-footer-button:hover {
     margin-bottom: 30px;
   }
 
-  /* Print Footer */
-  body::after {
-    content: "Makers Making Change | Adaptive Gaming Resource | www.makersmakingchange.com";
-    display: block;
-    text-align: center;
-    font-size: 9pt;
-    color: #666;
-    margin-top: 40px;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+  /* Append full URLs to links for physical reference */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #444;
+    word-break: break-all;
   }
 
+  /* Layout and Typography Reset */
   .md-content { margin-left: 0 !important; }
+  .md-main__inner { margin: 0 !important; padding: 0 !important; }
   body { background-color: white !important; color: black !important; font-size: 11pt; }
 }
