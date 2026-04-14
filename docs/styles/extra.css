@@ -13,7 +13,6 @@ body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
-/* Base Headings */
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
   color: #091b34; 
@@ -37,8 +36,6 @@ h2 {
 /* =============================================================
    2. DARK MODE (SLATE) RESTORATION
    ============================================================= */
-
-/* These ensure headers and text pop against the dark grey background */
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #ffffff;
   --md-default-fg-color: #ffffff;
@@ -46,28 +43,22 @@ h2 {
 
 [data-md-color-scheme="slate"] h1, 
 [data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3,
-[data-md-color-scheme="slate"] .md-typeset h1,
-[data-md-color-scheme="slate"] .md-typeset h2 {
+[data-md-color-scheme="slate"] h3 {
   color: #ffffff !important;
 }
 
-[data-md-color-scheme="slate"] .md-nav__link {
-  color: #e0e0e0;
-}
-
 [data-md-color-scheme="slate"] strong {
-  color: #ff5e64; /* Brighter red for bold text in dark mode */
+  color: #ff5e64;
 }
 
 /* =============================================================
    3. SCREEN STYLES (Website UI)
    ============================================================= */
 
+/* Hide all print-only elements on web */
 .qr, .qr-link, .qr-caption { display: none !important; }
 .video { display: block; margin-bottom: 20px; }
 
-/* Red Print Button */
 .print-button {
   background-color: #ef373e;
   color: white !important;
@@ -81,19 +72,17 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* MMC FOOTER CARD (White Background & Rounded Corners) */
 .mmc-cta-container {
   margin-top: 60px !important;
   padding: 40px 20px !important;
-  background-color: #ffffff !important; /* Always white regardless of theme */
+  background-color: #ffffff !important; 
   border: 1px solid #ddd !important;
-  border-radius: 15px !important;       /* Rounded corners */
+  border-radius: 15px !important; 
   text-align: center !important;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   display: block !important;
 }
 
-/* Force container text to be Navy so it's readable on the white card */
 .mmc-cta-container p {
   color: #091b34 !important;
   font-weight: 600 !important;
@@ -120,13 +109,6 @@ h2 {
   transition: all 0.2s ease !important;
 }
 
-.mmc-footer-button:hover {
-  background-color: #091b34 !important; 
-  color: #ffffff !important;            
-  transform: translateY(2px) !important;
-  box-shadow: 0 0px 0px #091b34 !important;
-}
-
 /* =============================================================
    4. PRINT STYLES
    ============================================================= */
@@ -134,18 +116,34 @@ h2 {
 @media print {
   @page { margin: 0.75in; }
 
-  /* Hide digital elements */
   .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
   .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
-  /* Show QR & Captions */
-  .qr, .qr-link { display: block !important; margin: 15px 0 !important; }
-  .qr img { width: 1.2in !important; height: 1.2in !important; }
-  .qr-caption { display: block !important; font-size: 10pt !important; font-weight: 700; margin-bottom: 20px; }
+  /* Standardize sizing for BOTH Video QRs and Link QRs */
+  .qr, .qr-link { 
+    display: block !important; 
+    margin: 15px 0 !important; 
+  }
 
-  /* Logo Header */
+  /* Force images in both containers to be identical size */
+  .qr img, .qr-link img { 
+    width: 1.2in !important; 
+    height: 1.2in !important; 
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+
+  /* Unified Caption Style for both Links and Videos */
+  .qr p, .qr-link p, .qr-caption { 
+    display: block !important; 
+    font-size: 10pt !important; 
+    font-weight: 700 !important; 
+    color: #333 !important;
+    margin: 0 0 20px 0 !important;
+  }
+
   body::before {
     content: "";
     display: block;
@@ -158,7 +156,6 @@ h2 {
     margin-bottom: 30px;
   }
 
-  /* URL Expansion */
   a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
 
   .md-content { margin-left: 0 !important; }
