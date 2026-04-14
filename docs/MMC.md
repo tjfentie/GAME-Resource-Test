@@ -1,5 +1,9 @@
 # About the Project
 
+<button onclick="window.print()" class="print-button">
+  🖨️ Print Resource Guide
+</button>
+
 This resource guide is a proud initiative developed by **Makers Making Change**, a program of [**Neil Squire**](https://www.neilsquire.ca/).
 
 ---
