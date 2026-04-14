@@ -1,110 +1,177 @@
 /* =============================================================
-   1. GLOBAL & TYPOGRAPHY
+   1. GLOBAL TYPOGRAPHY & BRANDING
    ============================================================= */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-body { font-family: 'Open Sans', sans-serif; line-height: 1.7; }
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
 
-h1, h2 { color: #091b34; font-weight: 800; }
-h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
-h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
+.md-typeset, .md-nav, .md-header {
+  font-family: 'Open Sans', sans-serif !important;
+}
 
-/* =============================================================
-   2. SCREEN ONLY (Website View)
-   ============================================================= */
-@media screen {
-  /* This ensures QR codes ARE NOT seen on the website */
-  .qr, .qr-link, .qr-caption, div.qr, div.qr-link { 
-    display: none !important; 
-  }
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #091b34;
+  font-weight: 800;
+}
 
-  .video { display: block; margin-bottom: 20px; }
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid #ef373e;
+  padding-bottom: 12px;
+  margin-bottom: 1.5rem;
+}
 
-  /* Dark Mode Red Nav */
-  [data-md-color-scheme="slate"] {
-    --md-accent-fg-color: #ef373e; 
-  }
-  [data-md-color-scheme="slate"] .md-nav__link:hover,
-  [data-md-color-scheme="slate"] .md-nav__link--active {
-    color: #ef373e !important;
-  }
-  [data-md-color-scheme="slate"] h1, 
-  [data-md-color-scheme="slate"] h2 { color: #ffffff !important; }
-
-  /* MMC Footer Card */
-  .mmc-cta-container {
-    margin-top: 60px;
-    padding: 40px 20px;
-    background-color: #ffffff !important;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    text-align: center;
-  }
-  .mmc-footer-button {
-    background-color: #ffffff !important;
-    color: #091b34 !important;
-    padding: 15px 35px;
-    font-weight: 800;
-    border: 3px solid #091b34 !important;
-    border-radius: 10px;
-    box-shadow: 0 4px 0px #091b34;
-    text-decoration: none;
-    display: inline-block;
-  }
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  border-left: 5px solid #ef373e;
+  padding-left: 15px;
 }
 
 /* =============================================================
-   3. PRINT ONLY (Paper View)
+   2. DARK MODE (SLATE) - Red Nav & Contrast
    ============================================================= */
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #ffffff;
+  --md-default-fg-color: #ffffff;
+  --md-accent-fg-color: #ef373e; /* Red accent for selection */
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #ef373e !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ef373e !important;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] h1,
+[data-md-color-scheme="slate"] h2,
+[data-md-color-scheme="slate"] h3 {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] strong {
+  color: #ff5e64;
+}
+
+/* =============================================================
+   3. SCREEN STYLES (Website UI)
+   ============================================================= */
+
+/* Hide print-only stuff on web */
+.qr, .qr-link, .qr-caption { display: none !important; }
+.video { display: block; margin-bottom: 20px; }
+
+.print-button {
+  background-color: #ef373e;
+  color: white !important;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+/* MMC FOOTER CARD */
+.mmc-cta-container {
+  margin-top: 60px !important;
+  padding: 40px 20px !important;
+  background-color: #ffffff !important; 
+  border: 1px solid #ddd !important;
+  border-radius: 15px !important; 
+  text-align: center !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  display: block !important;
+}
+
+.mmc-cta-container p {
+  color: #091b34 !important;
+  font-weight: 600 !important;
+}
+
+.mmc-footer-logo {
+  width: 300px !important;
+  height: auto !important;
+  margin-bottom: 15px !important;
+  display: inline-block !important;
+}
+
+.mmc-footer-button {
+  background-color: #ffffff !important;
+  color: #091b34 !important;           
+  padding: 15px 35px !important;
+  font-weight: 800 !important;
+  border: 3px solid #091b34 !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  box-shadow: 0 4px 0px #091b34 !important;
+  transition: all 0.2s ease !important;
+}
+
+/* =============================================================
+   4. PRINT STYLES
+   ============================================================= */
+
 @media print {
   @page { margin: 0.75in; }
 
-  /* Hide UI */
-  .md-header, .md-sidebar, .md-footer, .md-nav, .print-button, .mmc-cta-container, .video {
+  /* Hide digital elements */
+  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top,
+  .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
-  /* FORCE QR CODES TO SHOW */
-  /* We use 'display: block' and 'visibility: visible' to override everything */
-  .qr, .qr-link, div.qr, div.qr-link {
-    display: block !important;
-    visibility: visible !important;
-    margin: 20px 0 !important;
-    opacity: 1 !important;
-  }
-
-  /* Standardized sizing for both types */
-  .qr img, .qr-link img, div.qr img, div.qr-link img {
-    width: 1.2in !important;
-    height: 1.2in !important;
-    max-width: 1.2in !important;
-    display: block !important;
+  /* Reveal QR Containers */
+  .qr, .qr-link { 
+    display: block !important; 
+    margin: 15px 0 !important; 
     visibility: visible !important;
   }
 
-  /* Captions */
-  .qr p, .qr-link p, .qr-caption {
+  /* Standardize sizing for BOTH Video and Link QR images */
+  .qr img, .qr-link img { 
+    width: 1.2in !important; 
+    height: 1.2in !important; 
     display: block !important;
-    visibility: visible !important;
-    font-size: 10pt !important;
-    font-weight: 700 !important;
-    color: #000 !important;
-    margin-top: 5px !important;
+    margin-bottom: 5px !important;
   }
 
-  /* Header Logo */
+  /* Style captions/paragraphs inside QR divs */
+  .qr p, .qr-link p, .qr-caption { 
+    display: block !important; 
+    font-size: 10pt !important; 
+    font-weight: 700; 
+    color: #333 !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Logo Header */
   body::before {
     content: "";
     display: block;
     height: 100px;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
+    background-position: left top;
     background-size: contain;
     border-bottom: 3px solid #ef373e;
     margin-bottom: 30px;
   }
 
-  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.9em; }
+  /* URL Expansion */
+  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
+
   .md-content { margin-left: 0 !important; }
-  body { background-color: white !important; color: black !important; }
+  body { background-color: white !important; color: black !important; font-size: 11pt; }
 }
