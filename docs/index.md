@@ -39,7 +39,7 @@ Follow the belwo path to get a deep understanding of the equipment, video game l
 ### Other Resources found on this site
 
 1.  **GAME Checkpoint Resources:** Are you a centre that is looking for resources to help you serve your community? This section allows you to access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), [Marketing and Posters](marketing.md), and various [Templates](templates.md).
-2. **[Get Support:](support.md)** Check out this section to find out how to get in contact with us
+2. **[Get Support:](support.md)** Check out this section to find out how to get in contact with us.
 3. **[Download/Print:](print.md)** Visit this page if you would like to print a static version (.PDF) of everything included on this site. The video and linked sections will be turned into QR codes.
 
 Check out the official [GAME Checkpoints Program](https://www.makersmakingchange.com/game-checkpoint-program).
@@ -47,17 +47,4 @@ Check out the official [GAME Checkpoints Program](https://www.makersmakingchange
 <div class="qr-link">
   <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
   <p>Link: Visit the GAME Checkpoints Webpage</p>
-</div>
-
----
-
-<div class="mmc-cta-container">
-    <img src="./images/MMC_NSS_Logo.png" alt="Makers Making Change Logo" class="mmc-footer-logo">
-    <p>Want to learn more about this program or request a device?</p>
-    <a href="https://www.makersmakingchange.com/" 
-       class="mmc-footer-button" 
-       target="_blank" 
-       rel="noopener">
-        Visit Makers Making Change
-    </a>
 </div>
