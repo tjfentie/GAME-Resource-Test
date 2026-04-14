@@ -6,56 +6,46 @@
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
 }
 
-.md-typeset, .md-nav, .md-header {
-  font-family: 'Open Sans', sans-serif !important;
-}
-
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   color: #091b34; 
   font-weight: 800;
 }
 
-h1 {
-  font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e; 
-  padding-bottom: 12px;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  border-left: 5px solid #ef373e;
-  padding-left: 15px;
-}
+h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
+h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
 /* =============================================================
-   2. DARK MODE (SLATE) RESTORATION
+   2. DARK MODE (SLATE) - Red Navigation & Contrast
    ============================================================= */
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #ffffff;
   --md-default-fg-color: #ffffff;
+  /* Red accent for selection/active state */
+  --md-accent-fg-color: #ef373e; 
+}
+
+/* Menu Hover and Selection Colors */
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #ef373e !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ef373e !important;
+  font-weight: 700;
 }
 
 [data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3 {
+[data-md-color-scheme="slate"] h2 {
   color: #ffffff !important;
-}
-
-[data-md-color-scheme="slate"] strong {
-  color: #ff5e64;
 }
 
 /* =============================================================
    3. SCREEN STYLES (Website UI)
    ============================================================= */
 
-/* Hide all print-only elements on web */
 .qr, .qr-link, .qr-caption { display: none !important; }
 .video { display: block; margin-bottom: 20px; }
 
@@ -63,13 +53,11 @@ h2 {
   background-color: #ef373e;
   color: white !important;
   padding: 10px 16px;
-  font-size: 14px;
   border-radius: 6px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .mmc-cta-container {
@@ -79,38 +67,25 @@ h2 {
   border: 1px solid #ddd !important;
   border-radius: 15px !important; 
   text-align: center !important;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   display: block !important;
 }
 
-.mmc-cta-container p {
-  color: #091b34 !important;
-  font-weight: 600 !important;
-  margin-bottom: 20px !important;
-}
-
-.mmc-footer-logo {
-  width: 300px !important;
-  height: auto !important;
-  margin-bottom: 15px !important;
-  display: inline-block !important;
-}
+.mmc-footer-logo { width: 300px !important; height: auto !important; display: inline-block !important; }
 
 .mmc-footer-button {
   background-color: #ffffff !important; 
   color: #091b34 !important;           
   padding: 15px 35px !important;
-  font-weight: 800 !important;
+  font-weight: 800;
   border: 3px solid #091b34 !important; 
-  border-radius: 10px !important;
+  border-radius: 10px;
   text-decoration: none !important;
-  display: inline-block !important;
-  box-shadow: 0 4px 0px #091b34 !important;
-  transition: all 0.2s ease !important;
+  display: inline-block;
+  box-shadow: 0 4px 0px #091b34;
 }
 
 /* =============================================================
-   4. PRINT STYLES
+   4. PRINT STYLES (Fixing QR size and captions)
    ============================================================= */
 
 @media print {
@@ -121,29 +96,28 @@ h2 {
     display: none !important;
   }
 
-  /* Standardize sizing for BOTH Video QRs and Link QRs */
-  .qr, .qr-link { 
-    display: block !important; 
-    margin: 15px 0 !important; 
-  }
-
-  /* Force images in both containers to be identical size */
-  .qr img, .qr-link img { 
+  /* FORCED QR RESIZING */
+  /* This targets any image inside a qr or qr-link div specifically */
+  div.qr img, 
+  div.qr-link img { 
     width: 1.2in !important; 
     height: 1.2in !important; 
+    max-width: 1.2in !important; /* Prevents overflow */
     display: block !important;
-    margin-bottom: 5px !important;
+    margin: 0 0 5px 0 !important;
   }
 
-  /* Unified Caption Style for both Links and Videos */
-  .qr p, .qr-link p, .qr-caption { 
-    display: block !important; 
-    font-size: 10pt !important; 
-    font-weight: 700 !important; 
+  /* Captions for both types */
+  .qr p, .qr-link p, .qr-caption {
+    display: block !important;
+    font-size: 10pt !important;
+    font-weight: 700 !important;
     color: #333 !important;
     margin: 0 0 20px 0 !important;
+    text-align: left !important;
   }
 
+  /* Print Header */
   body::before {
     content: "";
     display: block;
