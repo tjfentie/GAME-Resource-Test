@@ -1,6 +1,6 @@
 # Gamer Profiles
 <button onclick="window.print()" class="print-button">
-  🖨️ Print this section
+  🖨️ Print This Section Only
 </button>
 ## Gamer 1
 - Uses adaptive switches

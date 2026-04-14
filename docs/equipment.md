@@ -1,6 +1,6 @@
 # Equipment Overview
 <button onclick="window.print()" class="print-button">
-  🖨️ Print this section
+  🖨️ Print This Section Only
 </button>
 ## Categories
 - Alternative access

@@ -1,19 +1,19 @@
 # Welcome to Adaptive Gaming
 
 <button onclick="window.print()" class="print-button">
-  🖨️ Print Resource Guide
+  🖨️ Print This Section Only
 </button>
 
 ## Why Adaptive Gaming Matters
 
-[cite_start]Gaming has become the largest entertainment industry in the world[cite: 11]. [cite_start]It is a vital space for entertainment, careers, and community building[cite: 11]. [cite_start]However, accessibility challenges often remain a barrier for many[cite: 12]. 
+Gaming is the largest entertainment industry in the world, providing vital spaces for entertainment, careers, and community. However, accessibility challenges remain a significant barrier for many. 
 
-[cite_start]For people with disabilities—who represent **31% of the gaming population**—adaptive gaming provides essential benefits[cite: 17]:
-* [cite_start]**Rehabilitation:** Gamifying physical and cognitive therapy sessions[cite: 13].
-* [cite_start]**Social Connection:** Reducing isolation by connecting players to a global community[cite: 13].
-* [cite_start]**Independence:** Increasing autonomy through accessible digital participation[cite: 13].
+For the **31% of gamers who live with a disability**, adaptive gaming is life-changing:
+* **Rehabilitation:** It gamifies physical and cognitive therapy. 
+* **Social Connection:** It reduces isolation by connecting players to global communities.
+* **Independence:** It increases autonomy through digital participation.
 
-[cite_start]Makers Making Change works to ensure the disability community can fully participate by providing open-source assistive technology at about **one-tenth the cost** of commercial devices[cite: 9, 14].
+Makers Making Change ensures the community has access to these benefits by providing open-source assistive technology at about **one-tenth the cost** of commercial devices.
 
 ## Program Overview
 
@@ -28,12 +28,12 @@
 
 ## Your Pathway to Play
 
-This resource is designed to guide clinicians, makers, and gamers through the adaptive gaming journey:
+This resource guides clinicians, makers, and gamers through the adaptive gaming journey:
 
-1.  **Adaptive Equipment:** Explore [Alternative Access](alt-access.md) methods, [Controller Modifications](control-mods.md), and [Software Features](video-game-accessibility.md).
+1.  **Adaptive Equipment:** Explore [Alternative Access](alt-access.md), [Controller Modifications](control-mods.md), and [Software Features](video-game-accessibility.md).
 2.  **Gaming Basics:** Learn [How to Pick Games](pick-game.md) and build [Video Game Literacy](video-game-literacy.md).
-3.  **Best Practices:** Follow our [Session Walkthrough](session-walkthrough.md) for a successful assessment and setup.
-4.  **Clinical Tools:** Access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), and [Templates](templates.md) for your center.
+3.  **Best Practices:** Follow our [Session Walkthrough](session-walkthrough.md) for successful assessment and setup.
+4.  **Clinical Tools:** Access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), and [Templates](templates.md).
 
 Check out the official [GAME Checkpoints Program](https://www.makersmakingchange.com/game-checkpoint-program).
 
@@ -45,8 +45,7 @@ Check out the official [GAME Checkpoints Program](https://www.makersmakingchange
 ---
 
 <div class="mmc-cta-container">
-    <hr>
-    <img src="{{ base_url }}/images/MMC_NSS_Logo.png" alt="Makers Making Change Logo" class="mmc-footer-logo">
+    <img src="./images/MMC_NSS_Logo.png" alt="Makers Making Change Logo" class="mmc-footer-logo">
     <p>Want to learn more about this program or request a device?</p>
     <a href="https://www.makersmakingchange.com/" 
        class="mmc-footer-button" 

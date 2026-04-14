@@ -9,19 +9,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.md-typeset, .md-nav, .md-header {
-  font-family: 'Open Sans', sans-serif !important;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
-  color: #091b34;
+  color: #091b34; 
   font-weight: 800;
 }
 
 h1 {
   font-size: 2.2rem;
-  border-bottom: 3px solid #ef373e;
+  border-bottom: 3px solid #ef373e; 
   padding-bottom: 12px;
   margin-bottom: 1.5rem;
 }
@@ -34,144 +30,120 @@ h2 {
 }
 
 /* =============================================================
-   2. DARK MODE (SLATE) - Red Nav & Contrast
+   2. DARK MODE (SLATE) - Screen Experience
    ============================================================= */
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #ffffff;
   --md-default-fg-color: #ffffff;
-  --md-accent-fg-color: #ef373e; /* Red accent for selection */
+  --md-accent-fg-color: #ef373e; 
 }
 
-[data-md-color-scheme="slate"] .md-nav__link:hover {
-  color: #ef373e !important;
-}
-
+[data-md-color-scheme="slate"] .md-nav__link:hover,
 [data-md-color-scheme="slate"] .md-nav__link--active {
   color: #ef373e !important;
-  font-weight: 700;
 }
 
-[data-md-color-scheme="slate"] h1,
-[data-md-color-scheme="slate"] h2,
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
 [data-md-color-scheme="slate"] h3 {
   color: #ffffff !important;
-}
-
-[data-md-color-scheme="slate"] strong {
-  color: #ff5e64;
 }
 
 /* =============================================================
    3. SCREEN STYLES (Website UI)
    ============================================================= */
+@media screen {
+  .qr, .qr-link, .qr-caption { display: none !important; }
+  .video { display: block; margin-bottom: 20px; }
 
-/* Hide print-only stuff on web */
-.qr, .qr-link, .qr-caption { display: none !important; }
-.video { display: block; margin-bottom: 20px; }
+  .print-button {
+    background-color: #ef373e;
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
-.print-button {
-  background-color: #ef373e;
-  color: white !important;
-  padding: 10px 16px;
-  font-size: 14px;
-  border-radius: 6px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  margin-bottom: 20px;
-}
+  .mmc-cta-container {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #ffffff !important;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+  }
 
-/* MMC FOOTER CARD */
-.mmc-cta-container {
-  margin-top: 60px !important;
-  padding: 40px 20px !important;
-  background-color: #ffffff !important; 
-  border: 1px solid #ddd !important;
-  border-radius: 15px !important; 
-  text-align: center !important;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-  display: block !important;
-}
-
-.mmc-cta-container p {
-  color: #091b34 !important;
-  font-weight: 600 !important;
-}
-
-.mmc-footer-logo {
-  width: 300px !important;
-  height: auto !important;
-  margin-bottom: 15px !important;
-  display: inline-block !important;
-}
-
-.mmc-footer-button {
-  background-color: #ffffff !important;
-  color: #091b34 !important;           
-  padding: 15px 35px !important;
-  font-weight: 800 !important;
-  border: 3px solid #091b34 !important;
-  border-radius: 10px !important;
-  text-decoration: none !important;
-  display: inline-block !important;
-  box-shadow: 0 4px 0px #091b34 !important;
-  transition: all 0.2s ease !important;
+  .mmc-cta-container p { color: #091b34 !important; }
 }
 
 /* =============================================================
-   4. PRINT STYLES
+   4. PRINT STYLES (Forces Light Mode Layout)
    ============================================================= */
-
 @media print {
   @page { margin: 0.75in; }
 
-  /* Hide digital elements */
-  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top,
+  /* 1. FORCE COLORS FOR PRINTER (Neutralizes Dark Mode) */
+  * {
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-print-color-adjust: exact !important; 
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  /* 2. RESTORE BRANDED COLORS FOR HEADERS ON PAPER */
+  h1, h2, h3 { color: #091b34 !important; }
+  h1 { border-bottom: 3px solid #ef373e !important; }
+  h2 { border-left: 5px solid #ef373e !important; }
+
+  /* 3. HIDE DIGITAL ELEMENTS */
+  .md-header, .md-sidebar, .md-footer, .md-nav, .md-top, 
   .print-button, .mmc-cta-container, .video {
     display: none !important;
   }
 
-  /* Reveal QR Containers */
+  /* 4. REVEAL & SIZE QR CODES */
   .qr, .qr-link { 
     display: block !important; 
-    margin: 15px 0 !important; 
     visibility: visible !important;
+    margin: 15px 0 !important; 
   }
 
-  /* Standardize sizing for BOTH Video and Link QR images */
   .qr img, .qr-link img { 
     width: 1.2in !important; 
     height: 1.2in !important; 
     display: block !important;
-    margin-bottom: 5px !important;
   }
 
-  /* Style captions/paragraphs inside QR divs */
-  .qr p, .qr-link p, .qr-caption { 
-    display: block !important; 
+  .qr p, .qr-link p { 
     font-size: 10pt !important; 
-    font-weight: 700; 
-    color: #333 !important;
+    font-weight: 700 !important; 
     margin-bottom: 20px !important;
   }
 
-  /* Logo Header */
+  /* 5. PRINT HEADER LOGO */
   body::before {
     content: "";
     display: block;
     height: 100px;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
-    background-position: left top;
     background-size: contain;
     border-bottom: 3px solid #ef373e;
     margin-bottom: 30px;
   }
 
-  /* URL Expansion */
   a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
-
   .md-content { margin-left: 0 !important; }
-  body { background-color: white !important; color: black !important; font-size: 11pt; }
 }
