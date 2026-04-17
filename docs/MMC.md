@@ -1,10 +1,6 @@
 # About the Project
 
-<button onclick="window.print()" class="print-button">
-  🖨️ Print This Section Only
-</button>
-
-This resource guide is a proud initiative developed by **Makers Making Change**, a program of [**Neil Squire**](https://www.neilsquire.ca/).
+This resource guide is an initiative developed by [**Makers Making Change**](https://www.makersmakingchange.com/), a program of [**Neil Squire**](https://www.neilsquire.ca/).
 
 ---
 
