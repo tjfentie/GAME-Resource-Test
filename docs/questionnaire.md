@@ -6,6 +6,8 @@ These adaptive gaming session questionnaires were created to help the GAME Check
 
 There are three documents you can download that are explained below:
 
+---
+
 <div class="profile-grid">
     <div class="profile-card">
       <div class="card-image" style="background-image: url('https://makersmakingchange.github.io/GAME-Checkpoints/assets/images/insights.png');"></div>
