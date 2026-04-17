@@ -40,9 +40,8 @@ async function buildDynamicPDF() {
     }
 
     const buffer = document.getElementById('print-buffer');
-    buffer.innerHTML = ""; // Clear old data
+    buffer.innerHTML = ""; 
     
-    // Show a loading state
     const btn = document.querySelector('.print-button');
     const originalText = btn.innerText;
     btn.innerText = "⏳ Gathering Content...";
@@ -50,21 +49,20 @@ async function buildDynamicPDF() {
     for (let checkbox of selected) {
         const fileName = checkbox.value;
         try {
-            // Fetch the page. MkDocs generates folders, so 'equipment' becomes 'equipment/index.html'
-            // or just '../equipment/' depending on your use_directory_urls setting.
+            // MkDocs uses directory URLs by default: ../folder-name/
             const response = await fetch(`../${fileName}/`);
             const html = await response.text();
             
-            // Parse the HTML to find the main content (usually inside .md-content__inner)
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, "text/html");
+            
+            // TARGET THE MAIN CONTENT BLOCK
             const content = doc.querySelector('.md-content__inner').cloneNode(true);
             
-            // Remove the 'Print' button and UI from the fetched content so it's not doubled
-            const uiElements = content.querySelectorAll('.print-button, .mmc-cta-container');
+            // Remove interactive elements from the clones
+            const uiElements = content.querySelectorAll('.print-button, .mmc-cta-container, script');
             uiElements.forEach(el => el.remove());
 
-            // Add a wrapper with a page break
             const sectionWrapper = document.createElement('div');
             sectionWrapper.className = "printable-section";
             sectionWrapper.appendChild(content);
@@ -76,6 +74,9 @@ async function buildDynamicPDF() {
     }
 
     btn.innerText = originalText;
-    window.print();
+
+    // GIVE THE BROWSER A MOMENT TO RENDER THE BUFFER BEFORE PRINTING
+    setTimeout(() => {
+        window.print();
+    }, 500);
 }
-</script>
