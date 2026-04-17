@@ -1,6 +1,6 @@
 # Equipment Lists
 
-When we launch a [GAME Checkpoint](https://www.makersmakingchange.com/game-checkpoint-program) (adaptive gaming space) we start with a base list of adaptive gaming equipment. This document is the inital baseline that we ussually start with to help a centre determine what they need. Of course, each centre is different, this is just a starting point.
+When we launch a [GAME Checkpoint](https://www.makersmakingchange.com/game-checkpoint-program) (adaptive gaming space) we start with a base list of adaptive gaming equipment. This document is the initial baseline that we usually start with to help a centre determine what they need. Of course, each centre is different, this is just a starting point.
 
 <div class="profile-grid">
     <div class="profile-card">
@@ -13,5 +13,4 @@ When we launch a [GAME Checkpoint](https://www.makersmakingchange.com/game-check
             </a>
         </div>
     </div>
-  </div>
 </div>
