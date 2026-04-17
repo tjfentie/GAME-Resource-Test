@@ -195,3 +195,94 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
         margin-bottom: 30px;
     }
 }
+
+/* =============================================================
+   6. GAMER PROFILE CARDS
+   ============================================================= */
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dark Mode adjustment for cards */
+[data-md-color-scheme="slate"] .profile-card {
+    background: #2e303e;
+    border-color: #444;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #eee;
+}
+
+[data-md-color-scheme="slate"] .card-image {
+    border-bottom: 1px solid #444;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 1.25rem !important;
+    color: #091b34 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content h3 {
+    color: #ffffff !important;
+}
+
+.card-content p {
+    margin: 5px 0 !important;
+    font-size: 0.95rem;
+    color: #444 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content p {
+    color: #ccc !important;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ef373e;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* Hide cards during print if they aren't relevant, 
+   or keep them simple if you want them in the PDF */
+@media print {
+    .profile-grid {
+        display: block;
+    }
+    .profile-card {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+}
