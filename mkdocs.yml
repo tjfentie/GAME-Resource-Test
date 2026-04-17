@@ -1,5 +1,6 @@
 site_name: Adaptive Gaming Resource (Demo)
 site_url: https://tjfentie.github.io/GAME-Resource-Test/
+use_directory_urls: true 
 
 nav:
   - Start Here: index.md
