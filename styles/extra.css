@@ -1,0 +1,331 @@
+/* =============================================================
+   1. GLOBAL & TYPOGRAPHY
+   ============================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #091b34; 
+  font-weight: 800;
+}
+
+h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
+h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
+
+/* =============================================================
+   2. DARK MODE (SLATE) - Screen View
+   ============================================================= */
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #ef373e; 
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ef373e !important;
+}
+
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2 {
+  color: #ffffff !important;
+}
+
+/* =============================================================
+   3. SCREEN STYLES (Website UI)
+   ============================================================= */
+@media screen {
+  .qr, .qr-link, .qr-caption { display: none !important; }
+  .video { display: block; margin-bottom: 20px; }
+
+  .print-button {
+    background-color: #ef373e;
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+
+  .mmc-cta-container {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #ffffff !important;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+  }
+}
+
+/* =============================================================
+   4. PRINT STYLES (Forced Light Mode + Non-Overlapping Footer)
+   ============================================================= */
+@media print {
+  @page { 
+    margin: 0.7in 0.5in 0.8in 0.5in; 
+  }
+
+  /* Force Light Mode Colors */
+  * {
+    color: #000 !important;
+    background: transparent !important;
+    -webkit-print-color-adjust: exact !important; 
+    print-color-adjust: exact !important;
+  }
+
+  body { 
+    background-color: #fff !important; 
+    font-size: 11pt;
+    display: block;
+  }
+
+  h1, h2 { color: #091b34 !important; }
+  h1 { border-bottom: 3px solid #ef373e !important; margin-top: 0 !important; }
+  h2 { border-left: 5px solid #ef373e !important; }
+
+  /* Hide UI elements */
+  .md-header, .md-sidebar, .md-footer, .md-nav, .print-button, .mmc-cta-container, .video {
+    display: none !important;
+  }
+
+  /* SMALL TOP-LEFT LOGO */
+  body::before {
+    content: "";
+    display: block;
+    width: 3in !important; 
+    height: 1in;
+    background-image: url('../images/MMC_NSS_Logo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    margin-bottom: 10px;
+  }
+
+  /* PRINT FOOTER (No longer fixed, won't overlap) */
+  .md-content::after {
+    content: "Version 1.0 | Last Updated: April 2026 | CC BY-SA © 2026 by Neil Squire. Licensed under CC BY SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0) | Source: https://github.com/makersmakingchange/GAME-Checkpoints";
+    display: block;
+    margin-top: 50px; /* Space between content and footer */
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 8pt;
+    line-height: 1.4;
+    color: #444 !important;
+    text-align: left;
+  }
+
+  /* QR Sizing */
+  .qr img, .qr-link img { 
+    width: 1.2in !important; 
+    height: 1.2in !important; 
+    page-break-inside: avoid; /* Prevents QR from splitting across pages */
+  }
+  
+  .qr p, .qr-link p { font-weight: 700; margin-top: 5px; }
+
+  /* ONLY expand external links */
+  a[href^="http"]:after, a[href^="https"]:after { 
+    content: " (" attr(href) ")"; 
+    font-size: 0.85em; 
+  }
+
+  .md-content { margin-left: 0 !important; width: 100% !important; }
+}
+
+/* =============================================================
+   5. DYNAMIC PRINT BUILDER STYLES
+   ============================================================= */
+
+.print-selector-ui {
+    background: #f9f9f9;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 5; /* Ensure UI is above buffer */
+}
+
+[data-md-color-scheme="slate"] .print-selector-ui {
+    background: #2e303e;
+    border-color: #444;
+}
+
+/* On-screen: Buffer is invisible and cannot be clicked */
+#print-buffer {
+    display: none;
+    pointer-events: none; 
+}
+
+@media print {
+    /* Hide the normal page content */
+    header, footer, nav, .md-sidebar, .md-header, .md-footer, .md-main__inner, .print-selector-ui {
+        display: none !important;
+    }
+
+    /* Show the buffer content */
+    #print-buffer {
+        display: block !important;
+        visibility: visible !important;
+        pointer-events: auto;
+        width: 100%;
+    }
+
+    .printable-section {
+        display: block !important;
+        page-break-after: always !important;
+        break-after: page !important;
+    }
+
+    /* Logo at the top of the combined document */
+    #print-buffer::before {
+        content: "";
+        display: block;
+        width: 2in !important; 
+        height: 0.6in;
+        background-image: url('../images/MMC_NSS_Logo.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        margin-bottom: 30px;
+    }
+}
+
+/* =============================================================
+   6. GAMER PROFILE CARDS
+   ============================================================= */
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dark Mode adjustment for cards */
+[data-md-color-scheme="slate"] .profile-card {
+    background: #2e303e;
+    border-color: #444;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #eee;
+}
+
+[data-md-color-scheme="slate"] .card-image {
+    border-bottom: 1px solid #444;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 1.25rem !important;
+    color: #091b34 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content h3 {
+    color: #ffffff !important;
+}
+
+.card-content p {
+    margin: 5px 0 !important;
+    font-size: 0.95rem;
+    color: #444 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content p {
+    color: #ccc !important;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ef373e;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* Hide cards during print if they aren't relevant, 
+   or keep them simple if you want them in the PDF */
+@media print {
+    .profile-grid {
+        display: block;
+    }
+    .profile-card {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+}
+
+/* =============================================================
+   8. QUESTIONNAIRE & RESOURCE CARDS
+   ============================================================= */
+
+/* Ensure the card content stretches to fill space so the button stays at the bottom */
+.profile-card .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.download-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef373e;
+    color: white !important;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.download-card-button:hover {
+    background-color: #091b34; /* Changes to Navy on hover */
+}
+
+.download-card-button span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Print adjustment: Hide the download buttons on paper */
+@media print {
+    .download-card-button {
+        display: none !important;
+    }
+}
