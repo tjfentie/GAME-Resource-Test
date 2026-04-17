@@ -141,13 +141,14 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    5. DYNAMIC PRINT BUILDER STYLES
    ============================================================= */
 
-/* Screen Styling */
 .print-selector-ui {
     background: #f9f9f9;
     padding: 25px;
     border: 1px solid #ddd;
     border-radius: 12px;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 5; /* Ensure UI is above buffer */
 }
 
 [data-md-color-scheme="slate"] .print-selector-ui {
@@ -155,35 +156,33 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     border-color: #444;
 }
 
+/* On-screen: Buffer is invisible and cannot be clicked */
 #print-buffer {
     display: none;
+    pointer-events: none; 
 }
 
 @media print {
-    /* 1. HIDE ABSOLUTELY EVERYTHING ON THE ORIGINAL PAGE */
-    header, footer, nav, aside, .md-sidebar, .md-header, .md-footer, .md-main__inner, .print-selector-ui, h1 {
+    /* Hide the normal page content */
+    header, footer, nav, .md-sidebar, .md-header, .md-footer, .md-main__inner, .print-selector-ui {
         display: none !important;
     }
 
-    /* 2. SHOW THE BUFFER */
+    /* Show the buffer content */
     #print-buffer {
         display: block !important;
         visibility: visible !important;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
+        pointer-events: auto;
+        width: 100%;
     }
 
-    /* 3. ENSURE EACH FETCHED MODULE STARTS FRESH */
     .printable-section {
         display: block !important;
         page-break-after: always !important;
         break-after: page !important;
-        margin-bottom: 2in; /* Safety gap */
     }
 
-    /* 4. RE-INSERT BRANDING TO THE BUFFER ONLY */
+    /* Logo at the top of the combined document */
     #print-buffer::before {
         content: "";
         display: block;
