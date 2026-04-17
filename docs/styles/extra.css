@@ -63,10 +63,12 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   4. PRINT STYLES (Forced Light Mode + Top-Left Logo)
+   4. PRINT STYLES (Forced Light Mode + Custom Header/Footer)
    ============================================================= */
 @media print {
-  @page { margin: 0.5in; }
+  @page { 
+    margin: 0.7in 0.5in 1in 0.5in; /* Adjusted bottom margin for footer space */
+  }
 
   /* Force Light Mode Colors */
   * {
@@ -78,7 +80,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
   body { background-color: #fff !important; font-size: 11pt; }
   h1, h2 { color: #091b34 !important; }
-  h1 { border-bottom: 3px solid #ef373e !important; }
+  h1 { border-bottom: 3px solid #ef373e !important; margin-top: 0 !important; }
   h2 { border-left: 5px solid #ef373e !important; }
 
   /* Hide UI elements */
@@ -99,6 +101,22 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     margin-bottom: 20px;
   }
 
+  /* CUSTOM PRINT FOOTER (Version, Date, License) */
+  .md-content::after {
+    content: "Version 1.0 | Last Updated: April 2026 | CC BY-SA © 2026 by Neil Squire. This work is licensed under the CC BY SA 4.0 License: http://creativecommons.org/licenses/by-sa/4.0 | Files available at: https://github.com/makersmakingchange/GAME-Checkpoints";
+    display: block;
+    position: fixed;
+    bottom: -0.5in;
+    left: 0;
+    width: 100%;
+    font-size: 8pt;
+    line-height: 1.4;
+    color: #444 !important;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+    text-align: left;
+  }
+
   /* QR Sizing */
   .qr img, .qr-link img { 
     width: 1.2in !important; 
@@ -108,7 +126,6 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   .qr p, .qr-link p { font-weight: 700; margin-top: 5px; }
 
   /* ONLY expand external links (starting with http/https) */
-  /* This prevents (alt-access.md) from appearing on paper */
   a[href^="http"]:after, a[href^="https"]:after { 
     content: " (" attr(href) ")"; 
     font-size: 0.85em; 
