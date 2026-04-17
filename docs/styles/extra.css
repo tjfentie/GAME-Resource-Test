@@ -90,7 +90,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   body::before {
     content: "";
     display: block;
-    width: 2in !important; /* Max 2 inches long */
+    width: 2in !important; 
     height: 0.6in;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
@@ -107,6 +107,13 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   
   .qr p, .qr-link p { font-weight: 700; margin-top: 5px; }
 
-  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  /* ONLY expand external links (starting with http/https) */
+  /* This prevents (alt-access.md) from appearing on paper */
+  a[href^="http"]:after, a[href^="https"]:after { 
+    content: " (" attr(href) ")"; 
+    font-size: 0.85em; 
+    font-weight: normal;
+  }
+
   .md-content { margin-left: 0 !important; }
 }

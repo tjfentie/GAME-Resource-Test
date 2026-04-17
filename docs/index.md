@@ -8,13 +8,13 @@
 
 Gaming is the largest entertainment industry in the world, providing a vital space for entertainment, careers, and community. However, accessibility challenges often remain a barrier to full participation.
 
-For the **31% of gamers who live with a disability**, adaptive gaming is life-changing:
+For the 31% of gamers who live with a disability, adaptive gaming is life-changing:
 
 * **Rehabilitation:** It gamifies physical and cognitive therapy sessions.
 * **Social Connection:** It reduces isolation by connecting players to a global community.
 * **Independence:** It increases autonomy through digital participation.
 
-Makers Making Change works to ensure the disability community can fully participate by providing open-source assistive technology at about **one-tenth the cost** of similar commercial devices.
+Makers Making Change works to ensure the disability community can fully participate by providing open-source assistive technology at about one-tenth the cost of similar commercial devices.
 
 ## Program Overview
 
