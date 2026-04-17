@@ -63,11 +63,11 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   4. PRINT STYLES (Forced Light Mode + Custom Header/Footer)
+   4. PRINT STYLES (Forced Light Mode + Non-Overlapping Footer)
    ============================================================= */
 @media print {
   @page { 
-    margin: 0.7in 0.5in 1in 0.5in; /* Adjusted bottom margin for footer space */
+    margin: 0.7in 0.5in 0.8in 0.5in; 
   }
 
   /* Force Light Mode Colors */
@@ -78,7 +78,12 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     print-color-adjust: exact !important;
   }
 
-  body { background-color: #fff !important; font-size: 11pt; }
+  body { 
+    background-color: #fff !important; 
+    font-size: 11pt;
+    display: block;
+  }
+
   h1, h2 { color: #091b34 !important; }
   h1 { border-bottom: 3px solid #ef373e !important; margin-top: 0 !important; }
   h2 { border-left: 5px solid #ef373e !important; }
@@ -92,8 +97,8 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   body::before {
     content: "";
     display: block;
-    width: 2in !important; 
-    height: 0.6in;
+    width: 3in !important; 
+    height: 1in;
     background-image: url('../images/MMC_NSS_Logo.png');
     background-repeat: no-repeat;
     background-position: left center;
@@ -101,19 +106,16 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     margin-bottom: 20px;
   }
 
-  /* CUSTOM PRINT FOOTER (Version, Date, License) */
+  /* PRINT FOOTER (No longer fixed, won't overlap) */
   .md-content::after {
-    content: "Version 1.0 | Last Updated: April 2026 | CC BY-SA © 2026 by Neil Squire. This work is licensed under the CC BY SA 4.0 License: http://creativecommons.org/licenses/by-sa/4.0 | Files available at: https://github.com/makersmakingchange/GAME-Checkpoints";
+    content: "Version 1.0 | Last Updated: April 2026 | CC BY-SA © 2026 by Neil Squire. Licensed under CC BY SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0) | Source: https://github.com/makersmakingchange/GAME-Checkpoints";
     display: block;
-    position: fixed;
-    bottom: -0.5in;
-    left: 0;
-    width: 100%;
+    margin-top: 50px; /* Space between content and footer */
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
     font-size: 8pt;
     line-height: 1.4;
     color: #444 !important;
-    border-top: 1px solid #ccc;
-    padding-top: 8px;
     text-align: left;
   }
 
@@ -121,16 +123,16 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   .qr img, .qr-link img { 
     width: 1.2in !important; 
     height: 1.2in !important; 
+    page-break-inside: avoid; /* Prevents QR from splitting across pages */
   }
   
   .qr p, .qr-link p { font-weight: 700; margin-top: 5px; }
 
-  /* ONLY expand external links (starting with http/https) */
+  /* ONLY expand external links */
   a[href^="http"]:after, a[href^="https"]:after { 
     content: " (" attr(href) ")"; 
     font-size: 0.85em; 
-    font-weight: normal;
   }
 
-  .md-content { margin-left: 0 !important; }
+  .md-content { margin-left: 0 !important; width: 100% !important; }
 }
