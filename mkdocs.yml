@@ -3,28 +3,31 @@ site_url: https://tjfentie.github.io/GAME-Resource-Test/
 use_directory_urls: true 
 
 nav:
-  - Start Here: index.md
-  - Latest Updates: updates.md
-  - Adaptive Gaming Equipment:
-      - Overview: equipment.md
-      - Alternative Access: alt-access.md
-      - Controller Modifications: control-mods.md
-      - Video Game Accessibility: video-game-accessibility.md
-  - Video Game Basics:
-      - How to Pick Games: pick-game.md
-      - Video Game Literacy: video-game-literacy.md
-  - Best Practices: 
-      - Gaming Session Walkthrough: session-walkthrough.md
-      - Tips and Tricks: tips-and-tricks.md
-  - Gamer Profiles: profiles.md
-  - GAME Checkpoint Resources: 
-      - Pre Session Questionnaire: questionnaire.md
-      - Equipment Lists: equipment-lists.md
-      - Templates: templates.md
-      - Marketing/Posters: marketing.md
-  - Get Support: support.md
-  - Download/print: print.md
-  - Visit Makers Making Change: MMC.md
+  - Learn About Adaptive Gaming: # This creates a top-level grouping
+    - Start Here: index.md
+    - Latest Updates: updates.md
+    - Adaptive Gaming Equipment:
+        - Overview: equipment.md
+        - Alternative Access: alt-access.md
+        - Controller Modifications: control-mods.md
+        - Video Game Accessibility: video-game-accessibility.md
+    - Video Game Basics:
+        - How to Pick Games: pick-game.md
+        - Video Game Literacy: video-game-literacy.md
+    - Best Practices: 
+        - Gaming Session Walkthrough: session-walkthrough.md
+        - Tips and Tricks: tips-and-tricks.md
+    - Gamer Profiles: profiles.md
+  
+  - Other Resources: # This acts as your mini-title separator
+    - GAME Checkpoint Resources: 
+        - Pre Session Questionnaire: questionnaire.md
+        - Equipment Lists: equipment-lists.md
+        - Templates: templates.md
+        - Marketing/Posters: marketing.md
+    - Get Support: support.md
+    - Download/print: print.md
+    - Visit Makers Making Change: MMC.md
 
 theme:
   name: material
