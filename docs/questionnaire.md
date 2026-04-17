@@ -22,7 +22,7 @@ There are three documents you can download that are explained below:
         <div class="card-content">
          <div class="card-image" style="background-image: url('https://makersmakingchange.github.io/GAME-Checkpoints/assets/images/pdf-fillable.png');"></div>
             <h3>Gamer Questionnaire - PDF Fillable</h3>
-            <p>This is the document that is intended to be sent directly to gamers or to be filled out. All of the content from the same questions from the insights document but without the notes for the GAME Checkpoint Lead.</p>
+            <p>This document is intended to be sent directly to gamers or to be filled out. All of the content from the same questions from the insights document but without the notes for the GAME Checkpoint Lead.</p>
             <a href="https://makersmakingchange.github.io/GAME-Checkpoints/_pages/Session_Questionnaire/" class="download-card-button">
                 <span>Download</span>
             </a>
