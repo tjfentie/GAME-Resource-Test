@@ -13,3 +13,5 @@ When we launch a [GAME Checkpoint](https://www.makersmakingchange.com/game-check
             </a>
         </div>
     </div>
+  </div>
+</div>
