@@ -138,43 +138,15 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   5. MULTI-PRINT SELECTOR LOGIC
+   5. DYNAMIC PRINT BUILDER STYLES
    ============================================================= */
 
-/* Hide the master content on the screen entirely */
-#master-print-container {
-    display: none;
-}
-
-/* Hide the checkboxes and UI when the printer starts */
-@media print {
-    .print-selector-ui, .md-sidebar, .md-header, .md-footer {
-        display: none !important;
-    }
-
-    /* Only show the sections that were checked */
-    #master-print-container {
-        display: block !important;
-    }
-
-    .printable-content {
-        display: none; /* Hide all by default */
-        page-break-after: always; /* Each selected section starts on a new page */
-    }
-
-    .show-for-print {
-        display: block !important;
-        visibility: visible !important;
-    }
-}
-
-/* Screen styling for the checkboxes */
+/* On screen, the builder UI looks like a clean card */
 .print-selector-ui {
     background: #f9f9f9;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    border-radius: 12px;
 }
 
 [data-md-color-scheme="slate"] .print-selector-ui {
@@ -182,8 +154,40 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     border-color: #444;
 }
 
-.checkbox-group label {
-    display: inline-block;
-    padding: 8px 0;
-    cursor: pointer;
+/* Hide the buffer on the screen always */
+#print-buffer {
+    display: none;
+}
+
+@media print {
+    /* Hide everything except the buffer */
+    .md-header, .md-sidebar, .md-footer, .print-selector-ui, .md-main__inner {
+        display: none !important;
+    }
+
+    /* Show the buffer */
+    #print-buffer {
+        display: block !important;
+    }
+
+    /* Force each fetched page to start on a new sheet of paper */
+    .printable-section {
+        display: block !important;
+        page-break-after: always;
+        clear: both;
+    }
+
+    /* Re-apply your logo and footer logic to the buffer */
+    #print-buffer::before {
+        /* This ensures your logo still appears at the very start of the custom PDF */
+        content: "";
+        display: block;
+        width: 2in !important; 
+        height: 0.6in;
+        background-image: url('../images/MMC_NSS_Logo.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        margin-bottom: 20px;
+    }
 }
