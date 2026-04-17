@@ -3,7 +3,9 @@
 As we continue to make resources, we want to share the templated versions of them so you can expand on the work we have done to continue to advance accessibility. Currently the templates are:
 
 * Documenting Game Accessibility
+
 ---
+
 <div class="profile-grid">
     <div class="profile-card">
       <div class="card-image" style="background-image: url('https://makersmakingchange.github.io/GAME-Checkpoints/assets/images/reference-guides/game-training.png');"></div>
