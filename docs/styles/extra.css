@@ -103,7 +103,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   /* PRINT FOOTER (No longer fixed, won't overlap) */
@@ -135,4 +135,55 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   }
 
   .md-content { margin-left: 0 !important; width: 100% !important; }
+}
+
+/* =============================================================
+   5. MULTI-PRINT SELECTOR LOGIC
+   ============================================================= */
+
+/* Hide the master content on the screen entirely */
+#master-print-container {
+    display: none;
+}
+
+/* Hide the checkboxes and UI when the printer starts */
+@media print {
+    .print-selector-ui, .md-sidebar, .md-header, .md-footer {
+        display: none !important;
+    }
+
+    /* Only show the sections that were checked */
+    #master-print-container {
+        display: block !important;
+    }
+
+    .printable-content {
+        display: none; /* Hide all by default */
+        page-break-after: always; /* Each selected section starts on a new page */
+    }
+
+    .show-for-print {
+        display: block !important;
+        visibility: visible !important;
+    }
+}
+
+/* Screen styling for the checkboxes */
+.print-selector-ui {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+[data-md-color-scheme="slate"] .print-selector-ui {
+    background: #2e303e;
+    border-color: #444;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    padding: 8px 0;
+    cursor: pointer;
 }
