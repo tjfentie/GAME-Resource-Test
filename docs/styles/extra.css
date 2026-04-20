@@ -334,39 +334,39 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* Style the top-level labels (Learn About Adaptive Gaming / Other Resources) */
-.md-nav__item--nested > label.md-nav__link, 
-.md-nav__item--nested > .md-nav__link {
+/* 1. TARGET ONLY THE HIGHEST LEVEL HEADERS */
+/* (Learn About Adaptive Gaming & Other Resources) */
+nav.md-nav > ul.md-nav__list > li.md-nav__item--nested > label.md-nav__link {
     font-weight: 800 !important;
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.08em;
     color: #ef373e !important; /* Brand Red */
     padding-top: 15px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 5px !important;
     cursor: default;
 }
 
-/* Add a line and a big gap before the "Other Resources" section */
-/* We target the second top-level nav item specifically */
+/* 2. ADD THE LINE ONLY BETWEEN THE TWO SECTIONS */
 nav.md-nav > ul.md-nav__list > li.md-nav__item:nth-child(2) {
     margin-top: 30px !important;
     border-top: 2px solid #ef373e !important; /* Bold Red Line */
     padding-top: 15px !important;
 }
 
-/* Subtle line for Light Mode if you prefer grey instead of red */
-/* border-top: 1px solid #ddd !important; */
-
-/* Ensure sub-items (the actual links) look normal and aren't bold/red */
-.md-nav__list .md-nav__item .md-nav__link {
-    font-weight: 400;
-    text-transform: none;
-    letter-spacing: normal;
+/* 3. RESET STYLE FOR SECOND-LEVEL NESTED TITLES */
+/* (Equipment, Basics, Best Practices, etc.) */
+nav.md-nav .md-nav__list .md-nav__list .md-nav__link {
+    font-weight: 500 !important; /* Standard weight */
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-size: 0.8rem !important;
     color: inherit !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
-/* Hover effect only for actual links, not the headers */
-.md-nav__link--active, .md-nav__link:hover {
+/* 4. HOVER EFFECTS FOR ACTUAL LINKS */
+.md-nav__link:hover {
     color: #ef373e !important;
 }
