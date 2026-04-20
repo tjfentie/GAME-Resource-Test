@@ -334,48 +334,41 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. Target the FIRST main title (Learn About Adaptive Gaming) */
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link,
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > label {
-    font-weight: 800 !important;
+/* 1. Target ONLY the two main top-level headers */
+/* This specifically ignores 'Equipment', 'Basics', etc. */
+.md-nav__primary > .md-nav__list > .md-nav__item > .md-nav__link,
+.md-nav__primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+    font-weight: 900 !important; /* Extra Bold */
     text-transform: uppercase !important;
-    font-size: 0.85rem !important;
-    letter-spacing: 0.08em !important;
+    font-size: 0.95rem !important; /* Bigger size */
+    letter-spacing: 0.1em !important;
     color: #ef373e !important; /* Brand Red */
-    padding-top: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 5px !important;
     cursor: default;
 }
 
-/* 2. Target the SECOND main title (Other Resources) + The Separator Line */
+/* 2. Add the Red Line and the Gap only before 'Other Resources' */
 .md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
-    margin-top: 40px !important; /* Large gap between sections */
-    border-top: 2px solid #ef373e !important; /* The Separator Line */
-    padding-top: 15px !important;
+    margin-top: 40px !important;
+    border-top: 3px solid #ef373e !important; /* Thick Red Line */
+    padding-top: 20px !important;
 }
 
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link,
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > label {
-    font-weight: 800 !important;
-    text-transform: uppercase !important;
-    font-size: 0.85rem !important;
-    letter-spacing: 0.08em !important;
-    color: #ef373e !important; /* Brand Red */
-    cursor: default;
-}
-
-/* 3. ENSURE SUB-NESTED TITLES STAY NORMAL */
-/* This "talks back" to the Equipment, Basics, and Best Practices titles */
-.md-nav__list .md-nav__list .md-nav__link,
-.md-nav__list .md-nav__list label {
-    font-weight: 400 !important;
-    text-transform: none !important;
+/* 3. RESET: Ensure all nested titles look like normal links */
+/* This catches 'Adaptive Gaming Equipment', 'Basics', etc. */
+.md-nav__list .md-nav__list .md-nav__link, 
+.md-nav__list .md-nav__list label.md-nav__link {
+    font-weight: 400 !important; /* Reset to normal weight */
+    text-transform: none !important; /* Reset to normal case */
+    font-size: 0.75rem !important; /* Standard sidebar size */
     letter-spacing: normal !important;
     color: inherit !important;
-    font-size: 0.75rem !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
-/* 4. Highlight the current page link in Red */
-.md-nav__link--active {
+/* 4. Active/Hover link color */
+.md-nav__link:hover, .md-nav__link--active {
     color: #ef373e !important;
-    font-weight: 700 !important;
 }
