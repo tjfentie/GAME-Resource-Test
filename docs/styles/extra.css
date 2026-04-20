@@ -334,49 +334,42 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. Target the FIRST main header label (Learn About Adaptive Gaming) */
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link--index,
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > label {
+/* 1. Target the high-level titles (Learn About Adaptive Gaming & Other Resources) */
+/* We target the labels but only those that are NOT inside a nested sub-list */
+.md-nav__primary > .md-nav__list > .md-nav__item--nested > .md-nav__link,
+.md-nav__primary > .md-nav__list > .md-nav__item--nested > label {
     font-weight: 900 !important;
     text-transform: uppercase !important;
-    font-size: 1.0rem !important; /* Larger than sub-titles */
+    font-size: 0.95rem !important;
     letter-spacing: 0.1em !important;
     color: #ef373e !important; /* Brand Red */
-    padding-top: 20px !important;
+    padding-top: 25px !important;
     display: block !important;
+    cursor: default;
 }
 
-/* 2. Target the SECOND main header (Other Resources) + The Line */
+/* 2. Style the line and gap for the 'Other Resources' section specifically */
+/* On your live site, this is the 2nd main list item */
 .md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
-    margin-top: 40px !important;
+    margin-top: 35px !important;
     border-top: 3px solid #ef373e !important; /* Bold Red Line */
-    padding-top: 10px !important;
+    padding-top: 15px !important;
 }
 
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link,
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > label {
-    font-weight: 900 !important;
-    text-transform: uppercase !important;
-    font-size: 1.0rem !important;
-    letter-spacing: 0.1em !important;
-    color: #ef373e !important;
-    display: block !important;
-}
-
-/* 3. THE PROTECTIVE RESET */
-/* This forces 'Equipment', 'Basics', etc. to NOT be red or bold */
-.md-nav__list .md-nav__list .md-nav__link, 
-.md-nav__list .md-nav__list label,
-.md-nav__list .md-nav__list .md-nav__link--index {
-    font-weight: 400 !important;
+/* 3. PROTECT: Force the sub-titles (Equipment, Basics, etc.) back to normal */
+/* This stops the "red and bold" from leaking into the sub-menus */
+.md-nav__list .md-nav__item--nested .md-nav__list .md-nav__link,
+.md-nav__list .md-nav__item--nested .md-nav__list label {
+    font-weight: 500 !important;
     text-transform: none !important;
     font-size: 0.75rem !important;
     color: var(--md-default-fg-color) !important;
     letter-spacing: normal !important;
-    padding-top: 6px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
-/* 4. Highlight the current page link in Red */
+/* 4. Highlight the active link */
 .md-nav__link--active {
     color: #ef373e !important;
     font-weight: 700 !important;
