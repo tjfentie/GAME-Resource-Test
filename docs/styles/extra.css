@@ -476,7 +476,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
 /* 3. The Red Line - Only on the 2nd item of the ROOT list */
 /* The :not selector ensures we don't repeat this inside folders */
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2):not(.md-nav__item--nested .md-nav__item) {
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(3):not(.md-nav__item--nested .md-nav__item) {
     border-top: 2px solid #ef373e;
     margin-top: 20px;
     padding-top: 15px;
@@ -509,27 +509,3 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   }
 }
 
-/* =============================================================
-   14. CENTERED VIDEO PLAYER (THUMBNAIL SIZE)
-   ============================================================= */
-
-.video-container {
-    display: flex;
-    justify-content: center; /* Centers the video horizontally */
-    margin: 40px 0;         /* Space above and below the video */
-    width: 100%;
-}
-
-.video-container iframe {
-    width: 60%;            /* This gives you that "50-60%" look you liked */
-    aspect-ratio: 16 / 9;   /* Keeps it the proper YouTube shape automatically */
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a professional subtle shadow */
-}
-
-/* On small screens (phones), make the video fill more of the width */
-@media screen and (max-width: 45em) {
-    .video-container iframe {
-        width: 100%;
-    }
-}
