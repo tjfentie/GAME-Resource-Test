@@ -334,41 +334,41 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. Target ONLY the two main top-level headers */
-/* This specifically ignores 'Equipment', 'Basics', etc. */
-.md-nav__primary > .md-nav__list > .md-nav__item > .md-nav__link,
-.md-nav__primary > .md-nav__list > .md-nav__item > label.md-nav__link {
-    font-weight: 900 !important; /* Extra Bold */
+/* 1. FORCE styles on the two main headers only */
+/* This targets the first level of the list specifically */
+.md-nav__primary > .md-nav__list > li:nth-child(1) > .md-nav__link,
+.md-nav__primary > .md-nav__list > li:nth-child(1) > label,
+.md-nav__primary > .md-nav__list > li:nth-child(2) > .md-nav__link,
+.md-nav__primary > .md-nav__list > li:nth-child(2) > label {
+    font-weight: 900 !important;
     text-transform: uppercase !important;
-    font-size: 0.95rem !important; /* Bigger size */
-    letter-spacing: 0.1em !important;
-    color: #ef373e !important; /* Brand Red */
-    padding-top: 20px !important;
-    padding-bottom: 5px !important;
-    cursor: default;
-}
-
-/* 2. Add the Red Line and the Gap only before 'Other Resources' */
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
-    margin-top: 40px !important;
-    border-top: 3px solid #ef373e !important; /* Thick Red Line */
-    padding-top: 20px !important;
-}
-
-/* 3. RESET: Ensure all nested titles look like normal links */
-/* This catches 'Adaptive Gaming Equipment', 'Basics', etc. */
-.md-nav__list .md-nav__list .md-nav__link, 
-.md-nav__list .md-nav__list label.md-nav__link {
-    font-weight: 400 !important; /* Reset to normal weight */
-    text-transform: none !important; /* Reset to normal case */
-    font-size: 0.75rem !important; /* Standard sidebar size */
-    letter-spacing: normal !important;
-    color: inherit !important;
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
-}
-
-/* 4. Active/Hover link color */
-.md-nav__link:hover, .md-nav__link--active {
+    font-size: 1.1rem !important; /* Made significantly larger */
+    letter-spacing: 0.05em !important;
     color: #ef373e !important;
+    padding-top: 20px !important;
+    display: block !important;
+}
+
+/* 2. Add the Red Line and the Gap before 'Other Resources' */
+.md-nav__primary > .md-nav__list > li:nth-child(2) {
+    margin-top: 40px !important;
+    border-top: 3px solid #ef373e !important;
+    padding-top: 10px !important;
+}
+
+/* 3. PROTECT: Immediately shrink any titles that are INSIDE those two */
+/* This ensures 'Equipment', 'Basics', etc. stay small and dark */
+.md-nav__list .md-nav__list .md-nav__link, 
+.md-nav__list .md-nav__list label {
+    font-weight: 500 !important;
+    text-transform: none !important;
+    font-size: 0.75rem !important; /* Standard sidebar size */
+    color: var(--md-default-fg-color) !important;
+    letter-spacing: normal !important;
+    padding-top: 4px !important;
+}
+
+/* 4. Ensure actual page links don't have the huge header font */
+a.md-nav__link {
+    text-transform: none;
 }
