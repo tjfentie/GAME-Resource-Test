@@ -64,6 +64,9 @@ plugins:
 extra_css:
   - styles/extra.css
 
+extra_javascript:
+  - extra.js
+
 markdown_extensions:
   - admonition
   - pymdownx.details
