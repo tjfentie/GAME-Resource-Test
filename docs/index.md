@@ -43,7 +43,7 @@ The [GAME Checkpoints program](https://www.makersmakingchange.com/game-checkpoin
 </div>
 
 <div class="video">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
+    <iframe width="50%" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
