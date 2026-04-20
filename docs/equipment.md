@@ -9,4 +9,9 @@
 
 ## Example Image
 
-![Adaptive Controller](images/demo-setup.jpg)
+test text asdfkljalsdfjlajsdfljasdfjaf
+
+![Placeholder image alt text](./images/placeholder.png){: .center-thumb }
+*This is just a placeholder image*
+
+test text a;dlfjaslkdjflkajsdfljasl;dfjalsjdflkajsfl;ja
