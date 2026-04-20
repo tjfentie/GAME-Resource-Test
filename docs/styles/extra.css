@@ -508,3 +508,28 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     margin-left: 2rem;
   }
 }
+
+/* =============================================================
+   14. CENTERED VIDEO PLAYER (THUMBNAIL SIZE)
+   ============================================================= */
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centers the video horizontally */
+    margin: 40px 0;         /* Space above and below the video */
+    width: 100%;
+}
+
+.video-container iframe {
+    width: 60%;            /* This gives you that "50-60%" look you liked */
+    aspect-ratio: 16 / 9;   /* Keeps it the proper YouTube shape automatically */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a professional subtle shadow */
+}
+
+/* On small screens (phones), make the video fill more of the width */
+@media screen and (max-width: 45em) {
+    .video-container iframe {
+        width: 100%;
+    }
+}

@@ -42,8 +42,8 @@ The [GAME Checkpoints program](https://www.makersmakingchange.com/game-checkpoin
   <p>Link: Visit the GAME Checkpoints Webpage</p>
 </div>
 
-<div class="video">
-    <iframe width="50%" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
