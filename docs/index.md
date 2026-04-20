@@ -4,7 +4,9 @@
   Printable Version of this Section
 </button>
 
-# What is this Resource?
+<img src="./images/main-banner.png" class="page-banner" alt="decorative banner showing various gamers and adaptive gaming centres">
+
+## What is this Resource?
 Welcome! This resource is a collection of the [Makers Making Change](https://www.makersmakingchange.com/), a program of [Neil Squire](https://www.neilsquire.ca/), adaptive gaming resources. Intendeed for both or GAME Checkpoint community or anyone in the world interested in learning more about assistive technology in gaming.
 
 <div class="qr-link">
@@ -41,7 +43,7 @@ The [GAME Checkpoints program](https://www.makersmakingchange.com/game-checkpoin
 </div>
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/K66lpzpTknA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">

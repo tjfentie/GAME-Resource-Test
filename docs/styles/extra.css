@@ -382,3 +382,13 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 [data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link {
   border-left-color: #333;
 }
+
+/*page banner */
+
+.page-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 25px 0; /* Creates space above and below the image */
+    display: block;
+}
