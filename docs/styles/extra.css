@@ -334,41 +334,50 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. FORCE styles on the two main headers only */
-/* This targets the first level of the list specifically */
-.md-nav__primary > .md-nav__list > li:nth-child(1) > .md-nav__link,
-.md-nav__primary > .md-nav__list > li:nth-child(1) > label,
-.md-nav__primary > .md-nav__list > li:nth-child(2) > .md-nav__link,
-.md-nav__primary > .md-nav__list > li:nth-child(2) > label {
+/* 1. Target the FIRST main header label (Learn About Adaptive Gaming) */
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link--index,
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > label {
     font-weight: 900 !important;
     text-transform: uppercase !important;
-    font-size: 1.1rem !important; /* Made significantly larger */
-    letter-spacing: 0.05em !important;
-    color: #ef373e !important;
+    font-size: 1.0rem !important; /* Larger than sub-titles */
+    letter-spacing: 0.1em !important;
+    color: #ef373e !important; /* Brand Red */
     padding-top: 20px !important;
     display: block !important;
 }
 
-/* 2. Add the Red Line and the Gap before 'Other Resources' */
-.md-nav__primary > .md-nav__list > li:nth-child(2) {
+/* 2. Target the SECOND main header (Other Resources) + The Line */
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
     margin-top: 40px !important;
-    border-top: 3px solid #ef373e !important;
+    border-top: 3px solid #ef373e !important; /* Bold Red Line */
     padding-top: 10px !important;
 }
 
-/* 3. PROTECT: Immediately shrink any titles that are INSIDE those two */
-/* This ensures 'Equipment', 'Basics', etc. stay small and dark */
-.md-nav__list .md-nav__list .md-nav__link, 
-.md-nav__list .md-nav__list label {
-    font-weight: 500 !important;
-    text-transform: none !important;
-    font-size: 0.75rem !important; /* Standard sidebar size */
-    color: var(--md-default-fg-color) !important;
-    letter-spacing: normal !important;
-    padding-top: 4px !important;
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link,
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > label {
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    font-size: 1.0rem !important;
+    letter-spacing: 0.1em !important;
+    color: #ef373e !important;
+    display: block !important;
 }
 
-/* 4. Ensure actual page links don't have the huge header font */
-a.md-nav__link {
-    text-transform: none;
+/* 3. THE PROTECTIVE RESET */
+/* This forces 'Equipment', 'Basics', etc. to NOT be red or bold */
+.md-nav__list .md-nav__list .md-nav__link, 
+.md-nav__list .md-nav__list label,
+.md-nav__list .md-nav__list .md-nav__link--index {
+    font-weight: 400 !important;
+    text-transform: none !important;
+    font-size: 0.75rem !important;
+    color: var(--md-default-fg-color) !important;
+    letter-spacing: normal !important;
+    padding-top: 6px !important;
+}
+
+/* 4. Highlight the current page link in Red */
+.md-nav__link--active {
+    color: #ef373e !important;
+    font-weight: 700 !important;
 }
