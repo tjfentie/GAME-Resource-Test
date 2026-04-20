@@ -334,39 +334,38 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. Style ONLY the top-level Section Headers */
-/* This targets 'Learn About Adaptive Gaming' and 'Other Resources' */
-.md-nav__primary > .md-nav__list > .md-nav__item > .md-nav__link {
+/* 1. Target the Top-Level Nav Items only (The "Main" Categories) */
+.md-nav__primary > .md-nav__list > li > .md-nav__link,
+.md-nav__primary > .md-nav__list > li > label {
     font-weight: 800 !important;
     text-transform: uppercase !important;
     font-size: 0.8rem !important;
     letter-spacing: 0.08em !important;
     color: #ef373e !important; /* Brand Red */
     margin-top: 10px;
-    cursor: default;
 }
 
-/* 2. Style ONLY the 'Other Resources' header to have the line above it */
-.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
+/* 2. Put the Red Line above the SECOND top-level item (Other Resources) */
+.md-nav__primary > .md-nav__list > li:nth-child(2) {
     margin-top: 30px !important;
     border-top: 2px solid #ef373e !important;
     padding-top: 15px !important;
 }
 
-/* 3. RESET everything inside the sections to normal */
-/* This targets 'Equipment', 'Basics', 'Best Practices', etc. */
+/* 3. PROTECT THE SUB-SECTIONS (Equipment, Basics, etc.) */
+/* This forces any nested titles to go back to normal */
 .md-nav__list .md-nav__list .md-nav__link,
-.md-nav__list .md-nav__list .md-nav__item .md-nav__link {
-    font-weight: 400 !important; /* Not Bold */
-    text-transform: none !important; /* Not Uppercase */
+.md-nav__list .md-nav__list label {
+    font-weight: 500 !important;
+    text-transform: none !important;
     letter-spacing: normal !important;
-    color: var(--md-typeset-color) !important; /* Standard Theme Color */
+    color: inherit !important;
     font-size: 0.75rem !important;
+    margin-top: 0 !important;
 }
 
-/* 4. Ensure active/hover links still turn red so the user knows where they are */
-.md-nav__link--active, 
-.md-nav__link:hover {
+/* 4. Active link highlight */
+.md-nav__link--active {
     color: #ef373e !important;
-    font-weight: 600 !important; /* Slight bold just for the current page */
+    font-weight: 700 !important;
 }
