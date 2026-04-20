@@ -458,27 +458,39 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   12. NAVIGATION SIDEBAR DIVIDER & BOLDING 
+   12. NAVIGATION SIDEBAR DIVIDER & CLEAN BOLDING
    ============================================================= */
 
-/* 1. Bold ONLY the top-level group titles (Learn About... and Other Resources) */
-/* This ignores the links inside the folders */
-.md-nav__list > .md-nav__item > .md-nav__link[for^="__nav_"] {
-    font-weight: 800 !important;
-    color: #091b34 !important;
-    letter-spacing: 0.02em;
-    text-transform: uppercase; /* Optional: adds even more hierarchy */
-    font-size: 0.75rem;
+/* Restores the lighter bolding you liked for group headers */
+.md-nav__item--nested > .md-nav__link {
+    font-weight: 600 !important;
 }
 
-[data-md-color-scheme="slate"] .md-nav__list > .md-nav__item > .md-nav__link[for^="__nav_"] {
-    color: #ffffff !important;
-}
-
-/* 2. Add the red line ONLY before the "Other Resources" group */
-/* We target the 2nd main block, not the links inside the 1st block */
+/* Red line only before the "Other Resources" main group */
 nav.md-nav > ul.md-nav__list > li.md-nav__item:nth-child(2) {
     border-top: 2px solid #ef373e;
     margin-top: 20px;
     padding-top: 15px;
+}
+
+/* =============================================================
+   13. LAYOUT & SPACING (Wider Content Area)
+   ============================================================= */
+
+@media screen and (min-width: 76.25em) {
+  /* Increase the overall width of the site container */
+  .md-grid {
+    max-width: 85rem; /* Default is usually around 60rem. Increase this to push sidebars out. */
+  }
+
+  /* Increase the space for the actual text content in the middle */
+  .md-main__inner {
+    margin-top: 1.5rem;
+  }
+
+  /* Add extra padding to the content so it feels less cramped */
+  .md-content {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 }
