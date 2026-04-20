@@ -1,5 +1,5 @@
-# [Section name]
+# Software
 
 <button onclick="window.print()" class="print-button">
-  🖨️ Print This Section Only
+  Printable Version of this Section
 </button>

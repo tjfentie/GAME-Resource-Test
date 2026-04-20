@@ -1,7 +1,7 @@
 # Welcome to Adaptive Gaming
 
 <button onclick="window.print()" class="print-button">
-  🖨️ Print Resource Guide
+  Printable Version of this Section
 </button>
 
 ## Why Adaptive Gaming Matters
@@ -49,32 +49,4 @@ Check out the official [GAME Checkpoints Program](https://www.makersmakingchange
   <p>Link: Visit the GAME Checkpoints Webpage</p>
 </div>
 
-
-# Test section
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus dolor, viverra ac dui id, porttitor molestie lorem. Cras maximus consequat rhoncus. Maecenas auctor vulputate nibh ut aliquet. Suspendisse suscipit a arcu vel sagittis. Nam a dolor non risus pulvinar suscipit ac egestas felis. Sed gravida aliquam mi, in [Link 1](https://www.makersmakingchange.com/game-checkpoint-program) diam faucibus sed. Suspendisse eu velit vel velit tempus tempus. Vestibulum ante mi, tincidunt [Link 2](https://www.makersmakingchange.com/game-checkpoint-program) ut gravida eu, consectetur sit amet arcu. Ut fermentum tellus orci, quis porttitor mauris interdum non. Etiam dignissim diam non sem malesuada eleifend. [Link 3](https://www.makersmakingchange.com/game-checkpoint-program)
-
-<div class="qr-link">
-  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
-  <p>Link 1</p>
-</div>
-<div class="qr-link">
-  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
-  <p>Link 2</p>
-</div>
-<div class="qr-link">
-  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
-  <p>Link 3</p>
-</div>
-
-Quisque enim sem, consectetur et metus vel, [Link 4] (https://www.makersmakingchange.com/game-checkpoint-program)
-<div class="qr-link">
-  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
-  <p>Link 4</p>
-</div>
-venenatis fermentum libero. Aenean non felis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ante volutpat, mollis justo ac, [Link 5] (https://www.makersmakingchange.com/game-checkpoint-program)
-<div class="qr-link">
-  <img src="./images/qr/GAME-Checkpoint-Web.png" alt="QR Code for Website">
-  <p>Link 5</p>
-</div>
-vehicula nunc. Ut felis nulla, blandit in maximus faucibus, tempor vitae nibh. Vestibulum sed iaculis nunc. Phasellus lorem lacus, ultricies molestie nibh quis, pretium consectetur ligula. Nulla in magna tellus. Cras et maximus augue. Vivamus massa eros, blandit et arcu non, porta aliquet orci. Nunc quam ex, iaculis et porttitor sed, bibendum ac nisi. Vestibulum sed tincidunt magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam iaculis et velit sit amet maximus. Cras nec vehicula tellus.
+ 
