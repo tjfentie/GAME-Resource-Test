@@ -148,7 +148,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     border-radius: 12px;
     margin-bottom: 2rem;
     position: relative;
-    z-index: 5; /* Ensure UI is above buffer */
+    z-index: 5;
 }
 
 [data-md-color-scheme="slate"] .print-selector-ui {
@@ -156,15 +156,20 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     border-color: #444;
 }
 
-/* On-screen: Buffer is invisible and cannot be clicked */
+/* On-screen: Buffer is invisible */
 #print-buffer {
     display: none;
-    pointer-events: none; 
 }
 
 @media print {
-    /* Hide the normal page content */
-    header, footer, nav, .md-sidebar, .md-header, .md-footer, .md-main__inner, .print-selector-ui {
+    /* ONLY hide the main content if we are on the page with the Print Buffer */
+    /* We check if the body has a specific class, or simply target the main content 
+       only when #print-buffer is present and visible */
+    
+    body:has(#print-buffer) .md-main__inner,
+    body:has(#print-buffer) .md-header,
+    body:has(#print-buffer) .md-footer,
+    body:has(#print-buffer) .print-selector-ui {
         display: none !important;
     }
 
@@ -172,17 +177,20 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     #print-buffer {
         display: block !important;
         visibility: visible !important;
-        pointer-events: auto;
         width: 100%;
+    }
+
+    /* If we are NOT on the print builder page, make sure md-main__inner stays visible! */
+    /* This ensures Start Here, Equipment, etc. still print normally */
+    .md-main__inner {
+        display: block !important;
     }
 
     .printable-section {
         display: block !important;
         page-break-after: always !important;
-        break-after: page !important;
     }
 
-    /* Logo at the top of the combined document */
     #print-buffer::before {
         content: "";
         display: block;
