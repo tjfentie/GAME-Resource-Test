@@ -334,37 +334,47 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    7. SIDEBAR NAVIGATION HEADERS & SEPARATION
    ============================================================= */
 
-/* 1. Target the Top-Level Nav Items only (The "Main" Categories) */
-.md-nav__primary > .md-nav__list > li > .md-nav__link,
-.md-nav__primary > .md-nav__list > li > label {
+/* 1. Target the FIRST main title (Learn About Adaptive Gaming) */
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link,
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(1) > label {
     font-weight: 800 !important;
     text-transform: uppercase !important;
-    font-size: 0.8rem !important;
+    font-size: 0.85rem !important;
     letter-spacing: 0.08em !important;
     color: #ef373e !important; /* Brand Red */
-    margin-top: 10px;
+    padding-top: 10px !important;
+    cursor: default;
 }
 
-/* 2. Put the Red Line above the SECOND top-level item (Other Resources) */
-.md-nav__primary > .md-nav__list > li:nth-child(2) {
-    margin-top: 30px !important;
-    border-top: 2px solid #ef373e !important;
+/* 2. Target the SECOND main title (Other Resources) + The Separator Line */
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) {
+    margin-top: 40px !important; /* Large gap between sections */
+    border-top: 2px solid #ef373e !important; /* The Separator Line */
     padding-top: 15px !important;
 }
 
-/* 3. PROTECT THE SUB-SECTIONS (Equipment, Basics, etc.) */
-/* This forces any nested titles to go back to normal */
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link,
+.md-nav__primary > .md-nav__list > .md-nav__item:nth-child(2) > label {
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    font-size: 0.85rem !important;
+    letter-spacing: 0.08em !important;
+    color: #ef373e !important; /* Brand Red */
+    cursor: default;
+}
+
+/* 3. ENSURE SUB-NESTED TITLES STAY NORMAL */
+/* This "talks back" to the Equipment, Basics, and Best Practices titles */
 .md-nav__list .md-nav__list .md-nav__link,
 .md-nav__list .md-nav__list label {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     text-transform: none !important;
     letter-spacing: normal !important;
     color: inherit !important;
     font-size: 0.75rem !important;
-    margin-top: 0 !important;
 }
 
-/* 4. Active link highlight */
+/* 4. Highlight the current page link in Red */
 .md-nav__link--active {
     color: #ef373e !important;
     font-weight: 700 !important;
