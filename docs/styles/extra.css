@@ -456,3 +456,26 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     display: flex;
     align-items: center;
 }
+
+/* =============================================================
+   12. NAVIGATION SIDEBAR DIVIDER & BOLDING
+   ============================================================= */
+
+/* Targets the top-level navigation sections (Learn About... and Other Resources) */
+.md-nav__item--nested > .md-nav__link {
+    font-weight: 700 !important; /* Bold the section headers */
+    color: #091b34 !important;    /* Maintain the brand navy color */
+}
+
+/* Specific styling for the Dark Mode headers */
+[data-md-color-scheme="slate"] .md-nav__item--nested > .md-nav__link {
+    color: #ffffff !important;
+}
+
+/* Adds the red line divider specifically before "Other Resources" */
+/* We target the second top-level navigation item in the list */
+.md-nav > .md-nav__list > .md-nav__item:nth-child(2) {
+    border-top: 2px solid #ef373e;
+    margin-top: 15px;
+    padding-top: 10px;
+}
