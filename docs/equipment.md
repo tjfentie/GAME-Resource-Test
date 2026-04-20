@@ -11,7 +11,9 @@
 
 test text asdfkljalsdfjlajsdfljasdfjaf
 
-![Placeholder image alt text](./images/placeholder.png){: .center-thumb }
-*This is just a placeholder image*
+<div class="center-thumb">
+    <img src="./images/placeholder.png" alt="Description of image">
+    <p>This is just a placeholder image</p>
+</div>
 
 test text a;dlfjaslkdjflkajsdfljasl;dfjalsjdflkajsfl;ja

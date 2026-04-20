@@ -404,7 +404,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 .md-header__title .md-ellipsis::after {
-    content: "Makers Making Change | Neil Squire"; /* Your Subheading Here */
+    content: "Gaming Accessibility Made For Everyone | Makers Making Change"; /* Your Subheading Here */
     font-size: 0.6rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -413,26 +413,29 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     color: #ffffff; /* Adjust based on your header color */
 }
 
-/* Make the logo fill more of the header height */
-.md-header__button.md-logo img {
-    height: 1.5rem; /* Default is usually 1.2rem */
-    width: auto;
+/* Fail-proof Centered Image & Caption */
+.center-thumb {
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
 }
 
-/* Easy Image Styling */
-img.center-thumb {
-  display: block;
-  margin: 20px auto 5px auto; /* Centers the image */
-  width: 100%;
-  max-width: 600px; /* YouTube thumbnail size */
-  border-radius: 8px;
+.center-thumb img {
+    max-width: 600px; /* YouTube thumbnail size */
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
-/* This targets the text immediately following a centered image to act as a caption */
-img.center-thumb + em {
-  display: block;
-  text-align: center;
-  font-size: 0.8rem;
-  color: #666;
-  margin-bottom: 20px;
+.center-thumb p {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 0 !important;
+}
+
+[data-md-color-scheme="slate"] .center-thumb p {
+    color: #aaa;
 }
