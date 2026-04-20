@@ -1,11 +1,7 @@
-???+ note "Update: April 17, 2026 - Creating the site"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+???+ note "Version 1.1 | April, 2026 | Creating the site"
+    Yay, this site exists! New format for the previous resourcees and a whole bunch of updated information
 
-    Yay, this site exists!
-
-??? note "Update: Nov 1, 2022 - Added info on something fake"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+??? note "Version 1.0 | Jan, 2023 | Added info on something fake"
+    Launch of the original GAME Checkpoint Resources website where the resource guides and other materials lived
+    
+    https://makersmakingchange.github.io/GAME-Checkpoints/ 

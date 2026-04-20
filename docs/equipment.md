@@ -9,11 +9,15 @@
 
 ## Example Image
 
-test text asdfkljalsdfjlajsdfljasdfjaf
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.
 
 <div class="center-thumb">
-    <img src="./images/placeholder.png" alt="Description of image">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
     <p>This is just a placeholder image</p>
 </div>
 
-test text a;dlfjaslkdjflkajsdfljasl;dfjalsjdflkajsfl;ja
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.

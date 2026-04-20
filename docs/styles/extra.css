@@ -439,3 +439,20 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 [data-md-color-scheme="slate"] .center-thumb p {
     color: #aaa;
 }
+
+/* =============================================================
+   11. CUSTOM LOGO SIZING
+   ============================================================= */
+
+/* Targets the logo container in the header */
+.md-header__button.md-logo img {
+    height: 3rem !important; /* Adjust this value to your liking (default is ~1.2rem) */
+    width: auto;             /* Keeps the logo from stretching */
+    margin: 5px 0;          /* Adds a little vertical padding */
+}
+
+/* Adjusts the header title alignment to match the larger logo */
+.md-header__title {
+    display: flex;
+    align-items: center;
+}
