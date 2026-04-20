@@ -337,3 +337,48 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
         display: none !important;
     }
 }
+
+/* =============================================================
+   9. TABLE OF CONTENTS (RIGHT SIDEBAR) RESTORATION
+   ============================================================= */
+
+/* Ensure the right-hand sidebar is visible on screens */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+/* Style the ToC Title */
+.md-nav--secondary .md-nav__title {
+  font-weight: 800;
+  color: #091b34;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+}
+
+/* Style the ToC Links */
+.md-nav--secondary .md-nav__link {
+  font-size: 0.7rem;
+  line-height: 1.4;
+  border-left: 2px solid #eee; /* Light track line */
+  padding-left: 12px;
+}
+
+/* Highlight the active heading in Brand Red */
+.md-nav--secondary .md-nav__link--active {
+  color: #ef373e !important;
+  font-weight: 700;
+  border-left: 2px solid #ef373e !important;
+}
+
+/* Dark Mode adjustment for ToC */
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__title {
+  color: #ffffff !important;
+}
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link {
+  border-left-color: #333;
+}
