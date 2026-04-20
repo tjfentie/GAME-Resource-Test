@@ -4,9 +4,9 @@ site_url: https://tjfentie.github.io/GAME-Resource-Test/
 use_directory_urls: true 
 
 nav:
+  - Latest Updates: updates.md
   - Learn About Adaptive Gaming: # This creates a top-level grouping
     - Start Here: index.md
-    - Latest Updates: updates.md
     - Adaptive Gaming Equipment:
         - Overview: equipment.md
         - Alternative Access: alt-access.md
