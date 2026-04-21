@@ -88,10 +88,10 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   h1 { border-bottom: 3px solid #ef373e !important; margin-top: 0 !important; }
   h2 { border-left: 5px solid #ef373e !important; }
 
-  /* Hide UI elements */
-  .md-header, .md-sidebar, .md-footer, .md-nav, .print-button, .mmc-cta-container, .video {
-    display: none !important;
-  }
+/* Hide UI elements */
+.md-header, .md-sidebar, .md-footer, .md-nav, .print-button, .mmc-cta-container, .video, .video-container, .center-thumb {
+  display: none !important;
+}
 
   /* SMALL TOP-LEFT LOGO */
   body::before {
