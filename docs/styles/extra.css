@@ -509,3 +509,31 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   }
 }
 
+
+/* =============================================================
+   14. CENTERED VIDEO PLAYER
+   ============================================================= */
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centers the video horizontally */
+    justify-content: center;
+    margin: 40px auto;      /* Top/Bottom margin and auto-centers the div */
+    width: 100%;            /* The container takes full width */
+}
+
+.video-container iframe {
+    width: 65% !important;  /* Adjust this percentage to your "reasonable size" */
+    aspect-ratio: 16 / 9;   /* Maintains YouTube shape */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border: none;
+}
+
+/* Make it full width on mobile devices */
+@media screen and (max-width: 45em) {
+    .video-container iframe {
+        width: 100% !important;
+    }
+}
