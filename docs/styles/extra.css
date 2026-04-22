@@ -556,3 +556,29 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
         width: 100% !important;
     }
 }
+
+/* =============================================================
+   HEADER COLOR CUSTOMIZATION
+   ============================================================= */
+
+/* This targets the top bar in both Light and Dark modes */
+.md-header {
+    background-color: #262262 !important;
+}
+
+/* Ensure the text and icons in the header stay white for contrast */
+.md-header__title, 
+.md-header__button,
+.md-header__topic {
+    color: #ffffff !important;
+}
+
+/* Adjust the subtitle (ellipsis after) color for better visibility on #262262 */
+.md-header__title .md-ellipsis::after {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Optional: If you want the search bar background to blend better */
+.md-search__input {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
