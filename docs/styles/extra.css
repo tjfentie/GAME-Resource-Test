@@ -343,29 +343,30 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    ============================================================= */
 
 /* 1. Hide the original "Table of contents" label entirely */
-.md-sidebar--secondary label.md-nav__title {
+.md-sidebar--secondary .md-nav__title {
     display: none !important;
 }
 
-/* 2. Add "What's on This Page" ONLY to the absolute top of the list */
-/* The > nav > ul ensures it only attaches to the main list, not sub-lists */
-.md-sidebar--secondary > .md-nav > ul.md-nav__list::before {
+/* 2. Add "What's on This Page" as a header */
+/* We target the main nav container in the right sidebar */
+.md-sidebar--secondary .md-nav > .md-nav__list::before {
     content: "What's on This Page";
-    display: block;
+    display: block !important;
     padding: 12px 16px;
     font-weight: 800;
     color: #091b34;
     text-transform: uppercase;
     font-size: 0.65rem;
     letter-spacing: 0.05em;
+    visibility: visible !important;
 }
 
-/* Dark Mode adjustment for the new title */
-[data-md-color-scheme="slate"] .md-sidebar--secondary > .md-nav > ul.md-nav__list::before {
+/* Dark Mode adjustment for the title */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav > .md-nav__list::before {
     color: #ffffff !important;
 }
 
-/* 3. Style the ToC Links (The actual list items) */
+/* 3. Style the ToC Links */
 .md-nav--secondary .md-nav__link {
     font-size: 0.7rem;
     line-height: 1.4;
@@ -373,7 +374,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     padding-left: 12px;
 }
 
-/* Highlight the active heading in Brand Red */
+/* Highlight active heading */
 .md-nav--secondary .md-nav__link--active {
     color: #ef373e !important;
     font-weight: 700;
@@ -459,7 +460,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY (FINAL FIX)
+   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY (FIXED ACTIVE STATES)
    ============================================================= */
 
 /* 1. Base Weight - Bold ONLY the main root categories */
@@ -473,43 +474,43 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     font-weight: 400 !important;
 }
 
-/* 3. LIGHT MODE COLORS (Letting theme handle Blue active state) */
+/* 3. LIGHT MODE COLORS (Default Navy) */
 .md-nav__link {
     color: #091b34; 
 }
 
 /* 4. DARK MODE (SLATE) OVERRIDES */
-/* Normal state: Grey-white for readability */
 [data-md-color-scheme="slate"] .md-nav__link {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
-/* Root headers: Pure White */
+/* Forces Pure White for root headers in Dark Mode when NOT active */
 [data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
     color: #ffffff !important;
 }
 
-/* ACTIVE STATE RED: Only for Dark Mode */
-/* We target the active link and the 'active' container to ensure the red 'pop' */
-[data-md-color-scheme="slate"] .md-nav__link--active,
-[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
-    color: #ef373e !important;
-}
+/* ---------------------------------------------------------
+   DARK MODE ACTIVE STATES (ROOT + NESTED)
+   --------------------------------------------------------- */
 
-/* Hover: Red in Dark Mode */
+/* Targets the active link directly */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+/* Targets a root item that is currently active (like Start Here) */
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link,
+/* Targets a root category if one of its children is active */
+[data-md-color-scheme="slate"] .md-nav__item--active > label.md-nav__link,
+/* Hover state for all links in dark mode */
 [data-md-color-scheme="slate"] .md-nav__link:hover {
     color: #ef373e !important;
 }
 
 /* 5. NAVIGATION DIVIDERS (Red Lines) */
-/* Line after "Start Here" */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) {
     border-bottom: 2px solid #ef373e;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
 
-/* Line before "GAME Checkpoint Resources" */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) {
     border-top: 2px solid #ef373e;
     margin-top: 15px;
