@@ -462,41 +462,45 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY
+   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY (STYLING RESTORED)
    ============================================================= */
 
-/* 1. Reset all links to normal weight */
+/* 1. Reset all links to normal weight and set default Navy color */
 .md-nav__link {
     font-weight: 400 !important;
+    color: #091b34; 
 }
 
-/* 2. Bold ONLY the main root categories (Items 3 and 4 in your new list) */
+/* 2. Bold ONLY the main root categories */
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
     font-weight: 700 !important;
     font-size: 0.8rem;
-    color: #091b34 !important;
 }
 
-/* 3. RED LINE AFTER "START HERE" (Item #2) */
+/* 3. DARK MODE COLORS (Prevents blending into background) */
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: rgba(255, 255, 255, 0.7) !important; /* Normal links are slightly grey-white */
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    color: #ffffff !important; /* Root headers are pure white */
+}
+
+/* 4. RED LINE AFTER "START HERE" (Item #2) */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) {
     border-bottom: 2px solid #ef373e;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
 
-/* 4. RED LINE BEFORE "GAME CHECKPOINT RESOURCES" (Item #4) */
+/* 5. RED LINE BEFORE "GAME CHECKPOINT RESOURCES" (Item #4) */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) {
     border-top: 2px solid #ef373e;
     margin-top: 15px;
     padding-top: 15px;
 }
 
-/* 5. Clean up bolding so nested folders stay normal */
-.md-nav__item--nested .md-nav__item .md-nav__link {
-    font-weight: 400 !important;
-}
-
-/* 4. Force all nested items (Equipment, Basics, etc.) to be normal weight */
+/* 6. Clean up: ensure nested folders stay normal weight */
 .md-nav__item--nested .md-nav__item .md-nav__link {
     font-weight: 400 !important;
 }
