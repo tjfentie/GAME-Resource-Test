@@ -35,7 +35,7 @@ If you do not know where to start, follow the path below to get a deep understan
 3. **[Download/Print:](print.md)** Visit this page if you would like to print a static version (.PDF) of everything included on this site. The video and linked sections will be turned into QR codes.
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <img src="./images/placeholder.png" alt="This is just a placeholder image with no relevant content">
     <p>put a graphical representation of the breakdown of content</p>
 </div>
 

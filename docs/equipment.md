@@ -15,7 +15,7 @@ nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
 
 <div class="center-thumb">
-    <img src="./images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
     <p>This is just a placeholder image</p>
 </div>
 
