@@ -19,20 +19,92 @@ Welcome! This resource is a collection of the [Makers Making Change](https://www
   <p>Link: Neil Squire site</p>
 </div>
 
-## Your Pathway to Play
+# Your Pathway to Play
 
-If you do not know where to start, follow the path below to get a deep understanding of the equipment, video game literacy, and best practices around adaptive gaming:
+Start here if you are new to adaptive gaming.  
+Follow the steps below in order, or jump to what you need.
 
-1.  **Adaptive Gaming Equipment:** Explore [Alternative Access](alt-access.md), [Controller Modifications](control-mods.md), and [Software Features](software.md).
-2.  **Video Game Basics:** Learn [How to Pick Games](pick-game.md) and build [Video Game Literacy](video-game-literacy.md).
-3.  **Best Practices:** Follow our [Session Walkthrough](session-walkthrough.md) for a successful assessment and setup. View [Tips and Tricks](tips-and-tricks.md) that we have developed or learned through the years at Makers Making Change.
-4. **[Gamer Profiles:](profiles.md)** Check out the setups of various individuals to get insight into how this can apply to yourself or client.
+---
 
-### Other Resources found on this site
+## Choose Your Starting Point
 
-1.  **GAME Checkpoint Resources:** Are you a centre that is looking for resources to help you serve your community? This section allows you to access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), [Marketing and Posters](marketing.md), and various [Templates](templates.md).
-2. **[Get Support:](support.md)** Check out this section to find out how to get in contact with us.
-3. **[Download/Print:](print.md)** Visit this page if you would like to print a static version (.PDF) of everything included on this site. The video and linked sections will be turned into QR codes.
+### I am new to adaptive gaming
+Go step-by-step through the pathway below.
+
+### I need something specific
+Jump to a section:
+
+- [Equipment](#step-1-understand-the-equipment)
+- [Choosing Games](#step-2-learn-the-basics)
+- [Running a Session](#step-3-apply-best-practices)
+- [Real Examples](#step-4-see-real-setups)
+- [Checkpoint Resources](#resources-for-game-checkpoints)
+
+---
+
+# Step 1: Understand the Equipment
+
+Learn the core tools used to make gaming accessible.
+
+- [Alternative Access](alt-access.md)
+- [Controller Modifications](control-mods.md)
+- [Software Features](software.md)
+
+---
+
+# Step 2: Learn the Basics
+
+Build confidence in choosing and understanding games.
+
+- [How to Pick Games](pick-game.md)
+- [Video Game Literacy](video-game-literacy.md)
+
+---
+
+# Step 3: Apply Best Practices
+
+Run effective sessions and set up players for success.
+
+- [Session Walkthrough](session-walkthrough.md)
+- [Tips and Tricks](tips-and-tricks.md)
+
+---
+
+# Step 4: See Real Setups
+
+Explore how others have made gaming work for them.
+
+- [Gamer Profiles](profiles.md)
+
+---
+
+# Resources for GAME Checkpoints
+
+Use these tools if you are supporting others or running a program.
+
+## Planning and Assessment
+- [Questionnaires](questionnaire.md)
+- [Equipment Lists](equipment-lists.md)
+
+## Outreach and Promotion
+- [Marketing and Posters](marketing.md)
+
+## Program Tools
+- [Templates](templates.md)
+
+---
+
+# Need Help?
+
+- [Get Support](support.md)
+
+---
+
+# Want a Printable Version?
+
+- [Download / Print (PDF)](print.md)
+
+Printable versions convert videos and links into QR codes.
 
 <div class="center-thumb">
     <img src="./images/placeholder.png" alt="This is just a placeholder image with no relevant content">
