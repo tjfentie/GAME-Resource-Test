@@ -17,6 +17,12 @@ h1, h2, h3 {
 h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
 h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
+/* DARK MODE LINK CONTRAST FIX */
+[data-md-color-scheme="slate"] .md-content a {
+    color: #ef373e !important;
+    font-weight: 600;
+}
+
 /* =============================================================
    2. DARK MODE (SLATE) - Screen View
    ============================================================= */
@@ -115,109 +121,65 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     color: #444 !important;
     text-align: left;
   }
-
-  .qr img, .qr-link img { 
-    width: 1.2in !important; 
-    height: 1.2in !important; 
-    page-break-inside: avoid; 
-  }
-
-  a[href^="http"]:after, a[href^="https"]:after { 
-    content: " (" attr(href) ")"; 
-    font-size: 0.85em; 
-  }
-
-  .md-content { margin-left: 0 !important; width: 100% !important; }
 }
 
 /* =============================================================
-   5. CENTERED THUMBNAIL (RESTORED)
+   5. PRINT BUILDER & CARDS
    ============================================================= */
-.center-thumb {
-    text-align: center;
-    margin: 30px auto;
-    width: 100%;
-}
+.print-selector-ui { background: #f9f9f9; padding: 25px; border: 1px solid #ddd; border-radius: 12px; margin-bottom: 2rem; }
+[data-md-color-scheme="slate"] .print-selector-ui { background: #2e303e; border-color: #444; }
 
-.center-thumb img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    margin: 0 auto 10px auto;
-}
+.profile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
+.profile-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
+[data-md-color-scheme="slate"] .profile-card { background: #2e303e; border-color: #444; }
 
-.center-thumb p {
-    font-size: 0.85rem;
-    color: #666;
-    font-style: italic;
-    margin-top: 0 !important;
-}
+.download-card-button { background-color: #ef373e; color: white !important; padding: 12px; border-radius: 6px; text-align: center; font-weight: 700; margin-top: 20px; text-decoration: none !important; }
 
-[data-md-color-scheme="slate"] .center-thumb p {
-    color: #aaa;
+/* =============================================================
+   6. PLACEHOLDERS & LOGO (RESTORED)
+   ============================================================= */
+.center-thumb { text-align: center; margin: 30px auto; width: 100%; }
+.center-thumb img { max-width: 600px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 10px auto; }
+.center-thumb p { font-size: 0.85rem; color: #666; font-style: italic; }
+
+/* Custom Logo Sizing */
+.md-header__button.md-logo img { height: 3rem !important; width: auto; margin: 5px 0; }
+.md-header__title { display: flex; align-items: center; }
+
+/* Subtitle under Title */
+.md-header__title .md-ellipsis { display: flex; flex-direction: column; line-height: 1.2; padding-top: 5px; }
+.md-header__title .md-ellipsis::after {
+    content: "Gaming Accessibility Made For Everyone | Makers Making Change | Neil Squire";
+    font-size: 0.6rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8; color: #ffffff;
 }
 
 /* =============================================================
-   9. TABLE OF CONTENTS (RIGHT SIDEBAR) - NO DUPLICATION
+   9. TABLE OF CONTENTS (RIGHT SIDEBAR) - FIXED DUPLICATION
    ============================================================= */
-.md-sidebar--secondary .md-nav__title {
-    display: none !important;
-}
+.md-sidebar--secondary .md-nav__title { display: none !important; }
 
-/* Targets the absolute top-most UL ONLY. This stops repeats. */
-.md-sidebar--secondary .md-nav > ul.md-nav__list > li.md-nav__item:first-child::before {
+/* The > nav > ul selector ensures the title only attaches to the parent list */
+.md-sidebar--secondary .md-nav > .md-nav__list > .md-nav__item:first-child::before {
     content: "What's on This Page";
-    display: block;
-    padding: 12px 16px;
-    font-weight: 800;
-    color: #091b34;
-    text-transform: uppercase;
-    font-size: 0.65rem;
-    letter-spacing: 0.05em;
+    display: block; padding: 12px 16px; font-weight: 800; color: #091b34; text-transform: uppercase; font-size: 0.65rem; letter-spacing: 0.05em;
 }
 
-[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav > ul.md-nav__list > li.md-nav__item:first-child::before {
-    color: #ffffff !important;
-}
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav > .md-nav__list > .md-nav__item:first-child::before { color: #ffffff !important; }
 
-.md-nav--secondary .md-nav__link {
-    font-size: 0.7rem;
-    border-left: 2px solid #eee;
-    padding-left: 12px;
-}
-
-.md-nav--secondary .md-nav__link--active {
-    color: #ef373e !important;
-    font-weight: 700;
-    border-left: 2px solid #ef373e !important;
-}
+.md-nav--secondary .md-nav__link { font-size: 0.7rem; border-left: 2px solid #eee; padding-left: 12px; }
+.md-nav--secondary .md-nav__link--active { color: #ef373e !important; font-weight: 700; border-left: 2px solid #ef373e !important; }
 
 /* =============================================================
-   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY
+   12. NAVIGATION SIDEBAR - DARK MODE ACTIVE FIX
    ============================================================= */
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
-.md-nav--primary > .md-nav__list > .md-nav__item > label {
-    font-weight: 700 !important;
-    font-size: 0.8rem;
-}
-
-.md-nav__item--nested .md-nav__item .md-nav__link {
-    font-weight: 400 !important;
-}
-
+.md-nav--primary > .md-nav__list > .md-nav__item > label { font-weight: 700 !important; font-size: 0.8rem; }
 .md-nav__link { color: #091b34; }
 
-[data-md-color-scheme="slate"] .md-nav__link {
-    color: rgba(255, 255, 255, 0.7) !important;
-}
+[data-md-color-scheme="slate"] .md-nav__link { color: rgba(255, 255, 255, 0.7) !important; }
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link { color: #ffffff !important; }
 
-[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
-    color: #ffffff !important;
-}
-
-/* RED ACTIVE STATE FIX: Forces non-nested items (Start Here, etc) to Red in Dark Mode */
+/* This forces red for both nested and root (outermost) items in Dark Mode */
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link,
 [data-md-color-scheme="slate"] .md-nav__item--active > label,
 [data-md-color-scheme="slate"] .md-nav__link--active,
@@ -226,39 +188,16 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* Red Dividers */
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) {
-    border-bottom: 2px solid #ef373e;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-}
-
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) {
-    border-top: 2px solid #ef373e;
-    margin-top: 15px;
-    padding-top: 15px;
-}
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) { border-bottom: 2px solid #ef373e; margin-bottom: 15px; padding-bottom: 15px; }
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) { border-top: 2px solid #ef373e; margin-top: 15px; padding-top: 15px; }
 
 /* =============================================================
    13. LAYOUT & SPACING
    ============================================================= */
 @media screen and (min-width: 76.25em) {
   .md-grid { max-width: 85rem; }
-  .md-content { margin-right: 2rem; margin-left: 2rem; }
+  .md-content { margin: 0 2rem; }
 }
 
-/* =============================================================
-   14. CENTERED VIDEO PLAYER
-   ============================================================= */
-.video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px auto;
-}
-
-.video-container iframe {
-    width: 65% !important;
-    aspect-ratio: 16 / 9;
-    border-radius: 12px;
-    border: none;
-}
+.video-container { display: flex; flex-direction: column; align-items: center; margin: 40px auto; }
+.video-container iframe { width: 65% !important; aspect-ratio: 16 / 9; border-radius: 12px; border: none; }
