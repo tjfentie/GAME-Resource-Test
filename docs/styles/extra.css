@@ -17,10 +17,9 @@ h1, h2, h3 {
 h1 { border-bottom: 3px solid #ef373e; padding-bottom: 12px; }
 h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
-/* DARK MODE LINK CONTRAST FIX */
+/* FIX: Red links in Dark Mode for better accessibility/contrast */
 [data-md-color-scheme="slate"] .md-content a {
     color: #ef373e !important;
-    font-weight: 600;
 }
 
 /* =============================================================
@@ -30,9 +29,13 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   --md-accent-fg-color: #ef373e; 
 }
 
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ef373e !important;
+}
+
 [data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2,
-[data-md-color-scheme="slate"] h3 {
+[data-md-color-scheme="slate"] h2 {
   color: #ffffff !important;
 }
 
@@ -65,11 +68,14 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   4. PRINT STYLES (Forced Uniformity)
+   4. PRINT STYLES (Forced Light Mode + Non-Overlapping Footer)
    ============================================================= */
 @media print {
-  @page { margin: 0.7in 0.5in 0.8in 0.5in; }
+  @page { 
+    margin: 0.7in 0.5in 0.8in 0.5in; 
+  }
 
+  /* Force Light Mode Colors */
   * {
     color: #000 !important;
     background: transparent !important;
@@ -83,21 +89,16 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     display: block;
   }
 
-  h1, h2, h3, 
-  [data-md-color-scheme="slate"] h1, 
-  [data-md-color-scheme="slate"] h2,
-  [data-md-color-scheme="slate"] h3 { 
-    color: #091b34 !important; 
-  }
-
+  h1, h2 { color: #091b34 !important; }
   h1 { border-bottom: 3px solid #ef373e !important; margin-top: 0 !important; }
   h2 { border-left: 5px solid #ef373e !important; }
 
-  .md-header, .md-sidebar, .md-footer, .md-nav, .print-button, 
-  .mmc-cta-container, .video, .video-container, .center-thumb {
-    display: none !important;
-  }
+/* Hide UI elements */
+.md-header, .md-sidebar, .md-footer, .md-nav, .print-button, .mmc-cta-container, .video, .video-container, .center-thumb {
+  display: none !important;
+}
 
+  /* SMALL TOP-LEFT LOGO */
   body::before {
     content: "";
     display: block;
@@ -110,10 +111,11 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     margin-bottom: 10px;
   }
 
+  /* PRINT FOOTER (No longer fixed, won't overlap) */
   .md-content::after {
     content: "Version 1.0 | Last Updated: April 2026 | CC BY-SA © 2026 by Neil Squire. Licensed under CC BY SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0) | Source: https://github.com/makersmakingchange/GAME-Checkpoints";
     display: block;
-    margin-top: 50px;
+    margin-top: 50px; /* Space between content and footer */
     padding-top: 10px;
     border-top: 1px solid #ccc;
     font-size: 8pt;
@@ -121,65 +123,378 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     color: #444 !important;
     text-align: left;
   }
+
+  /* QR Sizing */
+  .qr img, .qr-link img { 
+    width: 1.2in !important; 
+    height: 1.2in !important; 
+    page-break-inside: avoid; /* Prevents QR from splitting across pages */
+  }
+  
+  .qr p, .qr-link p { font-weight: 700; margin-top: 5px; }
+
+  /* ONLY expand external links */
+  a[href^="http"]:after, a[href^="https"]:after { 
+    content: " (" attr(href) ")"; 
+    font-size: 0.85em; 
+  }
+
+  .md-content { margin-left: 0 !important; width: 100% !important; }
 }
 
 /* =============================================================
-   5. PRINT BUILDER & CARDS
+   5. DYNAMIC PRINT BUILDER STYLES
    ============================================================= */
-.print-selector-ui { background: #f9f9f9; padding: 25px; border: 1px solid #ddd; border-radius: 12px; margin-bottom: 2rem; }
-[data-md-color-scheme="slate"] .print-selector-ui { background: #2e303e; border-color: #444; }
 
-.profile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
-.profile-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
-[data-md-color-scheme="slate"] .profile-card { background: #2e303e; border-color: #444; }
+.print-selector-ui {
+    background: #f9f9f9;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 5;
+}
 
-.download-card-button { background-color: #ef373e; color: white !important; padding: 12px; border-radius: 6px; text-align: center; font-weight: 700; margin-top: 20px; text-decoration: none !important; }
+[data-md-color-scheme="slate"] .print-selector-ui {
+    background: #2e303e;
+    border-color: #444;
+}
 
-/* =============================================================
-   6. PLACEHOLDERS & LOGO (RESTORED)
-   ============================================================= */
-.center-thumb { text-align: center; margin: 30px auto; width: 100%; }
-.center-thumb img { max-width: 600px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 10px auto; }
-.center-thumb p { font-size: 0.85rem; color: #666; font-style: italic; }
+/* On-screen: Buffer is invisible */
+#print-buffer {
+    display: none;
+}
 
-/* Custom Logo Sizing */
-.md-header__button.md-logo img { height: 3rem !important; width: auto; margin: 5px 0; }
-.md-header__title { display: flex; align-items: center; }
+@media print {
+    /* ONLY hide the main content if we are on the page with the Print Buffer */
+    /* We check if the body has a specific class, or simply target the main content 
+        only when #print-buffer is present and visible */
+    
+    body:has(#print-buffer) .md-main__inner,
+    body:has(#print-buffer) .md-header,
+    body:has(#print-buffer) .md-footer,
+    body:has(#print-buffer) .print-selector-ui {
+        display: none !important;
+    }
 
-/* Subtitle under Title */
-.md-header__title .md-ellipsis { display: flex; flex-direction: column; line-height: 1.2; padding-top: 5px; }
-.md-header__title .md-ellipsis::after {
-    content: "Gaming Accessibility Made For Everyone | Makers Making Change | Neil Squire";
-    font-size: 0.6rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8; color: #ffffff;
+    /* Show the buffer content */
+    #print-buffer {
+        display: block !important;
+        visibility: visible !important;
+        width: 100%;
+    }
+
+    /* If we are NOT on the print builder page, make sure md-main__inner stays visible! */
+    /* This ensures Start Here, Equipment, etc. still print normally */
+    .md-main__inner {
+        display: block !important;
+    }
+
+    .printable-section {
+        display: block !important;
+        page-break-after: always !important;
+    }
+
+    #print-buffer::before {
+        content: "";
+        display: block;
+        width: 2in !important; 
+        height: 0.6in;
+        background-image: url('../images/MMC_NSS_Logo.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        margin-bottom: 30px;
+    }
 }
 
 /* =============================================================
-   9. TABLE OF CONTENTS (RIGHT SIDEBAR) - FIXED DUPLICATION
+   6. GAMER PROFILE CARDS
    ============================================================= */
-.md-sidebar--secondary .md-nav__title { display: none !important; }
 
-/* The > nav > ul selector ensures the title only attaches to the parent list */
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dark Mode adjustment for cards */
+[data-md-color-scheme="slate"] .profile-card {
+    background: #2e303e;
+    border-color: #444;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #eee;
+}
+
+[data-md-color-scheme="slate"] .card-image {
+    border-bottom: 1px solid #444;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 1.25rem !important;
+    color: #091b34 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content h3 {
+    color: #ffffff !important;
+}
+
+.card-content p {
+    margin: 5px 0 !important;
+    font-size: 0.95rem;
+    color: #444 !important;
+}
+
+[data-md-color-scheme="slate"] .card-content p {
+    color: #ccc !important;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ef373e;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* Hide cards during print if they aren't relevant, 
+    or keep them simple if you want them in the PDF */
+@media print {
+    .profile-grid {
+        display: block;
+    }
+    .profile-card {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+}
+
+/* =============================================================
+   8. QUESTIONNAIRE & RESOURCE CARDS
+   ============================================================= */
+
+/* Ensure the card content stretches to fill space so the button stays at the bottom */
+.profile-card .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.download-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef373e;
+    color: white !important;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.download-card-button:hover {
+    background-color: #091b34; /* Changes to Navy on hover */
+}
+
+.download-card-button span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Print adjustment: Hide the download buttons on paper */
+@media print {
+    .download-card-button {
+        display: none !important;
+    }
+}
+
+/* =============================================================
+   9. TABLE OF CONTENTS (RIGHT SIDEBAR)
+   ============================================================= */
+
+/* 1. Hide the original "Table of contents" label entirely */
+.md-sidebar--secondary .md-nav__title {
+    display: none !important;
+}
+
+/* FIX: Surgical selector to prevent duplication in middle of sections */
 .md-sidebar--secondary .md-nav > .md-nav__list > .md-nav__item:first-child::before {
     content: "What's on This Page";
-    display: block; padding: 12px 16px; font-weight: 800; color: #091b34; text-transform: uppercase; font-size: 0.65rem; letter-spacing: 0.05em;
+    display: block !important;
+    padding: 12px 16px;
+    font-weight: 800;
+    color: #091b34;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    visibility: visible !important;
 }
 
-[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav > .md-nav__list > .md-nav__item:first-child::before { color: #ffffff !important; }
+/* Dark Mode adjustment for the title */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav > .md-nav__list > .md-nav__item:first-child::before {
+    color: #ffffff !important;
+}
 
-.md-nav--secondary .md-nav__link { font-size: 0.7rem; border-left: 2px solid #eee; padding-left: 12px; }
-.md-nav--secondary .md-nav__link--active { color: #ef373e !important; font-weight: 700; border-left: 2px solid #ef373e !important; }
+/* 3. Style the ToC Links */
+.md-nav--secondary .md-nav__link {
+    font-size: 0.7rem;
+    line-height: 1.4;
+    border-left: 2px solid #eee;
+    padding-left: 12px;
+}
+
+/* Highlight the active heading in Brand Red */
+.md-nav--secondary .md-nav__link--active {
+    color: #ef373e !important;
+    font-weight: 700;
+    border-left: 2px solid #ef373e !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link {
+    border-left-color: #333;
+}
+
+/*page banner */
+
+.page-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 25px 0; /* Creates space above and below the image */
+    display: block;
+}
+
+/* for subtitle of page*/
+
+/* Add a subheading under the main site title in the header */
+.md-header__title .md-ellipsis {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    padding-top: 5px;
+}
+
+.md-header__title .md-ellipsis::after {
+    content: "Gaming Accessibility Made For Everyone | Makers Making Change | Neil Squire"; /* Your Subheading Here */
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    color: #ffffff; /* Adjust based on your header color */
+}
+
+/* Fail-proof Centered Image & Caption */
+.center-thumb {
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.center-thumb img {
+    max-width: 600px; /* YouTube thumbnail size */
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.center-thumb p {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 0 !important;
+}
+
+[data-md-color-scheme="slate"] .center-thumb p {
+    color: #aaa;
+}
 
 /* =============================================================
-   12. NAVIGATION SIDEBAR - DARK MODE ACTIVE FIX
+   11. CUSTOM LOGO SIZING
    ============================================================= */
+
+/* Targets the logo container in the header */
+.md-header__button.md-logo img {
+    height: 3rem !important; /* Adjust this value to your liking (default is ~1.2rem) */
+    width: auto;             /* Keeps the logo from stretching */
+    margin: 5px 0;          /* Adds a little vertical padding */
+}
+
+/* Adjusts the header title alignment to match the larger logo */
+.md-header__title {
+    display: flex;
+    align-items: center;
+}
+
+/* =============================================================
+   12. NAVIGATION SIDEBAR - ROOT LEVEL ONLY (FIXED ACTIVE STATES)
+   ============================================================= */
+
+/* 1. Base Weight - Bold ONLY the main root categories */
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
-.md-nav--primary > .md-nav__list > .md-nav__item > label { font-weight: 700 !important; font-size: 0.8rem; }
-.md-nav__link { color: #091b34; }
+.md-nav--primary > .md-nav__list > .md-nav__item > label {
+    font-weight: 700 !important;
+    font-size: 0.8rem;
+}
 
-[data-md-color-scheme="slate"] .md-nav__link { color: rgba(255, 255, 255, 0.7) !important; }
-[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link { color: #ffffff !important; }
+/* 2. Sub-links weight (Equipment, Basics, etc.) */
+.md-nav__item--nested .md-nav__item .md-nav__link {
+    font-weight: 400 !important;
+}
 
-/* This forces red for both nested and root (outermost) items in Dark Mode */
+/* 3. LIGHT MODE COLORS (Default Navy) */
+.md-nav__link {
+    color: #091b34; 
+}
+
+/* 4. DARK MODE (SLATE) OVERRIDES */
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Forces Pure White for root headers in Dark Mode when NOT active */
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    color: #ffffff !important;
+}
+
+/* FIX: Targets the outermost active titles (Start Here, etc) in Dark Mode */
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link,
 [data-md-color-scheme="slate"] .md-nav__item--active > label,
 [data-md-color-scheme="slate"] .md-nav__link--active,
@@ -187,17 +502,66 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
     color: #ef373e !important;
 }
 
-/* Red Dividers */
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) { border-bottom: 2px solid #ef373e; margin-bottom: 15px; padding-bottom: 15px; }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) { border-top: 2px solid #ef373e; margin-top: 15px; padding-top: 15px; }
-
-/* =============================================================
-   13. LAYOUT & SPACING
-   ============================================================= */
-@media screen and (min-width: 76.25em) {
-  .md-grid { max-width: 85rem; }
-  .md-content { margin: 0 2rem; }
+/* 5. NAVIGATION DIVIDERS (Red Lines) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) {
+    border-bottom: 2px solid #ef373e;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
-.video-container { display: flex; flex-direction: column; align-items: center; margin: 40px auto; }
-.video-container iframe { width: 65% !important; aspect-ratio: 16 / 9; border-radius: 12px; border: none; }
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) {
+    border-top: 2px solid #ef373e;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+/* =============================================================
+   13. LAYOUT & SPACING (Wider Content Area)
+   ============================================================= */
+
+@media screen and (min-width: 76.25em) {
+  /* Increase the overall width of the site container */
+  .md-grid {
+    max-width: 85rem; /* Default is usually around 60rem. Increase this to push sidebars out. */
+  }
+
+  /* Increase the space for the actual text content in the middle */
+  .md-main__inner {
+    margin-top: 1.5rem;
+  }
+
+  /* Add extra padding to the content so it feels less cramped */
+  .md-content {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+
+/* =============================================================
+   14. CENTERED VIDEO PLAYER
+   ============================================================= */
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centers the video horizontally */
+    justify-content: center;
+    margin: 40px auto;      /* Top/Bottom margin and auto-centers the div */
+    width: 100%;            /* The container takes full width */
+}
+
+.video-container iframe {
+    width: 65% !important;  /* Adjust this percentage to your "reasonable size" */
+    aspect-ratio: 16 / 9;   /* Maintains YouTube shape */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border: none;
+}
+
+/* Make it full width on mobile devices */
+@media screen and (max-width: 45em) {
+    .video-container iframe {
+        width: 100% !important;
+    }
+}
