@@ -342,66 +342,49 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    9. TABLE OF CONTENTS (RIGHT SIDEBAR) RESTORATION
    ============================================================= */
 
+/* =============================================================
+   9. TABLE OF CONTENTS (RIGHT SIDEBAR)
+   ============================================================= */
 
-   
-/* Ensure the right-hand sidebar is visible on screens */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--secondary {
-    display: block !important;
-    visibility: visible !important;
-  }
+/* 1. Hide the original "Table of contents" label entirely */
+.md-nav--secondary label.md-nav__title {
+    display: none;
 }
 
-/* Rename "Table of Contents" to "What's on This Page" */
-.md-nav--secondary .md-nav__title {
-    font-size: 0; /* Hides original text */
-}
-
-.md-nav--secondary .md-nav__title::after {
+/* 2. Add "What's on This Page" as a fresh header at the top of the list */
+.md-nav--secondary ul.md-nav__list::before {
     content: "What's on This Page";
-    font-size: 0.7rem; /* Restores size for new text */
+    display: block;
+    padding: 12px 16px;
     font-weight: 800;
     color: #091b34;
     text-transform: uppercase;
+    font-size: 0.65rem;
     letter-spacing: 0.05em;
-    display: block;
 }
 
-[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__title::after {
+/* Dark Mode adjustment for the new title */
+[data-md-color-scheme="slate"] .md-nav--secondary ul.md-nav__list::before {
     color: #ffffff !important;
 }
 
-/* Style the ToC Title */
-.md-nav--secondary .md-nav__title {
-  font-weight: 800;
-  color: #091b34;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.05em;
-  margin-top: 10px;
-}
-
-/* Style the ToC Links */
+/* 3. Style the ToC Links (The actual list items) */
 .md-nav--secondary .md-nav__link {
-  font-size: 0.7rem;
-  line-height: 1.4;
-  border-left: 2px solid #eee; /* Light track line */
-  padding-left: 12px;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    border-left: 2px solid #eee;
+    padding-left: 12px;
 }
 
 /* Highlight the active heading in Brand Red */
 .md-nav--secondary .md-nav__link--active {
-  color: #ef373e !important;
-  font-weight: 700;
-  border-left: 2px solid #ef373e !important;
+    color: #ef373e !important;
+    font-weight: 700;
+    border-left: 2px solid #ef373e !important;
 }
 
-/* Dark Mode adjustment for ToC */
-[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__title {
-  color: #ffffff !important;
-}
 [data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link {
-  border-left-color: #333;
+    border-left-color: #333;
 }
 
 /*page banner */

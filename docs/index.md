@@ -7,7 +7,7 @@
 <img src="./images/main-banner.png" class="page-banner" alt="decorative banner showing various gamers and adaptive gaming centres">
 
 ## What is this Resource?
-Welcome! This resource is a collection of the [Makers Making Change](https://www.makersmakingchange.com/), a program of [Neil Squire](https://www.neilsquire.ca/), adaptive gaming resources. Intended for both or GAME Checkpoint community or anyone in the world interested in learning more about assistive technology in gaming.
+Welcome! This resource is a collection of the [Makers Making Change](https://www.makersmakingchange.com/), a program of [Neil Squire](https://www.neilsquire.ca/), adaptive gaming resources. Intended for both or GAME Checkpoint community or anyone in the world interested in learning more about assistive technology in gaming. This resource assumes you are already familiar with the disability of someone else you are working with or you are reading this to learn about the assistive technology out there that you can use.
 
 <div class="qr-link">
   <img src="./images/qr/mmc-site-qr.png" alt="QR Code for Makers Making Change site">
@@ -17,6 +17,26 @@ Welcome! This resource is a collection of the [Makers Making Change](https://www
 <div class="qr-link">
   <img src="./images/qr/nss-site-qr.png" alt="QR Code for Neil Squire site">
   <p>Link: Neil Squire site</p>
+</div>
+
+## Your Pathway to Play
+
+If you do not know where to start, follow the path below to get a deep understanding of the equipment, video game literacy, and best practices around adaptive gaming:
+
+1.  **Adaptive Gaming Equipment:** Explore [Alternative Access](alt-access.md), [Controller Modifications](control-mods.md), and [Software Features](software.md).
+2.  **Video Game Basics:** Learn [How to Pick Games](pick-game.md) and build [Video Game Literacy](video-game-literacy.md).
+3.  **Best Practices:** Follow our [Session Walkthrough](session-walkthrough.md) for a successful assessment and setup. View [Tips and Tricks](tips-and-tricks.md) that we have developed or learned through the years at Makers Making Change.
+4. **[Gamer Profiles:](profiles.md)** Check out the setups of various individuals to get insight into how this can apply to yourself or client.
+
+### Other Resources found on this site
+
+1.  **GAME Checkpoint Resources:** Are you a centre that is looking for resources to help you serve your community? This section allows you to access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), [Marketing and Posters](marketing.md), and various [Templates](templates.md).
+2. **[Get Support:](support.md)** Check out this section to find out how to get in contact with us.
+3. **[Download/Print:](print.md)** Visit this page if you would like to print a static version (.PDF) of everything included on this site. The video and linked sections will be turned into QR codes.
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>put a graphical representation of the breakdown of content</p>
 </div>
 
 ## Why Adaptive Gaming Matters
@@ -53,17 +73,3 @@ The [GAME Checkpoints program](https://www.makersmakingchange.com/game-checkpoin
 
 This resource is intended to be a resource guide and source of useful materials for the GAME Checkpoints as well as individuals looking for more information on adaptive gaming. If you are a GAME Checkpoint leader looking for specific tools, check out the [GAME Checkpoint specific resouces on this site](questionnaire.md). 
 
-## Your Pathway to Play
-
-If you do not know where to start, follow the path below to get a deep understanding of the equipment, video game literacy, and best practices around adaptive gaming:
-
-1.  **Adaptive Gaming Equipment:** Explore [Alternative Access](alt-access.md), [Controller Modifications](control-mods.md), and [Software Features](software.md).
-2.  **Video Game Basics:** Learn [How to Pick Games](pick-game.md) and build [Video Game Literacy](video-game-literacy.md).
-3.  **Best Practices:** Follow our [Session Walkthrough](session-walkthrough.md) for a successful assessment and setup. View [Tips and Tricks](tips-and-tricks.md) that we have developed or learned through the years at Makers Making Change.
-4. **[Gamer Profiles:](profiles.md)** Check out the setups of various individuals to get insight into how this can apply to yourself or client.
-
-### Other Resources found on this site
-
-1.  **GAME Checkpoint Resources:** Are you a centre that is looking for resources to help you serve your community? This section allows you to access [Questionnaires](questionnaire.md), [Equipment Lists](equipment-lists.md), [Marketing and Posters](marketing.md), and various [Templates](templates.md).
-2. **[Get Support:](support.md)** Check out this section to find out how to get in contact with us.
-3. **[Download/Print:](print.md)** Visit this page if you would like to print a static version (.PDF) of everything included on this site. The video and linked sections will be turned into QR codes.
