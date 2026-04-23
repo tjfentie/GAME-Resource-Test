@@ -662,48 +662,44 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
    Table Formatting
    ============================================================= */
 
-/* Container to center the table */
-.centered-table-container {
-    margin: 2rem auto;
-    max-width: 100%; 
-    display: block;
-}
-
-/* Force Table Styling & Font Size */
-.centered-table-container table {
-    margin: 0 auto !important;
-    display: table !important;
-    border-collapse: collapse !important;
-    font-size: 0.8rem !important; /* Matches standard paragraph size */
-    color: var(--md-typeset-color); /* Automatically adapts to light/dark mode text color */
-}
-
-/* Vertical Dividers & Borders */
-.centered-table-container th, 
-.centered-table-container td {
-    border: 1px solid #dfe2e5 !important;
-    padding: 12px 16px !important;
-}
-
-/* Dark mode border adjustment */
-[data-md-color-scheme="slate"] .centered-table-container th,
-[data-md-color-scheme="slate"] .centered-table-container td {
-    border: 1px solid #444 !important;
-}
-
-/* Table Caption - Red Styling & Closer Proximity */
+/* Table Caption - Brand Blue in Light Mode, Brand Red in Dark Mode */
 .table-caption {
     text-align: center;
     font-size: 0.85rem;
-    color: #ef373e !important; /* Your Brand Red */
-    margin-bottom: 4px; /* Half the distance - tighter to the table */
+    color: #262262 !important; /* Your Brand Dark Blue */
+    margin-bottom: 4px; /* Keeping it tight to the table */
     font-weight: 800;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
-/* Ensure title stays red or adapts in dark mode if preferred */
+/* Dark Mode (Slate) Toggle */
 [data-md-color-scheme="slate"] .table-caption {
-    color: #ff5252 !important; /* Slightly brighter red for better dark mode contrast */
+    color: #ef373e !important; /* Your Brand Red for high contrast on dark bg */
+}
+
+/* Container & Table styling - ensures borders show in dark mode */
+.centered-table-container {
+    margin: 2rem auto;
+    max-width: 100%; 
+    display: block;
+}
+
+.centered-table-container table {
+    margin: 0 auto !important;
+    display: table !important;
+    border-collapse: collapse !important;
+    font-size: 0.8rem !important;
+}
+
+.centered-table-container th, 
+.centered-table-container td {
+    border: 1px solid #dfe2e5 !important;
+    padding: 12px 16px !important;
+}
+
+[data-md-color-scheme="slate"] .centered-table-container th,
+[data-md-color-scheme="slate"] .centered-table-container td {
+    border: 1px solid #444 !important;
 }
