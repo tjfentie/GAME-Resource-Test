@@ -10,16 +10,16 @@ Alternative Access referes to using any type of input into a game that does not 
 There are various categories of devices and tools under alternative access: 
 
 * Using Adaptive Controllers
-  * Assistive Switches
-  * Assistive Joysticks
+    * Assistive Switches
+    * Assistive Joysticks
 * Specialized Controllers
 * Other Input Methods
-  * Eye Tracking
-  * Voice Control
-  * Facial and Body Gestures
+    * Eye Tracking
+    * Voice Control
+    * Facial and Body Gestures
 * Important Considerations
-  * Adapters
-  * Mounting
+    * Adapters
+    * Mounting
 
 This section will provide an overview on all the devices and tools mentioned above as well as giving a quick overview of the platforms available.
 
