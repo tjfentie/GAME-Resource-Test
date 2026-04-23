@@ -70,15 +70,15 @@ Outside of the detailed resources above, we have a few additional tools for our 
 <div class="resource-row">
     <div class="resource-info">
         <strong>GAME Checkpoint Resources</strong><br>
-        Access <a href="questionnaire.md">Questionnaires your clients can fill out before sessions</a>, <a href="equipment-lists.md">The base equipment list for a GAME Checkpoint centre</a>, <a href="marketing.md">Marketing Materials</a>, and <a href="templates.md">Templates to help you document game accessibility and more</a>.
+        Access <a href="questionnaire.md">Questionnaires</a> your clients can fill out before sessions, <a href="equipment-lists.md">The base equipment list</a> for a GAME Checkpoint centre, <a href="marketing.md">Marketing Materials</a>, and <a href="templates.md">Templates</a> to help you document game accessibility and more.
     </div>
     <div class="resource-info">
         <strong>Support</strong><br>
-        <a href="support.md">Find organizations to help you on your adaptive gaming journey</a>
+        <a href="support.md">Find support.</a> Look at organizations to help you on your adaptive gaming journey
     </div>
         <div class="resource-info">
         <strong>Support & Documentation</strong><br>
-        <a href="print.md">Download all of the adaptive gaming information in "Learn About Adaptive Gaming"</a>
+        <a href="print.md">Download</a> all of the adaptive gaming information in "Learn About Adaptive Gaming".
     </div>
 </div>
 
