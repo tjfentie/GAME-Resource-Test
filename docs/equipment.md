@@ -12,7 +12,7 @@ In general, there are three main ways to make adaptive gaming accessible:
 2. Controller Modifications
 3. Software
 
-# Getting Started: Choosing Your Access Path
+## Getting Started: Choosing Your Access Path
 
 Whether you are a player looking for a personal setup or a clinician supporting someone else, the goal is the same: **maximize the player's existing access.** Use these two questions to decide which sections of this resource to explore first.
 
