@@ -21,16 +21,16 @@ Welcome! This resource is a collection of the [Makers Making Change](https://www
 
 # Your Pathway to Play
 
-This guide provides a structured approach to understanding adaptive gaming, from initial hardware selection to real-world implementation.
+This guide provides a structured approach to understanding the assistive technology in adaptive gaming, from initial hardware selection to real-world implementation.
 
 <div class="pathway-grid">
     <div class="step-card">
-        <h3>Step 1: Adaptive Equipment</h3>
+        <h3>Step 1: Assistive Technology for Gaming</h3>
         <p>Understand the physical tools and software settings used to bridge the gap between a player and the game.</p>
         <ul>
-            <li><a href="alt-access.md">Alternative Access</a>: Head-tracking, foot pedals, or mouth-operated joysticks.</li>
-            <li><a href="control-mods.md">Controller Modifications</a>: 3D-printed add-ons and specialized switches.</li>
-            <li><a href="software.md">Software Features</a>: In-game settings for difficulty and visual cues.</li>
+            <li><a href="alt-access.md">Alternative Access</a>: If standard controllers do not work for the player they could try using assistive switches, joysticks, voice control, facial expressions, eye control, and more.</li>
+            <li><a href="control-mods.md">Controller Modifications</a>: 3D printed and commercial modifications for a traditional controller</li>
+            <li><a href="software.md">Software Features</a>: In-game accessibility and 3rd party applications for accessibility in games.</li>
         </ul>
     </div>
 
@@ -38,23 +38,23 @@ This guide provides a structured approach to understanding adaptive gaming, from
         <h3>Step 2: Game Selection</h3>
         <p>Learn how to match a player's physical range of motion to the specific digital demands of a game.</p>
         <ul>
-            <li><a href="pick-game.md">How to Pick Games</a>: Evaluating games based on input complexity.</li>
-            <li><a href="video-game-literacy.md">Video Game Literacy</a>: Navigating menus and common gaming terminology.</li>
+            <li><a href="pick-game.md">How to Find Games with Accessibility</a>: Evaluating games based on the needs of the gamer.</li>
+            <li><a href="video-game-literacy.md">Video Game Literacy</a>: New to gaming and don't know where to start?</li>
         </ul>
     </div>
 
     <div class="step-card">
         <h3>Step 3: Best Practices</h3>
-        <p>Follow standardized procedures to ensure a successful assessment and long-term setup.</p>
+        <p>Recommended practices that we have developed or learned from other experts ensure a successful assessment and long-term setup.</p>
         <ul>
-            <li><a href="session-walkthrough.md">Session Walkthrough</a>: A technical guide for facilitating assessments.</li>
-            <li><a href="tips-and-tricks.md">Tips and Tricks</a>: Practical solutions from clinical experience.</li>
+            <li><a href="session-walkthrough.md">Session Walkthrough</a>: A guide for walking through the before, during, and after an adaptive gaming session.</li>
+            <li><a href="tips-and-tricks.md">Tips and Tricks</a>: Recommendations that we often make for common requests such as one handed gaming, helpful considerations, and more.</li>
         </ul>
     </div>
 
     <div class="step-card">
         <h3>Step 4: Practical Application</h3>
-        <p>Review real-world case studies to see how these strategies are integrated for individual players.</p>
+        <p>Review real-world case studies to see how all of the above sections are integrated for individual players.</p>
         <ul>
             <li><a href="profiles.md">Gamer Profiles</a>: Detailed equipment setups for various needs.</li>
         </ul>
@@ -63,18 +63,22 @@ This guide provides a structured approach to understanding adaptive gaming, from
 
 ---
 
-## Operational Resources
+## Additional Resources
 
-These tools support centers and organizations looking to implement adaptive gaming programs.
+Outside of the detailed resources above, we have a few additional tools for our GAME Checkpoints and pages on where to get support if you are an individual looking for gaming support or an organization looking to implement an adaptive gaming program.
 
 <div class="resource-row">
     <div class="resource-info">
-        <strong>Center Administration</strong><br>
-        Access <a href="questionnaire.md">Questionnaires</a>, <a href="equipment-lists.md">Equipment Lists</a>, <a href="marketing.md">Marketing Materials</a>, and <a href="templates.md">Templates</a>.
+        <strong>GAME Checkpoint Resources</strong><br>
+        Access <a href="questionnaire.md">Questionnaires your clients can fill out before sessions</a>, <a href="equipment-lists.md">The base equipment list for a GAME Checkpoint centre</a>, <a href="marketing.md">Marketing Materials</a>, and <a href="templates.md">Templates to help you document game accessibility and more</a>.
     </div>
     <div class="resource-info">
+        <strong>Support</strong><br>
+        <a href="support.md">Find organizations to help you on your adaptive gaming journey</a>
+    </div>
+        <div class="resource-info">
         <strong>Support & Documentation</strong><br>
-        <a href="support.md">Contact the Engineering Team</a> or visit the <a href="print.md">Download/Print Page</a> for PDF versions.
+        <a href="print.md">Download all of the adaptive gaming information in "Learn About Adaptive Gaming"</a>
     </div>
 </div>
 
