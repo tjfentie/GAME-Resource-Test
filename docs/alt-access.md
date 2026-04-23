@@ -42,7 +42,7 @@ We recommend starting with the equipment already available to you. Using what yo
 | **Xbox Series X\|S** | • **Co-pilot Mode:** Link two controllers to act as one.<br>• **Button Remapping:** Custom layouts at system level. |
 | **PlayStation 5** | • **Haptic Tuning:** Adjust vibration and trigger force.<br>• **Access Controller:** Native support for the modular hub. |
 | **PC (Steam/Windows)** | • **Steam Input:** Compatibility for most controllers.<br>• **Big Picture Mode:** Interface optimized for alternative access. |
-| **Nintendo Switch** | • **Button Mapping:** Change layouts via System Settings.<br>• **Zoom Feature:** Magnify any part of the screen. |
+| **Nintendo Switch** | • **Button Mapping:** Change layouts via System Settings.type type type We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support. <br>• **Zoom Feature:** Magnify any part of the screen. |
 
 </div>
 
