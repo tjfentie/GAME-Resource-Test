@@ -665,26 +665,40 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 /* Container to center the table */
 .centered-table-container {
     margin: 2rem auto;
-    max-width: 90%; /* Adjust width as needed */
-    display: table; /* Ensures the container shrinks to fit the table width */
-}
-
-/* Table styling */
-.centered-table-container table {
-    margin: 0 auto !important;
-    display: table !important; /* Overrides MkDocs default block display */
-}
-
-/* Table Caption - Styled like your image captions */
-.table-caption {
-    text-align: center;
-    font-size: 0.85rem;
-    color: #666; /* Match your image caption color */
-    margin-bottom: 8px;
-    font-weight: bold;
+    max-width: 100%; 
     display: block;
 }
 
-[data-md-color-scheme="slate"] .table-caption {
-    color: #aaa;
+/* Force Table Styling */
+.centered-table-container table {
+    margin: 0 auto !important;
+    display: table !important;
+    border-collapse: collapse !important;
+    /* This makes the text match your paragraph size */
+    font-size: 0.8rem !important; 
+}
+
+/* Vertical Dividers & Borders */
+.centered-table-container th, 
+.centered-table-container td {
+    border: 1px solid #dfe2e5 !important; /* Light grey border */
+    padding: 12px 16px !important;
+}
+
+/* Dark mode borders */
+[data-md-color-scheme="slate"] .centered-table-container th,
+[data-md-color-scheme="slate"] .centered-table-container td {
+    border: 1px solid #333 !important;
+}
+
+/* Table Caption styling */
+.table-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #262262; /* Using your brand header color */
+    margin-bottom: 12px;
+    font-weight: 800;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
