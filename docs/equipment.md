@@ -31,6 +31,7 @@ Whether you are a player looking for a personal setup or a clinician supporting 
         <p>Are there barriers related to vision, hearing, or how information is processed?</p>
         <ul>
             <li><strong>If Yes:</strong> Explore <a href="../software">Software Features</a> first. There may be in-game accessibility or additional softwares that might make gaming more accessible for the player.</li>
+            <li><strong>Note:</strong> Sometimes using assistive switches or joysticks found in <a href="../alt-access">Alternative Access</a> can also assisist cognitive needs by simplifying or enlarging the inputs to the game.</li>
         </ul>
     </div>
 </div>

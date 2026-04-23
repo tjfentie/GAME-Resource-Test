@@ -4,30 +4,31 @@
   Printable Version of this Section
 </button>
 
-## Navigating the Gear Landscape
+<img src="../images/mmc-game-at.jpg" class="page-banner" alt="various MMC assistive technology splayed out on a table">
 
-Adaptive gaming requires a balance between the player's physical abilities and the technical requirements of the game. This guide condenses our full technical documentation into four actionable categories.
+## What is Alternative Access
+Alternative Access referes to using any type of input into a game that does not involve using a "standard controller". In this case "standard controller" means the default controls that come with the system. This could be keyboard/mice or Xbox/Nintendo/PlayStation controllers. 
 
-<div class="pathway-grid">
-    <div class="step-card">
-        <h3>1. Standard Controller Use</h3>
-        <p>Can the player use a standard controller, even if only partially (e.g., just one side or specific buttons)?</p>
-        <ul>
-            <li><strong>If Yes:</strong> Start with <a href="../control-mods">Controller Modifications</a> to adapt existing hardware.</li>
-            <li><strong>If No:</strong> Jump to <a href="../alt-access">Alternative Access</a> to build a setup from the ground up.</li>
-        </ul>
-    </div>
-    <div class="step-card">
-        <h3>2. Sensory and Cognitive Needs</h3>
-        <p>Are there barriers related to vision, hearing, or how information is processed?</p>
-        <ul>
-            <li><strong>If Yes:</strong> Explore <a href="../software">Software Features</a> first. Modern accessibility settings can often replace the need for hardware.</li>
-            <li><strong>Note:</strong> Sometimes using assistive switches or joysticks found in <a href="../alt-access">Alternative Access</a> can also assisist cognitive needs by simplifying or enlarging the inputs to the game.</li>
-        </ul>
-    </div>
+There are various categories of devices and tools under alternative access: 
+
+- Using Adaptive Controllers
+  - Assistive Switches
+  - Assistive Joysticks
+- Specialized Controllers
+- Other Input Methods
+  - Eye Tracking
+  - Voice Control
+  - Facial and Body Gestures
+- Important Considerations
+  - Adapters
+  - Mounting
+
+This section will provide an overview on all the devices and tools mentioned above as well as giving a quick overview of the platforms available.
+
+<div class="center-thumb">
+    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
+    <p>Various MMC Assistive Switches and Joysticks</p>
 </div>
-
----
 
 ## Section 1: The Platform Foundation
 The system you choose dictates your hardware compatibility. Before buying gear, understand the "Standard" vs "Accessible" features of your platform.
