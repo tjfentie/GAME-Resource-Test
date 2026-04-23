@@ -582,3 +582,66 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 .md-search__input {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+/* Pathway Grid Layout */
+.pathway-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+.step-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-top: 4px solid #ef373e; /* Brand Red accent */
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .step-card {
+    background: #2e303e;
+    border-color: #444;
+}
+
+.step-card h3 {
+    margin-top: 0 !important;
+    color: #262262 !important; /* Your new Header Color */
+    font-size: 1.1rem !important;
+}
+
+[data-md-color-scheme="slate"] .step-card h3 {
+    color: #ffffff !important;
+}
+
+.step-card ul {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
+.step-card li {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+/* Resource Layout */
+.resource-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.resource-info {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(38, 34, 98, 0.05); /* Tint of your header color */
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+[data-md-color-scheme="slate"] .resource-info {
+    background: rgba(255, 255, 255, 0.05);
+}

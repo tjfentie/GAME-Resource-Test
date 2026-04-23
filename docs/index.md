@@ -21,90 +21,62 @@ Welcome! This resource is a collection of the [Makers Making Change](https://www
 
 # Your Pathway to Play
 
-Start here if you are new to adaptive gaming.  
-Follow the steps below in order, or jump to what you need.
+This guide provides a structured approach to understanding adaptive gaming, from initial hardware selection to real-world implementation.
+
+<div class="pathway-grid">
+    <div class="step-card">
+        <h3>Step 1: Adaptive Equipment</h3>
+        <p>Understand the physical tools and software settings used to bridge the gap between a player and the game.</p>
+        <ul>
+            <li><a href="alt-access.md">Alternative Access</a>: Head-tracking, foot pedals, or mouth-operated joysticks.</li>
+            <li><a href="control-mods.md">Controller Modifications</a>: 3D-printed add-ons and specialized switches.</li>
+            <li><a href="software.md">Software Features</a>: In-game settings for difficulty and visual cues.</li>
+        </ul>
+    </div>
+
+    <div class="step-card">
+        <h3>Step 2: Game Selection</h3>
+        <p>Learn how to match a player's physical range of motion to the specific digital demands of a game.</p>
+        <ul>
+            <li><a href="pick-game.md">How to Pick Games</a>: Evaluating games based on input complexity.</li>
+            <li><a href="video-game-literacy.md">Video Game Literacy</a>: Navigating menus and common gaming terminology.</li>
+        </ul>
+    </div>
+
+    <div class="step-card">
+        <h3>Step 3: Best Practices</h3>
+        <p>Follow standardized procedures to ensure a successful assessment and long-term setup.</p>
+        <ul>
+            <li><a href="session-walkthrough.md">Session Walkthrough</a>: A technical guide for facilitating assessments.</li>
+            <li><a href="tips-and-tricks.md">Tips and Tricks</a>: Practical solutions from clinical experience.</li>
+        </ul>
+    </div>
+
+    <div class="step-card">
+        <h3>Step 4: Practical Application</h3>
+        <p>Review real-world case studies to see how these strategies are integrated for individual players.</p>
+        <ul>
+            <li><a href="profiles.md">Gamer Profiles</a>: Detailed equipment setups for various needs.</li>
+        </ul>
+    </div>
+</div>
 
 ---
 
-## Choose Your Starting Point
+## Operational Resources
 
-### I am new to adaptive gaming
-Go step-by-step through the pathway below.
+These tools support centers and organizations looking to implement adaptive gaming programs.
 
-### I need something specific
-Jump to a section:
-
-- [Equipment](#step-1-understand-the-equipment)
-- [Choosing Games](#step-2-learn-the-basics)
-- [Running a Session](#step-3-apply-best-practices)
-- [Real Examples](#step-4-see-real-setups)
-- [Checkpoint Resources](#resources-for-game-checkpoints)
-
----
-
-# Step 1: Understand the Equipment
-
-Learn the core tools used to make gaming accessible.
-
-- [Alternative Access](alt-access.md)
-- [Controller Modifications](control-mods.md)
-- [Software Features](software.md)
-
----
-
-# Step 2: Learn the Basics
-
-Build confidence in choosing and understanding games.
-
-- [How to Pick Games](pick-game.md)
-- [Video Game Literacy](video-game-literacy.md)
-
----
-
-# Step 3: Apply Best Practices
-
-Run effective sessions and set up players for success.
-
-- [Session Walkthrough](session-walkthrough.md)
-- [Tips and Tricks](tips-and-tricks.md)
-
----
-
-# Step 4: See Real Setups
-
-Explore how others have made gaming work for them.
-
-- [Gamer Profiles](profiles.md)
-
----
-
-# Resources for GAME Checkpoints
-
-Use these tools if you are supporting others or running a program.
-
-## Planning and Assessment
-- [Questionnaires](questionnaire.md)
-- [Equipment Lists](equipment-lists.md)
-
-## Outreach and Promotion
-- [Marketing and Posters](marketing.md)
-
-## Program Tools
-- [Templates](templates.md)
-
----
-
-# Need Help?
-
-- [Get Support](support.md)
-
----
-
-# Want a Printable Version?
-
-- [Download / Print (PDF)](print.md)
-
-Printable versions convert videos and links into QR codes.
+<div class="resource-row">
+    <div class="resource-info">
+        <strong>Center Administration</strong><br>
+        Access <a href="questionnaire.md">Questionnaires</a>, <a href="equipment-lists.md">Equipment Lists</a>, <a href="marketing.md">Marketing Materials</a>, and <a href="templates.md">Templates</a>.
+    </div>
+    <div class="resource-info">
+        <strong>Support & Documentation</strong><br>
+        <a href="support.md">Contact the Engineering Team</a> or visit the <a href="print.md">Download/Print Page</a> for PDF versions.
+    </div>
+</div>
 
 <div class="center-thumb">
     <img src="./images/placeholder.png" alt="This is just a placeholder image with no relevant content">
