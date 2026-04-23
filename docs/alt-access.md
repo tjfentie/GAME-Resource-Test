@@ -28,7 +28,7 @@ This section will provide an overview on all the devices and tools mentioned abo
     <p>Various MMC Assistive Switches and Joysticks</p>
 </div>
 
-## Section 1: The Platforms
+## The Platforms
 You may already have a platform available to you or you may be looking for one to purchase. If purchasing a new platform, there may be some things you want to consider in terms of accessibility. We are often asked, "What is the most accessible platform?" There is no single answer; while some systems offer more flexibility, the "best" choice depends entirely on individual needs and technical factors.
 
 We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support.
@@ -44,47 +44,31 @@ We recommend starting with the equipment already available to you. Using what yo
 
 ---
 
-## Section 2: Alternative Access (Hardware)
-When a standard controller is not an option, we use "Translation" devices to turn alternative movements into game commands.
+## Using Adaptive Controllers
 
-### Switch Interfaces
-These are the "hubs" where you plug in external buttons and joysticks.
-* **Xbox Adaptive Controller (XAC):** The industry standard for connecting 3.5mm switches.
-* **MMC Enabled Controller:** An open-source interface for PC/Mobile that translates switches into keyboard/mouse clicks.
+### Assistive Switches
 
-### Specialized Input Types
-* **Mouth Control:** sip-and-puff systems (like the LipSync) for players with limited neck/arm movement.
-* **Eye Tracking:** Using gaze to control the camera or cursor (primarily on PC).
-* **Voice Control:** Using software like *VoiceAttack* to map verbal commands to button presses.
-
----
-
-## Section 3: Controller Modifications
-Modifications are the most cost-effective "entry point" for many players.
-
-### DIY & 3D-Printed Solutions
-* **Thumbstick Extenders:** Increases the leverage of the stick, requiring less force to move.
-* **One-Handed Adapters:** 3D-printed chassis that allow a player to reach all buttons using only one hand and a flat surface.
-
-### Commercial Modifications
-* **Evil Controllers / Battle Beaver:** Professional-grade controllers with added "rear buttons" or relocated triggers to match a player's reach.
-
----
-
-## Section 4: Mounting & Ergonomics
-The best gear in the world is useless if it is not positioned correctly. Stability is the most overlooked part of an assessment.
-
-* **Fixed Mounting:** Using **Laptop Trays** or **Hook-and-Loop** (Velcro) to keep controllers from sliding.
-* **Flexible Mounting:** Using **Articulating Arms** or **Modular Hose** to position switches exactly where a player has the most reliable range of motion (e.g., near the head, knee, or hand).
-
+### Assistive Joysticks
 
 
 ---
 
-## The "Abilities-First" Checklist
-When working through these 30 pages of options, always ask:
-1.  **Where is the movement?** (Head, finger, toe, breath?)
-2.  **What is the platform?** (Does it support the necessary interface?)
-3.  **Is it stable?** (Can the player repeat the movement for 1 hour without fatigue?)
+## Specialized Controllers
 
-**Pro Tip:** Great setups are rarely one-size-fits-all. They are often a "Hybrid" mix of hardware hacks and software settings.
+---
+
+## Other Input Methods
+
+### Eye Tracking
+
+### Voice Control
+
+### Gesture Control
+
+--- 
+
+## Important Considerations
+
+### Mounting
+
+### Adapters
