@@ -30,15 +30,17 @@ This section will provide an overview on all the devices and tools mentioned abo
     <p>Various MMC Assistive Switches and Joysticks</p>
 </div>
 
-## Section 1: The Platform Foundation
-The system you choose dictates your hardware compatibility. Before buying gear, understand the "Standard" vs "Accessible" features of your platform.
+## Section 1: The Platforms
+You may already have a platform available to you or you may be looking for one to purchase. If purchasing a new platform, there may be some things you want to consider in terms of accessibility. We are often asked, "What is the most accessible platform?" There is no single answer; while some systems offer more flexibility, the "best" choice depends entirely on individual needs and technical factors.
 
-| Platform | Key Accessibility Strengths | Compatibility Notes |
-| :--- | :--- | :--- |
-| **Xbox** | **Co-pilot Mode** (Two controllers = One player) | Native support for the Xbox Adaptive Controller (XAC). |
-| **PlayStation** | Haptic Feedback and Trigger Tension adjustment. | Requires specific adapters for most non-Sony gear. |
-| **Nintendo** | Modular Joy-Cons; motion-control alternatives. | Best for simple, movement-based gaming. |
-| **PC (Steam)** | Ultimate flexibility; supports nearly any USB input. | Best for "Hybrid" setups mixing mouse, key, and switch. |
+We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support.
+
+| Platform | Accessibility Considerations |
+| :--- | :--- |
+| **Xbox Series X\|S** | • **Co-pilot Mode:** Link two controllers to act as one.<br>• **Button Remapping:** Change every input at the system level.<br>• **XAC Integration:** Native support for the Xbox Adaptive Controller.<br>• **Narrator:** Built-in screen reading for menu navigation. |
+| **PlayStation 5** | • **Haptic Tuning:** Adjust or disable vibration and trigger resistance.<br>• **Access Controller:** Native support for the modular PS5 accessibility hub.<br>• **Screen Reader:** High-quality text-to-speech for system menus.<br>• **Closed Captions:** System-wide settings for supported media. |
+| **PC (Steam/Windows)** | • **Steam Input:** Compatibility for almost any controller ever made.<br>• **Overlay Support:** Use third-party software over games.<br>• **Visual Filters:** System-wide color blindness and high-contrast modes.<br>• **Input Flexibility:** Simultaneous use of mouse, keyboard, and controllers. |
+| **Nintendo Switch** | • **Button Mapping:** Change button layouts via System Settings.<br>• **Zoom Feature:** Magnify any part of the screen at any time.<br>• **Gray Scale:** Invert colors or change to grayscale for visual clarity.<br>• **Modular Joy-Cons:** Allows for single-handed or motion-based play. |
 
 
 
