@@ -9,6 +9,7 @@ There is plenty of assistive technology out there for adaptive gaming. Often tim
 ### Where you Should Start
 
 Think about these two key questions:
+
   1. Can the player partially or totally use a standard controller?
     - If yes, look into the controller modifications or software options.
     - If no, look into alternative access section to create a setup with the function they DO have.
