@@ -100,3 +100,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences # Highly recommended for better code/block handling
+  - md_in_html
+  - tables
+  - attr_list

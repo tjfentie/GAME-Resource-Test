@@ -33,15 +33,16 @@ You may already have a platform available to you or you may be looking for one t
 
 We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support.
 
-<div class="centered-table-container">
+<div class="centered-table-container" markdown="1">
 <span class="table-caption">Comparison of Current Generation Platform Accessibility Features</span>
+<br>
 
 | Platform | Accessibility Considerations |
 | :--- | :--- |
-| **Xbox Series X\|S** | • **Co-pilot Mode:** Link two controllers to act as one.<br>• **Button Remapping:** Change every input at the system level. |
-| **PlayStation 5** | • **Haptic Tuning:** Adjust or disable vibration and trigger resistance.<br>• **Access Controller:** Native support for the modular hub. |
-| **PC (Steam/Windows)** | • **Steam Input:** Compatibility for almost any controller.<br>• **Overlay Support:** Use third-party software over games. |
-| **Nintendo Switch 2** | • **Button Mapping:** Change layouts via System Settings.<br>• **Zoom Feature:** Magnify any part of the screen. |
+| **Xbox Series X\|S** | • **Co-pilot Mode:** Link two controllers to act as one.<br>• **Button Remapping:** Custom layouts at system level. |
+| **PlayStation 5** | • **Haptic Tuning:** Adjust vibration and trigger force.<br>• **Access Controller:** Native support for the modular hub. |
+| **PC (Steam/Windows)** | • **Steam Input:** Compatibility for most controllers.<br>• **Big Picture Mode:** Interface optimized for alternative access. |
+| **Nintendo Switch** | • **Button Mapping:** Change layouts via System Settings.<br>• **Zoom Feature:** Magnify any part of the screen. |
 
 </div>
 
