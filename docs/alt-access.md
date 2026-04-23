@@ -22,6 +22,7 @@ Adaptive gaming requires a balance between the player's physical abilities and t
         <p>Are there barriers related to vision, hearing, or how information is processed?</p>
         <ul>
             <li><strong>If Yes:</strong> Explore <a href="../software">Software Features</a> first. Modern accessibility settings can often replace the need for hardware.</li>
+            <li><strong>Note:</strong> Sometimes using assistive switches or joysticks found in <a href="../alt-access">Alternative Access</a> can also assisist cognitive needs by simplifying or enlarging the inputs to the game.</li>
         </ul>
     </div>
 </div>
