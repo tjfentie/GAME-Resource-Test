@@ -19,7 +19,7 @@ Welcome! This resource is a collection of the [Makers Making Change](https://www
   <p>Link: Neil Squire site</p>
 </div>
 
-# Your Pathway to Play
+## Your Pathway to Play
 
 This guide provides a structured approach to understanding the assistive technology in adaptive gaming, from initial hardware selection to real-world implementation.
 
@@ -77,7 +77,7 @@ Outside of the detailed resources above, we have a few additional tools for our 
         <a href="support.md">Find support.</a> Look at organizations to help you on your adaptive gaming journey
     </div>
         <div class="resource-info">
-        <strong>Support & Documentation</strong><br>
+        <strong>Print These Resources</strong><br>
         <a href="print.md">Download</a> all of the adaptive gaming information in "Learn About Adaptive Gaming".
     </div>
 </div>
