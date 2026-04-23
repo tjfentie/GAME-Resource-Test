@@ -657,3 +657,34 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 [data-md-color-scheme="slate"] .resource-info {
     background: rgba(255, 255, 255, 0.05);
 }
+
+/* =============================================================
+   Table Formatting
+   ============================================================= */
+
+/* Container to center the table */
+.centered-table-container {
+    margin: 2rem auto;
+    max-width: 90%; /* Adjust width as needed */
+    display: table; /* Ensures the container shrinks to fit the table width */
+}
+
+/* Table styling */
+.centered-table-container table {
+    margin: 0 auto !important;
+    display: table !important; /* Overrides MkDocs default block display */
+}
+
+/* Table Caption - Styled like your image captions */
+.table-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666; /* Match your image caption color */
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
+}
+
+[data-md-color-scheme="slate"] .table-caption {
+    color: #aaa;
+}
