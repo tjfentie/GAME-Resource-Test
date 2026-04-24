@@ -91,6 +91,11 @@ There are three main Adaptive Controllers:
     * Has functionality to work with some eye tracking technology. 
     * Connects to Nintendo Switch 1 and 2 natively. 
 
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>Spectrum of Hub Based and Direct-Use Based Adaptive Controllers</p>
+</div>
+
 
 While they all have somewhat similar features, they all are very different in terms of usage/compatibility. Some take more of a Hub Based approach, Direct-Use approach, or some combination of the two. 
 
@@ -107,15 +112,15 @@ See each section below for more specific informaiton
 ### Assistive Switches
 
 <div class="center-thumb">
-    <img src="../images/mmc-game-at.jpg" alt="Graphic showing the conversion of buttons on a keyboard or controller being converted to assistive switches.">
-    <p>Keyboard or controller buttons can be swapped to </p>
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
 
 ### Assistive Joysticks
 
 <div class="center-thumb">
-    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
-    <p>Various MMC Assistive Switches and Joysticks</p>
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>Mice or Controller Joysticks can be Swapped to Assistive Joysticks</p>
 </div>
 
 
