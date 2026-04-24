@@ -39,10 +39,10 @@ We recommend starting with the equipment already available to you. Using what yo
 
 | Platform | Accessibility Considerations |
 | :--- | :--- |
-| **Xbox Series X\|S** | • **Co-pilot Mode:** Link two controllers to act as one.<br>• **Button Remapping:** Custom layouts at system level. |
-| **PlayStation 5** | • **Haptic Tuning:** Adjust vibration and trigger force.<br>• **Access Controller:** Native support for the modular hub. |
-| **PC (Steam/Windows)** | • **Steam Input:** Compatibility for most controllers.<br>• **Big Picture Mode:** Interface optimized for alternative access. |
-| **Nintendo Switch** | • **Button Mapping:** Change layouts via System Settings.type type type We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support. <br>• **Zoom Feature:** Magnify any part of the screen. |
+| **Xbox Series X\|S** | • **Adaptive Controller** Xbox has their own "Xbox Adaptive Controller (XAC) that nativly connects to this system and Xbox One's.<br>• **Controller Customization** Includes an app "Xbox Accessories" that allows you to remap and customize the inputs for an XAC or standard controllers.<br>• **Built in Accessibility** check out the [Xbox Accessibility Page](https://www.xbox.com/en-US/community/for-everyone/accessibility) for more information on the built in accessibility. |
+| **PlayStation 5 (PS5)** | • **Controller Haptic Tuning:** Adjust vibration and trigger force on standard PS5 controllers.<br>• **Adaptive Controller:** PlayStation has their own "Sony Access Controller (SAC)" that nativly connects to ONLY system.<br>• **Built in Accessibility** check out the [PlayStation Accessibility Page](https://www.playstation.com/en-ca/accessibility/) for more information on the built in accessibility.  |
+| **PC (Windows)** | • **Flexibility:** Compatibility for most controllers.<br>• **How to get games:** You can use game launchers such as Steam, Epic Games, and more. [Steam](https://help.steampowered.com/en/faqs/view/02F5-ACB2-6038-0F36) is the most common and has the most accessible options such as button remapping. |
+| **Nintendo Switch 2** | • **Adaptive Controller** Nintendo has a 3rd party adaptive controller called the "Hori Flex Controller" that nativly connects to this system and Nintendo Switch 1's.<br>• **Built in Accessibility** check out the [Nintendo Switch 2 Accessibility Page](https://www.nintendo.com/en-ca/gaming-systems/switch-2/accessibility/?srsltid=AfmBOoqwke_w2a8pWIbG69hlJn1zSvBlcmMmyqBKNPsDJFwC0wgIg0Hc) for more information on the built in accessibility. |
 
 </div>
 
@@ -52,11 +52,11 @@ We recommend starting with the equipment already available to you. Using what yo
 
 | Platform | Accessibility Considerations |
 | :--- | :--- |
-| **Xbox Series One** | • There are less accessible options built into this Xbox than the newer one, however, the Xbox Adaptive Controller is still compatible. |
+| **Xbox Series One** | • There are less accessible options built into this Xbox than the newer one, however, the Xbox Adaptive Controller is still compatible.<br>• This system still had Controller Assist and all features through Xbox Accessories that are found on the Xbox Series Systems and is compatible with the XAC. |
 | **Xbox 360** | • There are no adaptive controllers or specific alternative access for this platform. |
-| **PlayStation 4** | •  |
-| **PlayStation 3** | •  |
-| **PC (Steam/Windows)** | • It is important to consider the older and less powerful your PC is, the lower the ability to launch and successfuly play games is. |
+| **PlayStation 4 (PS4)** | •  |
+| **PlayStation 3 (PS3)** | •  |
+| **Older PC's (Windows)** | • It is important to consider the older and less powerful your PC is, the lower the ability to launch and successfuly play games is. |
 | **Nintendo Switch 1** | • There are less accessible options built into this Nintendo Switch than the newer one, however, adaptive controllers like the Xbox Adaptive Controller (with an adapter) and Hori Flex Controller will still connect. |
 | **Nintendo Wii** | • We often get asked about Nintendo Wii's because they were a popular device for rehabilitation centres.<br>• There are no adaptive controllers or specific alternative access for the this platform. |
 
