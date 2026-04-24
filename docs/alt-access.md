@@ -134,12 +134,13 @@ Check out the first video in their resource series here:
 <span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
 <br>
 
-| Feature | What Does it Do | Learn More |
-| :--- | :--- | :--- |
-| **Feature 1** | • asjdlkf | [resource name]() |
-| **Feature 2** | • asjdlkf | [resource name]() |
-| **Feature 3** | • asjdlkf | [resource name]() |
-| **Feature 4** | • asjdlkf | [resource name]() |
+| Feature | What Does it Do | Use Case | Learn More |
+| :--- | :--- | :--- | :--- |
+| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
 
 </div>
 
@@ -151,15 +152,16 @@ Released in 2023, the Sony Access Controller took a different approach to the ad
 #### Key Features
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
+<span class="table-caption">Key Features of the Sony Access Controller (SAC)</span>
 <br>
 
-| Feature | What Does it Do | Learn More |
-| :--- | :--- | :--- |
-| **Feature 1** | • asjdlkf | [resource name]() |
-| **Feature 2** | • asjdlkf | [resource name]() |
-| **Feature 3** | • asjdlkf | [resource name]() |
-| **Feature 4** | • asjdlkf | [resource name]() |
+| Feature | What Does it Do | Use Case | Learn More |
+| :--- | :--- | :--- | :--- |
+| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
 
 </div>
 
@@ -172,15 +174,16 @@ Released in 2021, the Hori Flex Controller is a 3rd party controller combining b
 #### Key Features
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
+<span class="table-caption">Key Features of the Hori Flex Controller</span>
 <br>
 
-| Feature | What Does it Do | Learn More |
-| :--- | :--- | :--- |
-| **Feature 1** | • asjdlkf | [resource name]() |
-| **Feature 2** | • asjdlkf | [resource name]() |
-| **Feature 3** | • asjdlkf | [resource name]() |
-| **Feature 4** | • asjdlkf | [resource name]() |
+| Feature | What Does it Do | Use Case | Learn More |
+| :--- | :--- | :--- | :--- |
+| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
 
 </div>
 
