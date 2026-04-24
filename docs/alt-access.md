@@ -107,6 +107,11 @@ Xbox has a fantastic series of videos and online resources explaining every feat
    Check out the XAC Resources Created by Xbox
 </a>
 
+<div class="qr">
+  <img src="./images/qr/xac-resources.png" alt="QR Code for link">
+  <p>Scan to go to the XAC resources created by Xbox</p>
+</div>
+
 Check out the first video in their resource series here:
 
 <div class="video-container">
@@ -116,6 +121,11 @@ Check out the first video in their resource series here:
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
     </iframe>
+</div>
+
+<div class="qr">
+  <img src="./images/qr/xac-vid-resource.png" alt="QR Code for link">
+  <p>Scan to go to the XAC resources created by Xbox</p>
 </div>
 
 #### Key Features
