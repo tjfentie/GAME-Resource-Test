@@ -96,14 +96,26 @@ There are three primary adaptive controllers out there with various approaches t
 See each section below for more specific information on the adaptive controllers.
 
 ### Xbox Adaptive Controller (XAC)
-Released in 2018 with continuous updates will the present, the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. However, instead of going into fine detail, this section will just cover the key features of the device and point to more detailed resources that have already been created.
+Released in 2018 with continuous updates will the present, the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. The XAC features some buttons on its face for usage out of the box but also has 3.5 mm and USB ports to add more assistive technology. Acting as a hub to create a custom adaptive gaming setup.
+
+#### How to Get Started
+
+#### Key Features
 
 
 ### Sony Access Controller (SAC)
 Released in 2023, the Sony Access Controller took a different approach to the adaptive controller than both the XAC and Hori Flex Controller by attempting to create an out-of-the-box ready to play adaptive controller. This is a great option for some players but in other ways, its lack of customization in shape and limited amount of ports for additional assistive tech may not be enough for some. 
 
+#### How to Get Started
+
+#### Key Features
+
 ### Hori Flex Controller
-Released in 2021, the Hori Flex Controller is a 3rd party controller 
+Released in 2021, the Hori Flex Controller is a 3rd party controller combining built in buttons on the top of the face as well as various ports for both assistive switches and joysticks. It is quite high in cost relative to the other adaptive controllers and with it not being made by Nintendo directly, it lacks some built in remapping/customization directly on the Nintendo Switch, it has to be done on a Windows computer. 
+
+#### How to Get Started
+
+#### Key Features
 
 ## Assistive Tech for Adaptive Controllers
 
