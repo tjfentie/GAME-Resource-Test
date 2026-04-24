@@ -93,12 +93,21 @@ There are three primary adaptive controllers out there with various approaches t
 </div>
 
 
-See each section below for more specific information on the adaptive controllers.
+**See each section below for more specific information on the adaptive controllers.**
 
 ### Xbox Adaptive Controller (XAC)
-Released in 2018 with continuous updates will the present, the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. The XAC features some buttons on its face for usage out of the box but also has 3.5 mm and USB ports to add more assistive technology. Acting as a hub to create a custom adaptive gaming setup.
+Released in 2018 with ongoing updates (even today), the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. The XAC features some buttons on its face for usage out of the box but also has 3.5 mm and USB ports to add more assistive technology. Acting as a hub to create a custom adaptive gaming setup.
 
 #### How to Get Started
+Xbox has a fantastic series of videos and online resources explaining every feature on the XAC alongside player profiles where players using the XAC describe their setup.
+
+[**Check out the XAC resources here**](https://support.xbox.com/en-US/help/account-profile/accessibility/xbox-adaptive-controller)
+
+Check out the first video in their resource series here:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/watch?v=zd4VddU1wTQ&list=PLGr-X28QXcrsMqFQNQGFlzQmrdMPKXjf2" frameborder="0" allowfullscreen></iframe>
+</div>
 
 #### Key Features
 
