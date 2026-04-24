@@ -120,6 +120,18 @@ Check out the first video in their resource series here:
 
 #### Key Features
 
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
+<br>
+
+| Feature | What Does it Do | Learn More |
+| :--- | :--- | :--- |
+| **Feature 1** | • asjdlkf | [resource name]() |
+| **Feature 2** | • asjdlkf | [resource name]() |
+| **Feature 3** | • asjdlkf | [resource name]() |
+| **Feature 4** | • asjdlkf | [resource name]() |
+
+</div>
 
 ### Sony Access Controller (SAC)
 Released in 2023, the Sony Access Controller took a different approach to the adaptive controller than both the XAC and Hori Flex Controller by attempting to create an out-of-the-box ready to play adaptive controller. This is a great option for some players but in other ways, its lack of customization in shape and limited amount of ports for additional assistive tech may not be enough for some. 
@@ -128,12 +140,40 @@ Released in 2023, the Sony Access Controller took a different approach to the ad
 
 #### Key Features
 
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
+<br>
+
+| Feature | What Does it Do | Learn More |
+| :--- | :--- | :--- |
+| **Feature 1** | • asjdlkf | [resource name]() |
+| **Feature 2** | • asjdlkf | [resource name]() |
+| **Feature 3** | • asjdlkf | [resource name]() |
+| **Feature 4** | • asjdlkf | [resource name]() |
+
+</div>
+
+
 ### Hori Flex Controller
 Released in 2021, the Hori Flex Controller is a 3rd party controller combining built in buttons on the top of the face as well as various ports for both assistive switches and joysticks. It is quite high in cost relative to the other adaptive controllers and with it not being made by Nintendo directly, it lacks some built in remapping/customization directly on the Nintendo Switch, it has to be done on a Windows computer. 
 
 #### How to Get Started
 
 #### Key Features
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Xbox Adaptive Controller (XAC)</span>
+<br>
+
+| Feature | What Does it Do | Learn More |
+| :--- | :--- | :--- |
+| **Feature 1** | • asjdlkf | [resource name]() |
+| **Feature 2** | • asjdlkf | [resource name]() |
+| **Feature 3** | • asjdlkf | [resource name]() |
+| **Feature 4** | • asjdlkf | [resource name]() |
+
+</div>
+
 
 ## Assistive Tech for Adaptive Controllers
 
