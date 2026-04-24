@@ -101,12 +101,21 @@ Released in 2018 with ongoing updates (even today), the Xbox Adaptive Controller
 #### How to Get Started
 Xbox has a fantastic series of videos and online resources explaining every feature on the XAC alongside player profiles where players using the XAC describe their setup.
 
-[**Check out the XAC resources here**](https://support.xbox.com/en-US/help/account-profile/accessibility/xbox-adaptive-controller)
+<a href="https://support.xbox.com/en-US/help/account-profile/accessibility/xbox-adaptive-controller" 
+   target="_blank" 
+   class="print-button">
+   Check out the XAC Resources Created by Xbox
+</a>
 
 Check out the first video in their resource series here:
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=zd4VddU1wTQ&list=PLGr-X28QXcrsMqFQNQGFlzQmrdMPKXjf2" frameborder="0" allowfullscreen></iframe>
+    <iframe 
+        src="https://www.youtube.com/embed/zd4VddU1wTQ?list=PLGr-X28QXcrsMqFQNQGFlzQmrdMPKXjf2" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
 </div>
 
 #### Key Features
