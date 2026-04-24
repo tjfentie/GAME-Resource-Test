@@ -92,7 +92,15 @@ There are three main Adaptive Controllers:
     * Connects to Nintendo Switch 1 and 2 natively. 
 
 
-## Adaptive Controllers
+## Adaptive Controllers 1
+For the purpose of this resource, we are going to define adaptive controllers as anything built or designed for gaming platforms that either take a significantly different shape and/or allow assistive switch and/or joystick access.
+
+There are three primary adaptive controllers out there with various approaches to making gaming more accessible. We like to divide them into **Hub Based Controllers** or **Direct-Use Controllers**. The difference is: 
+
+* **Hub Based Controllers:** Require other assistive technology to be plugged into it to create a setup. This is just the bridge between the assistive technology and the platform you are trying to game on.
+* **Direct-Use Controllers:** Designed to be used without or with little addition of other assistive technology. The controller often takes a significantly different shape than the standard controller and has various joysticks and buttons built into it.
+
+## Adaptive Controllers 2
 For the purpose of this resource, we are going to define adaptive controllers as anything built or designed for gaming platforms that either take a significantly different shape and/or allow assistive switch and/or joystick access.
 
 There are three primary adaptive controllers out there with various approaches to making gaming more accessible. We like to divide them into **Hub Based Controllers** or **Direct-Use Controllers**. The difference is: 
@@ -104,16 +112,17 @@ There are three primary adaptive controllers out there with various approaches t
 <span class="table-caption">Comparison of Primary Adaptive Controllers</span>
 <br>
 
-| Controller | Category & Compatibility | Key Features & Technical Details |
-| :--- | :--- | :--- |
-| **[Xbox Adaptive Controller (XAC)](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-controller)** | **Type:** Hub Based<br><br>**Compatibility:** Natively compatible with Xbox One, Xbox Series X\|S, computers, and phones/tablets. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Hub based with enough buttons on the device out of the box to navigate the menu and play very simple games.</li><li>Most users will have to get additional assistive technology such as switches, joysticks, and mounting to create a custom setup.</li><li>You can plug in USB joysticks or joysticks that use 3.5 mm cables. Assistive switches can be plugged in as well if they have a 3.5 mm cable.</li><li>Uses the Xbox Accessories App (available on PC or Xbox) to remap and customize the inputs of the buttons. This allows it to be used as a gaming device or keyboard/mouse.</li></ul></details> |
-| **[Sony Access Controller (SAC)](https://www.playstation.com/en-ca/accessories/access-controller/)** | **Type:** Direct-Use<br><br>**Compatibility:** ONLY compatible with the PS5 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Direct-Use controller with a built in joystick and circular array of buttons that can be remapped.</li><li>This also features 4 expansion ports that joysticks or switches with a 3.5 mm cable can plug into. No built in USB joystick compatibility. However, there are alternatives explained in the Sony Access Controller section.</li><li>Uses the settings inside of the PS5 to remap and customize the inputs of the buttons.</li></ul></details> |
-| **[Hori Flex Controller](https://stores.horiusa.com/flex-controller-for-nintendo-switch/)** | **Type:** Hybrid (Hub/Direct-Use Mix)<br><br>**Compatibility:** Connects to Nintendo Switch 1 and 2 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>A mix between the Hub Based and Direct-Use controller approach. It has various 3.5 mm ports and two USB ports for joysticks (no 3.5 mm joystick access) but also an array of buttons on the top of the controller.</li><li>Has functionality to work with some eye tracking technology.</li></ul></details> |
+| Controller | Visual Reference | Compatibility* | Key Features & Technical Details |
+| :--- | :--- | :--- | :--- |
+| **[Xbox Adaptive Controller (XAC)](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-controller)** | ![Xbox Adaptive Controller](../images/xac.avif) | **Type:** Mostly Hub Based<br><br>**Compatibility:** Natively compatible with Xbox One, Xbox Series X\|S, computers, and phones/tablets. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Hub based with enough buttons on the device out of the box to navigate the menu and play very simple games.</li><li>Most users will have to get additional assistive technology such as switches, joysticks, and mounting to create a custom setup.</li><li>You can plug in USB joysticks or joysticks that use 3.5 mm cables. Assistive switches can be plugged in as well if they have a 3.5 mm cable.</li><li>Uses the Xbox Accessories App (available on PC or Xbox) to remap and customize the inputs of the buttons. This allows it to be used as a gaming device or keyboard/mouse.</li></ul></details> |
+| **[Sony Access Controller (SAC)](https://www.playstation.com/en-ca/accessories/access-controller/)** | ![Sony Access Controller](../images/sac.webp) | **Type:** Mostly Direct-Use<br><br>**Compatibility:** ONLY compatible with the PS5 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Direct-Use controller with a built in joystick and circular array of buttons that can be remapped.</li><li>This also features 4 expansion ports that joysticks or switches with a 3.5 mm cable can plug into. No built in USB joystick compatibility. However, there are alternatives explained in the Sony Access Controller section.</li><li>Uses the settings inside of the PS5 to remap and customize the inputs of the buttons.</li></ul></details> |
+| **[Hori Flex Controller](https://stores.horiusa.com/flex-controller-for-nintendo-switch/)** | ![Hori Flex Controller](../images/horiflex.webp) | **Type:** Hybrid (Hub/Direct-Use Mix)<br><br>**Compatibility:** Connects to Nintendo Switch 1 and 2 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>A mix between the Hub Based and Direct-Use controller approach. It has various 3.5 mm ports and two USB ports for joysticks (no 3.5 mm joystick access) but also an array of buttons on the top of the controller.</li><li>Has functionality to work with some eye tracking technology.</li></ul></details> |
 
 </div>
+*Compatibility in this table is only refering to what the device was designed to connect with. However, you can use adapters to get these adaptive controllers to connect to nearly any platform. See the adapters section.
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <img src="../images/hub-direct-use.png" alt="Spectrum of Hub Based and Direct Use Adaptive Controllers">
     <p>Spectrum of Hub Based and Direct-Use Based Adaptive Controllers</p>
 </div>
 
