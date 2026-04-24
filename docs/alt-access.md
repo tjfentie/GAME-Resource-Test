@@ -77,11 +77,11 @@ There are three primary adaptive controllers out there with various approaches t
 <span class="table-caption">Comparison of Adaptive Controllers</span>
 <br>
 
-| Controller | Visual Reference | Category & Compatibility* | Key Features & Technical Details |
-| :--- | :--- | :--- | :--- | 
-| **[Xbox Adaptive Controller (XAC)](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-controller)** | ![Xbox Adaptive Controller](../images/xac.png) | **Type:** Mostly Hub Based<br><br>**Compatibility:** Natively compatible with Xbox One, Xbox Series X\|S, computers, and phones/tablets. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Hub based with enough buttons on the device out of the box to navigate the menu and play very simple games.</li><li>Most users will have to get additional assistive technology such as switches, joysticks, and mounting to create a custom setup.</li><li>You can plug in USB joysticks or joysticks that use 3.5 mm cables. Assistive switches can be plugged in as well if they have a 3.5 mm cable.</li><li>Uses the Xbox Accessories App (available on PC or Xbox) to remap and customize the inputs of the buttons. This allows it to be used as a gaming device or keyboard/mouse.</li></ul></details> |
-| **[Sony Access Controller (SAC)](https://www.playstation.com/en-ca/accessories/access-controller/)** | ![Sony Access Controller](../images/sac.jpg) | **Type:** Mostly Direct-Use<br><br>**Compatibility:** ONLY compatible with the PS5 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>Direct-Use controller with a built in joystick and circular array of buttons that can be remapped.</li><li>This also features 4 expansion ports that joysticks or switches with a 3.5 mm cable can plug into. No built in USB joystick compatibility. However, there are alternatives explained in the Sony Access Controller section.</li><li>Uses the settings inside of the PS5 to remap and customize the inputs of the buttons.</li></ul></details> |
-| **[Hori Flex Controller](https://stores.horiusa.com/flex-controller-for-nintendo-switch/)** | ![Hori Flex Controller](../images/horiflex.webp) | **Type:** Hybrid (Hub/Direct-Use Mix)<br><br>**Compatibility:** Connects to Nintendo Switch 1 and 2 natively. | <details><summary><b>Show Detailed Info</b></summary><ul><li>A mix between the Hub Based and Direct-Use controller approach. It has various 3.5 mm ports and two USB ports for joysticks (no 3.5 mm joystick access) but also an array of buttons on the top of the controller.</li><li>Has functionality to work with some eye tracking technology.</li></ul></details> |
+| Controller | Visual Reference | Approx Cost (CAD) | Category & Compatibility* | Key Features & Technical Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Xbox Adaptive Controller (XAC)](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-controller)** | ![Xbox Adaptive Controller](../images/xac.png) | **Type:** Mostly Hub Based<br><br>**Compatibility:** Natively compatible with Xbox One, Xbox Series X\|S, computers, and phones/tablets. | $129.99 | <details><summary><b>Show Detailed Info</b></summary><ul><li>Hub based with enough buttons on the device out of the box to navigate the menu and play very simple games.</li><li>Most users will have to get additional assistive technology such as switches, joysticks, and mounting to create a custom setup.</li><li>You can plug in USB joysticks or joysticks that use 3.5 mm cables. Assistive switches can be plugged in as well if they have a 3.5 mm cable.</li><li>Uses the Xbox Accessories App (available on PC or Xbox) to remap and customize the inputs of the buttons. This allows it to be used as a gaming device or keyboard/mouse.</li></ul></details> |
+| **[Sony Access Controller (SAC)](https://www.playstation.com/en-ca/accessories/access-controller/)** | ![Sony Access Controller](../images/sac.jpg) | **Type:** Mostly Direct-Use<br><br>**Compatibility:** ONLY compatible with the PS5 natively. | $99.97 | <details><summary><b>Show Detailed Info</b></summary><ul><li>Direct-Use controller with a built in joystick and circular array of buttons that can be remapped.</li><li>This also features 4 expansion ports that joysticks or switches with a 3.5 mm cable can plug into. No built in USB joystick compatibility. However, there are alternatives explained in the Sony Access Controller section.</li><li>Uses the settings inside of the PS5 to remap and customize the inputs of the buttons.</li></ul></details> |
+| **[Hori Flex Controller](https://stores.horiusa.com/flex-controller-for-nintendo-switch/)** | ![Hori Flex Controller](../images/horiflex.webp) | **Type:** Hybrid (Hub/Direct-Use Mix)<br><br>**Compatibility:** Connects to Nintendo Switch 1 and 2 natively. | $440.00 | <details><summary><b>Show Detailed Info</b></summary><ul><li>A mix between the Hub Based and Direct-Use controller approach. It has various 3.5 mm ports and two USB ports for joysticks (no 3.5 mm joystick access) but also an array of buttons on the top of the controller.</li><li>Has functionality to work with some eye tracking technology.</li></ul></details> |
 
 <p style="font-size: 0.7rem; margin-top: -10px; line-height: 1.2;">*Compatibility in this table is only referring to what the device was designed to connect with. However, you can use adapters to get these adaptive controllers to connect to nearly any platform. See the adapters section</a>.</p>
 
@@ -95,11 +95,15 @@ There are three primary adaptive controllers out there with various approaches t
 
 See each section below for more specific information on the adaptive controllers.
 
-### Xbox Adaptive Controller
+### Xbox Adaptive Controller (XAC)
+Released in 2018 with continuous updates will the present, the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. However, instead of going into fine detail, this section will just cover the key features of the device and point to more detailed resources that have already been created.
 
-### Sony Access Controller
+
+### Sony Access Controller (SAC)
+Released in 2023, the Sony Access Controller took a different approach to the adaptive controller than both the XAC and Hori Flex Controller by attempting to create an out-of-the-box ready to play adaptive controller. This is a great option for some players but in other ways, its lack of customization in shape and limited amount of ports for additional assistive tech may not be enough for some. 
 
 ### Hori Flex Controller
+Released in 2021, the Hori Flex Controller is a 3rd party controller 
 
 ## Assistive Tech for Adaptive Controllers
 
