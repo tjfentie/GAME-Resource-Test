@@ -25,9 +25,10 @@ This guide provides a structured approach to understanding the assistive technol
 
 <div class="pathway-grid">
     <div class="step-card">
-        <h3>Step 1: Assistive Technology for Gaming</h3>
+        <h3>Step 1: Adaptive Gaming Equipment</h3>
         <p>Understand the physical tools and software settings used to bridge the gap between a player and the game.</p>
         <ul>
+            <li>Get an<a href="equipment.md">Overview</a>of all the assistive technology options in gaming.</li>
             <li><a href="alt-access.md">Alternative Access</a>: If standard controllers do not work for the player they could try using assistive switches, joysticks, voice control, facial expressions, eye control, and more.</li>
             <li><a href="control-mods.md">Controller Modifications</a>: 3D printed and commercial modifications for a traditional controller</li>
             <li><a href="software.md">Software Features</a>: In-game accessibility and 3rd party applications for accessibility in games.</li>
@@ -35,7 +36,7 @@ This guide provides a structured approach to understanding the assistive technol
     </div>
 
     <div class="step-card">
-        <h3>Step 2: Game Selection</h3>
+        <h3>Step 2: Video Game Basics</h3>
         <p>Learn how to match a player's physical range of motion to the specific digital demands of a game.</p>
         <ul>
             <li><a href="pick-game.md">How to Find Games with Accessibility</a>: Evaluating games based on the needs of the gamer.</li>
@@ -53,7 +54,7 @@ This guide provides a structured approach to understanding the assistive technol
     </div>
 
     <div class="step-card">
-        <h3>Step 4: Practical Application</h3>
+        <h3>Step 4: GAME Profiles</h3>
         <p>Review real-world case studies to see how all of the above sections are integrated for individual players.</p>
         <ul>
             <li><a href="profiles.md">Gamer Profiles</a>: Detailed equipment setups for various needs.</li>

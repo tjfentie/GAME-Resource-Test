@@ -43,6 +43,7 @@ We recommend starting with the equipment already available to you. Using what yo
 | **PlayStation 5 (PS5)** | • **Controller Haptic Tuning:** Adjust vibration and trigger force on standard PS5 controllers.<br>• **Adaptive Controller:** PlayStation has their own "Sony Access Controller (SAC)" that nativly connects to ONLY system.<br>• **Built in Accessibility** check out the [PlayStation Accessibility Page](https://www.playstation.com/en-ca/accessibility/) for more information on the built in accessibility.  |
 | **PC (Windows)** | • **Flexibility:** Compatibility for most controllers.<br>• **How to get games:** You can use game launchers such as Steam, Epic Games, and more. [Steam](https://help.steampowered.com/en/faqs/view/02F5-ACB2-6038-0F36) is the most common and has the most accessible options such as button remapping. |
 | **Nintendo Switch 2** | • **Adaptive Controller** Nintendo has a 3rd party adaptive controller called the "Hori Flex Controller" that nativly connects to this system and Nintendo Switch 1's.<br>• **Built in Accessibility** check out the [Nintendo Switch 2 Accessibility Page](https://www.nintendo.com/en-ca/gaming-systems/switch-2/accessibility/?srsltid=AfmBOoqwke_w2a8pWIbG69hlJn1zSvBlcmMmyqBKNPsDJFwC0wgIg0Hc) for more information on the built in accessibility. |
+| **Mobile Gaming (tablets/phones)** | • **Adaptive Controller** The Xbox Adaptive Controller can connect to phones to allow assistive technology to work. There are also various switch interfaces made by assistive technology companies that can allow access.<br>• **Built in Accessibility** the mobile device likley has various built in accessibility. This changes with each device/update frequently. |
 
 </div>
 
@@ -64,11 +65,58 @@ We recommend starting with the equipment already available to you. Using what yo
 
 ---
 
-## Using Adaptive Controllers
+## Adaptive Controllers
+For the purpose of this resource, we are going to define adaptive controllers as anything built or designed for gaming platforms that either take a significantly different shape and/or allow assistive switch and/or joystick access.
+
+There are three primary adaptive controllers out there with various approaches to making gaming more accessible. We like to divide them into **Hub Based Controllers** or **Direct-Use Controllers**. The difference is: 
+
+* **Hub Based Controllers:** Require other assistive technology to be plugged into it to create a setup. This is just the bridge between the assistive technology and the platform you are trying to game on.
+* **Direct-Use Controllers:** Designed to be used without or with little addition of other assistive technology. The controller often takes a significantly different shape than the standard controller and has various joysticks and buttons built into it.
+
+There are three main Adaptive Controllers:
+
+* [Xbox Adaptive Controller (XAC)](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-controller)
+    * Hub based with enough buttons on the device out of the box to navigate the menu and play very simple games. 
+    * Most users will have to get additional assistive technology such as switches, joysticks, and mounting to create a custom setup.
+    * You can plug in USB joysticks or joysticks that use 3.5 mm cables. Assistive switches can be plugged in as well if they have a 3.5 mm cable.
+    * Uses the Xbox Accessories App (available on PC or Xbox) to remap and customize the inputs of the buttons. This allows it to be used as a gaming device or keyboard/mouse.
+    * Natively compatible with Xbox One, Xbox Series X\|S, computers, and phones/tablets.
+* [Sony Access Controller (SAC)](https://www.playstation.com/en-ca/accessories/access-controller/)
+    * Direct-Use controller with a built in joystick and circular array of buttons that can be remapped.
+    * This also features 4 expansion ports that joysticks or switches with a 3.5 mm cable can plug into. No built in USB joystick compatibility. However, there are alternatives explained in the Sony Access Controller section.
+    * Uses the settings inside of the PS5 to remap and customize the inputs of the buttons.
+    * ONLY compatible with the PS5 natively.
+* [Hori Flex Controller](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) 
+    * A mix between the Hub Based and Direct-Use controller approach. It has various 3.5 mm ports and two USB ports for joysticks (no 3.5 mm joystick access) but also an array of buttons on the top of the controller.
+    * Has functionality to work with some eye tracking technology. 
+    * Connects to Nintendo Switch 1 and 2 natively. 
+
+
+While they all have somewhat similar features, they all are very different in terms of usage/compatibility. Some take more of a Hub Based approach, Direct-Use approach, or some combination of the two. 
+
+See each section below for more specific informaiton 
+
+### Xbox Adaptive Controller
+
+### Sony Access Controller
+
+### Hori Flex Controller
+
+## Assistive Tech for Adaptive Controllers
 
 ### Assistive Switches
 
+<div class="center-thumb">
+    <img src="../images/mmc-game-at.jpg" alt="Graphic showing the conversion of buttons on a keyboard or controller being converted to assistive switches.">
+    <p>Keyboard or controller buttons can be swapped to </p>
+</div>
+
 ### Assistive Joysticks
+
+<div class="center-thumb">
+    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
+    <p>Various MMC Assistive Switches and Joysticks</p>
+</div>
 
 
 ---
