@@ -29,7 +29,7 @@ This section will provide an overview on all the devices and tools mentioned abo
 </div>
 
 ## The Platforms
-You may already have a platform available to you or you may be looking for one to purchase. If purchasing a new platform, there may be some things you want to consider in terms of accessibility. We are often asked, "What is the most accessible platform?" There is no single answer; while some systems offer more flexibility, the "best" choice depends entirely on individual needs and technical factors.
+You may already have a platform available to you or you may be looking for one to purchase. If purchasing a new platform, there may be some things you want to consider in terms of accessibility. **We are often asked, "What is the most accessible platform?" There is no single answer; while some systems offer more flexibility, the "best" choice depends entirely on individual needs and technical factors.**
 
 We recommend starting with the equipment already available to you. Using what you have first is the most effective way to determine which features work for you and where you may need additional support.
 
@@ -54,8 +54,8 @@ We recommend starting with the equipment already available to you. Using what yo
 | :--- | :--- |
 | **Xbox Series One** | • There are less accessible options built into this Xbox than the newer one, however, the Xbox Adaptive Controller is still compatible.<br>• This system still had Controller Assist and all features through Xbox Accessories that are found on the Xbox Series Systems and is compatible with the XAC. |
 | **Xbox 360** | • There are no adaptive controllers or specific alternative access for this platform. |
-| **PlayStation 4 (PS4)** | •  |
-| **PlayStation 3 (PS3)** | •  |
+| **PlayStation 4 (PS4)** | • Note: The Sony Access Controller will not connect to this without an adapter.  |
+| **PlayStation 3 (PS3)** | • Note: The Sony Access Controller will not connect to this without an adapter. |
 | **Older PC's (Windows)** | • It is important to consider the older and less powerful your PC is, the lower the ability to launch and successfuly play games is. |
 | **Nintendo Switch 1** | • There are less accessible options built into this Nintendo Switch than the newer one, however, adaptive controllers like the Xbox Adaptive Controller (with an adapter) and Hori Flex Controller will still connect. |
 | **Nintendo Wii** | • We often get asked about Nintendo Wii's because they were a popular device for rehabilitation centres.<br>• There are no adaptive controllers or specific alternative access for the this platform. |
