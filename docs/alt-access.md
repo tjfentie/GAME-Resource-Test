@@ -190,14 +190,14 @@ Released in 2021, the Hori Flex Controller is a 3rd party controller combining b
 ### Assistive Switches
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
 
 ### Assistive Joysticks
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <img src="../images/joystick-overview.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
     <p>Mice or Controller Joysticks can be Swapped to Assistive Joysticks</p>
 </div>
 
