@@ -108,8 +108,8 @@ Xbox has a fantastic series of videos and online resources explaining every feat
 </a>
 
 <div class="qr">
-  <img src="./images/qr/xac-resources.png" alt="QR Code for link">
-  <p>Scan to go to the XAC resources created by Xbox</p>
+  <img src="../images/qr/xac-resources.png" alt="QR Code for link">
+  <p>Scan to go to the XAC web resources created by Xbox</p>
 </div>
 
 Check out the first video in their resource series here:
@@ -124,8 +124,8 @@ Check out the first video in their resource series here:
 </div>
 
 <div class="qr">
-  <img src="./images/qr/xac-vid-resource.png" alt="QR Code for link">
-  <p>Scan to go to the XAC resources created by Xbox</p>
+  <img src="../images/qr/xac-vid-resource.png" alt="QR Code for link">
+  <p>Scan to go to the Video XAC resources created by Xbox</p>
 </div>
 
 #### Key Features
