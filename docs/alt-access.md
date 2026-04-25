@@ -112,7 +112,7 @@ Xbox has a fantastic series of videos and online resources explaining every feat
   <p>Scan to go to the XAC web resources created by Xbox</p>
 </div>
 
-Check out the first video in their resource series here:
+Check out the first video in Xbox's resource series here:
 
 <div class="video-container">
     <iframe 
@@ -128,6 +128,22 @@ Check out the first video in their resource series here:
   <p>Scan to go to the Video XAC resources created by Xbox</p>
 </div>
 
+SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox Console: 
+
+<div class="video-container">
+    <iframe 
+        src="https://gameaccess.info/how-to-set-up-an-xbox-adaptive-controller-on-xbox-series-s-x-consoles/" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<div class="qr">
+  <img src="../images/qr/specialeffect-xac-qr.png" alt="QR Code for link">
+  <p>Scan to go to the SpecialEffect XAC Setup</p>
+</div>
+
 #### Key Features
 
 <div class="centered-table-container" markdown="1">
@@ -135,12 +151,14 @@ Check out the first video in their resource series here:
 <br>
 
 | Feature | What Does it Do | Use Case | Learn More |
-| :---: | :---: | :---: | :---: |
-| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
+| :--- | :--- | :--- | :--- |
+| **Button Remapping** | • Each 3.5 mm port on the back of the XAC is labeled with a specific input. For example, you plug in an assistive switch to the A port, it will act as A.<br> • However, you can use the Xbox Accessories App to reassign (remap) that button to any button or action available in the Xbox.  | • You want to use the features such as toggle, shift, axis swap, etc. that are available in the Xbox Accessories App. You would set this up through the remapping process and save it. | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=Nje4XIzBbI6t_i92&t=111) |
+| **Profile Saving** | • You can save various remapping settings you have made for various games<br> • You can save as many profiles as you want but you can only save 3 to the controller at a time to hotswap between. There is a button on the XAC to swap between the three profiles that can also be accessed by an assistive switch.  | • You play a racing game, fighting game, and first person shooter. Instead of unplugging and replugging or remapping all the time, you can save the profile that works for that game once.  | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=mrOs_iFqMSdFT7lV&t=353) |
+| **Controller Assist** | • This allows two controllers to act as one. Either two XAC's, standard controllers, or a standard controller and an XAC working together. | • One player does some of the inputs with the standard controller while the other uses the custom setup with the XAC to use those inputs. | Found in: [Video: XAC Guide - Getting Started](https://youtu.be/zd4VddU1wTQ?si=pKEhQ30Cf0V35zft&t=295) |
+| **Button Toggle** | • asjdlkf | • asjdlkf | Found in: [Video: Gaming Readapted](https://youtu.be/peQryhh6aOw?si=3KyE7LBvb4FEY1G-&t=160) |
+| **Shift Mode** | • asjdlkf | • asjdlkf | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=iLxLnji9b8kusAJx&t=41) |
+| **Joystick Axis Swap** | • When remapping, if you select one of the joysticks it will allow you to swap either or both the X and Y axis. | • This allows the gamer to play a game that requires 2 joysticks with one.,<br> • For example, if they were using a left joystick and swapped the X axis with the right joystick, they could move forward and back in a 3rd person game and use the left and right to look around and move in all directions. | n/a - No resource yet |
+| **Joystick Sensitivty Curves** | • asjdlkf | • asjdlkf | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=NKKxagPeL2qmLz2Q&t=243) |
 
 </div>
 
