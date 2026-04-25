@@ -132,7 +132,7 @@ SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox C
 
 <div class="video-container">
     <iframe 
-        src="https://gameaccess.info/how-to-set-up-an-xbox-adaptive-controller-on-xbox-series-s-x-consoles/" 
+        src="https://youtu.be/n4WICsictO0?si=v5r42QD4F7OAk05h" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
