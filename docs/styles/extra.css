@@ -689,7 +689,8 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 .centered-table-container table {
     margin: 0 auto !important;
     display: table !important;
-    width: auto !important; /* <--- ADD THIS LINE */
+    width: auto !important; 
+    min-width: 80%; /* Forces the table to be at least 80% wide */
     border-collapse: collapse !important;
     font-size: 0.8rem !important;
 }
