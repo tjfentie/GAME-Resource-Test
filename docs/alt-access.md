@@ -135,7 +135,7 @@ Check out the first video in their resource series here:
 <br>
 
 | Feature | What Does it Do | Use Case | Learn More |
-| :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: |
 | **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
 | **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
 | **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
