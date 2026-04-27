@@ -219,7 +219,7 @@ Check out the SAC controller customization video:
 | **Mounting** | • Two 10-24 screw holes for securely attaching the controller to mounts with an AMPS hole pattern.<br>• One 1/4-20 hole located near the center of the controller to mount the controller to tripods or any mounts compatible with this screw hole. | • Placing the controller in a more optimal position for the player, such as on a wheelchair tray or a camera tripod. | [Mounting Resource](https://www.playstation.com/en-ca/support/hardware/access-mount/) |
 
 <div class="qr">
-    <img src="../images/qr/sac-customize.png" alt="QR Code for link">
+    <img src="../images/qr/sac-customization.png" alt="QR Code for link">
     <p>Video: SAC Controller Customization</p>
 </div>
 
