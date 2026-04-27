@@ -283,6 +283,35 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
     However, if the player wants eye tracking software compatibility specifically, that may shift the decision to the Hori Flex Controller.
 
+### Other Adaptive Controllers
+There are also a few other adaptive controllers out there. These typically only connect to phones and computers for gaming. This resource only touches on these briefly but see the table below for a few of the key options out there. The main reason someone may consider these options over the XAC, SAC, or Hori Flex is potentially due to reduced cost or customization available if they are open source and allow the user to customize the programming of the device.
+
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Comparison of Adaptive Controllers</span>
+<br>
+
+| Controller | Visual Reference | Approx Cost (CAD) | Category & Compatibility* | Key Features & Technical Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Forest Hub](https://www.makersmakingchange.com/product/forest-joystick-mouse-hub/01tJR000000E4bdYAC)** | ![Forest Hub](https://www.makersmakingchange.com/sfsites/c/cms/delivery/media/MC5MWSJDD75ZDQ3ABUARJDIENGBU?version=1.1&channelId=0apJR0000000FNF) | **Type:** Hub Based<br><br>**Compatibility:** Natively compatible with PC, tablets, and phones. Can be connected to XAC through left or right USB port. | $75-150 | • Enables a user to connect an analog joystick (TRRS) and up to four (4) assistive switches to emulate a USB Mouse or USB Gamepad. Another assistive switch can be used to cycle between slots and switch between Mouse and Gamepad mode. |
+| **[Quester Switchbox](https://www.pretorianuk.com/quester-switchbox/)** | <img src="https://www.pretorianuk.com/wp-content/uploads/2025/02/quester-switchbox.jpg" alt="Quester Switchbox" width="150"> | ~$150.00 | **Type:** Hub Based<br><br>**Compatibility:** Natively compatible with conputers and Android mobile devices. Works with Xbox via XAC USB ports. | • A "plug-and-play" interface that converts up to six (6) assistive switches into standard gamepad or mouse inputs.<br>• Features an integrated display to show the current mode and requires no external software for configuration, making it ideal for clinical environments with restricted IT/software installation rights. |
+| **[HID Remapper](https://www.remapper.org/)** | <img src="https://www.remapper.org/manual/images/custom-boards.jpg" alt="HID Remapper Custom Board" width="150"> | $50 - $100 | **Type:** Universal Adapter / Hub<br><br>**Compatibility:** Broad; connects almost any USB input device to PC, consoles (via adapters), and mobile. | • A powerful open-source tool that allows for hardware-level remapping of any USB HID device. It can combine multiple controllers into one or split one controller across several outputs.<br>• Supports advanced logic like macros, layers, and custom sensitivity curves stored on the hardware, bypassing the need for background software. |
+
+<p style="font-size: 0.7rem; margin-top: -10px; line-height: 1.2;">*Compatibility in this table is only referring to what the device was designed to connect with. However, you can use adapters to get these adaptive controllers to connect to nearly any platform. See the adapters section</a>.</p>
+
+</div>
+
+---
+
+## Specialized Controllers
+The distinction between specialized controllers and 
+
+* byowave proteus controller
+* One handed Khuan controller
+* azeron controller
+* 8Bit-Do 
+
+---
 
 ## Assistive Tech for Adaptive Controllers
 The adaptive controllers above all allow for some amount of additional assistive tech to be connected and used as an input in the game. These are often (but not limited to) assistive switches and joysticks. Think of these the same as the buttons and thumbsticks on a standard controller but coming in a variety of shapes, sizes, forces, and types of activation.
@@ -386,15 +415,6 @@ Assistive Switches are
 | **Device/Org** | •  | [link]() |
 
 </div>
-
----
-
-## Specialized Controllers
-
-* byowave proteus controller
-* One handed Khuan controller
-* azeron controller
-* 8Bit-Do 
 
 ---
 
