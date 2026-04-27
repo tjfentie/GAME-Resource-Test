@@ -304,12 +304,33 @@ There are also a few other adaptive controllers out there. These typically only 
 ---
 
 ## Specialized Controllers
-The distinction between specialized controllers and 
+The distinction between Specialized Controllers and Adaptive Controllers is that adaptive controllers often act as a "hub" or intermediary between assistive technology and a platform. In contrast, specialized controllers are designed from the ground up with a specific form factor or function in mind. For example, to allow for one-handed use, modular building, or ultra-low-force interaction, etc.
 
-* byowave proteus controller
-* One handed Khuan controller
-* azeron controller
-* 8Bit-Do 
+### Byowave Proteus
+The Proteus is a modular, "snap-and-play" controller system. It uses magnetic cubes and peripheral parts that allow a user to build a controller in whatever shape they need. 
+
+<a href="https://byowave.com/" 
+   target="_blank" 
+   class="print-button">
+   Check out the Byowave Controllers
+</a>
+
+<div class="centered-table-container" markdown="1">
+
+| Controller | Visual Reference | Key Features |
+| :--- | :--- | :--- |
+| **Proteus Controller / Builder** | <img src="https://byowave.com/cdn/shop/files/Proteus_Transparent_Background_1080x.png" width="150"> <img src="https://byowave.com/cdn/shop/files/Proteus_Controller_Hero_1080x.png" width="150"> | • **Modular Design:** Snap magnetic modules together to create unique shapes.<br>• **Akimbo Mode:** A firmware update that allows two separate Proteus "Power Cubes" to work together as a single controller on one USB dongle.<br>• **Compatibility:** Works natively with Xbox, PC, and Steam Deck. |
+
+</div>
+
+### Nhuad One Handed Controller
+* One handed Khuan controller - https://nhuadcontrollers.com/
+
+### Azeron Controllers
+* azeron controller types - https://azeron.com/?srsltid=AfmBOorIwKsCeFy0NbSXzBpbhI_NisV2JBW-x7TOOJdKH6_1RmRRUI-n
+
+### 8Bit-Do Lite SE
+* 8Bit-Do  https://www.8bitdo.com/lite-se/ 
 
 ---
 
@@ -400,7 +421,7 @@ Here are the criteria that often separate the assistive joystick options out the
 * **Digital vs. Analog:** 
     * Analog: Responds to how far you push; move a little to walk, move a lot to run. Proportional control in all directions.
     * Digital: Responds only to direction (like a D-pad); it is either "on" or "off.". Some work in 4 directions (up, down, left, right) and some work in 8-way (up, down, left, right, and the 4 diagonals)
-* **Topper Style:** The physical shape of the handle (e.g., ball top, bat top, goalpost, or finger cup) which may be able to be swapped to match the user's prefered grip.
+* **Topper Style:** The physical shape of the handle (e.g., ball top, goalpost, or dome) which may be able to be swapped to match the user's prefered grip.
 * **Input Connection:** Whether it uses a USB plug for direct-use/hubs or a 3.5 mm jack for specific adaptive ports.
 * **Mounting Type:** How the base is secured, such as 1/4-20 threaded inserts for mounting arms, hook and loop, etc.
 
