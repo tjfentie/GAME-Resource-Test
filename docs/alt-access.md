@@ -459,7 +459,7 @@ These options have been released under an open source license. This means anyone
 
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
-| **Makers Making Change** | • We host several assistive switches in our library with various toppers and mounting options.<br>• Most of these switches use a 3.5 mm cable. | [Search or filter the Assistive Devices for Joysticks](https://www.makersmakingchange.com/assistive-devices) |
+| **Makers Making Change** | • We host several assistive switches in our library with various toppers and mounting options.<br>• Most of these switches use a 3.5 mm cable. | [Search or filter the Assistive Devices for assistive switches](https://www.makersmakingchange.com/assistive-devices) |
 | **AbleGamers** | • AbleGamers has a Printables page where they post designs | [Link](https://www.printables.com/@AbleGamersCharity) |
 | **Online Repositories** | • You may be able to find designs and files from those who have shared them on various online repositories for sharing open source designs.<br>• Printables and MakerWorld are a good starting place to look.  | [Printables](https://www.printables.com/)<br>[MakerWorld](https://makerworld.com/en) |
 
