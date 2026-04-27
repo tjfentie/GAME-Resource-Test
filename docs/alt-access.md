@@ -529,14 +529,14 @@ These options have been released under an open source license. This means anyone
 
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
-| **Xbox Adaptive Joystick** | • Developed by Xbox for the XAC. Compatible on its own to a computer, phone, or Xbox device. | [link](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-joystick) |
+| **Xbox Adaptive Joystick** | • Developed by Xbox for the XAC. Compatible on its own to a computer, phone, or Xbox device. | [Link](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-joystick) |
 | **Designed by Grier** | • Various assistive joysticks.  | [Link](https://www.dbgrier.com/shop/assistive-technology) |
 | **Celtic Magic** | • Products include the Feather Joystick (ultralight force) and Dangle Joystick (light force and low profile).  | [Link](https://www.celticmagic.org/) |
 | **OneSwitch** | • Various assistive joysicks.  | [Link](https://www.oneswitch.org.uk/shop.php) |
 | **Seven Mile Mountain** | • Etsy page featuring various assistive joysticks.  | [Link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
 | **Pretorian** | • Various assistive joysticks. | [Link](https://www.pretorianuk.com/) |
 | **HitClic** | • Various assistive joysticks. | [Link](https://hitclic.shop/en) |
-| **Canadian Assistive Technologies** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too.  | [link](https://canasstech.com/) |
+| **Canadian Assistive Technologies** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too.  | [Link](https://canasstech.com/) |
 | **Bridges Canada** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too. | [Link](https://www.bridges-canada.com/) |
 
 
