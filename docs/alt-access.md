@@ -248,37 +248,31 @@ Check out the SAC controller customization video:
 The Hori Flex is a unique hybrid controller designed primarily for the Nintendo Switch (though it is also compatible with PC). It bridges the gap between the XAC and the SAC by offering a significant number of built-in buttons on the top of the device while still providing 3.5 mm ports for external switches and USB ports for joysticks. Notably, it is the only major adaptive controller that offers dedicated eye-tracking accessibility features right out of the box.
 
 #### How to Get Started
-The Hori Flex is a specialized device often imported or purchased through accessibility specialists. Hori provides a dedicated setup app and detailed manuals to help you configure the extensive port options.
+Hori provided a detailed manual and others like SpecialEffect and Gaming Readapted have made fantastic video tutorials.
 
-<a href="https://stores.horiusa.com/flex-controller-for-nintendo-switch/" 
+<a href="https://hori.jp/manual/nsw/nsw-280/" 
    target="_blank" 
    class="print-button">
-   Check out the Hori Flex Resources Created by Hori
+   Download the Hori Flex Controller Manual
 </a>
 
-<div class="qr">
-  <p>Scan to go to the Hori Flex web resources</p>
-</div>
+/* QR CODE
 
-Check out the Hori Flex introduction and setup guide:
+Check out the SpecialEffect Hori Flex introduction and setup guide:
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/5Hl-o7mS-S8" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="qr">
-    <p>Video: Hori Flex Setup and Overview</p>
-</div>
+/* QR CODE
 
-SpecialEffect also provides a great overview of how the Hori Flex integrates with the Nintendo Switch:
+Gaming Readapted also provides a great overview of how the Hori Flex integrates with the Nintendo Switch:
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/tM0z06k5WNo" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/--b-TqNJz2g?si=35V_6DuYOjlMcbbD" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="qr">
-    <p>Scan to go to the SpecialEffect Hori Flex Setup</p>
-</div>
+/* QR CODE
 
 #### Key Features
 
@@ -288,23 +282,20 @@ SpecialEffect also provides a great overview of how the Hori Flex integrates wit
 
 | Feature | What Does it Do | Use Case | Learn More |
 | :--- | :--- | :--- | :--- |
-| **Hybrid Input Design** | • Features 18 assignable 3.5 mm switch ports and 2 USB ports for joysticks.<br>• Includes a small array of physical buttons on the face of the device for direct use. | • A user needs the "Hub" capability of the XAC but also wants a few physical buttons on the device for menu navigation or simple actions. | [Hori Flex Specifications](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **Eye-Tracking Interface** | • Features a dedicated interface that allows the controller to be operated via compatible eye-tracking devices on the PC. | • For players with very limited physical mobility who rely on eye-gaze technology to interact with their environment and games. | [Eye-Control Guide](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **Flex Controller Settings App** | • A dedicated PC application used to remap buttons, adjust joystick sensitivity, and configure deadzones. | • You need to customize the "active" range of a joystick or change the behavior of a specific switch port for a Nintendo Switch game. | [App Download & Info](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **On-Board Profile Storage** | • Allows you to store multiple mapping configurations directly on the hardware.<br>• Profiles can be toggled using a physical button on the controller. | • A user frequently switches between games like *Mario Kart* and *The Legend of Zelda* and needs instant access to different button layouts. | [Manual: Profile Management](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **USB Joystick Compatibility** | • The two USB ports support a variety of digital and analog joysticks, including standard HID gamepads. | • A clinician wants to plug in a specialized heavy-duty or arcade-style joystick that uses a USB connection rather than a 3.5 mm jack. | [Joystick Compatibility List](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **Expansion for Sensor Inputs** | • The 3.5 mm ports are highly sensitive and designed to work with a wide range of low-force accessibility switches. | • Connecting ultra-light touch switches or sip-and-puff systems to navigate the Nintendo Switch interface. | [Switch Setup Guide](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
-| **Mounting** | • Features a standard 1/4-20 threaded hole on the bottom of the device. | • Securely mounting the controller to a camera tripod or a magic arm for positioning near the head or lap. | [Mounting Options](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **Hybrid Input Design** | • Features 18 assignable 3.5 mm switch ports and 2 USB ports for joysticks (no 3.5 mm).<br>• Includes a small array of physical buttons on the face of the device for direct use. | • A user needs the "Hub" capability of the XAC but also wants a few physical buttons on the device for menu navigation or simple actions. | [SpecialEffect - Hori Flex](https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb) |
+| **Eye-Tracking Interface** | • Features a dedicated interface that allows the controller to be operated via compatible eye-tracking devices on the PC. | • For players with very limited physical mobility who rely on eye-gaze technology to interact with their environment and games. | [SpecialEffect - Hori Flex](https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb) |
+| **Flex Controller Settings App** | • A dedicated PC application used to remap buttons, adjust joystick sensitivity, and configure deadzones. | • You need to customize the "active" range of a joystick or change the behavior of a specific switch port for a Nintendo Switch game. | [SpecialEffect - Hori Flex](https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb) |
+| **On-Board Profile Storage** | • Allows you to store multiple mapping configurations directly on the hardware.<br>• Profiles can be toggled using a physical button on the controller. | • A user frequently switches between games like *Mario Kart* and *The Legend of Zelda* and needs instant access to different button layouts. | [SpecialEffect - Hori Flex](https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb) |
+| **Mounting** | • Features a standard 1/4-20 threaded hole on the bottom of the device. | • Securely mounting the controller to a camera tripod or a magic arm for positioning near the head or lap. | [SpecialEffect - Hori Flex](https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb) |
 
 </div>
 
-<div class="qr">
-    <p>Download: Hori Flex Settings App</p>
-</div>
+/* QR CODE
 
-<div class="qr">
-    <p>Resource: Hori Flex Eye-Control Guide</p>
-</div>
+??+ warning "Cost Consideration
+    The Hori Flex controller is significantly more expensive than the other options. With the XAC providing very similar functions, compatibility with more devices (phones and computers), and a more dynamic remapping and customization softare, consider purchasing an XAC with an adapter that allows it to connect to a Nintendo Switch 1 or 2. 
+
+    However, if the player wants eye tracking software compatibility specifically, that may shift the decision to the Hori Flex Controller.
 
 
 ## Assistive Tech for Adaptive Controllers
