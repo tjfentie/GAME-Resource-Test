@@ -461,7 +461,6 @@ These options have been released under an open source license. This means anyone
 </div>
 
 #### Commercial Options
-* Summary
 
 <div class="centered-table-container" markdown="1">
 <span class="table-caption">Assistive Switch - Commercial Options</span>
@@ -523,7 +522,6 @@ These options have been released under an open source license. This means anyone
 </div>
 
 #### Commercial Options
-* Summary
 
 <div class="centered-table-container" markdown="1">
 <span class="table-caption">Assistive Joystick - Commercial Options</span>
