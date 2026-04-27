@@ -315,10 +315,12 @@ The Proteus is a modular, "snap-and-play" controller system. It uses magnetic cu
    Check out the Byowave Controllers
 </a>
 
-<div class="center-thumb" style="white-space: nowrap;">
-    <img src="../images/byowave1.png" width="175" alt="Proteus Module" style="display: inline-block; margin: 0 5px; vertical-align: middle;">
-    <img src="../images/byowave2.png" width="175" alt="Proteus Built Configuration" style="display: inline-block; margin: 0 5px; vertical-align: middle;">
-    <p style="white-space: normal; margin-top: 10px;">Byowave Proteus Kit (left) and Proteus Builder (right) designed for one-handed gaming</p>
+<div class="center-thumb" style="text-align: center;">
+    <div style="display: block; margin-bottom: 10px;">
+        <img src="../images/byowave1.png" style="width: 40%; max-width: 250px; height: auto; display: inline-block; margin: 0 5px;">
+        <img src="../images/byowave2.png" style="width: 40%; max-width: 250px; height: auto; display: inline-block; margin: 0 5px;">
+    </div>
+    <p>Byowave Proteus Kit (left) and Proteus Builder (right) designed for one-handed gaming</p>
 </div>
 
 <div class="centered-table-container" markdown="1">
