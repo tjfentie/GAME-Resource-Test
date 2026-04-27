@@ -4,10 +4,9 @@
   Printable Version of this Section
 </button>
 
-<div class="banner-image-container">
-    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table" class="banner-image">
-    <p class="banner-caption">Various MMC Assistive Switches and Joysticks</p>
-</div>
+![various MMC assistive technology splayed out on a table](../images/mmc-game-at.jpg)
+
+<p style="text-align: center; font-size: 0.8rem; margin-top: -15px;">Various MMC Assistive Switches and Joysticks</p>
 
 ## What is Alternative Access
 Alternative Access referes to using any type of input into a game that does not involve using a "standard controller". In this case "standard controller" means the default controls that come with the system. This could be keyboard/mice or Xbox/Nintendo/PlayStation controllers. 
@@ -297,6 +296,10 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
 ### Assistive Switches
 
+#### Open Source/DIY Options
+
+#### Commercial Options
+
 <div class="center-thumb">
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
@@ -313,6 +316,10 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 ---
 
 ## Specialized Controllers
+
+* byowave proteus controller
+* One handed Khuan controller
+
 
 ---
 
