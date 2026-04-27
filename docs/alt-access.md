@@ -4,6 +4,11 @@
   Printable Version of this Section
 </button>
 
+<div class="center-thumb">
+    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
+    <p>Various MMC Assistive Switches and Joysticks</p>
+</div>
+
 ## What is Alternative Access
 Alternative Access referes to using any type of input into a game that does not involve using a "standard controller". In this case "standard controller" means the default controls that come with the system. This could be keyboard/mice or Xbox/Nintendo/PlayStation controllers. 
 
