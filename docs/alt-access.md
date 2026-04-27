@@ -357,7 +357,7 @@ The Nhuad Controller is designed to place every function of a standard controlle
 
 | Controller | Key Features |
 | :--- | :--- |
-| **Nhuad Khuan** | • One Hand Use: The design creates a layout to be fully operable with one hand.<br>• Non Directional: Can be configured for either left or right-hand use.<br>• Compatibility: Compatible with PC, PS4*/PS5*, and Xbox*. (*with adapters) |
+| **Nhuad Controller** | • One Hand Use: The design creates a layout to be fully operable with one hand.<br>• Non Directional: Can be configured for either left or right-hand use.<br>• Compatibility: Compatible with PC, PS4*/PS5*, and Xbox*. (*with adapters) |
 
 </div>
 
@@ -400,7 +400,7 @@ The Lite SE was built specifically for gamers with limited mobility. It features
 </a>
 
 <div class="center-thumb">
-    <img src="../images/8bitdo" alt="Top-down view of the 8BitDo Lite SE showing the face-mounted triggers and joysticks.">
+    <img src="../images/8bitdo.png" alt="Top-down view of the 8BitDo Lite SE showing the face-mounted triggers and joysticks.">
     <p>8BitDo Lite SE: Top Layout</p>
 </div>
 
