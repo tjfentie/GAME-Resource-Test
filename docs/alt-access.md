@@ -295,15 +295,17 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 ## Assistive Tech for Adaptive Controllers
 
 ### Assistive Switches
-
-#### Open Source/DIY Options
-
-#### Commercial Options
+* Summary
 
 <div class="center-thumb">
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
+#### Open Source/DIY Options
+
+#### Commercial Options
+
+
 
 ### Assistive Joysticks
 
@@ -319,22 +321,51 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
 * byowave proteus controller
 * One handed Khuan controller
+* azeron controller
+* 
 
 
 ---
 
 ## Other Input Methods
+* Summary
 
 ### Eye Tracking
+* Summary
 
-### Voice Control
+#### Computer
+* adaptive hacker khan videos - millmouse and iris
+* special effect games
 
-### Gesture Control
+#### Console 
+* hori flex 
+
+### Voice and Gesture Control
+* new way to have xac do facial recognition
+* Cephable
 
 --- 
 
 ## Important Considerations
+Twu crucial considerations when creating an alternative access setup are mounting and adapters. If you have all the perfect gear, but no way to securly **mount** it in a useful location for the player, it is practically useless. Also, if you have all the right gear and mounted but it is not compatible with the platform you are playing on, **adapters** can be useful.
 
 ### Mounting
+* summary
+
+#### Hook and Loop
+* Summary
+* DIY version and now our MMC version
+
+#### Articulating arm
+* summary
+
+#### RAM
+* ablegamers adapters
 
 ### Adapters
+* summary/why is this important
+* Look at gaming readapted as the primary resource but also note that things go out of date.
+
+## How to choose what works for you?
+* Difficult without trying it. Try to find somewhere to try stuff. if not, rule out what for sure does not look like it will work. 
+* submit a gaming ticket
