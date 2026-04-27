@@ -147,13 +147,15 @@ SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox C
 
 | Feature | What Does it Do | Use Case | Learn More |
 | :--- | :--- | :--- | :--- |
-| **Button Remapping** | • Each 3.5 mm port on the back of the XAC is labeled with a specific input. For example, you plug in an assistive switch to the A port, it will act as A.<br> • However, you can use the Xbox Accessories App to reassign (remap) that button to any button or action available in the Xbox.  | • You want to use the features such as toggle, shift, axis swap, etc. that are available in the Xbox Accessories App. You would set this up through the remapping process and save it. | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=Nje4XIzBbI6t_i92&t=111) |
+| **Assistive Switches and Joysticks** | • The main feature of the XAC is being able to plug in 3.5 mm assistive switches and 3.5 mm or USB joysticks to create a custom setup | • If the built in buttons do not work for the player or they need additional input. | Found in: [Video: XAC Guide - Getting Started](https://youtu.be/zd4VddU1wTQ?si=pKEhQ30Cf0V35zft&t=295) |
+| **Controller Remapping** | • Each 3.5 mm port on the back of the XAC is labeled with a specific input. For example, you plug in an assistive switch to the A port, it will act as A.<br> • However, you can use the Xbox Accessories App to reassign (remap) that button to any button or action available in the Xbox.  | • You want to use the features such as toggle, shift, axis swap, etc. that are available in the Xbox Accessories App. You would set this up through the remapping process and save it. | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=Nje4XIzBbI6t_i92&t=111) |
 | **Profile Saving** | • You can save various remapping settings you have made for various games<br> • You can save as many profiles as you want but you can only save 3 to the controller at a time to hotswap between. There is a button on the XAC to swap between the three profiles that can also be accessed by an assistive switch.  | • You play a racing game, fighting game, and first person shooter. Instead of unplugging and replugging or remapping all the time, you can save the profile that works for that game once.  | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=mrOs_iFqMSdFT7lV&t=353) |
 | **Controller Assist (previously co-pilot)** | • This allows two controllers to act as one. Either two XAC's, standard controllers, or a standard controller and an XAC working together. | • One player does some of the inputs with the standard controller while the other uses the custom setup with the XAC to use those inputs. | Found in: [Video: XAC Guide - Getting Started](https://youtu.be/zd4VddU1wTQ?si=pKEhQ30Cf0V35zft&t=295) |
 | **Button Toggle** | • You can assign any button input to stay activated with a single press. Then press again to turn off. Think about a light switch. | • For users that do not want to hold a button down to keep it activated. Aiming in first person shooter games is a great example. Press once to aim, press again to put the weapon down. | Found in: [Video: Gaming Readapted](https://youtu.be/peQryhh6aOw?si=3KyE7LBvb4FEY1G-&t=160) |
 | **Shift Mode** | • Shift allows you to assign two different functions to a single joystick or button.| • You must choose an input (button or joystick) to make your shift button<br> • The Shift key also allows you to assign two different functions to a single button. You can remap a button to be the A button A by default, but when holding the Shift key, your A button now functions as the B button when you press it.  | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=iLxLnji9b8kusAJx&t=41) |
 | **Joystick Axis Swap** | • When remapping, if you select one of the joysticks it will allow you to swap either or both the X and Y axis. | • This allows the gamer to play a game that requires 2 joysticks with one.<br> • For example, if they were using a left joystick and swapped the X axis with the right joystick, they could move forward and back in a 3rd person game and use the left and right to look around and move in all directions. | n/a - No resource yet |
 | **Joystick Sensitivty Curves** | • Adjusting the sensitivity of the joystick plugged into the XAC. | • For example, players who have limited strength or mobility can choose a sensitivity curve option that provides an experience where less physical movement of the joystick is needed to achieve the same amount of in-game character or camera movement. | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=NKKxagPeL2qmLz2Q&t=243) |
+| **Mounting** | • 1/4-20 screw designed for AMPS compatible mounts. °-20 screw designed for tripod mounts. | • Placeing the controller in a more optimal position for the player | N/A |
 
 </div>
 
@@ -206,19 +208,72 @@ Check out the SAC controller customization video:
 
 | Feature | What Does it Do | Use Case | Learn More |
 | :--- | :--- | :--- | :--- |
-| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Swappable Button Caps** | • The SAC comes with various cap shapes (pillow, flat, curved, and overhang) that magnetically attach to the buttons.<br>• Includes a "wide flat" cap that can cover two button sockets at once. | • A user needs a larger target area for a specific action.<br>• Use the overhang caps for players who find it easier to pull a button rather than push it. | [Button Caps Resource](https://www.playstation.com/en-ca/support/hardware/customize-access/) |
+| **Built-in Joystick** | • A built-in analog stick that can have the cap swapped (standard, dome, or ball) and the arm length adjusted.<br>• The orientation is 360° adjustable; you can set "North" to be any direction via the PS5 settings. | • A player is mounting the controller at an angle or upside down and needs the stick to still respond correctly to "Up/Down" movements.<br>• Adjust the arm length to meet the player's reach. | [Built-in Joystick Resource](https://www.playstation.com/en-ca/support/hardware/customize-access/) |
+| **Expansion Ports** | • A total of four 3.5 mm expansion ports allowing for assistive switch or joystick (no USB) access<br>• Up to four assistive switches or up to 2 joysticks | • If the built in joysticks or buttons do not work for the player or they need additional input. | [Expansion Ports Resource](https://www.playstation.com/en-ca/support/hardware/access-expansion/) |
+| **Secondary Controller** | • Allows up to three controllers to be paired as a single controller. This can include two Access controllers and one DualSense wireless controller.<br>• All connected controllers can be used simultaneously to navigate menus and play games. | • A secondary user uses a DualSense controller to handle complex movements (like camera control) while the player uses one or two SACs for primary actions.<br>• Two Access controllers are used together to create a full 360-degree button layout for a single player. | [Secondary Controller Resource](https://www.playstation.com/en-ca/support/hardware/connect-multiple-access/) | 
+| **Controller Remapping** | • Software-level customization that allows you to change what every physical button does on the PS5 system.<br>• Allows for disabling buttons entirely to prevent accidental presses. | • You need to move a vital function (like R2) from a trigger to a large, accessible button on the SAC deck.<br>• Simplify a game by removing unused inputs that might cause frustration. | [How to set Access Controller Mapping](https://www.playstation.com/en-ca/support/hardware/access-profiles/#assign) |
+| **Profile Saving** | • You can save various remapping settings you have made for various games.<br>• You can save as many profiles as you want but you can only save 3 to the controller at a time to hotswap between. There is a button on the SAC to swap between the three profiles that can also be accessed by an assistive switch. | • You play a racing game, fighting game, and first person shooter. Instead of unplugging and replugging or remapping all the time, you can save the profile that works for that game once. | [How to set Access Controller Mapping](https://www.playstation.com/en-ca/support/hardware/access-profiles/#assign) |
+| **Simultaneous Press** | • Allows a single physical button to act as two button presses at the same time (e.g., L1 + R1).<br>• The wide flat button cap can also be used to physically bridge two separate button sockets. | • Useful for fighting games or shooters where "Ultimate" abilities require pressing two buttons simultaneously.<br>• Helps users with limited coordination who struggle to hit two separate targets at once. | [How to set Access Controller Mapping](https://www.playstation.com/en-ca/support/hardware/access-profiles/#assign) |
+| **Button Toggle** | • You can assign any button input to stay activated with a single press. Then press again to turn off. Think about a light switch. | • For users that do not want to hold a button down to keep it activated. Aiming in first person shooter games is a great example. Press once to aim, press again to put the weapon down. | [How to set Access Controller Mapping](https://www.playstation.com/en-ca/support/hardware/access-profiles/#assign) |
+| **Joystick Sensitivity and Deadzone** | • Adjusts how much physical movement is required to trigger an in-game action.<br>• Deadzone settings allow you to tell the console to ignore small, accidental "drifts" or tremors. | • A player has very limited range of motion and needs the stick to be "highly sensitive" so a small twitch results in a full movement.<br>• A player with tremors needs a larger "deadzone" so the camera doesn't shake. | [How to set Access Controller Mapping](https://www.playstation.com/en-ca/support/hardware/access-profiles/#assign) |
+| **Mounting** | • Two 10-24 screw holes for securely attaching the controller to mounts with an AMPS hole pattern.<br>• One 1/4-20 hole located near the center of the controller to mount the controller to tripods or any mounts compatible with this screw hole. | • Placing the controller in a more optimal position for the player, such as on a wheelchair tray or a camera tripod. | [Mounting Resource](https://www.playstation.com/en-ca/support/hardware/access-mount/) |
 
+<div class="qr">
+    <img src="../images/qr/sac-customize.png" alt="QR Code for link">
+    <p>Video: SAC Controller Customization</p>
 </div>
 
+<div class="qr">
+    <img src="../images/qr/sac-expansion.png" alt="QR Code for link">
+    <p>Video: SAC Expansion Ports</p>
+</div>
+
+<div class="qr">
+    <img src="../images/qr/sac-secondary-con.png" alt="QR Code for link">
+    <p>Video: SAC Secondary Controller</p>
+</div>
+
+<div class="qr">
+    <img src="../images/qr/sac-mount.png" alt="QR Code for link">
+    <p>Video: SAC Controller Mounts</p>
+</div>
 
 ### Hori Flex Controller
-Released in 2021, the Hori Flex Controller is a 3rd party controller combining built in buttons on the top of the face as well as various ports for both assistive switches and joysticks. It is quite high in cost relative to the other adaptive controllers and with it not being made by Nintendo directly, it lacks some built in remapping/customization directly on the Nintendo Switch, it has to be done on a Windows computer. 
+The Hori Flex is a unique hybrid controller designed primarily for the Nintendo Switch (though it is also compatible with PC). It bridges the gap between the XAC and the SAC by offering a significant number of built-in buttons on the top of the device while still providing 3.5 mm ports for external switches and USB ports for joysticks. Notably, it is the only major adaptive controller that offers dedicated eye-tracking accessibility features right out of the box.
 
 #### How to Get Started
+The Hori Flex is a specialized device often imported or purchased through accessibility specialists. Hori provides a dedicated setup app and detailed manuals to help you configure the extensive port options.
+
+<a href="https://stores.horiusa.com/flex-controller-for-nintendo-switch/" 
+   target="_blank" 
+   class="print-button">
+   Check out the Hori Flex Resources Created by Hori
+</a>
+
+<div class="qr">
+  <p>Scan to go to the Hori Flex web resources</p>
+</div>
+
+Check out the Hori Flex introduction and setup guide:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/5Hl-o7mS-S8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="qr">
+    <p>Video: Hori Flex Setup and Overview</p>
+</div>
+
+SpecialEffect also provides a great overview of how the Hori Flex integrates with the Nintendo Switch:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/tM0z06k5WNo" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="qr">
+    <p>Scan to go to the SpecialEffect Hori Flex Setup</p>
+</div>
 
 #### Key Features
 
@@ -228,12 +283,22 @@ Released in 2021, the Hori Flex Controller is a 3rd party controller combining b
 
 | Feature | What Does it Do | Use Case | Learn More |
 | :--- | :--- | :--- | :--- |
-| **Button Remapping** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Controller Assist** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Button Toggle** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Shift Mode** | • asjdlkf | • asjdlkf | [resource name]() |
-| **Joystick Axis Swap** | • asjdlkf | • asjdlkf | [resource name]() |
+| **Hybrid Input Design** | • Features 18 assignable 3.5 mm switch ports and 2 USB ports for joysticks.<br>• Includes a small array of physical buttons on the face of the device for direct use. | • A user needs the "Hub" capability of the XAC but also wants a few physical buttons on the device for menu navigation or simple actions. | [Hori Flex Specifications](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **Eye-Tracking Interface** | • Features a dedicated interface that allows the controller to be operated via compatible eye-tracking devices on the PC. | • For players with very limited physical mobility who rely on eye-gaze technology to interact with their environment and games. | [Eye-Control Guide](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **Flex Controller Settings App** | • A dedicated PC application used to remap buttons, adjust joystick sensitivity, and configure deadzones. | • You need to customize the "active" range of a joystick or change the behavior of a specific switch port for a Nintendo Switch game. | [App Download & Info](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **On-Board Profile Storage** | • Allows you to store multiple mapping configurations directly on the hardware.<br>• Profiles can be toggled using a physical button on the controller. | • A user frequently switches between games like *Mario Kart* and *The Legend of Zelda* and needs instant access to different button layouts. | [Manual: Profile Management](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **USB Joystick Compatibility** | • The two USB ports support a variety of digital and analog joysticks, including standard HID gamepads. | • A clinician wants to plug in a specialized heavy-duty or arcade-style joystick that uses a USB connection rather than a 3.5 mm jack. | [Joystick Compatibility List](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **Expansion for Sensor Inputs** | • The 3.5 mm ports are highly sensitive and designed to work with a wide range of low-force accessibility switches. | • Connecting ultra-light touch switches or sip-and-puff systems to navigate the Nintendo Switch interface. | [Switch Setup Guide](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
+| **Mounting** | • Features a standard 1/4-20 threaded hole on the bottom of the device. | • Securely mounting the controller to a camera tripod or a magic arm for positioning near the head or lap. | [Mounting Options](https://stores.horiusa.com/flex-controller-for-nintendo-switch/) |
 
+</div>
+
+<div class="qr">
+    <p>Download: Hori Flex Settings App</p>
+</div>
+
+<div class="qr">
+    <p>Resource: Hori Flex Eye-Control Guide</p>
 </div>
 
 
