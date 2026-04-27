@@ -131,12 +131,7 @@ Check out the first video in Xbox's resource series here:
 SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox Console: 
 
 <div class="video-container">
-    <iframe 
-        src="https://youtu.be/n4WICsictO0?si=v5r42QD4F7OAk05h" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <iframe src="https://youtu.be/n4WICsictO0?si=v5r42QD4F7OAk05h" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
@@ -154,11 +149,11 @@ SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox C
 | :--- | :--- | :--- | :--- |
 | **Button Remapping** | • Each 3.5 mm port on the back of the XAC is labeled with a specific input. For example, you plug in an assistive switch to the A port, it will act as A.<br> • However, you can use the Xbox Accessories App to reassign (remap) that button to any button or action available in the Xbox.  | • You want to use the features such as toggle, shift, axis swap, etc. that are available in the Xbox Accessories App. You would set this up through the remapping process and save it. | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=Nje4XIzBbI6t_i92&t=111) |
 | **Profile Saving** | • You can save various remapping settings you have made for various games<br> • You can save as many profiles as you want but you can only save 3 to the controller at a time to hotswap between. There is a button on the XAC to swap between the three profiles that can also be accessed by an assistive switch.  | • You play a racing game, fighting game, and first person shooter. Instead of unplugging and replugging or remapping all the time, you can save the profile that works for that game once.  | Found in: [Video: XAC Guide - Customization with the Xbox Accessories App](https://youtu.be/l73APLDxP1c?si=mrOs_iFqMSdFT7lV&t=353) |
-| **Controller Assist** | • This allows two controllers to act as one. Either two XAC's, standard controllers, or a standard controller and an XAC working together. | • One player does some of the inputs with the standard controller while the other uses the custom setup with the XAC to use those inputs. | Found in: [Video: XAC Guide - Getting Started](https://youtu.be/zd4VddU1wTQ?si=pKEhQ30Cf0V35zft&t=295) |
-| **Button Toggle** | • asjdlkf | • asjdlkf | Found in: [Video: Gaming Readapted](https://youtu.be/peQryhh6aOw?si=3KyE7LBvb4FEY1G-&t=160) |
+| **Controller Assist (previously co-pilot)** | • This allows two controllers to act as one. Either two XAC's, standard controllers, or a standard controller and an XAC working together. | • One player does some of the inputs with the standard controller while the other uses the custom setup with the XAC to use those inputs. | Found in: [Video: XAC Guide - Getting Started](https://youtu.be/zd4VddU1wTQ?si=pKEhQ30Cf0V35zft&t=295) |
+| **Button Toggle** | • You can assign any button input to stay activated with a single press. Then press again to turn off. Think about a light switch. | • For users that do not want to hold a button down to keep it activated. Aiming in first person shooter games is a great example. Press once to aim, press again to put the weapon down. | Found in: [Video: Gaming Readapted](https://youtu.be/peQryhh6aOw?si=3KyE7LBvb4FEY1G-&t=160) |
 | **Shift Mode** | • asjdlkf | • asjdlkf | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=iLxLnji9b8kusAJx&t=41) |
-| **Joystick Axis Swap** | • When remapping, if you select one of the joysticks it will allow you to swap either or both the X and Y axis. | • This allows the gamer to play a game that requires 2 joysticks with one.,<br> • For example, if they were using a left joystick and swapped the X axis with the right joystick, they could move forward and back in a 3rd person game and use the left and right to look around and move in all directions. | n/a - No resource yet |
-| **Joystick Sensitivty Curves** | • asjdlkf | • asjdlkf | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=NKKxagPeL2qmLz2Q&t=243) |
+| **Joystick Axis Swap** | • When remapping, if you select one of the joysticks it will allow you to swap either or both the X and Y axis. | • This allows the gamer to play a game that requires 2 joysticks with one.<br> • For example, if they were using a left joystick and swapped the X axis with the right joystick, they could move forward and back in a 3rd person game and use the left and right to look around and move in all directions. | n/a - No resource yet |
+| **Joystick Sensitivty Curves** | • Adjusting the sensitivity of the joystick plugged into the XAC. | • For example, players who have limited strength or mobility can choose a sensitivity curve option that provides an experience where less physical movement of the joystick is needed to achieve the same amount of in-game character or camera movement. | [Video: XAC Guide - Advanced functionalities](https://youtu.be/VuomjNhHYew?si=NKKxagPeL2qmLz2Q&t=243) |
 
 </div>
 
@@ -166,6 +161,42 @@ SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox C
 Released in 2023, the Sony Access Controller took a different approach to the adaptive controller than both the XAC and Hori Flex Controller by attempting to create an out-of-the-box ready to play adaptive controller. This is a great option for some players but in other ways, its lack of customization in shape and limited amount of ports for additional assistive tech may not be enough for some. 
 
 #### How to Get Started
+PlayStation has a fantastic series of videos and online resources explaining every feature on the SAC. The SAC also does a great job of walking the player through using the controller during first setup/launch on the system. This is by far the most intuitive adaptive controller. 
+
+<a href="https://www.playstation.com/en-ca/support/hardware/accessories/?category=access&subCategory=parts" 
+   target="_blank" 
+   class="print-button">
+   Check out the SAC Resources Created by PlayStation
+</a>
+
+<div class="qr">
+  <img src="../images/qr/sac-resources-web.png" alt="QR Code for link">
+  <p>Scan to go to the SAC web resources created by PlayStation</p>
+</div>
+
+
+Check out the SAC setup and unboxing video:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/watch?v=cYHdXMPC94g&t=2s" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="qr">
+  <img src="../images/qr/sac-setup-vid.png" alt="QR Code for link">
+  <p>Video: SAC Setup and Unboxing</p>
+</div>
+
+Check out the SAC controller customization video:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/watch?v=jQTnuYbzgnE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="qr">
+  <img src="../images/qr/sac-customization.png" alt="QR Code for link">
+  <p>Video: SAC Controller Customization</p>
+</div>
+
 
 #### Key Features
 
