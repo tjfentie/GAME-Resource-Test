@@ -555,26 +555,65 @@ These options have been released under an open source license. This means anyone
 ---
 
 ## Other Input Methods
-* Summary
+If standard adaptive controllers, assistive switches, or specialized hardware do not meet all of a player's needs, consider integrating eye tracking, voice control, or gesture control. These "alternative inputs" can be used as standalone solutions or in combination with other AT to expand the total number of reliable inputs available to the player.
+
+---
 
 ### Eye Tracking
-* Summary
+Eye tracking technology allows a player to control a cursor or trigger game actions simply by looking at specific areas of the screen. While powerful, it often requires specialized hardware and software to translate "gaze" into the complex button presses required for modern gaming.
 
-#### Computer
-* adaptive hacker khan videos - millmouse and iris
-* special effect games
+Check out this video from Adaptive Hacker Khan using a Tobii Eye Tracker as a game input using Millmouse and Project Iris 
 
-#### Console 
-* hori flex 
+<div class="video-container">
+    <iframe 
+        src="https://youtu.be/bTFs6YgMtNg?si=yS9NrzxPh2plq900" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<div class="centered-table-container" markdown="1">
+
+| Platform | Description | Link to Resource |
+| :--- | :--- | :--- |
+| **PC / Computer** | **Tobii Eye Trackers:** The hardware standard for eye tracking. For full game control, it is often paired with software like Millmouse or Project Iris to convert gaze into mouse movements and clicks (see resource). | [Tobii Eye Trackers](https://gaming.tobii.com/product/eye-tracker-5/)<br><br>[Tutorial using eye tracker for full game access](https://youtu.be/bTFs6YgMtNg?si=yS9NrzxPh2plq900) |
+| **PC / Computer** | **SpecialEffect Eye Gaze Games:** A collection of browser-based and downloadable games designed specifically to be played entirely via eye tracking. | [Eye Gaze Games](https://www.eyegazegames.com/) |
+| **Consoles** | **Hori Flex (Nintendo Switch):** The Hori Flex can be configured to accept eye-tracking inputs through specific PC-bridge setups. Refer to SpecialEffect resources for detailed wiring diagrams and "Eye Gaze to Switch" conversion methods. | [SpecialEffect Hori Flex Guide](https://gameaccess.info/hori-flex-overview-video/) |
+
+</div>
+
+---
 
 ### Voice and Gesture Control
-* new way to have xac do facial recognition
-* Cephable
+Voice and gesture recognition software translates spoken commands or physical movements (like a head tilt or a blink) into digital controller inputs. This is a rapidly evolving field that frequently uses AI to interpret a player's unique range of motion.
+
+Check out this video from Cephable on using their software with Call of Duty: Black Ops 7 to use voice, button, and facial gesture input.
+
+<div class="video-container">
+    <iframe 
+        src="https://www.youtube.com/watch?v=Y5OYtxKZv8I" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+
+<div class="centered-table-container" markdown="1">
+
+| Tool | Description | Link |
+| :--- | :--- | :--- |
+| **Cephable** | **Multimodal Input:** An all-in-one platform that turns head movements, facial expressions, quick action buttons, and voice into inputs for PC and consoles. It features a highly customizable app to tune sensitivity and create macros. | [Cephable](https://cephable.com/) |
+| **Playability** | **Face & Voice Control:** Uses a standard webcam to map facial expressions and voice commands to play PC games and even PlayStation, Xbox & Switch via Remote Play or adapters. This allows a player to "smile" to jump or use voice cues to trigger inputs. | [Playability Adaptive Software](https://playability.gg/) |
+
+
+</div>
 
 --- 
 
 ## Important Considerations
-Twu crucial considerations when creating an alternative access setup are mounting and adapters. If you have all the perfect gear, but no way to securly **mount** it in a useful location for the player, it is practically useless. Also, if you have all the right gear and mounted but it is not compatible with the platform you are playing on, **adapters** can be useful.
+The crucial considerations when creating an alternative access setup are mounting and adapters. If you have all the perfect gear, but no way to securly **mount** it in a useful location for the player, it is practically useless. Also, if you have all the right gear and mounted but it is not compatible with the platform you are playing on, **adapters** can be useful.
 
 ### Mounting
 * summary
