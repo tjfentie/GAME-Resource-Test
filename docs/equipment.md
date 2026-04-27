@@ -10,7 +10,7 @@ In general, there are three main ways to make adaptive gaming accessible:
 
 1. Alternative Access
 2. Controller Modifications
-3. Software
+3. Software and In-Game Settings
 
 ## Getting Started: Choosing Your Access Path
 
@@ -94,4 +94,83 @@ We recommend starting with the equipment already available to you. Using what yo
 </div>
 
 ### Standard Controllers 
-* make a table with photos for the standard inputs of the platforms
+When this resource uses the term "standard controllers" we are referring to the controllers that come default with the console or system. For example, a keyboard and mouse would be a standard input to a computer. Below are the main standard controllers currently still available by the platforms described above.
+
+#### Xbox Controllers
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Xbox Controllers</span>
+<br>
+
+| Controller | Visual Reference | Notes |
+| :--- | :--- | :--- |
+| **Xbox Series X\|S** | ![Xbox Series X\|S](../images/xbox-series-controller.png) | • Looks very similar to the Xbox One controller, however there are slight differences of sizes and additional functionalities. |
+| **Xbox Series Elite 2** | ![Xbox Series Elite 2](../images/xbox-elite2.png) | • This is the "pro" version of the Xbox Series X\|S controller with added buttons on the bottom side of the controller and additional Functionalities. |
+| **Xbox One** | ![Xbox One](../images/xbox-one.png) | • This is the previous version of the Xbox Controller and is often mistaken for a Xbox Series X\|S controller.<br>• The easiest way to spot the difference is it does not have the "share" button right on the middle of the controller that the Series X\|S controller does. |
+
+</div>
+
+#### PlayStation Controllers
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">PlayStation Controllers</span>
+<br>
+
+| Controller | Visual Reference | Notes |
+| :--- | :--- | :--- |
+| **DualSense (PS5)** | ![DualSense (PS5)](../images/dualsense.png) |  |
+| **DualSense Edge (PS5)** | ![DualSense Edge (PS5)](../images/dualsense-edge.png) | • This is the "pro" version of the DualSense controller. |
+| **DualShock 4 (PS4)** | ![DualShock 4 (PS4)](../images/dualshock4.png) |  |
+
+</div>
+
+#### Nintendo Controllers
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Nintendo Controllers</span>
+<br>
+
+| Controller | Visual Reference | Notes |
+| :--- | :--- | :--- |
+| **Nintendo Joy-Con 2** | ![Nintendo Joy-Con 2](../images/joycon2.png) |  |
+| **Nintendo Pro Controller 2** | ![Nintendo Pro Controller 2](../images/pro-controller2.png) | • This controller aims to look and feel more similar to what players expect from a standard controller. It looks similar to the Xbox controllers. |
+| **Nintendo Joy-Con 1** | ![Nintendo Joy-Con 1](../images/joycon1.png) | • Looks very similar to the Joy-Con 1's that were for the Nintendo Switch 1. There are key differences in size and connections. |
+| **Nintendo Switch 1 Pro Controller** | ![Nintendo Switch 1 Pro Controller](../images/pro-controller1.png) | • Looks very similar to the Nintendo Switch 1 Pro Controller. This version has buttons on the underside and other additional features.  |
+
+</div>
+
+It is important to note that the Nintendo Switch 1 and 2 Joy-Con controllers are designed in such a way that there is a lot of flexibility in how you can use them to play. There are two Joy-Cons (left and right or also called + and -) that work together or can work individually. There are three main types of ways you can hold/interact with the Joy-Cons. 
+
+???+ warning "Note"
+    Some games will require you to play the whole game or certain parts in a specific mode. The Joy-Cons also have gyroscopic movement controlls in them that allow you to shake, wave, and move them around to interact. Again, only some games or part of games may utilize this feature.
+
+**Controller Mode**
+This allows you to use both left and right Joy-Cons together to create a whole controller. The Nintendo Switch can be in its dock and connected to a TV or it can be out of the dock on its own stand.
+
+<div class="center-thumb">
+    <img src="../images/joycon-controller-mode1.png" alt="Graphic showing someone holding the joycons in controller mode">
+    <p>Joy-Cons in Controller Mode with Holder (Image Uses Joy-Con 1 Controllers)</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/joycon-controller-mode2.png" alt="Graphic showing someone holding the joycons in controller mode">
+    <p>Joy-Cons in Controller Mode without Holder (Image Uses Joy-Con 1 Controllers)</p>
+</div>
+
+**Gamepad Mode**
+Both Joy-Cons are attached to the Nintendo Switch directly and used out of the Nintendo Switch dock. This method can not be used in the dock.
+
+<div class="center-thumb">
+    <img src="../images/joycon-gamepad-mode.png" alt="Graphic showing someone holding the joycons in gampad controller mode">
+    <p>Joy-Cons in Gamepad Mode (Image Uses Joy-Con 1 Controllers)</p>
+</div>
+
+**Single Controller Mode**
+Only one Joy-Con is used by the player. They hold it sideways and only have access to one thumbstick. Not every game can be played this way.
+
+<div class="center-thumb">
+    <img src="../images/joycon-single-mode.png" alt="Graphic showing someone holding the joycons in single controller mode">
+    <p>Joy-Cons in Single Controller Mode (Image Uses Joy-Con 1 Controllers)</p>
+</div>
+
+
