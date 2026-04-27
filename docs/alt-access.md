@@ -469,12 +469,12 @@ These options have been released under an open source license. This means anyone
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
 | **Logitech Adaptive Gaming Kit** | • A very reasonably priced set of assistive switches with hook and loop mounting trays and stickers for labeling the switches.<br>• There is a version for the SAC and XAC, but they both will work interchangably. The only difference is the quantity of the trays and switches in the kit and type of sticker packs.  | [View Device](https://www.logitechg.com/en-ca/shop/c/gamepads-controllers) |
-| **OneSwitch** | • Various assistive switches.  | [link](https://www.oneswitch.org.uk/shop.php) |
-| **Seven Mile Mountain** | • Etsy page featuring various assistive switches.  | [link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
-| **Pretorian** | • Various assistive switches. | [link](https://www.pretorianuk.com/) |
-| **HitClic** | • Various assistive switches. | [link](https://hitclic.shop/en) |
-| **Canadian Assistive Technologies** | • Canadian vendor for assistive tech. | [link](https://canasstech.com/) |
-| **Bridges Canada** | • Canadian vendor for assistive tech. | [link](https://www.bridges-canada.com/) |
+| **OneSwitch** | • Various assistive switches.  | [Link](https://www.oneswitch.org.uk/shop.php) |
+| **Seven Mile Mountain** | • Etsy page featuring various assistive switches.  | [Link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
+| **Pretorian** | • Various assistive switches. | [Link](https://www.pretorianuk.com/) |
+| **HitClic** | • Various assistive switches. | [Link](https://hitclic.shop/en) |
+| **Canadian Assistive Technologies** | • Canadian vendor for assistive tech. | [Link](https://canasstech.com/) |
+| **Bridges Canada** | • Canadian vendor for assistive tech. | [Link](https://www.bridges-canada.com/) |
 
 </div>
 
@@ -530,14 +530,14 @@ These options have been released under an open source license. This means anyone
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
 | **Xbox Adaptive Joystick** | • Developed by Xbox for the XAC. Compatible on its own to a computer, phone, or Xbox device. | [link](https://www.xbox.com/en-CA/accessories/controllers/xbox-adaptive-joystick) |
-| **Designed by Grier** | • Various assistive joysticks.  | [link](https://www.dbgrier.com/shop/assistive-technology) |
-| **Celtic Magic** | • Products include the Feather Joystick (ultralight force) and Dangle Joystick (light force and low profile).  | [link](https://www.celticmagic.org/) |
-| **OneSwitch** | • Various assistive joysicks.  | [link](https://www.oneswitch.org.uk/shop.php) |
-| **Seven Mile Mountain** | • Etsy page featuring various assistive joysticks.  | [link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
-| **Pretorian** | • Various assistive joysticks. | [link](https://www.pretorianuk.com/) |
-| **HitClic** | • Various assistive joysticks. | [link](https://hitclic.shop/en) |
+| **Designed by Grier** | • Various assistive joysticks.  | [Link](https://www.dbgrier.com/shop/assistive-technology) |
+| **Celtic Magic** | • Products include the Feather Joystick (ultralight force) and Dangle Joystick (light force and low profile).  | [Link](https://www.celticmagic.org/) |
+| **OneSwitch** | • Various assistive joysicks.  | [Link](https://www.oneswitch.org.uk/shop.php) |
+| **Seven Mile Mountain** | • Etsy page featuring various assistive joysticks.  | [Link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
+| **Pretorian** | • Various assistive joysticks. | [Link](https://www.pretorianuk.com/) |
+| **HitClic** | • Various assistive joysticks. | [Link](https://hitclic.shop/en) |
 | **Canadian Assistive Technologies** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too.  | [link](https://canasstech.com/) |
-| **Bridges Canada** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too. | [link](https://www.bridges-canada.com/) |
+| **Bridges Canada** | • Canadian vendor for assistive tech. They sell the Pretorian joysticks here too. | [Link](https://www.bridges-canada.com/) |
 
 
 </div>
