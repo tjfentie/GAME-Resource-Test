@@ -60,6 +60,11 @@ There are three primary adaptive controllers out there with various approaches t
 **See each section below for more specific information on the adaptive controllers.**
 
 ### Xbox Adaptive Controller (XAC)
+
+<div class="center-thumb">
+    <img src="../images/xac-banner.png" alt="Banner image of a real life XAC setup and labeled diagram of features">
+</div>
+
 Released in 2018 with ongoing updates (even today), the Xbox Adaptive Controller (XAC) is a very powerful device with many applications. It could even be used as a bridge to use assistive technology to access a computer for personal use or employment. The XAC features some buttons on its face for usage out of the box but also has 3.5 mm and USB ports to add more assistive technology. Acting as a hub to create a custom adaptive gaming setup.
 
 #### How to Get Started
@@ -124,6 +129,11 @@ SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox C
 </div>
 
 ### Sony Access Controller (SAC)
+
+<div class="center-thumb">
+    <img src="../images/sac-banner.png" alt="Banner image of a real life SAC setup and labeled diagram of features">
+</div>
+
 Released in 2023, the Sony Access Controller took a different approach to the adaptive controller than both the XAC and Hori Flex Controller by attempting to create an out-of-the-box ready to play adaptive controller. This is a great option for some players but in other ways, its lack of customization in shape and limited amount of ports for additional assistive tech may not be enough for some. 
 
 #### How to Get Started
@@ -204,6 +214,11 @@ Check out the SAC controller customization video:
 </div>
 
 ### Hori Flex Controller
+
+<div class="center-thumb">
+    <img src="../images/hori-banner.png" alt="Banner image of a real life Hori Flex setup and labeled diagram of features">
+</div>
+
 The Hori Flex is a unique hybrid controller designed primarily for the Nintendo Switch (though it is also compatible with PC). It bridges the gap between the XAC and the SAC by offering a significant number of built-in buttons on the top of the device while still providing 3.5 mm ports for external switches and USB ports for joysticks. Notably, it is the only major adaptive controller that offers dedicated eye-tracking accessibility features right out of the box.
 
 #### How to Get Started
@@ -275,8 +290,15 @@ The adaptive controllers above all allow for some amount of additional assistive
 Finding assistive technology that works for the player but also the adpative controller/platform you are playing on is crucial. **Below are some resources to explain using assistive tech with adaptive controllers and where to find them.**
 
 ### Assistive Switches
+
+<div class="center-thumb">
+    <img src="../images/switch-banner.png" alt="Decorative banner of assistive switch icons">
+</div>
+
 * Summary
 * what are the criteria to evaluate a switch by. Force, size, shape, etc.
+
+Assistive Switches are 
 
 <div class="center-thumb">
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
@@ -318,6 +340,11 @@ Finding assistive technology that works for the player but also the adpative con
 </div>
 
 ### Assistive Joysticks
+
+<div class="center-thumb">
+    <img src="../images/joystick-banner.png" alt="Decorative banner of assistive joystick icons">
+</div>
+
 * summary
 * what are the criteria to evaluate a Joystick by. Force, size, shape, etc.
 
