@@ -104,7 +104,7 @@ When this resource uses the term "standard controllers" we are referring to the 
 
 | Controller | Visual Reference | Notes |
 | :--- | :--- | :--- |
-| **Xbox Series X\|S** |<img src="../images/xbox-series-controller.png" alt="Xbox Series X|S" width="150">| • Looks very similar to the Xbox One controller, however there are slight differences of sizes and additional functionalities. |
+| **Xbox Series X\|S** | <img src="../images/xbox-series-controller.png" alt="Xbox Series X\|S" width="150"> | • Looks very similar to the Xbox One controller, however there are slight differences of sizes and additional functionalities. |
 | **Xbox Series Elite 2** | <img src="../images/xbox-elite2.png" alt="Xbox Series Elite 2" width="150"> | • This is the "pro" version of the Xbox Series X\|S controller with added buttons on the bottom side of the controller and additional functionalities. |
 | **Xbox One** | <img src="../images/xbox-one.png" alt="Xbox One" width="150"> | • This is the previous version of the Xbox Controller and is often mistaken for a Xbox Series X\|S controller.<br>• The easiest way to spot the difference is it does not have the "share" button right on the middle of the controller that the Series X\|S controller does. |
 
