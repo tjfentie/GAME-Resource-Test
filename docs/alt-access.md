@@ -250,7 +250,10 @@ Hori provided a detailed manual and others like SpecialEffect and Gaming Readapt
    Download the Hori Flex Controller Manual
 </a>
 
-/* QR CODE
+<div class="qr">
+    <img src="../images/qr/hori-manual.png" alt="QR Code for link">
+    <p>Link: Hori Flex Manual</p>
+</div>
 
 Check out the SpecialEffect Hori Flex introduction and setup guide:
 
@@ -258,7 +261,10 @@ Check out the SpecialEffect Hori Flex introduction and setup guide:
     <iframe src="https://www.youtube.com/embed/zak38eFZVm8?si=3XsJeCgceoZTgHNb" frameborder="0" allowfullscreen></iframe>
 </div>
 
-/* QR CODE
+<div class="qr">
+    <img src="../images/qr/hori-se-vid.png" alt="QR Code for link">
+    <p>Video: SpecialEffect Hori Flex Setup</p>
+</div>
 
 Gaming Readapted also provides a great overview of how the Hori Flex integrates with the Nintendo Switch:
 
@@ -266,7 +272,10 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
     <iframe src="https://www.youtube.com/embed/--b-TqNJz2g?si=35V_6DuYOjlMcbbD" frameborder="0" allowfullscreen></iframe>
 </div>
 
-/* QR CODE
+<div class="qr">
+    <img src="../images/qr/hori-readapted-vid.png" alt="QR Code for link">
+    <p>Video: Gaming Readapted Hori Flex Setup</p>
+</div>
 
 #### Key Features
 
@@ -284,7 +293,10 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
 </div>
 
-/* QR CODE
+<div class="qr">
+    <img src="../images/qr/hori-se-vid.png" alt="QR Code for link">
+    <p>Video: SpecialEffect Hori Flex Setup</p>
+</div>
 
 ???+ warning "Cost Consideration"
     The Hori Flex controller is significantly more expensive than the other options. With the XAC providing very similar functions, compatibility with more devices (phones and computers), and a more dynamic remapping and customization softare, consider purchasing an XAC with an adapter that allows it to connect to a Nintendo Switch 1 or 2. 
@@ -309,7 +321,7 @@ Finding assistive technology that works for the player but also the adpative con
 * Summary/what is open source
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<span class="table-caption">Assistive Switch - OpenAT Options</span>
 <br>
 
 | Organization/Device | Description | Link |
@@ -326,7 +338,7 @@ Finding assistive technology that works for the player but also the adpative con
 * Summary
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<span class="table-caption">Assistive Switch - Commercial Options</span>
 <br>
 
 | Organization/Device | Description | Link |
@@ -351,7 +363,7 @@ Finding assistive technology that works for the player but also the adpative con
 * Summary
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<span class="table-caption">Assistive Joystick - OpenAT Options</span>
 <br>
 
 | Organization/Device | Description | Link |
@@ -368,7 +380,7 @@ Finding assistive technology that works for the player but also the adpative con
 * Summary
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<span class="table-caption">Assistive Joystick - Commercial Options</span>
 <br>
 
 | Organization/Device | Description | Link |
