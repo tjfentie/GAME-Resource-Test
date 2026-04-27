@@ -264,7 +264,7 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 </div>
 
 ???+ warning "Cost Consideration"
-    The Hori Flex controller is significantly more expensive than the other options. With the XAC providing very similar functions, compatibility with more devices (phones and computers), and a more dynamic remapping and customization softare, consider purchasing an XAC with an adapter that allows it to connect to a Nintendo Switch 1 or 2. 
+    The Hori Flex controller is significantly more expensive than the other options. With the XAC providing very similar functions, compatibility with more devices (phones and computers), and a more dynamic remapping and customization software, consider purchasing an XAC with an adapter that allows it to connect to a Nintendo Switch 1 or 2. 
 
     However, if the player wants eye tracking software compatibility specifically, that may shift the decision to the Hori Flex Controller.
 
@@ -276,6 +276,7 @@ Finding assistive technology that works for the player but also the adpative con
 
 ### Assistive Switches
 * Summary
+* what are the criteria to evaluate a switch by. Force, size, shape, etc.
 
 <div class="center-thumb">
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
@@ -308,7 +309,7 @@ Finding assistive technology that works for the player but also the adpative con
 
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
-| **Device/Org** | •  | [link]() |
+| **Logitech Adaptive Gaming Kit** | •  | [View Device](https://www.logitechg.com/en-ca/shop/c/gamepads-controllers) |
 | **Device/Org** | •  | [link]() |
 | **Device/Org** | •  | [link]() |
 | **Device/Org** | •  | [link]() |
@@ -318,6 +319,7 @@ Finding assistive technology that works for the player but also the adpative con
 
 ### Assistive Joysticks
 * summary
+* what are the criteria to evaluate a Joystick by. Force, size, shape, etc.
 
 <div class="center-thumb">
     <img src="../images/joystick-overview.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
