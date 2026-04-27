@@ -131,12 +131,12 @@ Check out the first video in Xbox's resource series here:
 SpecialEffect also has a fantastic walkthrough of setting up an XAC on an Xbox Console: 
 
 <div class="video-container">
-    <iframe src="https://youtu.be/n4WICsictO0?si=v5r42QD4F7OAk05h" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/n4WICsictO0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
-  <img src="../images/qr/specialeffect-xac-qr.png" alt="QR Code for link">
-  <p>Scan to go to the SpecialEffect XAC Setup</p>
+    <img src="../images/qr/specialeffect-xac-qr.png" alt="QR Code for link">
+    <p>Scan to go to the SpecialEffect XAC Setup</p>
 </div>
 
 #### Key Features
@@ -178,23 +178,23 @@ PlayStation has a fantastic series of videos and online resources explaining eve
 Check out the SAC setup and unboxing video:
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=cYHdXMPC94g&t=2s" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/cYHdXMPC94g" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
-  <img src="../images/qr/sac-setup-vid.png" alt="QR Code for link">
-  <p>Video: SAC Setup and Unboxing</p>
+    <img src="../images/qr/sac-setup-vid.png" alt="QR Code for link">
+    <p>Video: SAC Setup and Unboxing</p>
 </div>
 
 Check out the SAC controller customization video:
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=jQTnuYbzgnE" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/jQTnuYbzgnE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="qr">
-  <img src="../images/qr/sac-customization.png" alt="QR Code for link">
-  <p>Video: SAC Controller Customization</p>
+    <img src="../images/qr/sac-customization.png" alt="QR Code for link">
+    <p>Video: SAC Controller Customization</p>
 </div>
 
 
