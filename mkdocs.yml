@@ -36,7 +36,7 @@ nav:
   - Start Here: index.md
   - Learn About Adaptive Gaming: # Added a colon here and removed the comment
     - Adaptive Gaming Equipment:
-        - Overview: equipment.md
+        - Overview/Platforms: equipment.md
         - Alternative Access: alt-access.md
         - Controller Modifications: control-mods.md
         - Software: Software.md
