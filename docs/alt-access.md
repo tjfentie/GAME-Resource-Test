@@ -4,9 +4,9 @@
   Printable Version of this Section
 </button>
 
-<div class="center-thumb">
-    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
-    <p>Various MMC Assistive Switches and Joysticks</p>
+<div class="banner-image-container">
+    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table" class="banner-image">
+    <p class="banner-caption">Various MMC Assistive Switches and Joysticks</p>
 </div>
 
 ## What is Alternative Access
@@ -27,11 +27,6 @@ There are various categories of devices and tools under alternative access:
     * Mounting
 
 This section will provide an overview on all the devices and tools mentioned above as well as giving a quick overview of the platforms available.
-
-<div class="center-thumb">
-    <img src="../images/mmc-game-at.jpg" alt="various MMC assistive technology splayed out on a table">
-    <p>Various MMC Assistive Switches and Joysticks</p>
-</div>
 
 ## The Platforms
 You may already have a platform available to you or you may be looking for one to purchase. If purchasing a new platform, there may be some things you want to consider in terms of accessibility. **We are often asked, "What is the most accessible platform?" There is no single answer; while some systems offer more flexibility, the "best" choice depends entirely on individual needs and technical factors.**
@@ -292,7 +287,7 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
 /* QR CODE
 
-??+ warning "Cost Consideration
+???+ warning "Cost Consideration"
     The Hori Flex controller is significantly more expensive than the other options. With the XAC providing very similar functions, compatibility with more devices (phones and computers), and a more dynamic remapping and customization softare, consider purchasing an XAC with an adapter that allows it to connect to a Nintendo Switch 1 or 2. 
 
     However, if the player wants eye tracking software compatibility specifically, that may shift the decision to the Hori Flex Controller.
