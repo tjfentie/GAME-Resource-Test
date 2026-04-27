@@ -434,6 +434,11 @@ In a gaming context, these switches replace the physical buttons on a standard c
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
 
+<div class="center-thumb">
+    <img src="../images/mmc-switches.png" alt="Photo of various MMC switches">
+    <p>Various MMC Switches</p>
+</div>
+
 Here are the criteria that often seperates the assistive switch options out there:
 
 * **Activation Force:** The amount of pressure (measured in grams) required to "click" the switch.
@@ -491,6 +496,11 @@ In gaming, assistive joysticks typically connect via a USB cable **OR** a 3.5 mm
 <div class="center-thumb">
     <img src="../images/joystick-overview.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
     <p>Mice or Controller Joysticks can be Swapped to Assistive Joysticks</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/mmc-joysticks.png" alt="Photo of various MMC Joysticks">
+    <p>Various MMC Joysticks</p>
 </div>
 
 Here are the criteria that often separate the assistive joystick options out there:
