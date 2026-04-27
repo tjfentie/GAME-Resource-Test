@@ -468,7 +468,7 @@ These options have been released under an open source license. This means anyone
 
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
-| **Logitech Adaptive Gaming Kit** | • A very reasonably priced set of assistive switches with hook and loop mounting trays and stickers for labeling the switches.<br>• There is a version for the SAC and XAC, but they both will work interchangably. The only difference is the quantity of the trays and switches in the kit and type of sticker packs.  | [View Device](https://www.logitechg.com/en-ca/shop/c/gamepads-controllers) |
+| **Logitech Adaptive Gaming Kit** | • A very reasonably priced set of assistive switches with hook and loop mounting trays and stickers for labeling the switches.<br>• There is a version for the SAC and XAC, but they both will work interchangably. The only difference is the quantity of the trays and switches in the kit and type of sticker packs.  | [Link](https://www.logitechg.com/en-ca/shop/c/gamepads-controllers) |
 | **OneSwitch** | • Various assistive switches.  | [Link](https://www.oneswitch.org.uk/shop.php) |
 | **Seven Mile Mountain** | • Etsy page featuring various assistive switches.  | [Link](https://www.etsy.com/shop/SevenMileMountain?dd_referrer=https%3A%2F%2Fwww.google.com%2F) |
 | **Pretorian** | • Various assistive switches. | [Link](https://www.pretorianuk.com/) |
