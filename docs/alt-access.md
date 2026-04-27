@@ -293,6 +293,9 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 
 
 ## Assistive Tech for Adaptive Controllers
+The adaptive controllers above all allow for some amount of additional assistive tech to be connected and used as an input in the game. These are often (but not limited to) assistive switches and joysticks. Think of these the same as the buttons and thumbsticks on a standard controller but coming in a variety of shapes, sizes, forces, and types of activation.
+
+Finding assistive technology that works for the player but also the adpative controller/platform you are playing on is crucial. **Below are some resources to explain using assistive tech with adaptive controllers and where to find them.**
 
 ### Assistive Switches
 * Summary
@@ -301,19 +304,82 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
+
 #### Open Source/DIY Options
+* Summary/what is open source
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<br>
+
+| Organization/Device | Description | Link |
+| :--- | :--- | :--- |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+
+</div>
 
 #### Commercial Options
+* Summary
 
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<br>
 
+| Organization/Device | Description | Link |
+| :--- | :--- | :--- |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+
+</div>
 
 ### Assistive Joysticks
+* summary
 
 <div class="center-thumb">
     <img src="../images/joystick-overview.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
     <p>Mice or Controller Joysticks can be Swapped to Assistive Joysticks</p>
 </div>
 
+#### Open Source/DIY Options
+* Summary
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<br>
+
+| Organization/Device | Description | Link |
+| :--- | :--- | :--- |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+
+</div>
+
+#### Commercial Options
+* Summary
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Key Features of the Hori Flex Controller</span>
+<br>
+
+| Organization/Device | Description | Link |
+| :--- | :--- | :--- |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+| **Device/Org** | •  | [link]() |
+
+</div>
 
 ---
 
@@ -323,7 +389,6 @@ Gaming Readapted also provides a great overview of how the Hori Flex integrates 
 * One handed Khuan controller
 * azeron controller
 * 
-
 
 ---
 
