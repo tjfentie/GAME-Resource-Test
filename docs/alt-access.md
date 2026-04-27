@@ -315,11 +315,16 @@ The Proteus is a modular, "snap-and-play" controller system. It uses magnetic cu
    Check out the Byowave Controllers
 </a>
 
+<div style="display: flex; gap: 10px; margin-bottom: 10px;">
+    <img src="../images/byowave1.png" width="150" alt="Proteus Module">
+    <img src="../images/byowave2.png" width="150" alt="Proteus Built Configuration">
+</div>
+
 <div class="centered-table-container" markdown="1">
 
-| Controller | Visual Reference | Key Features |
-| :--- | :--- | :--- |
-| **Proteus Controller / Builder** | <img src="https://byowave.com/cdn/shop/files/Proteus_Transparent_Background_1080x.png" width="150"> <img src="https://byowave.com/cdn/shop/files/Proteus_Controller_Hero_1080x.png" width="150"> | • **Modular Design:** Snap magnetic modules together to create unique shapes.<br>• **Akimbo Mode:** A firmware update that allows two separate Proteus "Power Cubes" to work together as a single controller on one USB dongle.<br>• **Compatibility:** Works natively with Xbox, PC, and Steam Deck. |
+| Controller | Key Features |
+| :--- | :--- |
+| **Proteus Controller / Builder** | • **Modular Design:** Snap magnetic modules together to create unique shapes.<br>• **Akimbo Mode:** A firmware update that allows two separate Proteus "Power Cubes" to work together as a single controller on one USB dongle.<br>• **Compatibility:** Works natively with Xbox, PC, and Steam Deck. |
 
 </div>
 
