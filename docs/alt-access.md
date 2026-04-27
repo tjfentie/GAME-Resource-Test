@@ -38,7 +38,7 @@ There are three primary adaptive controllers out there with various approaches t
 * **Direct-Use Controllers:** Designed to be used without or with little addition of other assistive technology. The controller often takes a significantly different shape than the standard controller and has various joysticks and buttons built into it.
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Comparison of Adaptive Controllers</span>
+<span class="table-caption">Other Adaptive Controllers</span>
 <br>
 
 | Controller | Visual Reference | Approx Cost (CAD) | Category & Compatibility* | Key Features & Technical Details |
@@ -324,18 +324,28 @@ Finding assistive technology that works for the player but also the adpative con
     <img src="../images/switch-banner.png" alt="Decorative banner of assistive switch icons">
 </div>
 
-* Summary
-* what are the criteria to evaluate a switch by. Force, size, shape, etc.
+Assistive switches act as the primary bridge between a user’s physical movement and a digital action. At their core, they are simply external buttons that can be mounted in a convenient location for the user, targeting whichever part of the body has the most reliable and comfortable range of motion. Most assistive switches utilize a standard 3.5 mm cable to connect to adaptive controllers or switch interfaces.
 
-Assistive Switches are 
+In a gaming context, these switches replace the physical buttons on a standard controller or keyboard that may be inaccessible to the player. By using a combination of these external "access points" a gamer can reliably and comfortably trigger any in-game input, from jumping to firing a weapon, using the movements that work best for them.
 
 <div class="center-thumb">
     <img src="../images/switch-overview.png" alt="graphic showing buttons on a controller and keyboard buttons being converted to assistive switches">
     <p>Keyboard or Controller Buttons can be Swapped to Buttons</p>
 </div>
 
+Here are the criteria that often seperates the assistive switch options out there:
+
+* **Activation Force:** The amount of pressure (measured in grams) required to "click" the switch.
+* **Target Shape:** The switch activation area can have a smooth or specific tactile surface, curve, or custom shape.
+* **Target Size:** The surface area available to hit; larger targets assist gross motor movements, while smaller targets allow for precise mounting.
+* **Travel Distance:** How far the switch must physically move before it activates.
+* **Feedback:** Whether the switch provides a tactile "click" or an audible sound to confirm the button was pressed.
+* **Mounting Type:** How the switch attaches to the environment (e.g., threaded inserts for arms or flat bases for Velcro).
+
+Below are some links to various places you can get assistive switches. Depending on where you live, there may be more options available. This is just a basic list of common places we use to get you started to find options out there.
+
 #### Open Source/DIY Options
-* Summary/what is open source
+These options have been released under an open source license. This means anyone should have access to the files to build and create this device. 
 
 <div class="centered-table-container" markdown="1">
 <span class="table-caption">Assistive Switch - OpenAT Options</span>
@@ -374,16 +384,30 @@ Assistive Switches are
     <img src="../images/joystick-banner.png" alt="Decorative banner of assistive joystick icons">
 </div>
 
-* summary
-* what are the criteria to evaluate a Joystick by. Force, size, shape, etc.
+Assistive joysticks provide a way to replicate the directional movement usually found on a standard controller's thumbsticks. While a standard joystick is fixed to the controller, an assistive joystick can be positioned independently to be used by the hand, foot, chin, or any other reliable point of movement. These devices translate physical movement into digital "X and Y" coordinates, allowing the player to move their character or control the camera in-game.
+
+In gaming, assistive joysticks typically connect via a USB cable **OR** a 3.5 mm cable.
 
 <div class="center-thumb">
     <img src="../images/joystick-overview.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
     <p>Mice or Controller Joysticks can be Swapped to Assistive Joysticks</p>
 </div>
 
+Here are the criteria that often separate the assistive joystick options out there:
+
+* **Force Required:** The amount of physical strength needed to move the stick from the center position. Some "low force" sticks can be moved with a feather-touch, while others offer more resistance.
+* **Range of Motion (Throw):** The distance the joystick must physically tilt to reach to provide input in the game.
+* **Digital vs. Analog:** 
+    * Analog: Responds to how far you push; move a little to walk, move a lot to run. Proportional control in all directions.
+    * Digital: Responds only to direction (like a D-pad); it is either "on" or "off.". Some work in 4 directions (up, down, left, right) and some work in 8-way (up, down, left, right, and the 4 diagonals)
+* **Topper Style:** The physical shape of the handle (e.g., ball top, bat top, goalpost, or finger cup) which may be able to be swapped to match the user's prefered grip.
+* **Input Connection:** Whether it uses a USB plug for direct-use/hubs or a 3.5 mm jack for specific adaptive ports.
+* **Mounting Type:** How the base is secured, such as 1/4-20 threaded inserts for mounting arms, hook and loop, etc.
+
+Below are some links to various places you can get assistive joysticks. Depending on where you live, there may be more options available. This is just a basic list of common places we use to get you started to find options out there.
+
 #### Open Source/DIY Options
-* Summary
+These options have been released under an open source license. This means anyone should have access to the files to build and create this device. 
 
 <div class="centered-table-container" markdown="1">
 <span class="table-caption">Assistive Joystick - OpenAT Options</span>
