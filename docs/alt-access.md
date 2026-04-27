@@ -315,12 +315,14 @@ The Proteus is a modular, "snap-and-play" controller system. It uses magnetic cu
    Check out the Byowave Controllers
 </a>
 
-<div class="center-thumb" style="text-align: center;">
-    <div style="display: block; margin-bottom: 10px;">
-        <img src="../images/byowave1.png" style="width: 40%; max-width: 250px; height: auto; display: inline-block; margin: 0 5px;">
-        <img src="../images/byowave2.png" style="width: 40%; max-width: 250px; height: auto; display: inline-block; margin: 0 5px;">
-    </div>
-    <p>Byowave Proteus Kit (left) and Proteus Builder (right) designed for one-handed gaming</p>
+<div class="center-thumb">
+    <img src="../images/byowave1.png" alt="rendering of a byowave controller built in a certail configuration and then the individual blocks to the side">
+    <p>Byowave Proteus Kit</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/byowave2.png" alt="two of the blocks just outside of the 3D printed shell with an arrow showing them going inside.">
+    <p>Byowave Proteus Builder</p>
 </div>
 
 <div class="centered-table-container" markdown="1">
@@ -332,14 +334,83 @@ The Proteus is a modular, "snap-and-play" controller system. It uses magnetic cu
 
 </div>
 
-### Nhuad One Handed Controller
-* One handed Khuan controller - https://nhuadcontrollers.com/
+### Nhuad One-Handed Controller
+The Nhuad Controller is designed to place every function of a standard controller—including two analog sticks and all triggers for one handed gaming.
+
+<a href="https://nhuadcontrollers.com/" 
+   target="_blank" 
+   class="print-button">
+   Check out Nhuad Controllers
+</a>
+
+<div class="center-thumb">
+    <img src="../images/nhuad1.png" alt="Front view of the Nhuad Khuan controller showing the joystick and button layout for one-handed use.">
+    <p>Nhuad Controller Front View</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/nhuad2.png" alt="Side view of the Nhuad Khuan highlighting the ergonomic grip and trigger placements.">
+    <p>Nhuad Controller Rear View</p>
+</div>
+
+<div class="centered-table-container" markdown="1">
+
+| Controller | Key Features |
+| :--- | :--- |
+| **Nhuad Khuan** | • One Hand Use: The design creates a layout to be fully operable with one hand.<br>• Non Directional: Can be configured for either left or right-hand use.<br>• Compatibility: Compatible with PC, PS4*/PS5*, and Xbox*. (*with adapters) |
+
+</div>
+
+---
 
 ### Azeron Controllers
-* azeron controller types - https://azeron.com/?srsltid=AfmBOorIwKsCeFy0NbSXzBpbhI_NisV2JBW-x7TOOJdKH6_1RmRRUI-n
+Azeron devices are intended for one handed gaming. They have a variety of products that use keyboard and mouse input. Some of these units are adjustable as well. These are only compatible with systems compatible with mouse and keyboard inputs.
 
-### 8Bit-Do Lite SE
-* 8Bit-Do  https://www.8bitdo.com/lite-se/ 
+<a href="https://azeron.com/" 
+   target="_blank" 
+   class="print-button">
+   Check out Azeron Controllers
+</a>
+
+<div class="center-thumb">
+    <img src="../images/azeron1.png" alt="product photos of the cyborg, keyzen, and cyro">
+    <p>Azeron Cyborg 2 (left), Azeron Keyzen, Azeron (middle), Cyro (right)</p>
+</div>
+
+<div class="centered-table-container" markdown="1">
+
+| Controller | Key Features |
+| :--- | :--- |
+| **Cyborg 2** | • Maximum Adjustability: The flagship model with 29 programmable keys and the most points of articulation for a perfect ergonomic fit.<br>|
+| **Cyborg 2 Compact** | • Low Profile: Features the same electronics and thumbstick as the Cyborg 2 but with a fixed, lower-profile button layout for users who prefer less vertical reach. |
+| **Keyzen** | • Standard Keyboard Hybrid: Designed for those who want the Azeron ergonomics but in a more traditional keypad layout without the thumbstick. |
+| **Cyro** | • Different Shape: A smaller and angled wrist placement with an array of buttons and a joystick for mouse/keyboard inputs. |
+
+</div>
+
+---
+
+### 8BitDo Lite SE
+The Lite SE was built specifically for gamers with limited mobility. It features a flat layout and low-resistance buttons so it can be played on a table or tray without needing to be held.
+
+<a href="https://www.8bitdo.com/lite-se/" 
+   target="_blank" 
+   class="print-button">
+   Check out the 8BitDo Lite SE
+</a>
+
+<div class="center-thumb">
+    <img src="../images/8bitdo" alt="Top-down view of the 8BitDo Lite SE showing the face-mounted triggers and joysticks.">
+    <p>8BitDo Lite SE: Top Layout</p>
+</div>
+
+<div class="centered-table-container" markdown="1">
+
+| Controller | Key Features |
+| :--- | :--- |
+| **8BitDo Lite SE** | • Low-Resistance: Joysticks and buttons are much easier to press than standard components.<br>• Flat Face Layout: L3/R3 and all triggers are moved to the front face for easy access.<br>• Compatibility: Natively supports Nintendo Switch, Android, and PC. |
+
+</div>
 
 ---
 
