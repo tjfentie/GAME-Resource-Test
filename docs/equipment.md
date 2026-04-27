@@ -118,9 +118,9 @@ When this resource uses the term "standard controllers" we are referring to the 
 
 | Controller | Visual Reference | Notes |
 | :--- | :--- | :--- |
-| **DualSense (PS5)** | ![DualSense (PS5)](../images/dualsense.png) |  |
-| **DualSense Edge (PS5)** | ![DualSense Edge (PS5)](../images/dualsense-edge.png) | • This is the "pro" version of the DualSense controller. |
-| **DualShock 4 (PS4)** | ![DualShock 4 (PS4)](../images/dualshock4.png) |  |
+| **DualSense (PS5)** | <img src="../images/dualsense.png" alt="DualSense (PS5)" width="150"> | |
+| **DualSense Edge (PS5)** | <img src="../images/dualsense-edge.png" alt="DualSense Edge (PS5)" width="150"> | • This is the "pro" version of the DualSense controller. |
+| **DualShock 4 (PS4)** | <img src="../images/dualshock4.png" alt="DualShock 4 (PS4)" width="150"> | |
 
 </div>
 
@@ -132,10 +132,10 @@ When this resource uses the term "standard controllers" we are referring to the 
 
 | Controller | Visual Reference | Notes |
 | :--- | :--- | :--- |
-| **Nintendo Joy-Con 2** | ![Nintendo Joy-Con 2](../images/joycon2.png) |  |
-| **Nintendo Pro Controller 2** | ![Nintendo Pro Controller 2](../images/pro-controller2.png) | • This controller aims to look and feel more similar to what players expect from a standard controller. It looks similar to the Xbox controllers. |
-| **Nintendo Joy-Con 1** | ![Nintendo Joy-Con 1](../images/joycon1.png) | • Looks very similar to the Joy-Con 1's that were for the Nintendo Switch 1. There are key differences in size and connections. |
-| **Nintendo Switch 1 Pro Controller** | ![Nintendo Switch 1 Pro Controller](../images/pro-controller1.png) | • Looks very similar to the Nintendo Switch 1 Pro Controller. This version has buttons on the underside and other additional features.  |
+| **Nintendo Joy-Con 2** | <img src="../images/joycon2.png" alt="Nintendo Joy-Con 2" width="150"> | |
+| **Nintendo Pro Controller 2** | <img src="../images/pro-controller2.png" alt="Nintendo Pro Controller 2" width="150"> | • This controller aims to look and feel more similar to what players expect from a standard controller. It looks similar to the Xbox controllers. |
+| **Nintendo Joy-Con 1** | <img src="../images/joycon1.png" alt="Nintendo Joy-Con 1" width="150"> | • Looks very similar to the Joy-Con 1's that were for the Nintendo Switch 1. There are key differences in size and connections. |
+| **Nintendo Switch 1 Pro Controller** | <img src="../images/pro-controller1.png" alt="Nintendo Switch 1 Pro Controller" width="150"> | • Looks very similar to the Nintendo Switch 1 Pro Controller. This version has buttons on the underside and other additional features. |
 
 </div>
 
