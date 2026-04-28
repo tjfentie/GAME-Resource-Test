@@ -103,6 +103,7 @@ For players who want a professional, "out-of-the-box" solution, several companie
 
 ## DIY Modifications
 If a 3D printed part or commercial controller isn't a perfect fit, DIY materials offer a way to create a completely bespoke interface. Here is a common method we use.
+
 * **Moldable Plastic (Instamorph):** This is a lightweight thermoplastic that becomes moldable in hot water and hardens into a strong plastic when cool. It is excellent for creating custom-molded finger grips, enlarging small buttons, or creating a personalized joystick topper that fits the exact contour of a player's hand.
 
 <div class="center-thumb">
