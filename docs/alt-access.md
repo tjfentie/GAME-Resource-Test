@@ -677,4 +677,4 @@ Below are the main resources that our team uses to find an adapter that allows o
 </div>
 
 ???+ warning "Adapters Go Out of Date"
-onsole manufacturers often release firmware updates that can "break" third-party adapters. Always check the latest community forums before purchasing a specific adapter to ensure it still works with the latest system version.
+    Console manufacturers often release firmware updates that can "break" third-party adapters. Always check the latest community forums before purchasing a specific adapter to ensure it still works with the latest system version.
