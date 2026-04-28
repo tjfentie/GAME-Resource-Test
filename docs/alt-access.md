@@ -613,25 +613,69 @@ Check out this video from Cephable on using their software with Call of Duty: Bl
 --- 
 
 ## Important Considerations
-The crucial considerations when creating an alternative access setup are mounting and adapters. If you have all the perfect gear, but no way to securly **mount** it in a useful location for the player, it is practically useless. Also, if you have all the right gear and mounted but it is not compatible with the platform you are playing on, **adapters** can be useful.
+The absolute crucial components of any alternative access setup are **mounting** and **adapters**. You can have the perfect selection of gear, but if you cannot securely position it where the player can reach it, the setup is practically useless. Likewise, if the hardware is perfect but doesn't talk to the console, it won't get the player into the game.
+
+---
 
 ### Mounting
-* summary
+Mounting is the process of securing controllers, switches, joysticks, or other assistive tech in a specific location that matches the player's reliable range of motion. Whether it’s on a wheelchair tray, a table, or a bed frame, the goal is "rock-solid" stability so the gear doesn't move during intense gameplay. 
+
+Below are a few common ways to approach this.
 
 #### Hook and Loop
-* Summary
-* DIY version and now our MMC version
+The most common starting point. Uses industrial-strength hook and loop to attach gear to lapboards or trays. It is highly adjustable and low-cost. You can start by taking a laptop tray, wheelchair tray, 3D printed surface and placing hook and loop fastener on it and the bottom of your assistive tech.
 
-#### Articulating arm
-* summary
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
-#### RAM
-* ablegamers adapters
+#### Articulating Arm
+Arms that can be clamped to desks or wheelchairs. They allow for "3D" positioning, placing a the assistive tech exactly where it needs to be. There is a range of how sturdy these can be depending on the quality and design of the arm.
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
+#### RAM Mounts
+RAM mounts are modular ball-and-socket system known for extreme durability. Ablegamers created a series of adapters for common standard controllers to make them compatable with RAM mounts. 
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
+It would also be possible have a flat plate at the end of the RAM attachment facing the user and put hook and loop fastener on it to attach assistive tech as well.
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
+---
 
 ### Adapters
-* summary/why is this important
-* Look at gaming readapted as the primary resource but also note that things go out of date.
+Adapters act as the "translator" between your standard controller, adaptive controller, or specalized controller to a specific platform they are not initally designed for. They are essential when using a controller or setup designed for one platform (like an Xbox Adaptive Controller) on a different one (like a PlayStation 5 or Nintendo Switch).
 
-## How to choose what works for you?
-* Difficult without trying it. Try to find somewhere to try stuff. if not, rule out what for sure does not look like it will work. 
-* submit a gaming ticket
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
+#### How to Find the Correct Adapter
+Below are the main resources that our team uses to find an adapter that allows one controller to connect to a platform that it was not initially designed for.
+
+<div class="centered-table-container" markdown="1">
+
+| Tool | Description | Link |
+| :--- | :--- | :--- |
+| **Gaming Readapted - Controller Connect Tool** | A great resource for checking which adapters currently work with which consoles. This site is updated frequently as console firmware changes but may be slightly out of date. | [Controller Connect Tool](https://www.gamingreadapted.com/controller-connect-tool) |
+| **Brook Gaming** |  | [Link]() |
+| **Cronus Zen** |  | [Link]() |
+
+
+</div>
+
+???+ warning "Adapters Go Out of Date"
+onsole manufacturers often release firmware updates that can "break" third-party adapters. Always check the latest community forums before purchasing a specific adapter to ensure it still works with the latest system version.
