@@ -93,6 +93,7 @@ It isn't just standard controllers that can be modded; adaptive hardware can als
 
 ## Commercial Modifications
 For players who want a professional, "out-of-the-box" solution, several companies specialize in modifying controllers for accessibility. 
+
 * **[Evil Controllers:](https://www.evilcontrollers.com/accessible-gaming)** They are a primary leader in this space, offering one-handed versions of the PS5, Xbox Series X, and Nintendo Switch controllers. These often feature re-routed buttons and analog sticks placed on the back of the controller for easier access.
 
 <div class="center-thumb">
@@ -111,7 +112,9 @@ If a 3D printed part or commercial controller isn't a perfect fit, DIY materials
 
 ## Mounting a Controller
 A controller modification is only effective if the controller stays in the right place. Mounting provides the stability needed for players who cannot hold a controller's weight or who use 3D printed one-handed rigs.
+
 * **RAM Mounts:** A modular ball-and-socket system that can securely hold a controller in any orientation. Many 3D printed mods include a "RAM Ball" base specifically for this purpose.
+
 * **Hook and Loop (Velcro):** Industrial-strength Velcro can be used to secure a controller to a lap tray or desk, ensuring it doesn't slide away during intense sessions.
 
 **See the [Mounting Section in Alt Access](alt-access.md#mounting) for more information.**
