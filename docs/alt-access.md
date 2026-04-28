@@ -565,7 +565,11 @@ Eye tracking technology allows a player to control a cursor or trigger game acti
 Check out this video from Adaptive Hacker Khan using a Tobii Eye Tracker as a game input using Millmouse and Project Iris 
 
 <div class="video-container">
-    <iframe src="https://youtu.be/bTFs6YgMtNg?si=yS9NrzxPh2plq900" frameborder="0" allowfullscreen></iframe>
+    <iframe 
+        src="https://www.youtube.com/embed/bTFs6YgMtNg" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
 </div>
 
 
@@ -590,9 +594,12 @@ Check out this video from Cephable on using their software with Call of Duty: Bl
 
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=Y5OYtxKZv8I" frameborder="0" allowfullscreen></iframe>
+    <iframe 
+        src="https://www.youtube.com/embed/Y5OYtxKZv8I" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
 </div>
-
 
 
 <div class="centered-table-container" markdown="1">
