@@ -52,7 +52,7 @@ Most one handed mods are made by a designer named Akaki. He has open sourced som
 </div>
 
 
-???+ note "Adoption Rates"
+???+ warning "Adoption Rates"
     While powerful, one handed mods have a steep learning curve. Users often find they require significant practice to master the coordinated movements needed for modern games. For the players they work for, they work great.
 
 
