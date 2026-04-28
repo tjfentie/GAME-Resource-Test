@@ -87,9 +87,9 @@ It isn't just standard controllers that can be modded; adaptive hardware can als
 </div>
 
 * **Sony Access Controller (SAC):** Many makers have designed custom "toppers" for the stick and unique button shapes to help players with specific grip requirements. The team that made the Sony Access Controller made a ["3D printing Guide"](https://www.playstation.com/en-ca/support/hardware/access-specifications/) with the specifications a designer would need to make custom joystick toppers and button caps. 
-  * Designer, [Harakan on Printables](https://www.printables.com/@Harakan_1552161) made various joystick and button cap toppers for the SAC. 
+    * Designer, [Harakan on Printables](https://www.printables.com/@Harakan_1552161) made various joystick and button cap toppers for the SAC. 
 * **Xbox Adaptive Controller (XAC):** Custom 3D printed knobs (like goals posts or large spheres) can be added to the joysticks used with the Xbox Adaptive Controller to accommodate different hand functions.
-  * Designer, [Atom on Printables]https://www.printables.com/model/255246-d-pad-joystick-clip-for-xbox-adaptive-controller) made a joystick that can snap onto the XAC to modify the way a user would interact with the D-Pad.
+    * Designer, [Atom on Printables](https://www.printables.com/model/255246-d-pad-joystick-clip-for-xbox-adaptive-controller) made a joystick that can snap onto the XAC to modify the way a user would interact with the D-Pad.
 
 ## Commercial Modifications
 For players who want a professional, "out-of-the-box" solution, several companies specialize in modifying controllers for accessibility. 
