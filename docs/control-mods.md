@@ -51,8 +51,10 @@ Most one handed mods are made by a designer named Akaki. He has open sourced som
 
 </div>
 
-???+ note "Adoption Rates" 
+
+???+ note "Adoption Rates"
   While powerful, one handed mods have a steep learning curve. Users often find they require significant practice to master the coordinated movements needed for modern games. For the players they work for, they work great.
+  
 
 ### Thumbstick Toppers
 Thumbstick toppers are also a commonly requested controller mod. Xbox has even identified this and made their own website where a player can customize a thumbstick topper and get a 3D print file. Here are some common resources we use when looking for thumbstick toppers.
