@@ -38,7 +38,7 @@ There are three primary adaptive controllers out there with various approaches t
 * **Direct-Use Controllers:** Designed to be used without or with little addition of other assistive technology. The controller often takes a significantly different shape than the standard controller and has various joysticks and buttons built into it.
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Other Adaptive Controllers</span>
+<span class="table-caption">Adaptive Controllers Comparison</span>
 <br>
 
 | Controller | Visual Reference | Approx Cost (CAD) | Category & Compatibility* | Key Features & Technical Details |
@@ -288,7 +288,7 @@ There are also a few other adaptive controllers out there. These typically only 
 
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Comparison of Adaptive Controllers</span>
+<span class="table-caption">Other Adaptive Controllers Comparison</span>
 <br>
 
 | Controller | Visual Reference | Approx Cost (CAD) | Category & Compatibility* | Key Features & Technical Details |
@@ -384,14 +384,16 @@ Azeron devices are intended for one handed gaming. They have a variety of produc
 | **Cyborg 2** | • Maximum Adjustability: The flagship model with 29 programmable keys and the most points of articulation for a perfect ergonomic fit.<br>|
 | **Cyborg 2 Compact** | • Low Profile: Features the same electronics and thumbstick as the Cyborg 2 but with a fixed, lower-profile button layout for users who prefer less vertical reach. |
 | **Keyzen** | • Standard Keyboard Hybrid: Designed for those who want the Azeron ergonomics but in a more traditional keypad layout without the thumbstick. |
-| **Cyro** | • Different Shape: A smaller and angled wrist placement with an array of buttons and a joystick for mouse/keyboard inputs. |
+| **Cyro** | • Different Shape: A smaller and angled wrist placement with an array of buttons and a joystick for mouse/keyboard inputs.<br>• Great for two joysticks: Also has a mouse sensor so the player can move it around on the table to get one joystick motion and use the thumbstick on it for the other.|
 
 </div>
 
 ---
 
-### 8BitDo Lite SE
-The Lite SE was built specifically for gamers with limited mobility. It features a flat layout and low-resistance buttons so it can be played on a table or tray without needing to be held.
+### 8BitDo Lite SE/Lite SE 2.4G
+The Lite SE was built specifically for gamers with limited mobility. It features a flat layout and low-resistance buttons so it can be played on a table or tray without needing to be held. 
+
+Xbox then collaborated with 8BitDo to make the Lite SE 2.4G. THis features compatibility with the Xbox and assistive switch ports.
 
 <a href="https://www.8bitdo.com/lite-se/" 
    target="_blank" 
@@ -399,9 +401,20 @@ The Lite SE was built specifically for gamers with limited mobility. It features
    Check out the 8BitDo Lite SE
 </a>
 
+<a href="https://www.8bitdo.com/lite-se-wireless-xbox/" 
+   target="_blank" 
+   class="print-button">
+   Check out the 8BitDo Lite SE 2.4G
+</a>
+
 <div class="center-thumb">
     <img src="../images/8bitdo.png" alt="Top-down view of the 8BitDo Lite SE showing the face-mounted triggers and joysticks.">
     <p>8BitDo Lite SE: Top Layout</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/8bitdo2g.png" alt="Top-down view of the 8BitDo Lite SE 2g showing the face-mounted triggers and joysticks.">
+    <p>8BitDo Lite SE 2.4G: Top Layout</p>
 </div>
 
 <div class="centered-table-container" markdown="1">
@@ -409,6 +422,7 @@ The Lite SE was built specifically for gamers with limited mobility. It features
 | Controller | Key Features |
 | :--- | :--- |
 | **8BitDo Lite SE** | • Low-Resistance: Joysticks and buttons are much easier to press than standard components.<br>• Flat Face Layout: L3/R3 and all triggers are moved to the front face for easy access.<br>• Compatibility: Natively supports Nintendo Switch, Android, and PC. |
+| **8BitDo Lite SE 2.4G** | • Low-Resistance: Same as Lite SE<br>• Flat Face Layout: Same as Lite SE.<br>• Compatibility: Natively supports Xbox One, Xbox Series X\|S, Android, and PC. | Assistive Switch Access: Has two ports for 3.5 mm assistive swtich capability and comes with two of 8BitDo's Super Buttons (assistive switches). | Profile saving/remapping: Same functionality as the XAC through the Xbox Accessories App to remap buttons
 
 </div>
 
@@ -526,8 +540,34 @@ These options have been released under an open source license. This means anyone
 | Organization/Device | Description | Link |
 | :--- | :--- | :--- |
 | **Makers Making Change** | • We host several assistive joysticks in our library with various toppers and mounting options.<br>• Some of these joysticks are USB and some are 3.5 mm (TRRS). | [Search or filter the Assistive Devices for Joysticks](https://www.makersmakingchange.com/assistive-devices) |
-| **AbleGamers** | • AbleGamers has a Printables page where they post designs | [Link](https://www.printables.com/@AbleGamersCharity) |
+| **AbleGamers** | • AbleGamers has a Printables page where they post designs | [AbleGamers Printables Page](https://www.printables.com/@AbleGamersCharity) |
 | **Online Repositories** | • You may be able to find designs and files from those who have shared them on various online repositories for sharing open source designs.<br>• Printables and MakerWorld are a good starting place to look.  | [Printables](https://www.printables.com/)<br>[MakerWorld](https://makerworld.com/en) |
+
+</div>
+
+### Mouth Joysticks
+These are joysticks that are intended to be used with someones mouth or face. Most of the time, they include a sip and puff feature where people can breath in and out into the device to have inputs into the game.
+
+There are two prominent options for mouth joysticks when it comes to gaming:
+
+<div class="center-thumb">
+    <img src="../images/lipsync.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
+    <p>LipSync by Makers Making Change</p>
+</div>
+
+<div class="center-thumb">
+    <img src="../images/quadstick.png" alt="Graphic showing joysticks on a controller and mice being converted to assistive joysticks">
+    <p>Quadstick FPS Game Controller</p>
+</div>
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Mouth Joystick Comparison</span>
+<br>
+
+| Mouth Joystick | Approx Cost | Features | Considerations | Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **LipSync** | $250 | • **Light Force Joystick:** Requires very little physical pressure, making it ideal for users with limited head/neck strength.<br>• **Sip and Puff:** Single port system utilizing timed pressure (short, medium, long) for both sips and puffs to trigger distinct inputs.<br>• **Interactive Hub:** Features 3 assistive switch ports, a built-in speaker for audio feedback, and a screen for visual settings.<br>• **User Independence:** Users can access the Hub Menu independently to switch modes, calibrate, or adjust sensitivity without a PC.<br>• **Multiple Modes:** Supports USB Mouse, Bluetooth Mouse, and USB Gamepad modes for versatile platform support.<br>• **Compatibility:** Operates as a USB/Bluetooth mouse or USB Gamepad. It can plug into an Xbox Adaptive Controller (XAC) to bridge to consoles via adapters. | • A single sip/puff port can limit the speed of inputs in fast-paced games where multiple simultaneous actions are required. | [LipSync Page](https://www.makersmakingchange.com/product/lipsync/01tJR000000698fYAA)<br>[See it in Action](https://www.facebook.com/share/v/1HQZRMdGKS/) |
+| **Quadstick (FPS)** | ~$750 + fees | • **Sip and Puff:** Features four independent sip/puff sensors and a lip position sensor for complex, simultaneous commands.<br>• **Custom Mapping:** Supports extensive macro profiles and "latching" inputs, allowing users to trigger complex button combos with a single breath.<br>• **Compatibility:** Works natively with PC, PS3, PS4, and Nintendo Switch; compatible with Xbox and PS5 via adapters. | • Significant learning curve due to the complexity of breath-combination "codes."<br>• Frequently out of stock due to high demand.<br>• Mapping software has a learning curve.<br>• There are a few different versions on the site. | [Quadstick Page](https://www.quadstick.com/shop)<br>[See it in Action](https://www.youtube.com/watch?v=6CZqzKC1tdM) |
 
 </div>
 
