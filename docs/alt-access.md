@@ -565,15 +565,13 @@ Eye tracking technology allows a player to control a cursor or trigger game acti
 Check out this video from Adaptive Hacker Khan using a Tobii Eye Tracker as a game input using Millmouse and Project Iris 
 
 <div class="video-container">
-    <iframe 
-        src="https://youtu.be/bTFs6YgMtNg?si=yS9NrzxPh2plq900" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <iframe src="https://youtu.be/bTFs6YgMtNg?si=yS9NrzxPh2plq900" frameborder="0" allowfullscreen></iframe>
 </div>
 
+
 <div class="centered-table-container" markdown="1">
+<span class="table-caption">Eye Tracking Resources</span>
+<br>
 
 | Platform | Description | Link to Resource |
 | :--- | :--- | :--- |
@@ -590,17 +588,16 @@ Voice and gesture recognition software translates spoken commands or physical mo
 
 Check out this video from Cephable on using their software with Call of Duty: Black Ops 7 to use voice, button, and facial gesture input.
 
+
 <div class="video-container">
-    <iframe 
-        src="https://www.youtube.com/watch?v=Y5OYtxKZv8I" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <iframe src="https://www.youtube.com/watch?v=Y5OYtxKZv8I" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
+
 <div class="centered-table-container" markdown="1">
+<span class="table-caption">Voice and Gesture Control Resources</span>
+<br>
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
@@ -667,6 +664,8 @@ Adapters act as the "translator" between your standard controller, adaptive cont
 Below are the main resources that our team uses to find an adapter that allows one controller to connect to a platform that it was not initially designed for.
 
 <div class="centered-table-container" markdown="1">
+<span class="table-caption">Resources to Find Adapters</span>
+<br>
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
