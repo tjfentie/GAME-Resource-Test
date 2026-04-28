@@ -42,6 +42,7 @@ When the built-in settings aren't enough, third-party software can provide a cus
 
 ### Screen Readers
 For gamers who are blind or have low vision, screen reading software is essential. 
+
 * **Built-in Platform Readers:** Tools like **Narrator** (Windows), **VoiceOver** (iOS), and the screen readers on Xbox and PlayStation can read out system menus and, in compatible games, in-game text and UI elements.
 * **OCR Tools:** Some specialized software uses Optical Character Recognition (OCR) to "read" text appearing on the screen in real-time for games that do not natively support screen readers.
 
