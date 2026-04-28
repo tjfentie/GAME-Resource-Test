@@ -670,31 +670,24 @@ Below are a few common ways to approach this.
 The most common starting point. Uses industrial-strength hook and loop to attach gear to lapboards or trays. It is highly adjustable and low-cost. You can start by taking a laptop tray, wheelchair tray, 3D printed surface and placing hook and loop fastener on it and the bottom of your assistive tech.
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
-    <p>This is just a placeholder image</p>
+    <img src="../images/hook-loop-mounting.png" alt="two images. One of a laptop tray with hook and loop on it and one of a hook and loop 3D printed tray">
+    <p>Ikea laptop Tray with Hook and Loop Added to it (left) and MMC Connect Board (right)</p>
 </div>
 
 #### Articulating Arm
 Arms that can be clamped to desks or wheelchairs. They allow for "3D" positioning, placing a the assistive tech exactly where it needs to be. There is a range of how sturdy these can be depending on the quality and design of the arm.
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
-    <p>This is just a placeholder image</p>
+    <img src="../images/arm-mounting.png" alt="three images. One showing a arm with labeled points of clamp and 1/4-20 thread. a photo showing a thread on the bottom of a swtich. The third photo with them attached together by the thread.">
+    <p>Using an Articulating Arm with a MMC60 Switch</p>
 </div>
 
 #### RAM Mounts
-RAM mounts are modular ball-and-socket system known for extreme durability. Ablegamers created a series of adapters for common standard controllers to make them compatable with RAM mounts. 
+RAM mounts are modular ball-and-socket system known for extreme durability. AbleGamers created a series of adapters for common standard controllers to make them compatable with RAM mounts. It would also be possible have a flat plate at the end of the RAM attachment facing the user and put hook and loop fastener on it to attach assistive tech as well.
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
-    <p>This is just a placeholder image</p>
-</div>
-
-It would also be possible have a flat plate at the end of the RAM attachment facing the user and put hook and loop fastener on it to attach assistive tech as well.
-
-<div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
-    <p>This is just a placeholder image</p>
+    <img src="../images/ram-mount.png" alt="Two photos. One using hook and loop and a flat plate to attach a controller to a RAM mount. The ohter showing a 3D printed RAM ball attachment to a controller">
+    <p>Hook and Loop on a flat plate using RAM Arms (left) and AbleGamers 3D print RAM Attachment to Controllers (right)</p>
 </div>
 
 ---
@@ -703,8 +696,8 @@ It would also be possible have a flat plate at the end of the RAM attachment fac
 Adapters act as the "translator" between your standard controller, adaptive controller, or specalized controller to a specific platform they are not initally designed for. They are essential when using a controller or setup designed for one platform (like an Xbox Adaptive Controller) on a different one (like a PlayStation 5 or Nintendo Switch).
 
 <div class="center-thumb">
-    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
-    <p>This is just a placeholder image</p>
+    <img src="../images/adapters.png" alt="Photo of various adapters.">
+    <p>Various Adapters</p>
 </div>
 
 #### How to Find the Correct Adapter
