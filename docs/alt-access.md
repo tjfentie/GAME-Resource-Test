@@ -717,8 +717,11 @@ Below are the main resources that our team uses to find an adapter that allows o
 | Tool | Description | Link |
 | :--- | :--- | :--- |
 | **Gaming Readapted - Controller Connect Tool** | A great resource for checking which adapters currently work with which consoles. This site is updated frequently as console firmware changes but may be slightly out of date. | [Controller Connect Tool](https://www.gamingreadapted.com/controller-connect-tool) |
-| **Brook Gaming** |  | [Link]() |
-| **Cronus Zen** |  | [Link]() |
+| **Brook Gaming** | Brook makes adapters and has several options. A good starting place. | [Brook Website](https://www.brookaccessory.com/) |
+| **Brook FGC2** | This is the adapter we use most often to get the XAC to work with the PS5. | [Brook FGC2 Website](https://www.brookaccessory.com/products/wingmanfgc2/index.html) |
+| **Mayflash Magic NS2** | This is the adapter we use most often to get the XAC to work with the Nintendo Switch 1 or 2. | [Maylfash Magic NS2](https://www.mayflash.com/product/magic_ns_2.html) |
+| **Cronus Zen** | This adapter takes a different approach by using a "validating controller". It also has software to program things like macros. Also a good option to explore. | [Cronus Zen Website](https://www.cronusmax.com/) |
+
 
 
 </div>
