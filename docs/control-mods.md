@@ -54,7 +54,7 @@ Most one handed mods are made by a designer named Akaki. He has open sourced som
 
 ???+ note "Adoption Rates"
   While powerful, one handed mods have a steep learning curve. Users often find they require significant practice to master the coordinated movements needed for modern games. For the players they work for, they work great.
-  
+
 
 ### Thumbstick Toppers
 Thumbstick toppers are also a commonly requested controller mod. Xbox has even identified this and made their own website where a player can customize a thumbstick topper and get a 3D print file. Here are some common resources we use when looking for thumbstick toppers.
@@ -105,7 +105,7 @@ If a 3D printed part or commercial controller isn't a perfect fit, DIY materials
 * **Moldable Plastic (Instamorph):** This is a lightweight thermoplastic that becomes moldable in hot water and hardens into a strong plastic when cool. It is excellent for creating custom-molded finger grips, enlarging small buttons, or creating a personalized joystick topper that fits the exact contour of a player's hand.
 
 <div class="center-thumb">
-    <img src="../images/thermoplastic.png" alt="Xbox Controller and joystick topper with added thermoplastic on top to modify the shape.">
+    <img src="../images/thermoplastic.jpg" alt="Xbox Controller and joystick topper with added thermoplastic on top to modify the shape.">
     <p>Spruce Joystick Topper and Xbox Controller with Moldable Plastic Added</p>
 </div>
 
