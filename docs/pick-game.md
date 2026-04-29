@@ -43,7 +43,12 @@ Different genres of games require different levels of physical coordination and 
 * **Medium:** Requires steady reactions to environmental changes, but usually provides a small window for error or predictable patterns.
 * **Low:** Turn-based or slow-paced gameplay where the player has ample time to think and act without penalty.
 
-### Genre Breakdown
+### Genre Comparison
+In general, genres often follow a similar playstyle. Therefore, to give some guidance, we broke down a list of popular genres and listed out their ussual input/reaction speed requirements:
+
+<div class="centered-table-container" markdown="1">
+<span class="table-caption">Places to Find Controller Mods</span>
+<br>
 
 | Genre | Input Level | Reaction Speed | Description | Examples |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,6 +61,8 @@ Different genres of games require different levels of physical coordination and 
 | **Action / Adventure** | **High** | **High** | Story-driven games featuring exploration and combat. Requires complex camera and character movement. | *Spider-Man, Assassin's Creed, Far Cry* |
 | **Shooter / Battle Royale** | **High** | **High** | Fast-paced games played from a first-person perspective requiring high precision aiming and quick reactions. | *Call of Duty, Fortnite, Doom* |
 | **MOBA** | **High** | **High** | Large-scale strategy games where teams work together to defeat the opposition in real-time. | *League of Legends, Dota 2, Smite* |
+
+</div>
 
 ## Examples
 
