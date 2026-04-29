@@ -4,7 +4,7 @@
   Printable Version of this Section
 </button>
 
-![Various Types of Software Mods/In-Game Settings](../images/placeholder.png)
+![Various Types of Software Mods/In-Game Settings](../images/software.png)
 
 <p style="text-align: center; font-size: 0.8rem; margin-top: -15px;">Examples of Software Overlays and Setting Menus</p>
 
@@ -21,19 +21,42 @@ Modern game developers are increasingly including robust accessibility menus. Th
 To find resources on how to pick games with accessibility, visit [How to Pick Games](pick-game.md) to learn more.
 
 ### Common Settings
+Every game has a different set of accessibility features, and developers may use different names for the same settings or design choice they made to make it accessible to more players. While the **[Accessible Games Initiative](https://accessiblegames.com/accessibility-tags/)** is working to standardize this language, it is important to recognize that settings are designed to address specific barriers across many different needs.
 
-Please note that every game will have a different set of accessibility (if any at all) and may even have different names for the same settings. There has been an attempt recently to consolidate the naming under one system through the [Accessible Games Initiative](https://accessiblegames.com/accessibility-tags/), however this is not required to be followed yet. However, it does provide a good overview of the settings that could be out there. Below is a list of common accessibility features in games:
+While many physical or motor settings are common, modern games also include features to support players with **low vision, blindness, colorblindness, hard of hearing or d/Deaf needs, cognitive or emotional barriers, and speech or strength and dexterity limitations.**
 
-* **Button Remapping:** Allows players to swap the functions of buttons (e.g., moving "Jump" from a face button to a trigger).
-* **Toggle vs. Hold:** Changes actions that require holding a button down (like aiming or sprinting) into a single press to toggle the action on and off.
-* **Sensitivity Adjustments:** Changes how much the in-game camera or cursor moves in response to a joystick or mouse movement.
-* **Visual Aids:** High-contrast modes, colorblind filters, and the ability to increase subtitle size or add speaker names.
-* **Difficulty Scaling:** Beyond just "Easy mode," some games allow you to slow down game speed, disable "Quick Time Events" (QTEs), or turn on auto-aim.
+Below is a list of common accessibility features categorized by the barriers they help remove:
+
+#### Motor, Strength, and Dexterity Settings
+* **Input Remapping:** Allows players to rearrange button layouts to better suit their physical reach.
+* **Toggle vs. Hold:** Converts actions requiring sustained pressure (like holding a trigger to aim) into a single press.
+* **Sensitivity Adjustments:** Increases or decreases how much the game reacts to a joystick or mouse movement, helpful for players with limited range of motion or tremors.
+* **Game Speed Adjustment:** Slows down the entire game to give players more time to react and process information.
+    * Also great for those with cognitive barriers.
+* **Playable without Rapid Button Presses:** Removes "button mashing" requirements or Quick Time Events (QTEs).
+
+#### Vision and Colorblind Settings
+* **High Contrast Mode:** Simplifies the game's visuals, often highlighting characters and interactive objects in bright, solid colors against a dark background for **low vision or blind** players.
+* **Screen Reader/Narration:**
+* **Colorblind Filters:** Adjusts the game's color palette specifically for Protanopia, Deuteranopia, or Tritanopia to ensure critical information (like health bars or enemy teams) is distinguishable.
+* **Text-to-Speech (TTS):** Narrates on-screen text, menus, and HUD elements for players with visual impairments.
+* **Adjustable Text Size:** Increases the scale of subtitles and menu text for easier readability.
+
+#### Hearing and Speech Settings
+* **Subtitles and Captions:** Provides text for dialogue and, importantly, **directional captions** for environmental sounds (like footsteps or explosions) for **hard of hearing or d/Deaf** players.
+* **Visual Cues:** Uses light or screen shakes to represent sounds that occur off-screen.
+* **Speech-to-Text (STT):** Transcribes the voice chat of other players into text, allowing players to communicate without relying on audio.
+
+#### Cognitive, Emotional, and Difficulty Settings
+* **Difficulty Scaling:** Allows players to adjust enemy health, damage, or AI behavior to reduce the cognitive or reactionary load.
+* **Game Speed Adjustment:** Slows down the entire game to give players more time to react and process information.
+* **Wayfinding and Hints:** Provides clear visual paths or markers to the next objective to assist with navigation and memory.
+* **Safe Modes:** Some games include settings to remove "emotional" triggers, such as disabling spiders (Arachnophobia mode) or reducing intense gore and flashing lights.
 
 ### Accessibility by Design
-Some studios, like **Ubisoft**, have led the way by integrating accessibility into the core design of their games rather than adding it as an afterthought. For example, in titles like *Far Cry* or *Assassin’s Creed*, they provide "Vision Packs" and "Motor Packs" that pre-configure groups of settings to help players get started quickly based on their specific disability profile.
+Some studios, like **Ubisoft**, lead the field by integrating accessibility into core design rather than as an afterthought. For example, in titles like *Far Cry* or *Assassin’s Creed*, they provide "Vision Packs" and "Motor Packs" that pre-configure groups of settings to help players get started quickly based on their specific disability profile.
 
-Ubisoft, along with other studios have also lead the feild in thinking about accessibility outside of just settings. For example, items that have special perks may be differentiated by not only a color but also a visual aid like a shape for those who are color blind.
+These studios also think about accessibility outside of menus. For instance, a game might differentiate "Rare" vs. "Common" loot not just by color, but by unique shapes or icons so that a colorblind player can identify them at a glance without ever opening a settings menu.
 
 ---
 
@@ -43,9 +66,9 @@ When the built-in settings aren't enough, third-party software can provide a cus
 ### Screen Readers
 For gamers who are blind or have low vision, screen reading software is essential. 
 
-* **Built-in Platform Readers:** Tools like **Narrator** (Windows), **VoiceOver** (iOS), and the screen readers on Xbox and PlayStation can read out system menus and, in compatible games, in-game text and UI elements.
+* **Built-in Platform Readers:** Tools like **Narrator** (Windows), **VoiceOver** (iOS), and the native screen readers on Xbox and PlayStation can read out system menus and, in compatible games, in-game text and UI elements.
 * **OCR Tools:** Some specialized software uses Optical Character Recognition (OCR) to "read" text appearing on the screen in real-time for games that do not natively support screen readers.
 
 ### Other Notable Software
-* **Voice Control, Eye Tracking, and Gesture Control:** These are all covered well in the [Alternative Access Section under "Other Input Methods"](alt-access.md#other-input-methods)
-* **Remapping Suites:** Programs like [**reWASD**](https://www.rewasd.com/) or the settings within **Steam** can provide much deeper remapping capabilities than what is usually found inside a standard game menu, allowing for "chorded" presses (pressing two buttons to get a third action) and advanced deadzone tuning.
+* **Voice Control, Eye Tracking, and Gesture Control:** These are all covered in detail in the [Alternative Access Section under "Other Input Methods"](alt-access.md#other-input-methods).
+* **Remapping Suites:** Programs like [**reWASD**](https://www.rewasd.com/) or the settings within **Steam** can provide much deeper remapping capabilities than standard game menus, allowing for "chorded" presses (triggering one action by pressing two buttons simultaneously) and advanced deadzone tuning for joysticks.
