@@ -47,7 +47,7 @@ Different genres of games require different levels of physical coordination and 
 In general, genres often follow a similar playstyle. Therefore, to give some guidance, we broke down a list of popular genres and listed out their ussual input/reaction speed requirements:
 
 <div class="centered-table-container" markdown="1">
-<span class="table-caption">Places to Find Controller Mods</span>
+<span class="table-caption">Generalized Genre Comparison for Input and Reaction Speed</span>
 <br>
 
 | Genre | Input Level | Reaction Speed | Description | Examples |
