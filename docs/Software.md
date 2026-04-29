@@ -6,7 +6,7 @@
 
 ![Various Types of Software Mods/In-Game Settings](../images/software.png)
 
-<p style="text-align: center; font-size: 0.8rem; margin-top: -15px;">Examples of Software Overlays and Setting Menus</p>
+<p style="text-align: center; font-size: 0.8rem; margin-top: -15px;">Accessibility Setting Menus in Games</p>
 
 ## What are In-Game Accessibility and Additional Software?
 **In-game accessibility** refers to the settings and features built directly into a video game by developers. These allow players to customize the visual, auditory, and motor requirements of the game to match their specific needs.
@@ -73,7 +73,7 @@ When the built-in settings aren't enough, third-party software can provide a cus
 For gamers who are blind or have low vision, screen reading software is essential. 
 
 * **Built-in Platform Readers:** Tools like **Narrator** (Windows), **VoiceOver** (iOS), and the native screen readers on Xbox and PlayStation can read out system menus and, in compatible games, in-game text and UI elements.
-* **OCR Tools:** Some specialized software uses Optical Character Recognition (OCR) to "read" text appearing on the screen in real-time for games that do not natively support screen readers.
+* **OCR Tools:** Some specialized software uses Optical Character Recognition (OCR) to "read" text appearing on the screen in real-time for games that do not natively support screen readers. Example from Ross Minor, [using an OCR on Nintendo games](https://ablenews.com/blind-player-ross-minor-aims-to-make-video-games-accessible-for-all/).
 
 ### Other Notable Software
 * **Voice Control, Eye Tracking, and Gesture Control:** These are all covered in detail in the [Alternative Access Section under "Other Input Methods"](alt-access.md#other-input-methods).
