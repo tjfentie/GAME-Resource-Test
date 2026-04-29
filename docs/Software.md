@@ -53,6 +53,12 @@ Below is a list of common accessibility features categorized by the barriers the
 * **Wayfinding and Hints:** Provides clear visual paths or markers to the next objective to assist with navigation and memory.
 * **Safe Modes:** Some games include settings to remove "emotional" triggers, such as disabling spiders (Arachnophobia mode) or reducing intense gore and flashing lights.
 
+Here is a great talk from Alex Carey, founder of [PlayAbility Consultancy,](https://www.play-ability.net/) showing examples of features for each of the above described barriers:
+  
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/8UtY8QHDmw0?si=uDYTihPeFDmrjAH5" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Accessibility by Design
 Some studios, like **Ubisoft**, lead the field by integrating accessibility into core design rather than as an afterthought. For example, in titles like *Far Cry* or *Assassin’s Creed*, they provide "Vision Packs" and "Motor Packs" that pre-configure groups of settings to help players get started quickly based on their specific disability profile.
 
