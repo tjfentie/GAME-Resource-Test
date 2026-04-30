@@ -42,8 +42,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
     <p>The Gaming Session - Before</p>
 </div>
 
-??? info "Initial Information & Goal Setting"
-    **Question:** Has a clear gamer goal been identified?
+??? info "**Question:** Has a clear gamer goal been identified?"
 
     ??? "If Yes"
         Focus the session on that goal (specific game, activity, or experience).
@@ -57,8 +56,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         If unsure, start with a simple, low-input game.
 
 
-??? info "Choose Gaming Platform"
-    **Question:** Is the preferred gaming system known and available?
+??? info "**Question:** Is the preferred gaming system known and available?"
 
     ??? "If Yes"
         Use their preferred or most-used system.
@@ -76,8 +74,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Choose the best available system for the trial
 
 
-??? info "Choose Trial Game(s)"
-    **Question:** Has an appropriate trial game been selected?
+??? info "**Question:** Has an appropriate trial game been selected?"
 
     ??? "If Yes"
 
@@ -96,8 +93,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Start simple and progress toward the goal game
 
 
-??? info "Choose Type of Access"
-    **Question:** Has an appropriate controller or access method been selected?
+??? info "**Question:** Has an appropriate controller or access method been selected?"
 
     ??? "If Yes"
 
@@ -112,8 +108,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Consider mounting or alternative layouts
 
 
-??? info "Additional Hardware & Setup"
-    **Question:** Is the setup prepared and stable?
+??? info "**Question:** Is the setup prepared and stable?"
 
     ??? "If Yes"
 
@@ -136,8 +131,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
     <p>The Gaming Session - During</p>
 </div>
 
-??? info "Try Initial Setup"
-    **Question:** Can the user begin interacting with the game?
+??? info "**Question:** Can the user begin interacting with the game?"
 
     ??? "If Yes"
         Move into gameplay and observe performance.
@@ -156,8 +150,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Provide guidance if needed
 
 
-??? info "Identify Barriers and Difficulties"
-    **Question:** Are barriers present during gameplay?
+??? info "**Question:** Are barriers present during gameplay?"
 
     ??? "If Yes"
 
@@ -178,8 +171,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         Continue gameplay and confirm consistency
 
 
-??? info "Fatigue & Frustration Check"
-    **Question:** Is the user experiencing fatigue or frustration?
+??? info "**Question:** Is the user experiencing fatigue or frustration?"
 
     ??? "If Yes"
 
@@ -191,8 +183,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         Continue while monitoring comfort
 
 
-??? info "Make Record of Setup"
-    **Question:** Has the setup been documented?
+??? info "**Question:** Has the setup been documented?"
 
     ??? "If Yes"
 
@@ -215,8 +206,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
     <p>The Gaming Session - Assess</p>
 </div>
 
-??? info "Assess the Solution"
-    **Question:** Did the setup meet the gamer’s goal?
+??? info "**Question:** Did the setup meet the gamer’s goal?"
 
     ??? "If Yes"
         Move forward with finalizing the setup.
@@ -228,8 +218,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Document remaining barriers
 
 
-??? info "Identify Additional Needs"
-    **Question:** Are additional resources or equipment required?
+??? info "**Question:** Are additional resources or equipment required?"
 
     ??? "If Yes"
 
@@ -241,13 +230,12 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         Proceed to finalize
 
 
-??? info "Provide Resources"
-    **Question:** Does the user need external support?
+??? info "**Question:** Does the user need external support?"
 
     ??? "If Yes"
 
         * Makers Making Change
-        * Check out other [support](support.md) options available
+        * AbleGamers
         * Funding options if available
 
     ??? "If No"
@@ -262,8 +250,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
     <p>The GAME Session - Finalize</p>
 </div>
 
-??? info "Gaming Setup Equipment List"
-    **Question:** Has a full equipment list been created?
+??? info "**Question:** Has a full equipment list been created?"
 
     ??? "If Yes"
 
@@ -278,8 +265,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Consider home setup requirements
 
 
-??? info "Contact MMC for Open-Source AT"
-    **Question:** Does the setup include open-source devices?
+??? info "**Question:** Does the setup include open-source devices?"
 
     ??? "If Yes"
 
@@ -291,8 +277,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         Proceed with commercial options
 
 
-??? info "Send Information to User"
-    **Question:** Has the user received all setup information?
+??? info "**Question:** Has the user received all setup information?"
 
     ??? "If Yes"
 
@@ -306,8 +291,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Provide settings and instructions
 
 
-??? info "Follow-Up or Delivery"
-    **Question:** Is additional support required?
+??? info "**Question:** Is additional support required?"
 
     ??? "If Yes"
 
