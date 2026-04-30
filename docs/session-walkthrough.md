@@ -247,7 +247,7 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
     ??? "If Yes"
 
         * Makers Making Change
-        * AbleGamers
+        * Check out other [support](support.md) options available
         * Funding options if available
 
     ??? "If No"
