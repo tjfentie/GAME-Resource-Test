@@ -28,7 +28,7 @@ This guide provides a structured approach to understanding the assistive technol
         <h3>Step 1: Adaptive Gaming Equipment</h3>
         <p>Understand the physical tools and software settings used to bridge the gap between a player and the game.</p>
         <ul>
-            <li>Get an <a href="equipment">Overview(equipment.md)</a> of all the assistive technology options in gaming.</li>
+            <li>Get an <a href="equipment">Overview</a> of all the assistive technology options in gaming.</li>
             <li><a href="alt-access">Alternative Access</a>: If standard controllers do not work for the player they could try using assistive switches, joysticks, voice control, facial expressions, eye control, and more.</li>
             <li><a href="control-mods">Controller Modifications</a>: 3D printed and commercial modifications for a traditional controller</li>
             <li><a href="software">Software Features</a>: In-game accessibility and 3rd party applications for accessibility in games.</li>
