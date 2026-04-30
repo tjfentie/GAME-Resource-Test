@@ -122,6 +122,17 @@ Trialing adaptive gear before purchase is important for finding a setup that wor
         * Gather controllers and adapters
         * Check game updates and starting point
 
+<br>
+
+???+ warning "Intial Game Selection"
+
+    * You do not have to start with their gaming goal game
+    * Try a low risk situation to make sure everything works
+    * We often use the game Brawlhalla under training mode. Only requires one joystick and a few buttons, free, and fun!
+    * If there is a large gap between the user’s current gaming abilities or number of inputs they can access, and the number of inputs that their goal game will require consider starting not with their gaming goal game.
+    
+    
+
 ---
 
 ## 2. GAME Session - During
