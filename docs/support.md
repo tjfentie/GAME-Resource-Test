@@ -47,19 +47,38 @@ Are you looking for support as either a clinician or an individual looking to ge
 
 ---
 
-<div class="support-item player clinician">
+<div class="support-item player">
   <img src="../images/specialeffect.png" alt="SpecialEffect">
 
   <div class="support-content">
     <h3>SpecialEffect</h3>
 
     <p class="meta">
-      <strong>Audience:</strong> Player, Clinician<br>
-      <strong>Location:</strong> United Kingdom / Global
+      <strong>Audience:</strong> Player<br>
+      <strong>Location:</strong> [Add Location]
     </p>
 
     <p>
-      Provides personalized gaming setups and uses technology such as eye-gaze and modified controllers to improve access and quality of life for people with physical disabilities. :contentReference[oaicite:0]{index=0}
+      [Add description]
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="support-item player">
+  <img src="../images/ablegamers.png" alt="AbleGamers">
+
+  <div class="support-content">
+    <h3>AbleGamers</h3>
+
+    <p class="meta">
+      <strong>Audience:</strong> Player<br>
+      <strong>Location:</strong> [Add Location]
+    </p>
+
+    <p>
+      [Add description]
     </p>
   </div>
 </div>
@@ -67,37 +86,18 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player clinician">
-  <img src="../images/ablegamers.png" alt="AbleGamers">
-
-  <div class="support-content">
-    <h3>AbleGamers</h3>
-
-    <p class="meta">
-      <strong>Audience:</strong> Player, Clinician<br>
-      <strong>Location:</strong> USA / Global
-    </p>
-
-    <p>
-      Provides direct support through peer counseling, equipment guidance, and community programs to improve quality of life through gaming and reduce social isolation. :contentReference[oaicite:1]{index=1}
-    </p>
-  </div>
-</div>
-
----
-
-<div class="support-item clinician">
   <img src="../images/respawn.png" alt="Respawn Foundation">
 
   <div class="support-content">
     <h3>Respawn Foundation</h3>
 
     <p class="meta">
-      <strong>Audience:</strong> Clinician<br>
-      <strong>Location:</strong> USA
+      <strong>Audience:</strong> Player, Clinician<br>
+      <strong>Location:</strong> [Add Location]
     </p>
 
     <p>
-      Focuses on integrating adaptive gaming into clinical rehabilitation through clinician training, hospital-based programs, and research infrastructure. :contentReference[oaicite:2]{index=2}
+      [Add description]
     </p>
   </div>
 </div>
@@ -123,19 +123,19 @@ Are you looking for support as either a clinician or an individual looking to ge
 
 ---
 
-<div class="support-item clinician">
+<div class="support-item player clinician">
   <img src="../images/at-programs.png" alt="AT Act Programs">
 
   <div class="support-content">
     <h3>USA-Based AT Act Programs</h3>
 
     <p class="meta">
-      <strong>Audience:</strong> Clinician, Player<br>
-      <strong>Location:</strong> USA
+      <strong>Audience:</strong> Player, Clinician<br>
+      <strong>Location:</strong> [Add Location]
     </p>
 
     <p>
-      State-based assistive technology programs that provide funding support, device loans, and access to assistive technology resources.
+      [Add description]
     </p>
   </div>
 </div>
