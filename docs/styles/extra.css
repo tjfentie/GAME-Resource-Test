@@ -788,12 +788,11 @@ img {
   height: auto;
 }
 
-/* Lock support item images */
 .support-item img {
-  width: 120px !important;
-  height: 120px !important;
-  min-width: 120px;
-  min-height: 120px;
+  width: 220px !important;
+  height: 220px !important;
+  min-width: 220px;
+  min-height: 220px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -809,4 +808,17 @@ img {
   width: auto !important;
   max-height: 3rem !important;
   object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .support-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .support-item img {
+    width: 160px !important;
+    height: 160px !important;
+  }
 }
