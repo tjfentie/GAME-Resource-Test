@@ -10,10 +10,18 @@ Are you looking for support as either a clinician or an individual looking to ge
 
 ## Filter by Audience
 
-<div class="filter-buttons">
-  <button onclick="filterSelection('all')">Show All</button>
-  <button onclick="filterSelection('player')">Player</button>
-  <button onclick="filterSelection('clinician')">Clinician</button>
+<div class="filter-panel">
+
+  <label class="filter-option">
+    <input type="checkbox" value="player" onchange="applyFilters()">
+    Player/Individual
+  </label>
+
+  <label class="filter-option">
+    <input type="checkbox" value="clinician" onchange="applyFilters()">
+    Clinician
+  </label>
+
 </div>
 
 ---
@@ -21,7 +29,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 <div class="support-container">
 
 <div class="support-item player clinician">
-  <img src="../images/mmc.png" alt="Makers Making Change">
+  <img src="../images/MMC_NSS_Logo.png" alt="Makers Making Change">
 
   <div class="support-content">
     <h3>Makers Making Change</h3>
