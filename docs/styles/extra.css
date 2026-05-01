@@ -714,6 +714,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   display: flex;
   gap: 12px;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .filter-option {
@@ -762,47 +763,80 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   border-color: #444;
 }
 
-/* Hover - Dark Mode */
 [data-md-color-scheme="slate"] .filter-option:hover {
   background-color: rgba(239, 55, 62, 0.12);
 }
 
-/* ACTIVE - Dark Mode */
 [data-md-color-scheme="slate"] .filter-option.active {
   background-color: rgba(239, 55, 62, 0.2);
   border-color: #ef373e;
 }
 
-/* Checkbox accent - Dark Mode */
 [data-md-color-scheme="slate"] .filter-option input {
   accent-color: #ef373e;
 }
 
 /* =============================================================
-   Layout Stability Fixes (Prevents Image Stretch Bugs)
+   SUPPORT LIST LAYOUT (FIXED + STABLE)
    ============================================================= */
 
-/* Prevent global image stretching */
+.support-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.support-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* DARK MODE */
+[data-md-color-scheme="slate"] .support-item {
+  border-color: #444;
+}
+
+/* IMAGE — STABLE SIZE, NO JUMPING */
+.support-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* CONTENT */
+.support-content {
+  flex: 1;
+  min-width: 0; /* prevents text overflow issues */
+}
+
+.meta {
+  font-size: 0.9em;
+  color: #555;
+}
+
+[data-md-color-scheme="slate"] .meta {
+  color: #aaa;
+}
+
+/* =============================================================
+   GLOBAL IMAGE SAFETY (DO NOT REMOVE)
+   ============================================================= */
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-.support-item img {
-  width: 220px !important;
-  height: 220px !important;
-  min-width: 220px;
-  min-height: 220px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
+/* =============================================================
+   HEADER LOGO PROTECTION
+   ============================================================= */
 
-/* Prevent flex stretching issues */
-.support-item {
-  align-items: flex-start;
-}
-
-/* Protect header logo from layout shifts */
 .md-header__button.md-logo img {
   height: 3rem !important;
   width: auto !important;
@@ -810,7 +844,11 @@ img {
   object-fit: contain;
 }
 
-@media screen and (max-width: 600px) {
+/* =============================================================
+   MOBILE FIX (CRITICAL)
+   ============================================================= */
+
+@media screen and (max-width: 700px) {
   .support-item {
     flex-direction: column;
     align-items: center;
@@ -818,7 +856,7 @@ img {
   }
 
   .support-item img {
-    width: 160px !important;
-    height: 160px !important;
+    width: 150px;
+    height: 150px;
   }
 }
