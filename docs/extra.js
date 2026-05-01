@@ -9,18 +9,28 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-function filterSelection(category) {
-  const items = document.getElementsByClassName("support-item");
+function applyFilters() {
+  const checkboxes = document.querySelectorAll('.filter-panel input[type="checkbox"]');
+  const activeFilters = [];
 
-  for (let i = 0; i < items.length; i++) {
-    if (category === "all") {
-      items[i].style.display = "flex";
-    } else {
-      if (items[i].classList.contains(category)) {
-        items[i].style.display = "flex";
-      } else {
-        items[i].style.display = "none";
-      }
+  checkboxes.forEach(cb => {
+    if (cb.checked) {
+      activeFilters.push(cb.value);
     }
-  }
+  });
+
+  const items = document.querySelectorAll('.support-item');
+
+  items.forEach(item => {
+    if (activeFilters.length === 0) {
+      item.style.display = "flex";
+      return;
+    }
+
+    const matches = activeFilters.some(filter =>
+      item.classList.contains(filter)
+    );
+
+    item.style.display = matches ? "flex" : "none";
+  });
 }

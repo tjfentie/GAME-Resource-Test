@@ -707,43 +707,72 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   Filters
+   Filters (Theme-Aware)
    ============================================================= */
-.filter-buttons {
+
+.filter-panel {
+  display: flex;
+  gap: 12px;
   margin-bottom: 1rem;
 }
 
-.filter-buttons button {
-  margin-right: 8px;
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
   cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+  background-color: transparent;
 }
 
-.support-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+/* Hover - Light Mode */
+.filter-option:hover {
+  background-color: rgba(38, 34, 98, 0.08); /* subtle blue tint */
 }
 
-.support-item {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+/* ACTIVE (Checked) - Light Mode */
+.filter-option:has(input:checked) {
+  background-color: rgba(38, 34, 98, 0.15);
+  border-color: #262262; /* your header blue */
 }
 
-.support-item img {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
+/* Checkbox accent - Light Mode */
+.filter-option input {
+  accent-color: #262262;
 }
 
-.support-content {
-  flex: 1;
+/* =========================
+   DARK MODE OVERRIDES
+   ========================= */
+
+[data-md-color-scheme="slate"] .filter-option {
+  border-color: #444;
 }
 
-.meta {
-  font-size: 0.9em;
-  color: #555;
+/* Hover - Dark Mode */
+[data-md-color-scheme="slate"] .filter-option:hover {
+  background-color: rgba(239, 55, 62, 0.12);
+}
+
+/* ACTIVE (Checked) - Dark Mode */
+[data-md-color-scheme="slate"] .filter-option:has(input:checked) {
+  background-color: rgba(239, 55, 62, 0.2);
+  border-color: #ef373e;
+}
+
+/* Checkbox accent - Dark Mode */
+[data-md-color-scheme="slate"] .filter-option input {
+  accent-color: #ef373e;
+}
+
+.filter-option span {
+  font-weight: 500;
+}
+
+.filter-option:has(input:checked) span {
+  font-weight: 700;
 }

@@ -14,12 +14,12 @@ Are you looking for support as either a clinician or an individual looking to ge
 
   <label class="filter-option">
     <input type="checkbox" value="player" onchange="applyFilters()">
-    Player/Individual
+    <span>Player/Individual</span>
   </label>
 
   <label class="filter-option">
     <input type="checkbox" value="clinician" onchange="applyFilters()">
-    Clinician
+    <span>Clinician</span>
   </label>
 
 </div>
