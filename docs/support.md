@@ -103,7 +103,7 @@ Are you looking for support as either a clinician or an individual looking to ge
     <h3><a href="https://www.respawnfoundation.org/">Respawn Foundation</a></h3>
 
     <p class="meta">
-      <strong>Audience:</strong> Player, Clinician<br>
+      <strong>Audience:</strong> Clinician<br>
       <strong>Location:</strong> United States
     </p>
 
