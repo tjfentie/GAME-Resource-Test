@@ -48,7 +48,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player">
-  <img src="../images/specialeffect.png" alt="SpecialEffect">
+  <img src="../images/specialeffect-logo.png" alt="SpecialEffect">
 
   <div class="support-content">
     <h3>SpecialEffect</h3>
@@ -67,7 +67,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player">
-  <img src="../images/ablegamers.png" alt="AbleGamers">
+  <img src="../images/ablegamers-logo.png" alt="AbleGamers">
 
   <div class="support-content">
     <h3>AbleGamers</h3>
@@ -86,7 +86,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player clinician">
-  <img src="../images/respawn.png" alt="Respawn Foundation">
+  <img src="../images/respawnlogo.png" alt="Respawn Foundation">
 
   <div class="support-content">
     <h3>Respawn Foundation</h3>
@@ -105,7 +105,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player">
-  <img src="../images/flylilo.png" alt="FlyLilo">
+  <img src="../images/flylilo-logo.png" alt="FlyLilo logo">
 
   <div class="support-content">
     <h3>FlyLilo</h3>
@@ -124,7 +124,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <div class="support-item player clinician">
-  <img src="../images/at-programs.png" alt="AT Act Programs">
+  <img src="../images/ada-act-logo.png" alt="AT Act Program logo">
 
   <div class="support-content">
     <h3>USA-Based AT Act Programs</h3>
