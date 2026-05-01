@@ -8,7 +8,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 
 ---
 
-## Filter by Audience
+## Organizations
 
 <div class="filter-panel">
   <label class="filter-option">
