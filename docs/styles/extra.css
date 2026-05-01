@@ -707,7 +707,7 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 }
 
 /* =============================================================
-   Filters (Theme-Aware)
+   Filters (Theme-Aware + Stable)
    ============================================================= */
 
 .filter-panel {
@@ -731,18 +731,27 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
 
 /* Hover - Light Mode */
 .filter-option:hover {
-  background-color: rgba(38, 34, 98, 0.08); /* subtle blue tint */
+  background-color: rgba(38, 34, 98, 0.08);
 }
 
-/* ACTIVE (Checked) - Light Mode */
-.filter-option:has(input:checked) {
+/* ACTIVE (JS-controlled) - Light Mode */
+.filter-option.active {
   background-color: rgba(38, 34, 98, 0.15);
-  border-color: #262262; /* your header blue */
+  border-color: #262262;
 }
 
 /* Checkbox accent - Light Mode */
 .filter-option input {
   accent-color: #262262;
+}
+
+/* Text weight */
+.filter-option span {
+  font-weight: 500;
+}
+
+.filter-option.active span {
+  font-weight: 700;
 }
 
 /* =========================
@@ -758,8 +767,8 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   background-color: rgba(239, 55, 62, 0.12);
 }
 
-/* ACTIVE (Checked) - Dark Mode */
-[data-md-color-scheme="slate"] .filter-option:has(input:checked) {
+/* ACTIVE - Dark Mode */
+[data-md-color-scheme="slate"] .filter-option.active {
   background-color: rgba(239, 55, 62, 0.2);
   border-color: #ef373e;
 }
@@ -769,10 +778,35 @@ h2 { border-left: 5px solid #ef373e; padding-left: 15px; }
   accent-color: #ef373e;
 }
 
-.filter-option span {
-  font-weight: 500;
+/* =============================================================
+   Layout Stability Fixes (Prevents Image Stretch Bugs)
+   ============================================================= */
+
+/* Prevent global image stretching */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.filter-option:has(input:checked) span {
-  font-weight: 700;
+/* Lock support item images */
+.support-item img {
+  width: 120px !important;
+  height: 120px !important;
+  min-width: 120px;
+  min-height: 120px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Prevent flex stretching issues */
+.support-item {
+  align-items: flex-start;
+}
+
+/* Protect header logo from layout shifts */
+.md-header__button.md-logo img {
+  height: 3rem !important;
+  width: auto !important;
+  max-height: 3rem !important;
+  object-fit: contain;
 }

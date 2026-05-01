@@ -9,17 +9,23 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
 function applyFilters() {
   const checkboxes = document.querySelectorAll('.filter-panel input[type="checkbox"]');
+  const items = document.querySelectorAll('.support-item');
+
   const activeFilters = [];
 
   checkboxes.forEach(cb => {
+    const label = cb.closest('.filter-option');
+
     if (cb.checked) {
       activeFilters.push(cb.value);
+      label.classList.add('active');
+    } else {
+      label.classList.remove('active');
     }
   });
-
-  const items = document.querySelectorAll('.support-item');
 
   items.forEach(item => {
     if (activeFilters.length === 0) {
