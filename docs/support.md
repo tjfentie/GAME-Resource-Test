@@ -98,7 +98,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 
 <!-- Respawn Foundation Section -->
 <div class="support-item player clinician">
-  <img src="../images/respawnlogo.png" alt="Respawn Foundation">
+  <img src="../images/respawn-logo.png" alt="Respawn Foundation">
 
   <div class="support-content">
     <h3><a href="https://www.respawnfoundation.org/">Respawn Foundation</a></h3>
