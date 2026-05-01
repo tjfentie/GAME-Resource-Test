@@ -41,7 +41,8 @@ Are you looking for support as either a clinician or an individual looking to ge
       <li>Focus in Canada; however, resources and designs for assistive technology are publicly available for free.</li>
       <li>Provides resources (this site and more) for adaptive gaming focused on clinicians, organizations, and players.</li>
       <li>The <a href="https://www.makersmakingchange.com/game-checkpoint-program">GAME Checkpoints program</a> supports organizations, rehab hospitals, and community centres to obtain adaptive gaming gear and provide training.</li>
-      <li>Allows players, families, or clinicians to submit a <a href="https://www.makersmakingchange.com/create-a-gaming-ticket">GAME Ticket</a> that connects them with the adaptive gaming team for personalized support.</li>
+      <li>Allows players, families, or clinicians to submit a <a href="https://www.makersmakingchange.com/create-a-gaming-ticket">GAME Ticket</a> that connects them with the adaptive gaming team for personalized support. Conducts in-home or remote assessments to trial and configure gaming equipment.</li>
+      <li>The <a href="https://www.makersmakingchange.com/game-kit-landing-page">GAME Kits</a> are the ultimate solution for adaptive gaming gear and assistive technology, designed for organizations looking to showcase video game accessibility. This comprehensive kit includes everything you need, plus a step-by-step guide to set up adaptive gaming events and showcases in your community.</li>
     </ul>
   </div>
 </div>
@@ -61,11 +62,11 @@ Are you looking for support as either a clinician or an individual looking to ge
     </p>
 
     <ul>
-      <li>Provides 1:1 support for individuals with physical disabilities to find the right gaming setup using a range of assistive technologies.</li>
-      <li>Known for expertise in eye-gaze systems, custom controller setups, and environmental control integration.</li>
-      <li>Conducts in-home or remote assessments to trial and configure gaming equipment.</li>
+      <li>Provides 1:1 support for individuals with physical disabilities to find the right gaming setup using a range of assistive technologies. Conducts in-home or remote assessments to trial and configure gaming equipment.</li>
+      <li>Creates and manages a fantastic website of adaptive gaming reaources called <a href="https://gameaccess.info/">GameAccess</a></li>
+      <li>StarGaze project involves the assessment and support of people in intensive care due to a traumatic injury or illness which results in them having very urgent, severe and complex physical challenges.</li>
       <li>Shares publicly available resources and case studies that demonstrate real-world adaptive gaming solutions.</li>
-      <li>Strong focus on improving quality of life through gaming, communication, and independence.</li>
+      <li>Collaborate directly with hardware and software developers</li>
     </ul>
   </div>
 </div>
@@ -87,9 +88,7 @@ Are you looking for support as either a clinician or an individual looking to ge
     <ul>
       <li>Provides direct support to gamers with disabilities through the AbleGamers Peer Counseling program.</li>
       <li>Offers guidance on equipment selection, setup, and game accessibility options.</li>
-      <li>Operates a grant program that can help cover the cost of adaptive gaming equipment.</li>
       <li>Develops resources and training for both players and industry on accessible game design.</li>
-      <li>Focus on reducing isolation and improving mental health through gaming and community.</li>
     </ul>
   </div>
 </div>
@@ -97,7 +96,7 @@ Are you looking for support as either a clinician or an individual looking to ge
 ---
 
 <!-- Respawn Foundation Section -->
-<div class="support-item player clinician">
+<div class="support-item clinician">
   <img src="../images/respawn-logo.png" alt="Respawn Foundation">
 
   <div class="support-content">
@@ -111,7 +110,6 @@ Are you looking for support as either a clinician or an individual looking to ge
     <ul>
       <li>Works with rehabilitation hospitals and clinicians to integrate adaptive gaming into therapy and recreation programs.</li>
       <li>Provides training, guidance, and program development support for clinical teams.</li>
-      <li>Focus on using gaming as a tool for rehabilitation, engagement, and patient motivation.</li>
       <li>Supports research and evidence-building around adaptive gaming in clinical settings.</li>
       <li>Collaborates with organizations to implement structured adaptive gaming programs.</li>
     </ul>
@@ -160,7 +158,6 @@ Are you looking for support as either a clinician or an individual looking to ge
       <li>Federally funded programs available in every U.S. state to support access to assistive technology.</li>
       <li>Often provide device loan programs, allowing users to trial equipment before purchasing.</li>
       <li>May offer funding support, reutilization programs, and equipment demonstrations.</li>
-      <li>Can be a strong pathway for obtaining adaptive gaming equipment through existing AT infrastructure.</li>
       <li>Services vary by state, so local program offerings should be reviewed individually.</li>
     </ul>
   </div>
