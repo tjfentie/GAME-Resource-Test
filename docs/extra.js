@@ -45,29 +45,46 @@ function applyProfileFilters() {
   const checkboxes = document.querySelectorAll('.filter-panel input[type="checkbox"]');
   const cards = document.querySelectorAll('.profile-card');
 
-  const activeFilters = [];
+  const filters = {
+    type: [],
+    access: [],
+    system: []
+  };
 
   checkboxes.forEach(cb => {
     const label = cb.closest('.filter-option');
 
     if (cb.checked) {
-      activeFilters.push(cb.value);
       label.classList.add('active');
+
+      if (['sci', 'one-handed'].includes(cb.value)) {
+        filters.type.push(cb.value);
+      } else if (['alt-access', 'controller-mod', 'software'].includes(cb.value)) {
+        filters.access.push(cb.value);
+      } else {
+        filters.system.push(cb.value);
+      }
+
     } else {
       label.classList.remove('active');
     }
   });
 
   cards.forEach(card => {
-    if (activeFilters.length === 0) {
-      card.style.display = "";
-      return;
-    }
+    const matchesType =
+      filters.type.length === 0 ||
+      filters.type.some(f => card.classList.contains(f));
 
-    const matches = activeFilters.some(filter =>
-      card.classList.contains(filter)
-    );
+    const matchesAccess =
+      filters.access.length === 0 ||
+      filters.access.some(f => card.classList.contains(f));
 
-    card.style.display = matches ? "" : "none";
+    const matchesSystem =
+      filters.system.length === 0 ||
+      filters.system.some(f => card.classList.contains(f));
+
+    const show = matchesType && matchesAccess && matchesSystem;
+
+    card.style.display = show ? "" : "none";
   });
 }
