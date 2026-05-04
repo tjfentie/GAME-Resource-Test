@@ -111,6 +111,10 @@ If a 3D printed part or commercial controller isn't a perfect fit, DIY materials
     <p>Spruce Joystick Topper and Xbox Controller with Moldable Plastic Added</p>
 </div>
 
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/8OhBZj-831A?si=sVhWq8Z8h_OP5QI3" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Mounting a Controller
 A controller modification is only effective if the controller stays in the right place. Mounting provides the stability needed for players who cannot hold a controller's weight or who use 3D printed one-handed rigs.
 
