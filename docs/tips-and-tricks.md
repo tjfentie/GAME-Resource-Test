@@ -71,18 +71,32 @@ There are ways to extend a **single joystick** to cover more functions.
 * **Axis Switching (XAC)**
   * Swap joystick axis to control different directions as needed
 
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
 * **Shift Mode (XAC)**
   * Use one joystick for multiple functions depending on mode
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 * **“Walk Forward” Button**
   * Map forward movement to a button
   * Use joystick for direction only
+  * **Can sometimes be done inGame Settings**
+    * Look for:
+      * Auto-run
+      * Camera assist
+      * Reduced need for dual-stick control
 
-* **Game Settings**
-  * Look for:
-    * Auto-run
-    * Camera assist
-    * Reduced need for dual-stick control
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 ---
 
@@ -102,6 +116,12 @@ A mouth joystick can be a powerful addition to a setup.
 
 * Players with limited hand mobility
 * Players already using switches who need joystick control
+
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 ---
 
@@ -123,7 +143,10 @@ Switches can be mounted directly onto joysticks or toppers to enable quick acces
 
 **Example:**
 
-[Insert video showing switch mounted on joystick]
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 ---
 
@@ -149,11 +172,30 @@ Shift Mode allows a single input to perform multiple functions depending on whet
 * Avoid overly complex mappings
 * Test for cognitive load and usability
 
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
 ---
 
 ## Using the Xbox Adaptive Controller on the Nintendo Switch
 
-When using adapters like the **Mayflash Magic-NS 2**, the Xbox Adaptive Controller can be used on the Nintendo Switch.
+### How to Connect
+
+When using adapters like the **Mayflash Magic-NS 2**, the Xbox Adaptive Controller can be used on the Nintendo Switch. See more in the [Alternative Access section](alt-access.md#adapters)
+
+### How to Remap
+
+* in Nintendo switch
+* In xbox accessories still using spare PC or Xbox
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
+
 
 ---
 
@@ -171,6 +213,11 @@ The Nintendo Switch allows two controllers to act as one.
 **Instructions:**
 
 [Insert step-by-step instructions here]
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 ---
 
@@ -216,6 +263,11 @@ Do not rely on button labels—focus on **physical position**.
 * Test mappings in-game before starting
 * Create a reference sheet if needed
 * Remap in-game controls whenever possible
+
+<div class="center-thumb">
+    <img src="../images/placeholder.png" alt="This is just a placeholder image with no relevant content">
+    <p>This is just a placeholder image</p>
+</div>
 
 ---
 

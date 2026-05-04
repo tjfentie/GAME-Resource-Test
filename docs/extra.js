@@ -40,3 +40,34 @@ function applyFilters() {
     item.style.display = matches ? "flex" : "none";
   });
 }
+
+function applyProfileFilters() {
+  const checkboxes = document.querySelectorAll('.filter-panel input[type="checkbox"]');
+  const cards = document.querySelectorAll('.profile-card');
+
+  const activeFilters = [];
+
+  checkboxes.forEach(cb => {
+    const label = cb.closest('.filter-option');
+
+    if (cb.checked) {
+      activeFilters.push(cb.value);
+      label.classList.add('active');
+    } else {
+      label.classList.remove('active');
+    }
+  });
+
+  cards.forEach(card => {
+    if (activeFilters.length === 0) {
+      card.style.display = "";
+      return;
+    }
+
+    const matches = activeFilters.some(filter =>
+      card.classList.contains(filter)
+    );
+
+    card.style.display = matches ? "" : "none";
+  });
+}
