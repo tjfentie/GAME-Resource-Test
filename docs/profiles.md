@@ -46,6 +46,20 @@ These are individuals that have been assisted by Makers Making Change's team dir
 
 Here are some other fantastic stories.
 
+<div class="profile-grid">
+
+  <a href="https://blog.christopherreeve.org/en/life-after-paralysis/adaptive-gaming-setup" class="profile-card sci">
+    <div class="card-image" style="background-image: url('https://www.christopherreeve.org/wp-content/uploads/2020/04/adaptive-gaming.jpg');"></div>
+    <div class="card-content">
+      <h3>Adaptive Gaming After Paralysis</h3>
+      <p><strong>Type of Access:</strong> Switch + Adaptive Controller</p>
+      <p><strong>System:</strong> Xbox / PC</p>
+      <span class="card-link">Read Story →</span>
+    </div>
+  </a>
+
+</div>
+
 ---
 
 ### SpecialEffect
@@ -62,7 +76,49 @@ Here are some other fantastic stories.
         </div>
     </a>
 
+    <a href="https://gameaccess.info/miros-customised-controller-set-up-case-study/" class="profile-card sci">
+        <div class="card-image" style="background-image: url('https://gameaccess.info/wp-content/uploads/2025/06/miro-controller.jpg');"></div>
+        <div class="card-content">
+        <h3>Miro’s Custom Controller Setup</h3>
+        <p><strong>Type of Access:</strong> Switch + Modified Controller</p>
+        <p><strong>System:</strong> PlayStation 5</p>
+        <span class="card-link">View Full Setup →</span>
+        </div>
+    </a>
+
+    <a href="https://gameaccess.info/maxs-customised-controller-set-up-case-study/" class="profile-card sci">
+        <div class="card-image" style="background-image: url('https://gameaccess.info/wp-content/uploads/2025/03/max-setup.jpg');"></div>
+        <div class="card-content">
+        <h3>Max’s Custom Controller Setup</h3>
+        <p><strong>Type of Access:</strong> Switch + Joystick</p>
+        <p><strong>System:</strong> Nintendo Switch</p>
+        <span class="card-link">View Full Setup →</span>
+        </div>
+    </a>
+
+    <a href="https://gameaccess.info/joshs-adapted-gaming-controller-case-study/" class="profile-card one-handed">
+        <div class="card-image" style="background-image: url('https://gameaccess.info/wp-content/uploads/2021/10/josh-setup.jpg');"></div>
+        <div class="card-content">
+        <h3>Josh’s Adapted Gaming Setup</h3>
+        <p><strong>Type of Access:</strong> One-Hand + Switch + Joystick</p>
+        <p><strong>System:</strong> Xbox</p>
+        <span class="card-link">View Full Setup →</span>
+        </div>
+    </a>
+
+    <a href="https://gameaccess.info/samuels-adapted-gaming-controller-case-study/" class="profile-card one-handed">
+        <div class="card-image" style="background-image: url('https://gameaccess.info/wp-content/uploads/2020/09/samuel-setup.jpg');"></div>
+        <div class="card-content">
+        <h3>Samuel’s Adapted Gaming Setup</h3>
+        <p><strong>Type of Access:</strong> One-Hand + Joystick</p>
+        <p><strong>System:</strong> PlayStation</p>
+        <span class="card-link">View Full Setup →</span>
+        </div>
+    </a>
+
+
 </div>
+
 
 ---
 
@@ -79,5 +135,62 @@ Here are some other fantastic stories.
             <span class="card-link">View Full Setup →</span>
         </div>
     </a>
+
+    <a href="https://www.youtube.com/watch?v=mjbKQ05JLks" class="profile-card sci">
+        <div class="card-image" style="background-image: url('https://img.youtube.com/vi/mjbKQ05JLks/hqdefault.jpg');"></div>
+        <div class="card-content">
+        <h3>Adaptive Gaming Setup Showcase</h3>
+        <p><strong>Type of Access:</strong> Switch and Joystick</p>
+        <p><strong>System:</strong> Xbox / PC</p>
+        <span class="card-link">Watch Video →</span>
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=2AgsTNBM65I" class="profile-card sci">
+        <div class="card-image" style="background-image: url('https://img.youtube.com/vi/2AgsTNBM65I/hqdefault.jpg');"></div>
+        <div class="card-content">
+        <h3>Accessible Gaming Setup Walkthrough</h3>
+        <p><strong>Type of Access:</strong> Switch and Controller Modifications</p>
+        <p><strong>System:</strong> Xbox</p>
+        <span class="card-link">Watch Video →</span>
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=Fg5bJRVtiAY" class="profile-card one-handed">
+        <div class="card-image" style="background-image: url('https://img.youtube.com/vi/Fg5bJRVtiAY/hqdefault.jpg');"></div>
+        <div class="card-content">
+        <h3>One-Handed Gaming Setup Example</h3>
+        <p><strong>Type of Access:</strong> One-Handed Controller</p>
+        <p><strong>System:</strong> Xbox / PC</p>
+        <span class="card-link">Watch Video →</span>
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=WKr8qOJvNas" class="profile-card sci">
+        <div class="card-image" style="background-image: url('https://img.youtube.com/vi/WKr8qOJvNas/hqdefault.jpg');"></div>
+        <div class="card-content">
+        <h3>Adaptive Gaming Player Story</h3>
+        <p><strong>Type of Access:</strong> Switch + Custom Setup</p>
+        <p><strong>System:</strong> Xbox</p>
+        <span class="card-link">Watch Video →</span>
+        </div>
+    </a>
+
+</div>
+
+
+### AbleGamers
+
+<div class="profile-grid">
+
+  <a href="https://ablegamers.org/impact/" class="profile-card sci one-handed">
+    <div class="card-image" style="background-image: url('https://ablegamers.org/wp-content/uploads/2023/05/impact.jpg');"></div>
+    <div class="card-content">
+      <h3>AbleGamers Player Stories & Impact</h3>
+      <p><strong>Type of Access:</strong> Various (Switch, Joystick, One-Handed, etc.)</p>
+      <p><strong>System:</strong> Multiple Platforms</p>
+      <span class="card-link">View Stories →</span>
+    </div>
+  </a>
 
 </div>
