@@ -6,72 +6,91 @@ Explore how different individuals set up their gear for success.
 
 ## Filter Profiles
 
-<div class="filter-panel">
+<div class="filter-groups">
 
-  <!-- Player Type -->
-  <label class="filter-option">
-    <input type="checkbox" value="sci" onchange="applyProfileFilters()">
-    <span>SCI</span>
-  </label>
+  <!-- PLAYER TYPE -->
+  <div class="filter-group">
+    <p class="filter-group-title">Player Type</p>
+    <div class="filter-panel">
+      <label class="filter-option">
+        <input type="checkbox" value="sci" onchange="applyProfileFilters()">
+        <span>SCI</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="one-handed" onchange="applyProfileFilters()">
-    <span>One-Handed</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="one-handed" onchange="applyProfileFilters()">
+        <span>One-Handed</span>
+      </label>
+    </div>
+  </div>
 
-  <!-- Access Type -->
-  <label class="filter-option">
-    <input type="checkbox" value="alt-access" onchange="applyProfileFilters()">
-    <span>Alternative Access</span>
-  </label>
+  <!-- TYPE OF ACCESS -->
+  <div class="filter-group">
+    <p class="filter-group-title">Type of Access</p>
+    <div class="filter-panel">
+      <label class="filter-option">
+        <input type="checkbox" value="alt-access" onchange="applyProfileFilters()">
+        <span>Alternative Access</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="controller-mod" onchange="applyProfileFilters()">
-    <span>Controller Modifications</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="controller-mod" onchange="applyProfileFilters()">
+        <span>Controller Modifications</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="software" onchange="applyProfileFilters()">
-    <span>Software</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="software" onchange="applyProfileFilters()">
+        <span>Software</span>
+      </label>
+    </div>
+  </div>
 
-  <!-- System -->
-  <label class="filter-option">
-    <input type="checkbox" value="xbox-series" onchange="applyProfileFilters()">
-    <span>Xbox Series X|S</span>
-  </label>
+  <!-- PLATFORM -->
+  <div class="filter-group">
+    <p class="filter-group-title">Platform</p>
+    <div class="filter-panel">
+      <label class="filter-option">
+        <input type="checkbox" value="xbox-series" onchange="applyProfileFilters()">
+        <span>Xbox Series X|S</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="xbox-one" onchange="applyProfileFilters()">
-    <span>Xbox One</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="xbox-one" onchange="applyProfileFilters()">
+        <span>Xbox One</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="ps5" onchange="applyProfileFilters()">
-    <span>PlayStation 5</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="ps5" onchange="applyProfileFilters()">
+        <span>PlayStation 5</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="switch1" onchange="applyProfileFilters()">
-    <span>Nintendo Switch 1</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="switch1" onchange="applyProfileFilters()">
+        <span>Nintendo Switch 1</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="switch2" onchange="applyProfileFilters()">
-    <span>Nintendo Switch 2</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="switch2" onchange="applyProfileFilters()">
+        <span>Nintendo Switch 2</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="mobile" onchange="applyProfileFilters()">
-    <span>Mobile Gaming</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="mobile" onchange="applyProfileFilters()">
+        <span>Mobile Gaming</span>
+      </label>
 
-  <label class="filter-option">
-    <input type="checkbox" value="pc" onchange="applyProfileFilters()">
-    <span>PC Gaming</span>
-  </label>
+      <label class="filter-option">
+        <input type="checkbox" value="pc" onchange="applyProfileFilters()">
+        <span>PC Gaming</span>
+      </label>
+    </div>
+  </div>
 
 </div>
+
+<p style="font-size: 0.85rem; opacity: 0.7; margin-top: 10px;">
+  Filters apply across all profiles below.
+</p>
 
 ---
 
