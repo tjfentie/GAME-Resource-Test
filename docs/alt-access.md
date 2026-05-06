@@ -9,21 +9,7 @@
 <p style="text-align: center; font-size: 0.8rem; margin-top: -15px;">Various MMC Assistive Switches and Joysticks</p>
 
 ## What is Alternative Access
-Alternative Access referes to using any type of input into a game that does not involve using a "standard controller". In this case "standard controller" means the default controls that come with the system. This could be keyboard/mice or Xbox/Nintendo/PlayStation controllers. 
-
-There are various categories of devices and tools under alternative access: 
-
-* Using Adaptive Controllers
-    * Assistive Switches
-    * Assistive Joysticks
-* Specialized Controllers
-* Other Input Methods
-    * Eye Tracking
-    * Voice Control
-    * Facial and Body Gestures
-* Important Considerations
-    * Adapters
-    * Mounting
+Alternative Access referes to using any type of input into a game that **does not** involve using a "standard controller". In this case "standard controller" means the default controls that come with the system. This could be keyboard/mice or Xbox/Nintendo/PlayStation controllers. 
 
 This section will provide an overview on all the devices and tools mentioned above as well as giving a quick overview of the platforms available.
 
